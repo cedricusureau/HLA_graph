@@ -1,3 +1,5 @@
+import pandas as pd
+
 def get_edges_dictionnary(svg_liste):
     edges_ligne = {}
     circle_ligne = {}
@@ -49,12 +51,12 @@ def node_color_to_change(circle_ligne, MFI):
     return color_ligne_to_change
 
 
-def rewrite_svg_file(output):
+def rewrite_svg_file(svg, to_color, output):
     file1 = open(output, "w")
     for i, j in enumerate(svg):
-        if i in ligne_to_color_in_red:
+        if i in to_color:
             file1.write(j.replace("#000000", "#FF0000"))
-        elif i + 1 in ligne_to_color_in_red:
+        elif i + 1 in to_color:
             file1.write(j.replace('fill-opacity="0.2"', 'fill-opacity="0.4"'))
         else:
             file1.write(j)

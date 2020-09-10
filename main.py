@@ -7,7 +7,6 @@ The core file of my example project
 
 import argparse
 
-import pandas as pd
 import write_svg
 
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
@@ -21,5 +20,8 @@ args = parser.parse_args()
 svg_liste = [i for i in open(args.template, "r")]
 
 edges_ligne, circle_ligne, text_ligne = write_svg.get_edges_dictionnary(svg_liste)
+data = write_svg.parse_excel_file(args.mfi)
 
-print(circle_ligne)
+ligne_to_color_in_red = write_svg.node_color_to_change(circle_ligne, data)
+write_svg.rewrite_svg_file(svg_liste, ligne_to_color_in_red, args.output)
+
