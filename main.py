@@ -38,20 +38,28 @@ parser.add_argument(
 
 args = parser.parse_args()
 
+# créer une liste avec toute les lignes du svg
 svg_liste = [i for i in open(args.template, "r")]
 
+# extrait les indices des lignes des noeuds, edges et texte.
 edges_ligne, circle_ligne, text_ligne = write_svg.get_edges_dictionnary(svg_liste)
+
+# data = MFI values
 data = write_svg.parse_excel_file(args.mfi)
+
+# extrait les listes des edges entre les billes positives
 link_between_pos = write_svg.find_link_between_pos(data, args.edges)
 
+# créer un fichier svg avec les edges coloré
 edges_colored_svg = write_svg.replace_edges_color(
     svg_liste, edges_ligne, link_between_pos
 )
 
-
+# extrait les lignes des noeuds à colorer
 node_to_color = write_svg.node_color_to_change(circle_ligne, data)
-print(node_to_color)
 
+# créer un fichier svg avec le noeuds coloré
 node_edges_colored_svg = write_svg.replace_nodes_color(edges_colored_svg, node_to_color)
 
+# créer le fichier svg à partir des lignes
 write_svg.write_svg_file(node_edges_colored_svg, args.output)
