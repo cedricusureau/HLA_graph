@@ -7,6 +7,7 @@ The core file of my example project
 
 import argparse
 
+import eplet
 import write_svg
 
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
@@ -24,6 +25,13 @@ parser.add_argument(
     help="Insert template file",
     type=str,
     default="data/graph_template/HLA_A_V2.svg",
+)
+parser.add_argument(
+    "-ep",
+    "--eplet",
+    help="Insert eplet file",
+    type=str,
+    default="data/eplets/A.csv",
 )
 parser.add_argument(
     "-e",
@@ -63,3 +71,5 @@ node_edges_colored_svg = write_svg.replace_nodes_color(edges_colored_svg, node_t
 
 # créer le fichier svg à partir des lignes
 write_svg.write_svg_file(node_edges_colored_svg, args.output)
+
+print(eplet.get_eplet_from_positive_beads(data, args.eplet))
