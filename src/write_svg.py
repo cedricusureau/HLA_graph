@@ -150,7 +150,7 @@ def write_1_ratio_eplet(svg, ratio, middle_position_between_positive_beads):
         if score == 1:
 
             for position in middle_position_between_positive_beads.values():
-                svg = write_text_on_svg(svg, position[0], position[1], font_size=18, font_family="Dialog",color="#8B0000", text=eplet)
+                svg = write_text_on_svg(svg, position[0], position[1]-10, font_size=18, font_family="Dialog",color="#8B0000", text=eplet)
 
     return svg
 
@@ -165,6 +165,27 @@ def write_class_2_eplet(svg, link_for_second_class_eplets, middle_position_betwe
             count += 1
             if i[1] == True:
                 tmp_pos=middle_position_between_positive_beads[i[0]]
-                svg = write_text_on_svg(svg,tmp_pos[0],tmp_pos[1]+(20*already_write[count]), font_size=12,font_family="Dialog",color="#4682B4", text=eplet)
+                svg = write_text_on_svg(svg,tmp_pos[0],tmp_pos[1]+(15*already_write[count])-8, font_size=12,font_family="Dialog",color="#4682B4", text=eplet)
                 already_write[count] += 1
+    return svg
+
+def get_position_of_beads(svg, beads_liste, circle_ligne):
+    position_of_beads = {}
+    for i in beads_liste:
+        position_of_beads[i] =  [float(svg[circle_ligne[i]-1].replace('       cx="',"").replace('"\n',"")),float(svg[circle_ligne[i]+1].replace('       cy="',"").replace('"\n',""))]
+
+    return position_of_beads
+
+def write_3_class_eplet(svg, eplets_on_isolated_beads, isolated_bead, position_of_isolated_beads, eplet_path):
+    eplet_data = pd.read_csv(eplet_path)
+    eplet_data = eplet_data.set_index("allele")
+    already_write = {}
+    for bead in isolated_bead:
+        already_write[bead] = 1
+
+    for eplet in eplets_on_isolated_beads:
+        for bead in isolated_bead:
+            if eplet in list(eplet_data.loc[bead]):
+                svg = write_text_on_svg(svg,position_of_isolated_beads[bead][0]+15, position_of_isolated_beads[bead][1]-15+(15*already_write[bead]), font_size=12,font_family="Dialog",color="#FFA500", text=eplet)
+                already_write[bead] += 1
     return svg

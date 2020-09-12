@@ -85,3 +85,30 @@ def get_link_for_second_class_eplets(link_between_pos, eplet_path, second_class_
             else :
                 link_to_write[eplet].append([i,False])
     return link_to_write
+
+def get_eplets_on_isolated_beads(ratio, second_class_eplet):
+    eplets_on_isolated_beads=[]
+
+    for i,j in ratio.items():
+        if j == 1:
+            eplets_on_isolated_beads.append(i)
+
+    for i in second_class_eplet:
+        eplets_on_isolated_beads.append(i)
+
+    return eplets_on_isolated_beads
+
+def get_isolated_beads(MFI, link_between_pos):
+    linked_pos = set()
+
+    for i in link_between_pos:
+        linked_pos.add(i.split(" ")[0])
+        linked_pos.add(i.split(" ")[1])
+
+    isolated_beads = []
+    for i,j in MFI.items():
+        if "A" in i:
+            if j > 2000:
+                if i not in linked_pos:
+                    isolated_beads.append(i)
+    return isolated_beads
