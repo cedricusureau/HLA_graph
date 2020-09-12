@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 def get_edges_dictionnary(svg_liste):
     edges_ligne = {}
     circle_ligne = {}
@@ -153,4 +152,19 @@ def write_1_ratio_eplet(svg, ratio, middle_position_between_positive_beads):
             for position in middle_position_between_positive_beads.values():
                 svg = write_text_on_svg(svg, position[0], position[1], font_size=18, font_family="Dialog",color="#8B0000", text=eplet)
 
+    return svg
+
+def write_class_2_eplet(svg, link_for_second_class_eplets, middle_position_between_positive_beads):
+    already_write = []
+    for j in link_for_second_class_eplets.values():
+        already_write = [1 for k in range(len(j))]
+
+    for eplet, booleen in link_for_second_class_eplets.items():
+        count = -1
+        for i in booleen:
+            count += 1
+            if i[1] == True:
+                tmp_pos=middle_position_between_positive_beads[i[0]]
+                svg = write_text_on_svg(svg,tmp_pos[0],tmp_pos[1]+(20*already_write[count]), font_size=12,font_family="Dialog",color="#4682B4", text=eplet)
+                already_write[count] += 1
     return svg

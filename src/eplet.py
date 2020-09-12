@@ -52,8 +52,36 @@ def compare_ratio(pos_eplet_ratio_dict, neg_eplet_ratio_dict):
     pos_neg_ratio = {}
     for i,j in pos_eplet_ratio_dict.items():
         if i in neg_eplet_ratio_dict.keys():
-            pos_neg_ratio[i] = pos_eplet_ratio_dict[i]-2*neg_eplet_ratio_dict[i]
+            pos_neg_ratio[i] = pos_eplet_ratio_dict[i]-neg_eplet_ratio_dict[i]
         else :
             pos_neg_ratio[i] = j
 
     return {k: v for k, v in sorted(pos_neg_ratio.items(),reverse=True, key=lambda item: item[1])}
+
+def get_second_class_eplet(pos_eplet_ratio_dict, neg_eplet_ratio_dict):
+    second_class_eplet = {}
+    for i,j in pos_eplet_ratio_dict.items():
+        if (j > 0.5) & (j!=1)&(i not in neg_eplet_ratio_dict.keys()):
+            second_class_eplet[i] = j
+
+    return second_class_eplet
+
+def get_link_for_second_class_eplets(link_between_pos, eplet_path, second_class_eplet):
+    eplet_data = pd.read_csv(eplet_path)
+    eplet_data = eplet_data.set_index("allele")
+    link_to_write = {}
+
+    for eplet in second_class_eplet:
+        link_to_write[eplet] = []
+        for i in link_between_pos:
+            allele1 = i.split(' ')[0]
+            allele2 = i.split(' ')[1]
+
+            compo1 = [i.replace(" ","") for i in list(eplet_data.loc[allele1]) if type(i)==str]
+            compo2 = [i.replace(" ","") for i in list(eplet_data.loc[allele2]) if type(i)==str]
+
+            if (eplet in compo1) & (eplet in compo2):
+                link_to_write[eplet].append([i,True])
+            else :
+                link_to_write[eplet].append([i,False])
+    return link_to_write
