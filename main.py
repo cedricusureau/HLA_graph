@@ -17,7 +17,7 @@ parser.add_argument(
     "--mfi",
     type=str,
     help="Insert MFI file value (.xls)",
-    default="data/sample_example/SA1_ex1.xls",
+    default="data/sample_example/SA1_ex2.xls",
 )
 parser.add_argument(
     "-t",
@@ -73,6 +73,14 @@ node_edges_colored_svg = write_svg.replace_nodes_color(edges_colored_svg, node_t
 write_svg.write_svg_file(node_edges_colored_svg, args.output)
 
 # Pos_bead_eplet contient la liste d'eplet
-pos_bead_eplet = eplet.get_eplet_from_positive_beads(data, args.eplet)
+pos_bead_eplet, neg_bead_eplet = eplet.get_eplet_from_beads(data, args.eplet)
 
-eplet_ratio_dict = eplet.find_most_common_eplets(pos_bead_eplet)
+pos_eplet_ratio_dict = eplet.find_most_common_eplets(pos_bead_eplet)
+neg_eplet_ratio_dict = eplet.find_most_common_eplets(neg_bead_eplet)
+
+ratio = eplet.compare_ratio(pos_eplet_ratio_dict,neg_eplet_ratio_dict)
+
+middle_position_between_positive_beads = write_svg.get_middle_position_between_positive_beads(svg_liste,link_between_pos, circle_ligne)
+
+new_svg = write_svg.write_1_ratio_eplet(svg_liste,ratio,middle_position_between_positive_beads)
+write_svg.write_svg_file(new_svg, args.output)

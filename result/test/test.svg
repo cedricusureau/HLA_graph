@@ -144,11 +144,11 @@
        id="path22" />
     <path
        fill="none"
-       stroke-width="3.0"
+       stroke-width="1.0"
        d="M 87.019577,40.759647 C 81.479279,3.620690 128.877274,-60.398190 166.016235,-65.938484"
        class="id_A*26:01 id_A*66:01"
        stroke-opacity="0.34901962"
-       stroke="#FF0000"
+       stroke="#000000"
        id="path24" />
     <path
        fill="none"
@@ -184,11 +184,11 @@
        id="path32" />
     <path
        fill="none"
-       stroke-width="3.0"
+       stroke-width="1.0"
        d="M 190.386566,123.669357 C 153.131226,127.760818 91.111038,78.014992 87.019577,40.759647"
        class="id_A*43:01 id_A*26:01"
        stroke-opacity="0.34901962"
-       stroke="#FF0000"
+       stroke="#000000"
        id="path34" />
     <path
        fill="none"
@@ -232,27 +232,27 @@
        id="path44" />
     <path
        fill="none"
-       stroke-width="3.0"
+       stroke-width="1.0"
        d="M -359.429260,-39.068672 C -319.863892,-43.873871 -253.308060,8.266365 -248.502869,47.831726"
        class="id_A*36:01 id_A*11:01"
        stroke-opacity="0.34901962"
-       stroke="#FF0000"
+       stroke="#000000"
        id="path46" />
     <path
        fill="none"
-       stroke-width="3.0"
+       stroke-width="1.0"
        d="M -359.429260,-39.068672 C -335.497559,-9.678035 -343.686005,70.305450 -373.076630,94.237137"
        class="id_A*36:01 id_A*01:01"
        stroke-opacity="0.34901962"
-       stroke="#FF0000"
+       stroke="#000000"
        id="path48" />
     <path
        fill="none"
-       stroke-width="3.0"
+       stroke-width="1.0"
        d="M 6.317022,-70.774910 C 44.764446,-64.608505 93.185982,2.312223 87.019577,40.759647"
        class="id_A*34:02 id_A*26:01"
        stroke-opacity="0.34901962"
-       stroke="#FF0000"
+       stroke="#000000"
        id="path50" />
     <path
        fill="none"
@@ -352,11 +352,11 @@
        id="path74" />
     <path
        fill="none"
-       stroke-width="3.0"
+       stroke-width="1.0"
        d="M 6.317022,-70.774910 C -20.925631,3.910397 -173.817566,75.074379 -248.502869,47.831726"
        class="id_A*34:02 id_A*11:01"
        stroke-opacity="0.34901962"
-       stroke="#FF0000"
+       stroke="#000000"
        id="path76" />
     <path
        fill="none"
@@ -368,11 +368,11 @@
        id="path78" />
     <path
        fill="none"
-       stroke-width="3.0"
+       stroke-width="1.0"
        d="M 166.016235,-65.938484 C 203.230652,-70.549637 265.969025,-21.644737 270.580170,15.569687"
        class="id_A*66:01 id_A*34:01"
        stroke-opacity="0.34901962"
-       stroke="#FF0000"
+       stroke="#000000"
        id="path80" />
     <path
        fill="none"
@@ -384,11 +384,11 @@
        id="path82" />
     <path
        fill="none"
-       stroke-width="3.0"
+       stroke-width="1.0"
        d="M 166.016235,-65.938484 C 133.109100,-34.965927 37.289581,-37.867783 6.317022,-70.774910"
        class="id_A*66:01 id_A*34:02"
        stroke-opacity="0.34901962"
-       stroke="#FF0000"
+       stroke="#000000"
        id="path84" />
     <path
        fill="none"
@@ -400,27 +400,27 @@
        id="path86" />
     <path
        fill="none"
-       stroke-width="3.0"
+       stroke-width="1.0"
        d="M -286.580322,191.290924 C -307.656677,154.983597 -284.810181,68.908073 -248.502869,47.831726"
        class="id_A*11:02 id_A*11:01"
        stroke-opacity="0.34901962"
-       stroke="#FF0000"
+       stroke="#000000"
        id="path88" />
     <path
        fill="none"
-       stroke-width="3.0"
+       stroke-width="1.0"
        d="M 166.016235,-65.938484 C 208.811874,-32.890980 223.434067,80.873718 190.386566,123.669357"
        class="id_A*66:01 id_A*43:01"
        stroke-opacity="0.34901962"
-       stroke="#FF0000"
+       stroke="#000000"
        id="path90" />
     <path
        fill="none"
-       stroke-width="3.0"
+       stroke-width="1.0"
        d="M 6.317022,-70.774910 C 76.438576,-106.358620 234.996460,-54.551865 270.580170,15.569687"
        class="id_A*34:02 id_A*34:01"
        stroke-opacity="0.34901962"
-       stroke="#FF0000"
+       stroke="#000000"
        id="path92" />
   </g>
   <g
@@ -435,7 +435,7 @@
        stroke-width="1.0"
        stroke="#737373"
        fill-opacity="0.2"
-       fill="#FF0000" />
+       fill="#000000" />
     <circle
        r="15.0"
        cx="-165.19916"
@@ -490,7 +490,7 @@
        stroke-width="1.0"
        stroke="#737373"
        fill-opacity="0.2"
-       fill="#FF0000" />
+       fill="#000000" />
     <circle
        r="15.0"
        cx="-286.58032"
@@ -501,7 +501,7 @@
        stroke-width="1.0"
        stroke="#737373"
        fill-opacity="0.2"
-       fill="#FF0000" />
+       fill="#000000" />
     <circle
        r="15.0"
        cx="452.792"
@@ -552,7 +552,7 @@
        stroke-width="1.0"
        stroke="#737373"
        fill-opacity="0.2"
-       fill="#FF0000" />
+       fill="#000000" />
     <circle
        r="15.0"
        cx="-166.91527"
@@ -618,7 +618,7 @@
        stroke-width="1.0"
        stroke="#737373"
        fill-opacity="0.2"
-       fill="#000000" />
+       fill="#FF0000" />
     <circle
        r="15.0"
        cx="-21.018839"
@@ -640,7 +640,7 @@
        stroke-width="1.0"
        stroke="#737373"
        fill-opacity="0.2"
-       fill="#FF0000" />
+       fill="#000000" />
     <circle
        r="15.0"
        cx="6.3170223"
@@ -651,7 +651,7 @@
        stroke-width="1.0"
        stroke="#737373"
        fill-opacity="0.2"
-       fill="#FF0000" />
+       fill="#000000" />
     <circle
        r="15.0"
        cx="-359.42926"
@@ -662,7 +662,7 @@
        stroke-width="1.0"
        stroke="#737373"
        fill-opacity="0.2"
-       fill="#FF0000" />
+       fill="#000000" />
     <circle
        r="15.0"
        cx="190.38657"
@@ -673,7 +673,7 @@
        stroke-width="1.0"
        stroke="#737373"
        fill-opacity="0.2"
-       fill="#FF0000" />
+       fill="#000000" />
     <circle
        r="15.0"
        cx="166.01624"
@@ -684,7 +684,7 @@
        stroke-width="1.0"
        stroke="#737373"
        fill-opacity="0.2"
-       fill="#FF0000" />
+       fill="#000000" />
     <circle
        r="15.0"
        cx="230.41354"
@@ -746,7 +746,7 @@
        class="id_A*80:01"
        cy="-252.26031"
        id="circle153"
-       style="fill:#FF0000;fill-opacity:0.2;stroke:#737373;stroke-width:1;stroke-opacity:0.2" />
+       style="fill:#000000;fill-opacity:0.2;stroke:#737373;stroke-width:1;stroke-opacity:0.2" />
     <circle
        r="15.0"
        cx="-117.99392"

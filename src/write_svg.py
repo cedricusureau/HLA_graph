@@ -103,3 +103,54 @@ def replace_edges_color(svg, edges_ligne, link_between_pos):
             new_svg[i - 2] = svg[i - 2].replace("1.0", "3.0")
 
     return new_svg
+
+def get_middle_position_between_positive_beads(svg, link_between_pos, circle_ligne):
+    circle_position = {}
+    linked_positive_beads = set()
+
+    for i in link_between_pos:
+        tmp_bead1=i.split(" ")[0]
+        tmp_bead2=i.split(" ")[1]
+
+        linked_positive_beads.add(tmp_bead1)
+        linked_positive_beads.add(tmp_bead2)
+
+    for i in linked_positive_beads:
+        circle_position[i] = [float(svg[circle_ligne[i]-1].replace('       cx="',"").replace('"\n',"")),float(svg[circle_ligne[i]+1].replace('       cy="',"").replace('"\n',""))]
+
+    middle_link_pos = {}
+
+    for i in link_between_pos:
+        tmp_x = (circle_position[i.split(" ")[0]][0] + circle_position[i.split(" ")[1]][0])/2
+        tmp_y = (circle_position[i.split(" ")[0]][1] + circle_position[i.split(" ")[1]][1])/2
+
+        middle_link_pos[i] = [tmp_x, tmp_y]
+
+    return middle_link_pos
+
+
+def write_text_on_svg(svg,x,y,font_size=24, font_family="Dialog",color="#FA8072", text="test"):
+
+    template_liste=[]
+    template_liste.append('    <text\n')
+    template_liste.append('       font-size="24"\n')
+    template_liste.append('       x="{}"\n'.format(x))
+    template_liste.append('       y="{}"\n'.format(y))
+    template_liste.append('       style="font-size:{}px;font-family:{};dominant-baseline:central;text-anchor:middle;fill:{}"\n'.format(font_size, font_family,color))
+    template_liste.append('       class="eplet"\n')
+    template_liste.append('       id="text218">{}</text>"""\n'.format(text))
+
+    for i in template_liste:
+        svg.insert(-2,i)
+    return svg
+
+
+def write_1_ratio_eplet(svg, ratio, middle_position_between_positive_beads):
+
+    for eplet,score in ratio.items():
+        if score == 1:
+
+            for position in middle_position_between_positive_beads.values():
+                svg = write_text_on_svg(svg, position[0], position[1], font_size=18, font_family="Dialog",color="#8B0000", text=eplet)
+
+    return svg
