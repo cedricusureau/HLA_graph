@@ -72,4 +72,7 @@ node_edges_colored_svg = write_svg.replace_nodes_color(edges_colored_svg, node_t
 # créer le fichier svg à partir des lignes
 write_svg.write_svg_file(node_edges_colored_svg, args.output)
 
-print(eplet.get_eplet_from_positive_beads(data, args.eplet))
+# Pos_bead_eplet contient la liste d'eplet
+pos_bead_eplet = eplet.get_eplet_from_positive_beads(data, args.eplet)
+
+eplet_ratio_dict = eplet.find_most_common_eplets(pos_bead_eplet)
