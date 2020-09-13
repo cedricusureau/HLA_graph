@@ -32,14 +32,14 @@ def parse_excel_file(excel_path):
     return dico
 
 
-def node_color_to_change(circle_ligne, MFI):
+def node_color_to_change(circle_ligne, MFI,cutoff):
     bool_to_change = {}
 
     for i in circle_ligne.keys():
         bool_to_change[i] = False
 
     for i, j in MFI.items():
-        if j > 2000:
+        if j > cutoff:
             bool_to_change[i] = True
 
     color_ligne_to_change = []
@@ -72,13 +72,13 @@ def replace_nodes_color(svg, to_color):
     return new_svg
 
 
-def find_link_between_pos(MFI_value, edge_file):
+def find_link_between_pos(MFI_value, edge_file,cutoff):
 
     link_list = pd.read_csv(edge_file)
     pos_MFI_value = {}
 
     for i, j in MFI_value.items():
-        if j > 2000:
+        if j > cutoff:
             pos_MFI_value[i] = j
 
     link_between_pos = []
@@ -186,6 +186,6 @@ def write_3_class_eplet(svg, eplets_on_isolated_beads, isolated_bead, position_o
     for eplet in eplets_on_isolated_beads:
         for bead in isolated_bead:
             if eplet in list(eplet_data.loc[bead]):
-                svg = write_text_on_svg(svg,position_of_isolated_beads[bead][0]+15, position_of_isolated_beads[bead][1]-15+(15*already_write[bead]), font_size=12,font_family="Dialog",color="#FFA500", text=eplet)
+                svg = write_text_on_svg(svg,position_of_isolated_beads[bead][0]+30, position_of_isolated_beads[bead][1]-60+(15*already_write[bead]), font_size=12,font_family="Dialog",color="#FFA500", text=eplet)
                 already_write[bead] += 1
     return svg

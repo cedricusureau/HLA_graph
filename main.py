@@ -6,9 +6,9 @@ The core file of my example project
 """
 
 import argparse
+import os
+import allele_type
 
-import eplet
-import write_svg
 
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
@@ -17,7 +17,7 @@ parser.add_argument(
     "--mfi",
     type=str,
     help="Insert MFI file value (.xls)",
-    default="data/sample_example/SA1_ex2.xls",
+    default="data/sample_example/SA1_ex1.xls",
 )
 parser.add_argument(
     "-t",
@@ -41,73 +41,13 @@ parser.add_argument(
     default="data/edges/strongly_correlated_HLA_A.csv",
 )
 parser.add_argument(
-    "-o", "--output", help="output_prefix", type=str, default="result/test/test.svg"
+    "-o", "--output", help="output_prefix", type=str, default="result/test/test"
 )
+parser.add_argument(
+    "-c", "--cutoff", help="cutoff", type=str, default=2000)
 
 args = parser.parse_args()
 
-# créer une liste avec toute les lignes du svg
-svg_liste = [i for i in open(args.template, "r")]
 
-# extrait les indices des lignes des noeuds, edges et texte.
-edges_ligne, circle_ligne, text_ligne = write_svg.get_edges_dictionnary(svg_liste)
-
-# data = MFI values
-data = write_svg.parse_excel_file(args.mfi)
-
-# extrait les listes des edges entre les billes positives
-link_between_pos = write_svg.find_link_between_pos(data, args.edges)
-
-# créer un fichier svg avec les edges coloré
-edges_colored_svg = write_svg.replace_edges_color(
-    svg_liste, edges_ligne, link_between_pos
-)
-
-# extrait les lignes des noeuds à colorer
-node_to_color = write_svg.node_color_to_change(circle_ligne, data)
-
-# créer un fichier svg avec le noeuds coloré
-node_edges_colored_svg = write_svg.replace_nodes_color(edges_colored_svg, node_to_color)
-
-# créer le fichier svg à partir des lignes
-write_svg.write_svg_file(node_edges_colored_svg, args.output)
-
-# Pos_bead_eplet contient la liste d'eplet
-pos_bead_eplet, neg_bead_eplet = eplet.get_eplet_from_beads(data, args.eplet)
-
-# Calcul des ratios:
-# pos_ratio = ratio des billes pos pour un eplet
-# neg_ratio = ratio des billes neg pour un eplet
-pos_eplet_ratio_dict = eplet.find_most_common_eplets(pos_bead_eplet)
-neg_eplet_ratio_dict = eplet.find_most_common_eplets(neg_bead_eplet)
-
-# ratio = pour chaque eplet, calcul du nombre de bille pos porteuse - nombre de bille neg porteuse
-ratio = eplet.compare_ratio(pos_eplet_ratio_dict, neg_eplet_ratio_dict)
-
-# Coordonnée x,y à mi-chemin des billes
-middle_position_between_positive_beads = write_svg.get_middle_position_between_positive_beads(svg_liste,
-                                                                                              link_between_pos,
-                                                                                              circle_ligne)
-
-# écrit les eplets avec un ratio de 1
-new_svg = write_svg.write_1_ratio_eplet(svg_liste, ratio, middle_position_between_positive_beads)
-
-# Génére la liste des eplets présent sur certaines billes positives mais pas les billes négatives
-second_class_eplet = eplet.get_second_class_eplet(pos_eplet_ratio_dict, neg_eplet_ratio_dict)
-
-# Vérifie les liens concerné par un partage d'éplet présent sur certaines billes positives mais pas les billes négatives
-link_for_second_class_eplets = eplet.get_link_for_second_class_eplets(link_between_pos, args.eplet, second_class_eplet)
-
-# Ecrit en bleu les noms des eplets concerné
-new_svg = write_svg.write_class_2_eplet(new_svg, link_for_second_class_eplets, middle_position_between_positive_beads)
-
-
-
-eplets_on_isolated_beads = eplet.get_eplets_on_isolated_beads(ratio, second_class_eplet)
-isolated_bead = eplet.get_isolated_beads(data, link_between_pos)
-position_of_isolated_beads = write_svg.get_position_of_beads(svg_liste, isolated_bead,circle_ligne)
-
-new_svg = write_svg.write_3_class_eplet(svg_liste, eplets_on_isolated_beads,isolated_bead,position_of_isolated_beads, args.eplet)
-
-# Génère le fichier final
-write_svg.write_svg_file(new_svg, args.output)
+for i in os.listdir("data/sample_example"):
+    allele_type.write_svg_for_allele(args.template,"data/sample_example/{}".format(i),args.edges,args.eplet,args.output+str(i),"A", args.cutoff)

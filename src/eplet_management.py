@@ -1,19 +1,19 @@
 import pandas as pd
 
 
-def get_eplet_from_beads(data, eplet_path):
+def get_eplet_from_beads(data, eplet_path, allele_type, cutoff):
 
     eplet = pd.read_csv(eplet_path)
     eplet = eplet.set_index("allele")
     positive_bead = []
     negative_bead = []
     for i, j in data.items():
-        if "A" in i:
-            if j > 2000:
+        if allele_type in i:
+            if j > cutoff:
                 positive_bead.append(i)
     for i, j in data.items():
-        if "A" in i:
-            if j < 2000:
+        if allele_type in i:
+            if j < cutoff:
                 negative_bead.append(i)
 
     eplet_from_positive_beads = {}
@@ -98,7 +98,7 @@ def get_eplets_on_isolated_beads(ratio, second_class_eplet):
 
     return eplets_on_isolated_beads
 
-def get_isolated_beads(MFI, link_between_pos):
+def get_isolated_beads(MFI, link_between_pos, allele_type):
     linked_pos = set()
 
     for i in link_between_pos:
@@ -107,7 +107,7 @@ def get_isolated_beads(MFI, link_between_pos):
 
     isolated_beads = []
     for i,j in MFI.items():
-        if "A" in i:
+        if allele_type in i:
             if j > 2000:
                 if i not in linked_pos:
                     isolated_beads.append(i)
