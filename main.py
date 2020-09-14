@@ -44,7 +44,7 @@ parser.add_argument(
     "-o", "--output", help="output_prefix", type=str, default="result/test/test"
 )
 parser.add_argument(
-    "-c", "--cutoff", help="cutoff", type=str, default=2000)
+    "-c", "--cutoff", help="cutoff", type=int, default=2000)
 
 args = parser.parse_args()
 
