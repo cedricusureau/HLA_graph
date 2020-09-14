@@ -7,7 +7,7 @@ def write_svg_for_allele(template_graph, mfi,edges,eplet, output,allele_type,cut
     svg_liste = [i for i in open(template_graph, "r")]
 
     svg_list=svg_liste.insert(20,""" <rect  x="-2000" y="-2000" width="10000%" height="1000000%" fill="white" />""")
-
+    write_svg.get_bead_position(svg_liste)
     # extrait les indices des lignes des noeuds, edges et texte.
     edges_ligne, circle_ligne, text_ligne = write_svg.get_edges_dictionnary(svg_liste)
 

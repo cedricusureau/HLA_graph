@@ -1,5 +1,26 @@
 import pandas as pd
 
+def get_bead_position(svg_liste):
+    bead_position = {}
+
+    for indice, ligne in enumerate(svg_liste):
+        if "<circle" in ligne:
+            tmp_xy = []
+            for i, j in enumerate(svg_liste[indice:]):
+                if "cx" in j :
+                    tmp_xy.append(j.replace('       cx="',"").replace('"\n',""))
+                if "class" in j:
+                    tmp_bead = j.split("class=")[1].split('"')[1].replace("id_","")
+                if "cy" in j :
+                    tmp_xy.append(j.replace('       cy="', "").replace('"\n', ""))
+
+                if len(tmp_xy) == 2 :
+                    bead_position[tmp_bead] = tmp_xy
+
+    print(bead_position)
+    return bead_position
+
+
 def get_edges_dictionnary(svg_liste):
     edges_ligne = {}
     circle_ligne = {}
@@ -7,20 +28,26 @@ def get_edges_dictionnary(svg_liste):
 
     for indice, ligne in enumerate(svg_liste):
         if "<path" in ligne:
-            edges_ligne[svg_liste[indice + 4].split("class=")[1].split('"')[1]] = (
-                indice + 4
-            )
+            for i,j in enumerate(svg_liste[indice:]):
+                if "class" in j :
+                    edges_ligne[svg_liste[indice + i].split("class=")[1].split('"')[1]] = (
+                        int(indice) + i
+                    )
 
         if "<circle" in ligne:
-            circle_ligne[
-                svg_liste[indice + 3].split("class=")[1].split('"')[1].split("id_")[1]
-            ] = (indice + 3)
+            for i,j in enumerate(svg_liste[indice:]):
+                if "class" in j :
+                    circle_ligne[svg_liste[indice + i].split("class=")[1].split('"')[1]] = (
+                        int(indice) + i
+                    )
 
         if "<text" in ligne:
-            text_ligne[svg_liste[indice + 5].split("class=")[1].split('"')[1]] = (
-                indice + 5
-            )
-
+            for i, j in enumerate(svg_liste[indice:]):
+                if "class" in j:
+                    text_ligne[svg_liste[indice + i].split("class=")[1].split('"')[1]] = (
+                        int(indice) + i
+                    )
+    print(circle_ligne)
     return edges_ligne, circle_ligne, text_ligne
 
 

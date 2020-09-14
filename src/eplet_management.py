@@ -31,7 +31,7 @@ def find_most_common_eplets(eplet_from_beads):
     for i in eplet_from_beads.values():
         for j in i:
             if type(j) == str:
-                eplet_set.add(j.replace(" ",""))
+                eplet_set.add(j)
 
     eplet_count_dict = {}
     for eplet in list(eplet_set):
@@ -40,7 +40,7 @@ def find_most_common_eplets(eplet_from_beads):
     for eplet_list in eplet_from_beads.values():
         for eplet in eplet_list:
             if type(eplet) == str:
-                 eplet_count_dict[eplet.replace(" ","")]+=1
+                 eplet_count_dict[eplet]+=1
 
     eplet_ratio_dict = {}
     for i,j in eplet_count_dict.items():
