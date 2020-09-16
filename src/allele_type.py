@@ -43,7 +43,7 @@ def write_svg_for_allele(template_graph, mfi,edges,eplet, output,allele_type,cut
     # Coordonnée x,y à mi-chemin des billes
     middle_position_between_positive_beads = write_svg.get_middle_position_between_positive_beads(svg_liste,
                                                                                                   link_between_pos,
-                                                                                                  circle_ligne)
+                                                                                                  write_svg.get_bead_position(svg_liste))
     # écrit les eplets avec un ratio de 1
     new_svg = write_svg.write_1_ratio_eplet(node_edges_colored_svg, ratio, middle_position_between_positive_beads)
 
@@ -65,7 +65,7 @@ def write_svg_for_allele(template_graph, mfi,edges,eplet, output,allele_type,cut
     isolated_bead = eplet_management.get_isolated_beads(data, link_between_pos, allele_type)
 
     #Extrait les positions des billes isolées
-    position_of_isolated_beads = write_svg.get_position_of_beads(svg_liste, isolated_bead, circle_ligne)
+    position_of_isolated_beads = write_svg.get_position_of_beads(svg_liste, isolated_bead, write_svg.get_bead_position(svg_liste))
 
     #Ecrit les eplets sur les billes isolées
     new_svg3 = write_svg.write_3_class_eplet(new_svg2, eplets_on_isolated_beads, isolated_bead,

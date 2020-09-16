@@ -16,8 +16,7 @@ def get_bead_position(svg_liste):
 
                 if len(tmp_xy) == 2 :
                     bead_position[tmp_bead] = tmp_xy
-
-    print(bead_position)
+                    break
     return bead_position
 
 
@@ -47,7 +46,6 @@ def get_edges_dictionnary(svg_liste):
                     text_ligne[svg_liste[indice + i].split("class=")[1].split('"')[1]] = (
                         int(indice) + i
                     )
-    print(circle_ligne)
     return edges_ligne, circle_ligne, text_ligne
 
 
@@ -60,21 +58,25 @@ def parse_excel_file(excel_path):
 
 
 def node_color_to_change(circle_ligne, MFI,cutoff):
+
+    clé = []
+    for i in circle_ligne.keys():
+        clé.append(i.replace("_id",""))
+
     bool_to_change = {}
 
-    for i in circle_ligne.keys():
-        bool_to_change[i] = False
+    for i in clé:
+        bool_to_change[i.replace("_id","")] = False
 
     for i, j in MFI.items():
         if j > cutoff:
-            bool_to_change[i] = True
+            bool_to_change[i.replace("id_","")] = True
 
     color_ligne_to_change = []
-
     for i in circle_ligne.keys():
-        if bool_to_change[i]:
+        if bool_to_change[i] == True:
             color_ligne_to_change.append(circle_ligne[i])
-
+    print(color_ligne_to_change)
     return color_ligne_to_change
 
 
@@ -130,7 +132,7 @@ def replace_edges_color(svg, edges_ligne, link_between_pos):
 
     return new_svg
 
-def get_middle_position_between_positive_beads(svg, link_between_pos, circle_ligne):
+def get_middle_position_between_positive_beads(svg, link_between_pos, bead_position):
     circle_position = {}
     linked_positive_beads = set()
 
@@ -141,14 +143,11 @@ def get_middle_position_between_positive_beads(svg, link_between_pos, circle_lig
         linked_positive_beads.add(tmp_bead1)
         linked_positive_beads.add(tmp_bead2)
 
-    for i in linked_positive_beads:
-        circle_position[i] = [float(svg[circle_ligne[i]-1].replace('       cx="',"").replace('"\n',"")),float(svg[circle_ligne[i]+1].replace('       cy="',"").replace('"\n',""))]
-
     middle_link_pos = {}
 
     for i in link_between_pos:
-        tmp_x = (circle_position[i.split(" ")[0]][0] + circle_position[i.split(" ")[1]][0])/2
-        tmp_y = (circle_position[i.split(" ")[0]][1] + circle_position[i.split(" ")[1]][1])/2
+        tmp_x = (float(bead_position[i.split(" ")[0]][0]) + float(bead_position[i.split(" ")[1]][0]))/2
+        tmp_y = (float(bead_position[i.split(" ")[0]][1]) + float(bead_position[i.split(" ")[1]][1]))/2
 
         middle_link_pos[i] = [tmp_x, tmp_y]
 
@@ -196,10 +195,10 @@ def write_class_2_eplet(svg, link_for_second_class_eplets, middle_position_betwe
                 already_write[count] += 1
     return svg
 
-def get_position_of_beads(svg, beads_liste, circle_ligne):
+def get_position_of_beads(svg, beads_liste, bead_position):
     position_of_beads = {}
     for i in beads_liste:
-        position_of_beads[i] =  [float(svg[circle_ligne[i]-1].replace('       cx="',"").replace('"\n',"")),float(svg[circle_ligne[i]+1].replace('       cy="',"").replace('"\n',""))]
+        position_of_beads[i] = [float(k) for k in bead_position[i]]
 
     return position_of_beads
 
