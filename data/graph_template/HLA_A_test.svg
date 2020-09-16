@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   contentScriptType="text/ecmascript"
+   width="1315.0"
+   zoomAndPan="magnify"
+   contentStyleType="text/css"
+   viewBox="-524.000000 -425.260071 1315.000000 1115.260010"
+   height="1115.26"
+   preserveAspectRatio="xMidYMid meet"
+   version="1.1"
+   id="svg284"
+   sodipodi:docname="HLA_A_test.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata290">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs288" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1299"
+     inkscape:window-height="713"
+     id="namedview286"
+     showgrid="false"
+     inkscape:zoom="0.50750497"
+     inkscape:cx="707.59277"
+     inkscape:cy="642.96634"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg284" />
+  <g
+     id="edges">
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -497.524323,32.595718 C -520.449585,-22.797249 -471.748077,-140.274612 -416.355103,-163.199890"
+       class="id_A*29:02 id_A*29:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path2" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 305.171082,311.766754 C 364.034302,393.739960 329.369324,604.994568 247.396118,663.857788"
+       class="id_A*02:06 id_A*02:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path4" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 247.396118,663.857788 C 246.717987,598.087219 344.356537,498.414246 410.127045,497.736084"
+       class="id_A*02:01 id_A*02:03"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path6" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 765.385498,266.815338 C 715.233215,306.705841 580.169067,291.313232 540.278503,241.160965"
+       class="id_A*24:03 id_A*24:02"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path8" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -278.639069,-332.035614 C -242.819916,-390.816864 -100.919266,-425.260071 -42.137993,-389.440918"
+       class="id_A*30:02 id_A*30:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path10" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 305.171082,311.766754 C 363.356140,327.969452 426.329742,439.551025 410.127045,497.736084"
+       class="id_A*02:06 id_A*02:03"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path12" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -40.807770,22.915844 C -49.728355,-36.189835 25.549282,-138.229233 84.654961,-147.149826"
+       class="id_A*33:03 id_A*33:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path14" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -42.137993,-389.440918 C -18.540417,-332.279053 -68.886841,-211.139893 -126.048706,-187.542328"
+       class="id_A*30:01 id_A*31:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path16" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 158.750763,462.683563 C 101.580353,441.907135 46.989368,324.986908 67.765793,267.816498"
+       class="id_A*69:01 id_A*68:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path18" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -40.807770,22.915844 C 11.010415,-7.407978 134.223419,24.833561 164.547241,76.651749"
+       class="id_A*33:03 id_A*34:02"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path20" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -126.048706,-187.542328 C -185.465424,-185.922913 -277.019653,-272.618896 -278.639069,-332.035614"
+       class="id_A*31:01 id_A*30:02"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path22" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 375.624207,108.776619 C 243.160583,58.647896 119.658234,-215.240601 169.786957,-347.704224"
+       class="id_A*26:01 id_A*66:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path24" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 158.750763,462.683563 C 155.482132,525.382019 56.531532,614.526672 -6.166903,611.258057"
+       class="id_A*69:01 id_A*68:02"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path26" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 540.278503,241.160965 C 598.018494,265.009003 648.856323,387.391022 625.008301,445.130981"
+       class="id_A*24:02 id_A*23:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path28" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -40.807770,22.915844 C -90.821335,57.934555 -218.369736,35.442268 -253.388443,-14.571295"
+       class="id_A*33:03 id_A*74:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path30" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -6.166903,611.258057 C -60.068672,527.783203 -15.709053,321.718292 67.765793,267.816498"
+       class="id_A*68:02 id_A*68:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path32" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 504.870941,-64.216530 C 513.620239,-3.768553 436.072174,100.027344 375.624207,108.776619"
+       class="id_A*43:01 id_A*26:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path34" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 164.547241,76.651749 C 103.808472,47.869888 55.873096,-86.411057 84.654961,-147.149826"
+       class="id_A*34:02 id_A*33:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path36" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 765.385498,266.815338 C 772.973206,330.553894 688.746887,437.543274 625.008301,445.130981"
+       class="id_A*24:03 id_A*23:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path38" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -253.388443,-14.571295 C -262.514709,-74.633453 -186.110855,-178.416061 -126.048706,-187.542328"
+       class="id_A*74:01 id_A*31:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path40" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -253.388443,-14.571295 C -286.112274,-131.795319 -159.362000,-356.717072 -42.137993,-389.440918"
+       class="id_A*74:01 id_A*30:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path42" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 84.654961,-147.149826 C 43.561981,-53.025429 -159.264038,26.521683 -253.388443,-14.571295"
+       class="id_A*33:01 id_A*74:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path44" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -385.855621,423.595398 C -383.209045,335.197784 -246.642761,206.571259 -158.245163,209.217850"
+       class="id_A*36:01 id_A*11:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path46" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -385.855621,423.595398 C -324.528778,425.988586 -236.128296,521.568604 -238.521469,582.895508"
+       class="id_A*36:01 id_A*01:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path48" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 164.547241,76.651749 C 213.187607,40.861328 339.833801,60.136253 375.624207,108.776619"
+       class="id_A*34:02 id_A*26:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path50" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 385.414429,-327.822693 C 338.312622,-288.673523 208.936142,-300.602417 169.786957,-347.704224"
+       class="id_A*66:02 id_A*66:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path52" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -158.245163,209.217850 C -222.031647,183.488678 -279.117615,49.215191 -253.388443,-14.571295"
+       class="id_A*11:01 id_A*74:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path54" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -253.388443,-14.571295 C -292.782227,43.689289 -439.263733,71.989494 -497.524323,32.595718"
+       class="id_A*74:01 id_A*29:02"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path56" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -253.388443,-14.571295 C -151.556686,-79.913818 99.204712,-25.179996 164.547241,76.651749"
+       class="id_A*74:01 id_A*34:02"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path58" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -253.388443,-14.571295 C -315.707489,-11.703682 -413.487488,-100.880836 -416.355103,-163.199890"
+       class="id_A*74:01 id_A*29:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path60" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -253.388443,-14.571295 C -321.931427,-73.014038 -337.081787,-263.492615 -278.639069,-332.035614"
+       class="id_A*74:01 id_A*30:02"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path62" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -253.388443,-14.571295 C -231.938049,54.378448 -303.187073,189.978653 -372.136841,211.429031"
+       class="id_A*74:01 id_A*03:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path64" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 158.750763,462.683563 C 157.851456,403.216156 245.703659,312.666046 305.171082,311.766754"
+       class="id_A*69:01 id_A*02:06"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path66" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -372.136841,211.429031 C -332.447327,256.606049 -340.678589,383.905853 -385.855621,423.595398"
+       class="id_A*03:01 id_A*36:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path68" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -126.048706,-187.542328 C -66.908882,-162.498871 -15.764320,-36.223984 -40.807770,22.915844"
+       class="id_A*31:01 id_A*33:03"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path70" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -40.807770,22.915844 C 29.887074,50.181259 95.031204,197.121643 67.765793,267.816498"
+       class="id_A*33:03 id_A*68:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path72" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -158.245163,209.217850 C -200.581268,252.438416 -328.916290,253.765137 -372.136841,211.429031"
+       class="id_A*11:01 id_A*03:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path74" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 164.547241,76.651749 C 126.501976,167.723450 -67.173454,247.263107 -158.245163,209.217850"
+       class="id_A*34:02 id_A*11:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path76" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 84.654961,-147.149826 C 34.435726,-113.087601 -91.986473,-137.323090 -126.048706,-187.542328"
+       class="id_A*33:01 id_A*31:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path78" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 169.786957,-347.704224 C 240.033875,-328.212128 316.166077,-193.603592 296.673981,-123.356667"
+       class="id_A*66:01 id_A*34:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path80" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 67.765793,267.816498 C 48.889137,210.227264 106.958000,95.528404 164.547241,76.651749"
+       class="id_A*68:01 id_A*34:02"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path82" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 169.786957,-347.704224 C 253.610199,-261.785095 250.466370,-7.171501 164.547241,76.651749"
+       class="id_A*66:01 id_A*34:02"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path84" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 158.750763,462.683563 C 216.714676,485.189331 269.901886,605.893860 247.396118,663.857788"
+       class="id_A*69:01 id_A*02:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path86" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -97.721939,417.738373 C -151.530685,388.138916 -187.844620,263.026611 -158.245163,209.217850"
+       class="id_A*11:02 id_A*11:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path88" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 169.786957,-347.704224 C 293.501312,-358.023499 494.551666,-187.930878 504.870941,-64.216530"
+       class="id_A*66:01 id_A*43:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path90" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 164.547241,76.651749 C 150.970917,10.224718 230.246948,-109.780327 296.673981,-123.356667"
+       class="id_A*34:02 id_A*34:01"
+       stroke-opacity="1.0"
+       stroke="#000000"
+       id="path92" />
+  </g>
+  <g
+     id="nodes">
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="-238.52147"
+       class="id_A*01:01"
+       cy="582.8955"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle95" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="247.39612"
+       class="id_A*02:01"
+       cy="663.8578"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle97" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="410.12704"
+       class="id_A*02:03"
+       cy="497.73608"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle99" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="305.17108"
+       class="id_A*02:06"
+       cy="311.76675"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle101" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="-372.13684"
+       class="id_A*03:01"
+       cy="211.42903"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle103" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="-158.24516"
+       class="id_A*11:01"
+       cy="209.21785"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle105" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="-97.72194"
+       class="id_A*11:02"
+       cy="417.73837"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle107" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="625.0083"
+       class="id_A*23:01"
+       cy="445.13098"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle109" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="540.2785"
+       class="id_A*24:02"
+       cy="241.16096"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle111" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="765.3855"
+       class="id_A*24:03"
+       cy="266.81534"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle113" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="678.00665"
+       class="id_A*25:01"
+       cy="64.54521"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle115" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="375.6242"
+       class="id_A*26:01"
+       cy="108.77662"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle117" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="-416.3551"
+       class="id_A*29:01"
+       cy="-163.19989"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle119" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="-497.52432"
+       class="id_A*29:02"
+       cy="32.59572"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle121" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="-42.137993"
+       class="id_A*30:01"
+       cy="-389.44092"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle123" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="-278.63907"
+       class="id_A*30:02"
+       cy="-332.0356"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle125" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="-126.048706"
+       class="id_A*31:01"
+       cy="-187.54233"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle127" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="593.62354"
+       class="id_A*32:01"
+       cy="-387.18973"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle129" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="84.65496"
+       class="id_A*33:01"
+       cy="-147.14983"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle131" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="296.67398"
+       class="id_A*34:01"
+       cy="-123.35667"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle133" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="164.54724"
+       class="id_A*34:02"
+       cy="76.65175"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle135" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="-385.85562"
+       class="id_A*36:01"
+       cy="423.5954"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle137" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="504.87094"
+       class="id_A*43:01"
+       cy="-64.21653"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle139" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="169.78696"
+       class="id_A*66:01"
+       cy="-347.70422"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle141" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="385.41443"
+       class="id_A*66:02"
+       cy="-327.8227"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle143" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="67.76579"
+       class="id_A*68:01"
+       cy="267.8165"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle145" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="-6.1669035"
+       class="id_A*68:02"
+       cy="611.25806"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle147" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="158.75076"
+       class="id_A*69:01"
+       cy="462.68356"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle149" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="-253.38844"
+       class="id_A*74:01"
+       cy="-14.571295"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle151" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="679.49335"
+       class="id_A*80:01"
+       cy="-186.88353"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle153" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="25.5"
+       cx="-40.80777"
+       class="id_A*33:03"
+       cy="22.915844"
+       stroke="#000000"
+       stroke-opacity="0.2"
+       stroke-width="1.0"
+       id="circle155" />
+  </g>
+  <g
+     id="node-labels-outline">
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="-238.52147"
+       y="584.7868"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*01:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text158">
+            A*01:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="247.39612"
+       y="665.7491"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*02:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text160">
+            A*02:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="410.12704"
+       y="499.62735"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*02:03"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text162">
+            A*02:03
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="305.17108"
+       y="313.65802"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*02:06"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text164">
+            A*02:06
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="-372.13684"
+       y="213.32031"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*03:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text166">
+            A*03:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="-158.24516"
+       y="211.10913"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*11:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text168">
+            A*11:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="-97.72194"
+       y="419.62964"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*11:02"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text170">
+            A*11:02
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="625.0083"
+       y="447.02225"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*23:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text172">
+            A*23:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="540.2785"
+       y="243.05225"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*24:02"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text174">
+            A*24:02
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="765.3855"
+       y="268.7066"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*24:03"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text176">
+            A*24:03
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="678.00665"
+       y="66.436485"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*25:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text178">
+            A*25:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="375.6242"
+       y="110.66789"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*26:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text180">
+            A*26:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="-416.3551"
+       y="-161.30861"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*29:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text182">
+            A*29:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="-497.52432"
+       y="34.486996"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*29:02"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text184">
+            A*29:02
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="-42.137993"
+       y="-387.54965"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*30:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text186">
+            A*30:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="-278.63907"
+       y="-330.14435"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*30:02"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text188">
+            A*30:02
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="-126.048706"
+       y="-185.65105"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*31:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text190">
+            A*31:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="593.62354"
+       y="-385.29846"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*32:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text192">
+            A*32:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="84.65496"
+       y="-145.25854"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*33:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text194">
+            A*33:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="296.67398"
+       y="-121.46539"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*34:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text196">
+            A*34:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="164.54724"
+       y="78.54302"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*34:02"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text198">
+            A*34:02
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="-385.85562"
+       y="425.48666"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*36:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text200">
+            A*36:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="504.87094"
+       y="-62.325256"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*43:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text202">
+            A*43:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="169.78696"
+       y="-345.81296"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*66:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text204">
+            A*66:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="385.41443"
+       y="-325.93143"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*66:02"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text206">
+            A*66:02
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="67.76579"
+       y="269.70776"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*68:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text208">
+            A*68:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="-6.1669035"
+       y="613.14935"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*68:02"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text210">
+            A*68:02
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="158.75076"
+       y="464.57483"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*69:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text212">
+            A*69:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="-253.38844"
+       y="-12.680018"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*74:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text214">
+            A*74:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="679.49335"
+       y="-184.99225"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*80:01"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text216">
+            A*80:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="10"
+       x="-40.80777"
+       y="24.80712"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*33:03"
+       stroke="#ffffff"
+       stroke-opacity="0.8"
+       stroke-width="1.25px"
+       id="text218">
+            A*33:03
+        </text>
+  </g>
+  <g
+     id="node-labels">
+    <text
+       font-size="10"
+       x="-238.52147"
+       y="584.7868"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*01:01"
+       id="text221">
+            A*01:01
+        </text>
+    <text
+       font-size="10"
+       x="247.39612"
+       y="665.7491"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*02:01"
+       id="text223">
+            A*02:01
+        </text>
+    <text
+       font-size="10"
+       x="410.12704"
+       y="499.62735"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*02:03"
+       id="text225">
+            A*02:03
+        </text>
+    <text
+       font-size="10"
+       x="305.17108"
+       y="313.65802"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*02:06"
+       id="text227">
+            A*02:06
+        </text>
+    <text
+       font-size="10"
+       x="-372.13684"
+       y="213.32031"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*03:01"
+       id="text229">
+            A*03:01
+        </text>
+    <text
+       font-size="10"
+       x="-158.24516"
+       y="211.10913"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*11:01"
+       id="text231">
+            A*11:01
+        </text>
+    <text
+       font-size="10"
+       x="-97.72194"
+       y="419.62964"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*11:02"
+       id="text233">
+            A*11:02
+        </text>
+    <text
+       font-size="10"
+       x="625.0083"
+       y="447.02225"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*23:01"
+       id="text235">
+            A*23:01
+        </text>
+    <text
+       font-size="10"
+       x="540.2785"
+       y="243.05225"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*24:02"
+       id="text237">
+            A*24:02
+        </text>
+    <text
+       font-size="10"
+       x="765.3855"
+       y="268.7066"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*24:03"
+       id="text239">
+            A*24:03
+        </text>
+    <text
+       font-size="10"
+       x="678.00665"
+       y="66.436485"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*25:01"
+       id="text241">
+            A*25:01
+        </text>
+    <text
+       font-size="10"
+       x="375.6242"
+       y="110.66789"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*26:01"
+       id="text243">
+            A*26:01
+        </text>
+    <text
+       font-size="10"
+       x="-416.3551"
+       y="-161.30861"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*29:01"
+       id="text245">
+            A*29:01
+        </text>
+    <text
+       font-size="10"
+       x="-497.52432"
+       y="34.486996"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*29:02"
+       id="text247">
+            A*29:02
+        </text>
+    <text
+       font-size="10"
+       x="-42.137993"
+       y="-387.54965"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*30:01"
+       id="text249">
+            A*30:01
+        </text>
+    <text
+       font-size="10"
+       x="-278.63907"
+       y="-330.14435"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*30:02"
+       id="text251">
+            A*30:02
+        </text>
+    <text
+       font-size="10"
+       x="-126.048706"
+       y="-185.65105"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*31:01"
+       id="text253">
+            A*31:01
+        </text>
+    <text
+       font-size="10"
+       x="593.62354"
+       y="-385.29846"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*32:01"
+       id="text255">
+            A*32:01
+        </text>
+    <text
+       font-size="10"
+       x="84.65496"
+       y="-145.25854"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*33:01"
+       id="text257">
+            A*33:01
+        </text>
+    <text
+       font-size="10"
+       x="296.67398"
+       y="-121.46539"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*34:01"
+       id="text259">
+            A*34:01
+        </text>
+    <text
+       font-size="10"
+       x="164.54724"
+       y="78.54302"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*34:02"
+       id="text261">
+            A*34:02
+        </text>
+    <text
+       font-size="10"
+       x="-385.85562"
+       y="425.48666"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*36:01"
+       id="text263">
+            A*36:01
+        </text>
+    <text
+       font-size="10"
+       x="504.87094"
+       y="-62.325256"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*43:01"
+       id="text265">
+            A*43:01
+        </text>
+    <text
+       font-size="10"
+       x="169.78696"
+       y="-345.81296"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*66:01"
+       id="text267">
+            A*66:01
+        </text>
+    <text
+       font-size="10"
+       x="385.41443"
+       y="-325.93143"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*66:02"
+       id="text269">
+            A*66:02
+        </text>
+    <text
+       font-size="10"
+       x="67.76579"
+       y="269.70776"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*68:01"
+       id="text271">
+            A*68:01
+        </text>
+    <text
+       font-size="10"
+       x="-6.1669035"
+       y="613.14935"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*68:02"
+       id="text273">
+            A*68:02
+        </text>
+    <text
+       font-size="10"
+       x="158.75076"
+       y="464.57483"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*69:01"
+       id="text275">
+            A*69:01
+        </text>
+    <text
+       font-size="10"
+       x="-253.38844"
+       y="-12.680018"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*74:01"
+       id="text277">
+            A*74:01
+        </text>
+    <text
+       font-size="10"
+       x="679.49335"
+       y="-184.99225"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*80:01"
+       id="text279">
+            A*80:01
+        </text>
+    <text
+       font-size="10"
+       x="-40.80777"
+       y="24.80712"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_A*33:03"
+       id="text281">
+            A*33:03
+        </text>
+  </g>
+</svg>
