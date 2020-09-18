@@ -17,7 +17,7 @@ parser.add_argument(
     "--mfi",
     type=str,
     help="Insert MFI file value (.xls)",
-    default="data/sample_example/SA1_ex1.xls",
+    default="data/sample_example/SA1_ex2.xls",
 )
 parser.add_argument(
     "-t",
@@ -52,7 +52,7 @@ args = parser.parse_args()
 
 allele_type.write_svg_for_allele(
     "data/graph_template/HLA_B_test.svg",
-    "data/sample_example/SA1_ex1.xls",
+    "data/sample_example/SA1_ex2.xls",
     args.edges,
     args.eplet,
     args.output,

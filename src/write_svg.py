@@ -100,10 +100,9 @@ def write_svg_file(svg, output):
 def replace_nodes_color_2(svg, to_color):
     new_svg = svg
     for i in to_color:
-        print(new_svg[i[2]])
+
         new_svg[i[1]] = new_svg[i[1]].replace("#000000", "#FF0000")
         new_svg[i[2]] = new_svg[i[2]].replace("fill-opacity:0.2", "fill-opacity:0.4")
-        print(new_svg[i[1]])
 
     return new_svg
 
