@@ -24,21 +24,21 @@ parser.add_argument(
     "--template",
     help="Insert template file",
     type=str,
-    default="data/graph_template/HLA_A_test.svg",
+    default="data/graph_template/HLA_B_test.svg",
 )
 parser.add_argument(
     "-ep",
     "--eplet",
     help="Insert eplet file",
     type=str,
-    default="data/eplets/A.csv",
+    default="data/eplets/B.csv",
 )
 parser.add_argument(
     "-e",
     "--edges",
     help="Insert edges file",
     type=str,
-    default="data/edges/strongly_correlated_HLA_A.csv",
+    default="data/edges/strongly_correlated_HLA_B.csv",
 )
 parser.add_argument(
     "-o", "--output", help="output_prefix", type=str, default="result/test/test"
@@ -51,11 +51,13 @@ args = parser.parse_args()
 #    allele_type.write_svg_for_allele(args.template,"data/sample_example/{}".format(i),args.edges,args.eplet,args.output+str(i),"A", args.cutoff)
 
 allele_type.write_svg_for_allele(
-    args.template,
+    "data/graph_template/HLA_B_test.svg",
     "data/sample_example/SA1_ex1.xls",
     args.edges,
     args.eplet,
     args.output,
-    "A",
+    "B",
     args.cutoff,
 )
+
+# allele_type.write_svg_for_allele(args.template,"data/sample_example/SA1_ex1.xls",args.edges, args.eplet, args.output,"B",args.cutoff)
