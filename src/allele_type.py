@@ -29,13 +29,14 @@ def write_svg_for_allele(
     )
 
     # extrait les lignes des noeuds à colorer
-    node_to_color = write_svg.node_color_to_change_v2(svg_liste, data, cutoff)
+    node_to_color = write_svg.node_color_to_change_v2(svg_liste, data, cutoff)[0]
+    node_to_color_light = write_svg.node_color_to_change_v2(svg_liste, data, cutoff)[1]
 
     # créer un fichier svg avec le noeuds coloré
     node_edges_colored_svg = write_svg.replace_nodes_color_2(svg_liste, node_to_color)
-
+    node_edges_colored_svg = write_svg.replace_nodes_color_2_light(node_edges_colored_svg, node_to_color_light)
     # Pos_bead_eplet contient la liste d'eplet pos et neg
-    pos_bead_eplet, neg_bead_eplet = eplet_management.get_eplet_from_beads(
+    pos_bead_eplet, neg_bead_eplet, ambiguous_bead_eplet = eplet_management.get_eplet_from_beads(
         data, eplet, allele_type, cutoff
     )
 
@@ -45,15 +46,21 @@ def write_svg_for_allele(
     pos_eplet_ratio_dict = eplet_management.find_most_common_eplets(pos_bead_eplet)
     neg_eplet_ratio_dict = eplet_management.find_most_common_eplets(neg_bead_eplet)
 
+
+
     # ratio = pour chaque eplet, calcul du nombre de bille pos porteuse - nombre de bille neg porteuse
     ratio = eplet_management.compare_ratio(pos_eplet_ratio_dict, neg_eplet_ratio_dict)
 
     # Coordonnée x,y à mi-chemin des billes
-    middle_position_between_positive_beads = (
-        write_svg.get_middle_position_between_positive_beads(
-            svg_liste, link_between_pos, write_svg.get_bead_position(svg_liste)
-        )
-    )
+    #middle_position_between_positive_beads = (
+    #    write_svg.get_middle_position_between_positive_beads(
+    #        svg_liste, link_between_pos, write_svg.get_bead_position(svg_liste)
+    #    )
+    #)
+
+    middle_position_between_positive_beads = write_svg.get_path_position(svg_liste, link_between_pos)
+
+
     # écrit les eplets avec un ratio de 1
     new_svg = write_svg.write_1_ratio_eplet(
         node_edges_colored_svg, ratio, middle_position_between_positive_beads
@@ -63,25 +70,30 @@ def write_svg_for_allele(
     second_class_eplet = eplet_management.get_second_class_eplet(
         pos_eplet_ratio_dict, neg_eplet_ratio_dict
     )
-
     # Vérifie les liens concerné par un partage d'éplet présent sur certaines billes positives mais pas les billes négatives
+
+
     link_for_second_class_eplets = eplet_management.get_link_for_second_class_eplets(
         link_between_pos, eplet, second_class_eplet
     )
+
 
     # Ecrit en bleu les noms des eplets concerné
     new_svg2 = write_svg.write_class_2_eplet(
         new_svg, link_for_second_class_eplets, middle_position_between_positive_beads
     )
 
+
     # Extrait tout les eplets déjà marqué
     eplets_on_isolated_beads = eplet_management.get_eplets_on_isolated_beads(
         ratio, second_class_eplet
     )
 
+
+
     # Extrait les billes isolées
     isolated_bead = eplet_management.get_isolated_beads(
-        data, link_between_pos, allele_type
+        data, link_between_pos, allele_type, cutoff
     )
 
     # Extrait les positions des billes isolées
@@ -97,6 +109,13 @@ def write_svg_for_allele(
         position_of_isolated_beads,
         eplet,
     )
+
+    position_of_ambiguous_bead = write_svg.get_position_of_beads(new_svg3, ambiguous_bead_eplet.keys(), write_svg.get_bead_position(svg_liste))
+    eplet_on_ambiguous_bead = eplet_management.get_eplets_on_isolated_beads(ratio,second_class_eplet)
+
+
+    new_svg4 = write_svg.write_4_class_eplet(new_svg3, eplet_on_ambiguous_bead, ambiguous_bead_eplet.keys(), position_of_ambiguous_bead,eplet)
+
     # Génère le fichier final
-    write_svg.write_svg_file(new_svg3, "{}.svg".format(output))
-    svg2png(write_to="{}.png".format(output), bytestring="".join(new_svg3))
+    write_svg.write_svg_file(new_svg4, "{}.svg".format(output))
+    #svg2png(write_to="{}.png".format(output), bytestring="".join(new_svg3))
