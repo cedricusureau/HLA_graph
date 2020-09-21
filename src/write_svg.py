@@ -51,6 +51,7 @@ def get_edges_dictionnary(svg_liste):
 
 
 def parse_excel_file(excel_path):
+    print(excel_path)
     df = pd.read_excel(excel_path)
     dico = {}
     for i in df.index:
@@ -89,6 +90,43 @@ def node_color_to_change_v2(svg_liste, MFI, cutoff):
                     break
     return to_color
 
+def node_color_to_change_v2(svg_liste, MFI, cutoff):
+
+    to_color = []
+    to_color_light = []
+    for indice, ligne in enumerate(svg_liste):
+        if "<circle" in ligne:
+            tmp_fill_ligne = 0
+            tmp_fill_opacity_ligne = 0
+            tmp_id = ""
+            for i, j in enumerate(svg_liste[indice:]):
+                if "fill=" in j:
+                    tmp_fill_ligne = indice + i
+                if "fill-opacity" in j:
+                    tmp_fill_opacity_ligne = indice + i
+                if "class=" in j:
+                    tmp_id = (
+                        j.replace('class="id_', "")
+                        .replace('"', "")
+                        .replace("       ", "")
+                        .replace("\n", "")
+                    )
+
+                    if tmp_id in MFI.keys():
+
+                        if MFI[tmp_id] > cutoff:
+
+                            to_color.append(
+                                [tmp_id, tmp_fill_ligne, tmp_fill_opacity_ligne]
+                            )
+
+                        if MFI[tmp_id] > 1000:
+
+                            to_color_light.append(
+                                [tmp_id, tmp_fill_ligne, tmp_fill_opacity_ligne]
+                            )
+                    break
+    return to_color, to_color_light
 
 def write_svg_file(svg, output):
     file1 = open(output, "w")
@@ -101,11 +139,21 @@ def replace_nodes_color_2(svg, to_color):
     new_svg = svg
     for i in to_color:
 
+        new_svg[i[1]] = new_svg[i[1]].replace("#858283", "#FF0000")
         new_svg[i[1]] = new_svg[i[1]].replace("#000000", "#FF0000")
-        new_svg[i[2]] = new_svg[i[2]].replace("fill-opacity:0.2", "fill-opacity:0.4")
+        new_svg[i[2]] = new_svg[i[2]].replace("fill-opacity:0.2", "fill-opacity:1")
 
     return new_svg
 
+def replace_nodes_color_2_light(svg, to_color):
+    new_svg = svg
+    for i in to_color:
+
+        new_svg[i[1]] = new_svg[i[1]].replace("#858283", "#FFFF00")
+        new_svg[i[1]] = new_svg[i[1]].replace("#000000", "#FFFF00")
+        new_svg[i[2]] = new_svg[i[2]].replace("fill-opacity:0.2", "fill-opacity:1")
+
+    return new_svg
 
 def find_link_between_pos(MFI_value, edge_file, cutoff):
 
@@ -163,7 +211,6 @@ def get_middle_position_between_positive_beads(svg, link_between_pos, bead_posit
         ) / 2
 
         middle_link_pos[i] = [tmp_x, tmp_y]
-
     return middle_link_pos
 
 
@@ -245,6 +292,74 @@ def get_position_of_beads(svg, beads_liste, bead_position):
 def write_3_class_eplet(
     svg, eplets_on_isolated_beads, isolated_bead, position_of_isolated_beads, eplet_path
 ):
+
+    eplet_data = pd.read_csv(eplet_path)
+    eplet_data = eplet_data.set_index("allele")
+    already_write = {}
+    for bead in isolated_bead:
+        already_write[bead] = 1
+
+    for eplet in eplets_on_isolated_beads:
+        for bead in isolated_bead:
+            if eplet in list(eplet_data.loc[bead]):
+                svg = write_text_on_svg(
+                    svg,
+                    position_of_isolated_beads[bead][0] + 30,
+                    position_of_isolated_beads[bead][1]
+                    - 60
+                    + (15 * already_write[bead]),
+                    font_size=12,
+                    font_family="Dialog",
+                    color="#FFA500",
+                    text=eplet,
+                )
+                already_write[bead] += 1
+    return svg
+
+def get_path_position(svg, link_between_pos):
+    path_position = {}
+
+    for indice, ligne in enumerate(svg):
+        if "<path" in ligne:
+            tmp_class = ""
+            tmp_pos = ""
+            final_pos = ""
+            for i, j in enumerate(svg[indice:]):
+                if "class" in j:
+                    tmp_class = j.replace("       class=","").replace('"id_',"").replace('"\n',"").replace("id_","")
+                if "d=" in j:
+                    tmp_pos = j.replace('       d="',"").split(" ")[0:5]
+
+
+                    start_x = float(tmp_pos[1].split(",")[0])
+                    start_y = float(tmp_pos[1].split(",")[1])
+
+                    tmp_x1, tmp_x2 = float(tmp_pos[-2].split(",")[0]), float(tmp_pos[-1].split(",")[0])
+                    tmp_y1, tmp_y2 = float(tmp_pos[-2].split(",")[1]), float(tmp_pos[-1].split(",")[1])
+
+                    if tmp_pos[0] == "m":
+                        final_pos = [start_x + (tmp_x1+tmp_x2)/2, start_y + (tmp_y1+tmp_y2)/2]
+
+                    if tmp_pos[0] == "M":
+                        final_pos = [(tmp_x1 + tmp_x2) / 2, (tmp_y1 + tmp_y2) / 2]
+
+                if (tmp_class != "") & (tmp_pos != "") & (final_pos != ""):
+                    path_position[tmp_class] = final_pos
+
+                    break
+
+    path_position_pos = {}
+
+    for i ,j in path_position.items():
+        if i in link_between_pos:
+            path_position_pos[i] = path_position[i]
+
+    return path_position_pos
+
+def write_4_class_eplet(
+    svg, eplets_on_isolated_beads, isolated_bead, position_of_isolated_beads, eplet_path
+):
+
     eplet_data = pd.read_csv(eplet_path)
     eplet_data = eplet_data.set_index("allele")
     already_write = {}

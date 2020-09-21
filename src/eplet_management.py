@@ -7,10 +7,17 @@ def get_eplet_from_beads(data, eplet_path, allele_type, cutoff):
     eplet = eplet.set_index("allele")
     positive_bead = []
     negative_bead = []
+    ambiguous_bead = []
     for i, j in data.items():
         if allele_type in i:
             if j > cutoff:
                 positive_bead.append(i)
+
+    for i, j in data.items():
+        if allele_type in i:
+            if (j < cutoff) & (j > 1000):
+                ambiguous_bead.append(i)
+
     for i, j in data.items():
         if allele_type in i:
             if j < cutoff:
@@ -18,13 +25,18 @@ def get_eplet_from_beads(data, eplet_path, allele_type, cutoff):
 
     eplet_from_positive_beads = {}
     eplet_from_negative_beads = {}
+    eplet_from_ambiguous_beads = {}
+
     for i in positive_bead:
         eplet_from_positive_beads[i] = list(eplet.loc[i])
+
+    for i in ambiguous_bead:
+        eplet_from_ambiguous_beads[i] = list(eplet.loc[i])
 
     for i in negative_bead:
         eplet_from_negative_beads[i] = list(eplet.loc[i])
 
-    return eplet_from_positive_beads, eplet_from_negative_beads
+    return eplet_from_positive_beads, eplet_from_negative_beads, eplet_from_ambiguous_beads
 
 def find_most_common_eplets(eplet_from_beads):
     eplet_set = set()
@@ -60,8 +72,9 @@ def compare_ratio(pos_eplet_ratio_dict, neg_eplet_ratio_dict):
 
 def get_second_class_eplet(pos_eplet_ratio_dict, neg_eplet_ratio_dict):
     second_class_eplet = {}
+
     for i,j in pos_eplet_ratio_dict.items():
-        if (j > 0.5) & (j!=1)&(i not in neg_eplet_ratio_dict.keys()):
+        if (j > 0.1) & (j!=1)&(i not in neg_eplet_ratio_dict.keys()):
             second_class_eplet[i] = j
 
     return second_class_eplet
@@ -98,7 +111,8 @@ def get_eplets_on_isolated_beads(ratio, second_class_eplet):
 
     return eplets_on_isolated_beads
 
-def get_isolated_beads(MFI, link_between_pos, allele_type):
+
+def get_isolated_beads(MFI, link_between_pos, allele_type,cutoff):
     linked_pos = set()
 
     for i in link_between_pos:
@@ -108,7 +122,7 @@ def get_isolated_beads(MFI, link_between_pos, allele_type):
     isolated_beads = []
     for i,j in MFI.items():
         if allele_type in i:
-            if j > 2000:
+            if j > cutoff:
                 if i not in linked_pos:
                     isolated_beads.append(i)
     return isolated_beads
