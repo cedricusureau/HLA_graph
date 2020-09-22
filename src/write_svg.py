@@ -51,7 +51,6 @@ def get_edges_dictionnary(svg_liste):
 
 
 def parse_excel_file(excel_path):
-    print(excel_path)
     df = pd.read_excel(excel_path)
     dico = {}
     for i in df.index:
@@ -62,38 +61,8 @@ def parse_excel_file(excel_path):
 def node_color_to_change_v2(svg_liste, MFI, cutoff):
 
     to_color = []
-
-    for indice, ligne in enumerate(svg_liste):
-        if "<circle" in ligne:
-            tmp_fill_ligne = 0
-            tmp_fill_opacity_ligne = 0
-            tmp_id = ""
-            for i, j in enumerate(svg_liste[indice:]):
-                if "fill=" in j:
-                    tmp_fill_ligne = indice + i
-                if "fill-opacity" in j:
-                    tmp_fill_opacity_ligne = indice + i
-                if "class=" in j:
-                    tmp_id = (
-                        j.replace('class="id_', "")
-                        .replace('"', "")
-                        .replace("       ", "")
-                        .replace("\n", "")
-                    )
-
-                    if tmp_id in MFI.keys():
-
-                        if MFI[tmp_id] > cutoff:
-                            to_color.append(
-                                [tmp_id, tmp_fill_ligne, tmp_fill_opacity_ligne]
-                            )
-                    break
-    return to_color
-
-def node_color_to_change_v2(svg_liste, MFI, cutoff):
-
-    to_color = []
     to_color_light = []
+
     for indice, ligne in enumerate(svg_liste):
         if "<circle" in ligne:
             tmp_fill_ligne = 0
@@ -115,18 +84,19 @@ def node_color_to_change_v2(svg_liste, MFI, cutoff):
                     if tmp_id in MFI.keys():
 
                         if MFI[tmp_id] > cutoff:
-
                             to_color.append(
                                 [tmp_id, tmp_fill_ligne, tmp_fill_opacity_ligne]
                             )
 
-                        if MFI[tmp_id] > 1000:
+                    if tmp_id in MFI.keys():
 
+                        if (MFI[tmp_id] < cutoff) & (MFI[tmp_id] > 1000):
                             to_color_light.append(
                                 [tmp_id, tmp_fill_ligne, tmp_fill_opacity_ligne]
                             )
                     break
     return to_color, to_color_light
+
 
 def write_svg_file(svg, output):
     file1 = open(output, "w")
@@ -134,11 +104,9 @@ def write_svg_file(svg, output):
         file1.write(ligne)
     file1.close()
 
-
 def replace_nodes_color_2(svg, to_color):
     new_svg = svg
     for i in to_color:
-
         new_svg[i[1]] = new_svg[i[1]].replace("#858283", "#FF0000")
         new_svg[i[1]] = new_svg[i[1]].replace("#000000", "#FF0000")
         new_svg[i[2]] = new_svg[i[2]].replace("fill-opacity:0.2", "fill-opacity:1")
@@ -254,7 +222,6 @@ def write_1_ratio_eplet(svg, ratio, middle_position_between_positive_beads):
 
     return svg
 
-
 def write_class_2_eplet(
     svg, link_for_second_class_eplets, middle_position_between_positive_beads
 ):
@@ -290,7 +257,7 @@ def get_position_of_beads(svg, beads_liste, bead_position):
 
 
 def write_3_class_eplet(
-    svg, eplets_on_isolated_beads, isolated_bead, position_of_isolated_beads, eplet_path
+    svg, eplets_on_isolated_beads, isolated_bead, position_of_isolated_beads, eplet_path, alone_bead_eplets
 ):
 
     eplet_data = pd.read_csv(eplet_path)
@@ -299,21 +266,26 @@ def write_3_class_eplet(
     for bead in isolated_bead:
         already_write[bead] = 1
 
+    not_write = []
+    for i in alone_bead_eplets:
+            not_write.append(i)
+
     for eplet in eplets_on_isolated_beads:
         for bead in isolated_bead:
             if eplet in list(eplet_data.loc[bead]):
-                svg = write_text_on_svg(
-                    svg,
-                    position_of_isolated_beads[bead][0] + 30,
-                    position_of_isolated_beads[bead][1]
-                    - 60
-                    + (15 * already_write[bead]),
-                    font_size=12,
-                    font_family="Dialog",
-                    color="#FFA500",
-                    text=eplet,
-                )
-                already_write[bead] += 1
+                if eplet not in not_write:
+                    svg = write_text_on_svg(
+                        svg,
+                        position_of_isolated_beads[bead][0] + 30,
+                        position_of_isolated_beads[bead][1]
+                        - 40
+                        + (15 * already_write[bead]),
+                        font_size=12,
+                        font_family="Dialog",
+                        color="#FFA500",
+                        text=eplet,
+                    )
+                    already_write[bead] += 1
     return svg
 
 def get_path_position(svg, link_between_pos):
@@ -373,11 +345,11 @@ def write_4_class_eplet(
                     svg,
                     position_of_isolated_beads[bead][0] + 30,
                     position_of_isolated_beads[bead][1]
-                    - 60
+                    + 0
                     + (15 * already_write[bead]),
                     font_size=12,
                     font_family="Dialog",
-                    color="#FFA500",
+                    color="#FF0000",
                     text=eplet,
                 )
                 already_write[bead] += 1

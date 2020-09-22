@@ -36,7 +36,7 @@ def write_svg_for_allele(
     node_edges_colored_svg = write_svg.replace_nodes_color_2(svg_liste, node_to_color)
     node_edges_colored_svg = write_svg.replace_nodes_color_2_light(node_edges_colored_svg, node_to_color_light)
     # Pos_bead_eplet contient la liste d'eplet pos et neg
-    pos_bead_eplet, neg_bead_eplet, ambiguous_bead_eplet = eplet_management.get_eplet_from_beads(
+    pos_bead_eplet, neg_bead_eplet = eplet_management.get_eplet_from_beads(
         data, eplet, allele_type, cutoff
     )
 
@@ -83,13 +83,10 @@ def write_svg_for_allele(
         new_svg, link_for_second_class_eplets, middle_position_between_positive_beads
     )
 
-
     # Extrait tout les eplets déjà marqué
     eplets_on_isolated_beads = eplet_management.get_eplets_on_isolated_beads(
         ratio, second_class_eplet
     )
-
-
 
     # Extrait les billes isolées
     isolated_bead = eplet_management.get_isolated_beads(
@@ -101,6 +98,12 @@ def write_svg_for_allele(
         svg_liste, isolated_bead, write_svg.get_bead_position(svg_liste)
     )
 
+    eplet_to_write_alone_bead = eplet_management.get_eplets_from_alone_pos_beads(data,link_between_pos, cutoff, pos_bead_eplet, neg_bead_eplet, allele_type)
+    all_eplet_to_write_alone_bead = []
+    for i in eplet_to_write_alone_bead.values():
+        for j in i:
+            all_eplet_to_write_alone_bead.append(j)
+
     # Ecrit les eplets sur les billes isolées
     new_svg3 = write_svg.write_3_class_eplet(
         new_svg2,
@@ -108,13 +111,18 @@ def write_svg_for_allele(
         isolated_bead,
         position_of_isolated_beads,
         eplet,
+        all_eplet_to_write_alone_bead
     )
 
-    position_of_ambiguous_bead = write_svg.get_position_of_beads(new_svg3, ambiguous_bead_eplet.keys(), write_svg.get_bead_position(svg_liste))
-    eplet_on_ambiguous_bead = eplet_management.get_eplets_on_isolated_beads(ratio,second_class_eplet)
+    position_of_alone_bead = write_svg.get_position_of_beads(new_svg3, list(eplet_to_write_alone_bead.keys()), write_svg.get_bead_position(svg_liste))
 
-
-    new_svg4 = write_svg.write_4_class_eplet(new_svg3, eplet_on_ambiguous_bead, ambiguous_bead_eplet.keys(), position_of_ambiguous_bead,eplet)
+    new_svg4 = write_svg.write_4_class_eplet(
+        new_svg3,
+        all_eplet_to_write_alone_bead,
+        list(eplet_to_write_alone_bead.keys()),
+        position_of_alone_bead,
+        eplet,
+    )
 
     # Génère le fichier final
     write_svg.write_svg_file(new_svg4, "{}.svg".format(output))
