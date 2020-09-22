@@ -1,22 +1,16 @@
 import pandas as pd
 
-
 def get_eplet_from_beads(data, eplet_path, allele_type, cutoff):
 
     eplet = pd.read_csv(eplet_path)
     eplet = eplet.set_index("allele")
     positive_bead = []
     negative_bead = []
-    ambiguous_bead = []
+
     for i, j in data.items():
         if allele_type in i:
             if j > cutoff:
                 positive_bead.append(i)
-
-    for i, j in data.items():
-        if allele_type in i:
-            if (j < cutoff) & (j > 1000):
-                ambiguous_bead.append(i)
 
     for i, j in data.items():
         if allele_type in i:
@@ -25,18 +19,15 @@ def get_eplet_from_beads(data, eplet_path, allele_type, cutoff):
 
     eplet_from_positive_beads = {}
     eplet_from_negative_beads = {}
-    eplet_from_ambiguous_beads = {}
 
     for i in positive_bead:
         eplet_from_positive_beads[i] = list(eplet.loc[i])
 
-    for i in ambiguous_bead:
-        eplet_from_ambiguous_beads[i] = list(eplet.loc[i])
 
     for i in negative_bead:
         eplet_from_negative_beads[i] = list(eplet.loc[i])
 
-    return eplet_from_positive_beads, eplet_from_negative_beads, eplet_from_ambiguous_beads
+    return eplet_from_positive_beads, eplet_from_negative_beads
 
 def find_most_common_eplets(eplet_from_beads):
     eplet_set = set()
@@ -74,9 +65,8 @@ def get_second_class_eplet(pos_eplet_ratio_dict, neg_eplet_ratio_dict):
     second_class_eplet = {}
 
     for i,j in pos_eplet_ratio_dict.items():
-        if (j > 0.1) & (j!=1)&(i not in neg_eplet_ratio_dict.keys()):
+        if (j!=1) & (i not in neg_eplet_ratio_dict.keys()):
             second_class_eplet[i] = j
-
     return second_class_eplet
 
 def get_link_for_second_class_eplets(link_between_pos, eplet_path, second_class_eplet):
@@ -126,3 +116,41 @@ def get_isolated_beads(MFI, link_between_pos, allele_type,cutoff):
                 if i not in linked_pos:
                     isolated_beads.append(i)
     return isolated_beads
+
+def get_eplets_from_alone_pos_beads(mfi, link_between_pos, cutoff, pos_bead_eplets, neg_bead_eplets, allele_type):
+    all_linked = []
+    for link in link_between_pos:
+        all_linked.append(link.split(" ")[0])
+        all_linked.append(link.split(" ")[1])
+
+
+    alone_positive_beads = []
+    for bead, mfi_values in mfi.items():
+        if allele_type in bead:
+            if mfi_values>cutoff:
+                tmp_bead = bead
+                if tmp_bead not in all_linked:
+                    alone_positive_beads.append(tmp_bead)
+
+    all_eplet_on_neg_beads = []
+    for eplets in neg_bead_eplets.values():
+        for eplet in eplets:
+            all_eplet_on_neg_beads.append(eplet)
+
+
+    eplet_to_write_on_alone_beads = {}
+
+    for i in alone_positive_beads:
+        eplet_to_write_on_alone_beads[i] = []
+
+    for bead in alone_positive_beads:
+        eplet_from_alone_positive_beads = pos_bead_eplets[bead]
+        for eplet in eplet_from_alone_positive_beads:
+            if eplet not in all_eplet_on_neg_beads:
+                if type(eplet) == str:
+                    eplet_to_write_on_alone_beads[bead].append(eplet)
+            #if eplet not in all_eplet_on_neg_beads:
+
+    return eplet_to_write_on_alone_beads
+
+

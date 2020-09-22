@@ -50,13 +50,14 @@ args = parser.parse_args()
 
 for mfi in os.listdir("data/sample_example/patients"):
     full_name="data/sample_example/patients/{}".format(mfi)
+    print(full_name)
     for i in ["A","B","C"]:
         allele_type.write_svg_for_allele(
             args.template+i+".svg",
             full_name,
             args.edges+i+".csv",
             args.eplet+i+".csv",
-            full_name+i,
+            "result/test/"+mfi+i,
             i,
             args.cutoff,
         )
