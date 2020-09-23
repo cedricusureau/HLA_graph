@@ -24,6 +24,7 @@ def write_svg_for_allele(
     link_between_pos = write_svg.find_link_between_pos(data, edges, cutoff)
 
     # créer un fichier svg avec les edges coloré
+
     edges_colored_svg = write_svg.replace_edges_color(
         svg_liste, edges_ligne, link_between_pos
     )
@@ -59,7 +60,6 @@ def write_svg_for_allele(
     #)
 
     middle_position_between_positive_beads = write_svg.get_path_position(svg_liste, link_between_pos)
-
 
     # écrit les eplets avec un ratio de 1
     new_svg = write_svg.write_1_ratio_eplet(

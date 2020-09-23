@@ -6,7 +6,6 @@ def get_eplet_from_beads(data, eplet_path, allele_type, cutoff):
     eplet = eplet.set_index("allele")
     positive_bead = []
     negative_bead = []
-
     for i, j in data.items():
         if allele_type in i:
             if j > cutoff:
@@ -19,6 +18,7 @@ def get_eplet_from_beads(data, eplet_path, allele_type, cutoff):
 
     eplet_from_positive_beads = {}
     eplet_from_negative_beads = {}
+
 
     for i in positive_bead:
         eplet_from_positive_beads[i] = list(eplet.loc[i])
@@ -77,11 +77,13 @@ def get_link_for_second_class_eplets(link_between_pos, eplet_path, second_class_
     for eplet in second_class_eplet:
         link_to_write[eplet] = []
         for i in link_between_pos:
+
             allele1 = i.split(' ')[0]
             allele2 = i.split(' ')[1]
 
             compo1 = [i.replace(" ","") for i in list(eplet_data.loc[allele1]) if type(i)==str]
             compo2 = [i.replace(" ","") for i in list(eplet_data.loc[allele2]) if type(i)==str]
+
 
             if (eplet in compo1) & (eplet in compo2):
                 link_to_write[eplet].append([i,True])

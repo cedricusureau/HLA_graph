@@ -48,10 +48,23 @@ parser.add_argument("-c", "--cutoff", help="cutoff", type=int, default=2000)
 args = parser.parse_args()
 
 
-for mfi in os.listdir("data/sample_example/patients"):
-    full_name="data/sample_example/patients/{}".format(mfi)
-    print(full_name)
-    for i in ["A","B","C"]:
+#for mfi in os.listdir("data/sample_example/patients"):
+#    full_name="data/sample_example/patients/{}".format(mfi)
+#    print(full_name)
+#    for i in ["A","B","C"]:
+#        allele_type.write_svg_for_allele(
+#            args.template+i+".svg",
+#            full_name,
+#            args.edges+i+".csv",
+#            args.eplet+i+".csv",
+#            "result/test/"+mfi+i,
+#            i,
+#            args.cutoff,
+#        )
+
+for mfi in os.listdir("data/sample_example/SA2/"):
+    full_name="data/sample_example/SA2/{}".format(mfi)
+    for i in ["DP","DQ", "DR"]:
         allele_type.write_svg_for_allele(
             args.template+i+".svg",
             full_name,
@@ -62,4 +75,5 @@ for mfi in os.listdir("data/sample_example/patients"):
             args.cutoff,
         )
 
-# allele_type.write_svg_for_allele(args.template,"data/sample_example/SA1_ex1.xls",args.edges, args.eplet, args.output,"B",args.cutoff)
+#allele_type.write_svg_for_allele("data/graph_template/DP.svg", "data/sample_example/AFIR NORDINE.xls", "data/edges/strongly_correlated_HLA_DP.csv","data/eplets/DP_beads.csv","test_DP","DP",1000)
+#allele_type.write_svg_for_allele(args.template,"data/sample_example/SA1_ex1.xls",args.edges, args.eplet, args.output,"B",args.cutoff)
