@@ -11,13 +11,14 @@ def get_bead_position(svg_liste):
                 if "cx" in j:
                     tmp_xy.append(j.replace('       cx="', "").replace('"\n', ""))
                 if "class" in j:
-                    tmp_bead = j.split("class=")[1].split('"')[1].replace("id_", "")
+                    tmp_bead = j.split("class=")[1].split('"')[1].replace("id_", "").replace(",__","")
                 if "cy" in j:
                     tmp_xy.append(j.replace('       cy="', "").replace('"\n', ""))
 
                 if len(tmp_xy) == 2:
                     bead_position[tmp_bead] = tmp_xy
                     break
+
     return bead_position
 
 
@@ -54,7 +55,14 @@ def parse_excel_file(excel_path):
     df = pd.read_excel(excel_path)
     dico = {}
     for i in df.index:
+        allele_name = df[df.columns[0]][i]
+        if "DP" in allele_name:
+            allele_name = allele_name[:10]+", "+allele_name[10:]
+
         dico[df[df.columns[0]][i]] = df[df.columns[1]][i]
+
+
+
     return dico
 
 
@@ -79,6 +87,7 @@ def node_color_to_change_v2(svg_liste, MFI, cutoff):
                         .replace('"', "")
                         .replace("       ", "")
                         .replace("\n", "")
+                        .replace(",__","")
                     )
 
                     if tmp_id in MFI.keys():
@@ -131,10 +140,16 @@ def find_link_between_pos(MFI_value, edge_file, cutoff):
     for i, j in MFI_value.items():
         if j > cutoff:
             pos_MFI_value[i] = j
-
     link_between_pos = []
     for pos in pos_MFI_value.keys():
-        for source, target in zip(link_list["Source"], link_list["Target"]):
+        for source1, target1 in zip(link_list["Source"], link_list["Target"]):
+            if "DP" or "DQ" in source1:
+                source = source1.replace(",  ","")
+                target = target1.replace(",  ","")
+            else :
+                source = source1
+                target = target1
+
             if source == pos:
                 if target in pos_MFI_value.keys():
                     link_between_pos.append(source + " " + target)
@@ -144,11 +159,9 @@ def find_link_between_pos(MFI_value, edge_file, cutoff):
 
 def replace_edges_color(svg, edges_ligne, link_between_pos):
     new_svg = svg
-
     for ident, i in edges_ligne.items():
 
-        if ident.replace("id_", "") in link_between_pos:
-
+        if ident.replace("id_", "").replace(",__","") in link_between_pos:
             new_svg[i + 2] = svg[i + 2].replace("#000000", "#FF0000")
             new_svg[i - 2] = svg[i - 2].replace("1.0", "3.0")
 
@@ -159,12 +172,14 @@ def get_middle_position_between_positive_beads(svg, link_between_pos, bead_posit
     circle_position = {}
     linked_positive_beads = set()
 
+
     for i in link_between_pos:
         tmp_bead1 = i.split(" ")[0]
         tmp_bead2 = i.split(" ")[1]
 
         linked_positive_beads.add(tmp_bead1)
         linked_positive_beads.add(tmp_bead2)
+
 
     middle_link_pos = {}
 
@@ -179,6 +194,13 @@ def get_middle_position_between_positive_beads(svg, link_between_pos, bead_posit
         ) / 2
 
         middle_link_pos[i] = [tmp_x, tmp_y]
+
+        print(middle_link_pos)
+        #magouille
+        for i,j in middle_link_pos.items():
+            middle_link_pos[i.split(" ")[1]+" "+i.split(" ")[0]] = j
+
+        print(middle_link_pos)
     return middle_link_pos
 
 
@@ -225,6 +247,7 @@ def write_1_ratio_eplet(svg, ratio, middle_position_between_positive_beads):
 def write_class_2_eplet(
     svg, link_for_second_class_eplets, middle_position_between_positive_beads
 ):
+
     already_write = []
     for j in link_for_second_class_eplets.values():
         already_write = [1 for k in range(len(j))]
@@ -298,7 +321,7 @@ def get_path_position(svg, link_between_pos):
             final_pos = ""
             for i, j in enumerate(svg[indice:]):
                 if "class" in j:
-                    tmp_class = j.replace("       class=","").replace('"id_',"").replace('"\n',"").replace("id_","")
+                    tmp_class = j.replace("       class=","").replace('"id_',"").replace('"\n',"").replace("id_","").replace(",__","")
                 if "d=" in j:
                     tmp_pos = j.replace('       d="',"").split(" ")[0:5]
 
@@ -320,11 +343,18 @@ def get_path_position(svg, link_between_pos):
 
                     break
 
+    path_position_2 = {}
+
+    for i,j in path_position.items():
+        path_position_2[i] = j
+        path_position_2[i.split(" ")[1]+" "+i.split(" ")[0]] = j
+
+
     path_position_pos = {}
 
-    for i ,j in path_position.items():
+    for i ,j in path_position_2.items():
         if i in link_between_pos:
-            path_position_pos[i] = path_position[i]
+            path_position_pos[i] = path_position_2[i]
 
     return path_position_pos
 
