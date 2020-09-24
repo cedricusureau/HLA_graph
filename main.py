@@ -5,6 +5,7 @@ main.py
 The core file of my example project
 """
 
+import final_fonction
 import argparse
 import os
 
@@ -62,10 +63,22 @@ args = parser.parse_args()
 #            args.cutoff,
 #        )
 
+# for mfi in os.listdir("data/sample_example/SA2/"):
+#     full_name="data/sample_example/SA2/{}".format(mfi)
+#     for i in ["DP"]:
+#         allele_type.write_svg_for_allele(
+#             args.template+i+".svg",
+#             full_name,
+#             args.edges+i+".csv",
+#             args.eplet+i+".csv",
+#             "result/test/"+mfi+i,
+#             i,
+#             args.cutoff,
+#         )
 for mfi in os.listdir("data/sample_example/SA2/"):
     full_name="data/sample_example/SA2/{}".format(mfi)
-    for i in ["DP","DQ", "DR"]:
-        allele_type.write_svg_for_allele(
+    for i in ["DQ"]:
+        final_fonction.write_whole_svg(
             args.template+i+".svg",
             full_name,
             args.edges+i+".csv",
@@ -74,6 +87,8 @@ for mfi in os.listdir("data/sample_example/SA2/"):
             i,
             args.cutoff,
         )
+
+
 
 #allele_type.write_svg_for_allele("data/graph_template/DP.svg", "data/sample_example/AFIR NORDINE.xls", "data/edges/strongly_correlated_HLA_DP.csv","data/eplets/DP_beads.csv","test_DP","DP",1000)
 #allele_type.write_svg_for_allele(args.template,"data/sample_example/SA1_ex1.xls",args.edges, args.eplet, args.output,"B",args.cutoff)

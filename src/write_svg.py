@@ -9,11 +9,11 @@ def get_bead_position(svg_liste):
             tmp_xy = []
             for i, j in enumerate(svg_liste[indice:]):
                 if "cx" in j:
-                    tmp_xy.append(j.replace('       cx="', "").replace('"\n', ""))
+                    tmp_xy.append(float(j.replace('       cx="', "").replace('"\n', "")))
                 if "class" in j:
                     tmp_bead = j.split("class=")[1].split('"')[1].replace("id_", "").replace(",__","")
                 if "cy" in j:
-                    tmp_xy.append(j.replace('       cy="', "").replace('"\n', ""))
+                    tmp_xy.append(float(j.replace('       cy="', "").replace('"\n', "")))
 
                 if len(tmp_xy) == 2:
                     bead_position[tmp_bead] = tmp_xy
@@ -171,7 +171,6 @@ def replace_edges_color(svg, edges_ligne, link_between_pos):
 def get_middle_position_between_positive_beads(svg, link_between_pos, bead_position):
     circle_position = {}
     linked_positive_beads = set()
-
 
     for i in link_between_pos:
         tmp_bead1 = i.split(" ")[0]
@@ -356,7 +355,7 @@ def get_path_position(svg, link_between_pos):
         if i in link_between_pos:
             path_position_pos[i] = path_position_2[i]
 
-    return path_position_pos
+    return path_position_2, path_position_pos
 
 def write_4_class_eplet(
     svg, eplets_on_isolated_beads, isolated_bead, position_of_isolated_beads, eplet_path
@@ -383,4 +382,89 @@ def write_4_class_eplet(
                     text=eplet,
                 )
                 already_write[bead] += 1
+    return svg
+
+def write_stronger_eplet_on_link(svg, path_position, stronger_eplet_on_link):
+    already_write = {}
+    for couple in stronger_eplet_on_link.keys():
+        already_write[couple] = 1
+
+    for couple, eplets in stronger_eplet_on_link.items():
+        for eplet in eplets:
+            svg = write_text_on_svg(
+                svg,
+                path_position[couple][0] + 30,
+                path_position[couple][1]
+                + 0
+                + (15 * already_write[couple]),
+                font_size=12,
+                font_family="Dialog",
+                color="#FF0000",
+                text=eplet,
+            )
+            already_write[couple] += 1
+    return svg
+
+def write_strong_eplet_on_link(svg, path_position, strong_eplet_on_link):
+    already_write = {}
+    for couple in strong_eplet_on_link.keys():
+        already_write[couple] = 1
+
+    for couple, eplets in strong_eplet_on_link.items():
+        for eplet in eplets:
+            svg = write_text_on_svg(
+                svg,
+                path_position[couple][0] + 30,
+                path_position[couple][1]
+                + 0
+                + (15 * already_write[couple]),
+                font_size=12,
+                font_family="Dialog",
+                color="#FFA500",
+                text=eplet,
+            )
+            already_write[couple] += 1
+    return svg
+
+
+def write_stronger_eplet_on_bead(svg, bead_position, stronger_eplet_on_bead):
+    already_write = {}
+    for bead in stronger_eplet_on_bead.keys():
+        already_write[bead] = 1
+
+    for bead, eplets in stronger_eplet_on_bead.items():
+        for eplet in eplets:
+            svg = write_text_on_svg(
+                svg,
+                bead_position[bead][0] + 30,
+                bead_position[bead][1]
+                + 0
+                + (15 * already_write[bead]),
+                font_size=12,
+                font_family="Dialog",
+                color="#FF0000",
+                text=eplet,
+            )
+            already_write[bead] += 1
+    return svg
+
+def write_strong_eplet_on_bead(svg, bead_position, strong_eplet_on_bead):
+    already_write = {}
+    for bead in strong_eplet_on_bead.keys():
+        already_write[bead] = 1
+
+    for bead, eplets in strong_eplet_on_bead.items():
+        for eplet in eplets:
+            svg = write_text_on_svg(
+                svg,
+                bead_position[bead][0] + 30,
+                bead_position[bead][1]
+                + 0
+                + (15 * already_write[bead]),
+                font_size=12,
+                font_family="Dialog",
+                color="#FFA500",
+                text=eplet,
+            )
+            already_write[bead] += 1
     return svg
