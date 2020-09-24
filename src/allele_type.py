@@ -30,8 +30,7 @@ def write_svg_for_allele(
     )
 
     # extrait les lignes des noeuds à colorer
-    node_to_color = write_svg.node_color_to_change_v2(svg_liste, data, cutoff)[0]
-    node_to_color_light = write_svg.node_color_to_change_v2(svg_liste, data, cutoff)[1]
+    node_to_color, node_to_color_ligne = write_svg.node_color_to_change_v2(svg_liste, data, cutoff)
 
     # créer un fichier svg avec le noeuds coloré
     node_edges_colored_svg = write_svg.replace_nodes_color_2(svg_liste, node_to_color)
