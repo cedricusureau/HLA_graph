@@ -69,7 +69,19 @@ def get_bead_and_eplet_to_write(positive_bead, negative_bead, df_eplet_file):
 
     return always_present_eplet, not_always_present_eplet, always_present_eplet_dict, not_always_present_eplet_dict
 
-def where_to_write_eplets(link_between_pos, always_present_eplet, not_always_present_eplet, always_present_eplet_dict, not_always_present_eplet_dict, positive_bead):
+def get_positive_but_not_linked(link_between_pos, positive_bead):
+    positive_linked = set()
+    for i in link_between_pos:
+        positive_linked.add(i.split(" ")[0])
+        positive_linked.add(i.split(" ")[1])
+
+    positive_not_linked = []
+    for i in positive_bead:
+        if i not in positive_linked:
+            positive_not_linked.append(i)
+    return positive_not_linked
+
+def where_to_write_eplets(link_between_pos, always_present_eplet, not_always_present_eplet, always_present_eplet_dict, not_always_present_eplet_dict, positive_bead, positive_not_linked):
     stronger_eplet_on_link = {}
     strong_eplet_on_link = {}
 
@@ -83,7 +95,6 @@ def where_to_write_eplets(link_between_pos, always_present_eplet, not_always_pre
     for bead in positive_bead:
         stronger_eplet_on_bead[bead] = set()
         strong_eplet_on_bead[bead] = set()
-
 
     for linked in link_between_pos:
         bead1 = linked.split(" ")[0]
@@ -104,5 +115,13 @@ def where_to_write_eplets(link_between_pos, always_present_eplet, not_always_pre
                 strong_eplet_on_bead[bead1].add(eplet)
             elif eplet in not_always_present_eplet_dict[bead2]:
                 strong_eplet_on_bead[bead2].add(eplet)
+
+    for not_linked in positive_not_linked:
+
+        for eplet in always_present_eplet:
+            stronger_eplet_on_bead[not_linked].add(eplet)
+
+        for eplet in not_always_present_eplet:
+            strong_eplet_on_bead[not_linked].add(eplet)
 
     return stronger_eplet_on_link, strong_eplet_on_link, stronger_eplet_on_bead, strong_eplet_on_bead
