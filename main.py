@@ -77,7 +77,7 @@ args = parser.parse_args()
 #         )
 for mfi in os.listdir("data/sample_example/SA2/"):
     full_name="data/sample_example/SA2/{}".format(mfi)
-    for i in ["DQ"]:
+    for i in ["DQ","DP","DR"]:
         final_fonction.write_whole_svg(
             args.template+i+".svg",
             full_name,
@@ -88,6 +88,18 @@ for mfi in os.listdir("data/sample_example/SA2/"):
             args.cutoff,
         )
 
+for mfi in os.listdir("data/sample_example/SA1/"):
+    full_name="data/sample_example/SA1/{}".format(mfi)
+    for i in ["A","B","C"]:
+        final_fonction.write_whole_svg(
+            args.template+i+".svg",
+            full_name,
+            args.edges+i+".csv",
+            args.eplet+i+".csv",
+            "result/test/"+mfi+i,
+            i,
+            args.cutoff,
+        )
 
 
 #allele_type.write_svg_for_allele("data/graph_template/DP.svg", "data/sample_example/AFIR NORDINE.xls", "data/edges/strongly_correlated_HLA_DP.csv","data/eplets/DP_beads.csv","test_DP","DP",1000)

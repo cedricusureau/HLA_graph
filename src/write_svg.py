@@ -136,20 +136,13 @@ def find_link_between_pos(MFI_value, edge_file, cutoff):
 
     link_list = pd.read_csv(edge_file)
     pos_MFI_value = {}
-
     for i, j in MFI_value.items():
         if j > cutoff:
             pos_MFI_value[i] = j
     link_between_pos = []
-    for pos in pos_MFI_value.keys():
-        for source1, target1 in zip(link_list["Source"], link_list["Target"]):
-            if "DP" or "DQ" in source1:
-                source = source1.replace(",  ","")
-                target = target1.replace(",  ","")
-            else :
-                source = source1
-                target = target1
 
+    for pos in pos_MFI_value.keys():
+        for source, target in zip(link_list["Source"], link_list["Target"]):
             if source == pos:
                 if target in pos_MFI_value.keys():
                     link_between_pos.append(source + " " + target)
