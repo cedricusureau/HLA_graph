@@ -9,8 +9,6 @@ import final_fonction
 import argparse
 import os
 
-import allele_type
-
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
 parser.add_argument(
