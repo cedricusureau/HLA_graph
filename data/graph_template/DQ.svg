@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   contentScriptType="text/ecmascript"
+   width="800.89001"
+   zoomAndPan="magnify"
+   contentStyleType="text/css"
+   viewBox="-314 -607 800.89002 967"
+   height="967"
+   preserveAspectRatio="xMidYMid meet"
+   version="1.1"
+   id="svg183"
+   sodipodi:docname="DQ.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <style
+     id="style191"></style>
+  <metadata
+     id="metadata189">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs187" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="796"
+     inkscape:window-height="480"
+     id="namedview185"
+     showgrid="false"
+     inkscape:zoom="0.58531541"
+     inkscape:cx="502.73002"
+     inkscape:cy="513.89151"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg183" />
+  <g
+     id="edges"
+     transform="translate(66.517728,-8.0655632)">
+    <path
+       fill="none"
+       stroke-width="2"
+       d="M 60.737316,349.6694 C 25.855591,356.5029 -36.717236,314.43054 -43.550728,279.54883"
+       class="id_DQA1*02:01,__DQB1*02:01 id_DQA1*02:01,__DQB1*02:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path2" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="m 318.78601,-207.25806 c 25.10397,25.6397 24.30035,101.7552 -1.33932,126.859165"
+       class="id_DQA1*05:05,__DQB1*03:01 id_DQA1*05:03,__DQB1*03:01"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path4" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="m 156.49133,-480.5032 c 33.48659,-12.87339 103.02655,18.04644 115.8999,51.53305"
+       class="id_DQA1*01:02,__DQB1*06:02 id_DQA1*01:01,__DQB1*06:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path6" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="M 157.00503,0.837769 C 171.2158,34.366226 142.2393,105.97508 108.71085,120.18587"
+       class="id_DQA1*03:02,__DQB1*03:02 id_DQA1*03:02,__DQB1*03:03"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path8" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="M 317.44669,-80.398895 C 274.87512,-69.364822 194.4667,-116.67104 183.43263,-159.24258"
+       class="id_DQA1*05:03,__DQB1*03:01 id_DQA1*06:01,__DQB1*03:01"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path10" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="m 318.78601,-207.25806 c -17.46759,36.67377 -98.67961,65.48307 -135.35338,48.01548"
+       class="id_DQA1*05:05,__DQB1*03:01 id_DQA1*06:01,__DQB1*03:01"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path12" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="M -0.302992,28.727884 C -11.447871,-5.324007 22.912643,-73.119156 56.964535,-84.264038"
+       class="id_DQA1*03:01,__DQB1*03:02 id_DQA1*03:01,__DQB1*03:03"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path14" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="m 322.54474,184.25388 c -34.60355,-5.8284 -77.7663,-66.47629 -71.9379,-101.079838"
+       class="id_DQA1*02:01,__DQB1*04:01 id_DQA1*02:01,__DQB1*04:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path16" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="M -23.397478,150.79646 C -79.32325,120.75217 -118.14548,-8.202911 -88.101189,-64.128685"
+       class="id_DQA1*02:01,__DQB1*03:03 id_DQA1*02:01,__DQB1*03:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path18" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="m 156.49133,-480.5032 c 20.92914,27.33929 11.31392,99.74194 -16.02537,120.67108"
+       class="id_DQA1*01:02,__DQB1*06:02 id_DQA1*01:02,__DQB1*06:04"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path20" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="m -88.101189,-64.128685 c 36.130951,1.011673 88.809872,56.725616 87.798197,92.856569"
+       class="id_DQA1*02:01,__DQB1*03:02 id_DQA1*03:01,__DQB1*03:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path22" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="m 19.614748,-399.5766 c 25.566519,22.74805 29.794203,95.21991 7.046144,120.78644"
+       class="id_DQA1*01:03,__DQB1*06:01 id_DQA1*01:02,__DQB1*06:09"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path24" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="M 157.00503,0.837769 C 119.97657,3.825506 59.952271,-47.235573 56.964535,-84.264038"
+       class="id_DQA1*03:02,__DQB1*03:02 id_DQA1*03:01,__DQB1*03:03"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path26" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="m 140.46596,-359.83212 c 12.55745,-40.21268 91.71261,-81.6955 131.92527,-69.13803"
+       class="id_DQA1*01:02,__DQB1*06:04 id_DQA1*01:01,__DQB1*06:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path28" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="M -23.397478,150.79646 C -54.337173,87.71196 -6.119968,-53.324341 56.964535,-84.264038"
+       class="id_DQA1*02:01,__DQB1*03:03 id_DQA1*03:01,__DQB1*03:03"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path30" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="M -88.101189,-64.128685 C -63.115112,-97.1689 23.92432,-109.25011 56.964535,-84.264038"
+       class="id_DQA1*02:01,__DQB1*03:02 id_DQA1*03:01,__DQB1*03:03"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path32" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="M 108.71085,120.18587 C 57.471607,89.645149 26.423817,-33.024796 56.964535,-84.264038"
+       class="id_DQA1*03:02,__DQB1*03:03 id_DQA1*03:01,__DQB1*03:03"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path34" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="M -138.21913,47.086243 C -125.45245,-18.220549 -8.342257,-97.030716 56.964535,-84.264038"
+       class="id_DQA1*03:01,__DQB1*03:01 id_DQA1*03:01,__DQB1*03:03"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path36" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="m -96.078117,-318.94855 c 32.579483,-16.51611 106.222883,7.57892 122.739009,40.15839"
+       class="id_DQA1*01:03,__DQB1*06:03 id_DQA1*01:02,__DQB1*06:09"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path38" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="M -0.302992,28.727884 C 25.580589,-8.311745 119.9654,-25.045813 157.00503,0.837769"
+       class="id_DQA1*03:01,__DQB1*03:02 id_DQA1*03:02,__DQB1*03:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path40" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="M -0.302992,28.727884 C 39.791374,25.216713 105.19968,80.091507 108.71085,120.18587"
+       class="id_DQA1*03:01,__DQB1*03:02 id_DQA1*03:02,__DQB1*03:03"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path42" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="m -138.21913,47.086243 c 23.45581,26.954742 18.20741,102.570567 -8.74733,126.026377"
+       class="id_DQA1*03:01,__DQB1*03:01 id_DQA1*02:01,__DQB1*03:01"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path44" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="m 19.614748,-399.5766 c 11.189997,-43.56064 93.315952,-92.11658 136.876582,-80.9266"
+       class="id_DQA1*01:03,__DQB1*06:01 id_DQA1*01:02,__DQB1*06:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path46" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="m 19.614748,-399.5766 c 32.119135,-16.22137 104.629862,7.62537 120.851212,39.74448"
+       class="id_DQA1*01:03,__DQB1*06:01 id_DQA1*01:02,__DQB1*06:04"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path48" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="m 140.46596,-359.83212 c -6.55263,38.96942 -74.835665,87.59457 -113.805068,81.04196"
+       class="id_DQA1*01:02,__DQB1*06:04 id_DQA1*01:02,__DQB1*06:09"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path50" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="M -23.397478,150.79646 C -3.09793,118.25268 76.167068,99.886314 108.71085,120.18587"
+       class="id_DQA1*02:01,__DQB1*03:03 id_DQA1*03:02,__DQB1*03:03"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path52" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="M -0.302992,28.727884 C -24.214546,59.98278 -106.96423,70.997795 -138.21913,47.086243"
+       class="id_DQA1*03:01,__DQB1*03:02 id_DQA1*03:01,__DQB1*03:01"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path54" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="M -0.302992,28.727884 C 19.491827,57.760498 5.635138,131.00165 -23.397478,150.79646"
+       class="id_DQA1*03:01,__DQB1*03:02 id_DQA1*02:01,__DQB1*03:03"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path56" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="m 19.614748,-399.5766 c -7.012962,39.26419 -76.428682,87.64102 -115.692865,80.62805"
+       class="id_DQA1*01:03,__DQB1*06:01 id_DQA1*01:03,__DQB1*06:03"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path58" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="m -146.96646,173.11262 c 20.25056,-29.17701 94.391951,-42.56672 123.568982,-22.31616"
+       class="id_DQA1*02:01,__DQB1*03:01 id_DQA1*02:01,__DQB1*03:03"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path60" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="m 112.71397,-596.53735 c 31.9623,14.45135 58.22872,84.07184 43.77736,116.03415"
+       class="id_DQA1*01:02,__DQB1*05:02 id_DQA1*01:02,__DQB1*06:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path62" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="m 202.15462,204.61282 c 19.98471,28.78208 6.78868,101.93222 -21.9934,121.91694"
+       class="id_DQA1*03:01,__DQB1*02:01 id_DQA1*04:01,__DQB1*02:01"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path64" />
+    <path
+       fill="none"
+       stroke-width="2"
+       d="M 140.46596,-359.83212 C 87.574509,-401.62277 70.923325,-543.64587 112.71397,-596.53735"
+       class="id_DQA1*01:02,__DQB1*06:04 id_DQA1*01:02,__DQB1*05:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path66" />
+  </g>
+  <g
+     id="nodes"
+     transform="translate(66.517728,-8.0655632)">
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="60.737316"
+       class="id_DQA1*02:01,__DQB1*02:01"
+       cy="349.6694"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle69" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="202.15462"
+       class="id_DQA1*03:01,__DQB1*02:01"
+       cy="204.61282"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle71" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="180.16122"
+       class="id_DQA1*04:01,__DQB1*02:01"
+       cy="326.52975"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle73" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="-189.38846"
+       class="id_DQA1*05:01,__DQB1*02:01"
+       cy="-147.81665"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle75" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="-43.550728"
+       class="id_DQA1*02:01,__DQB1*02:02"
+       cy="279.54883"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle77" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="322.54474"
+       class="id_DQA1*02:01,__DQB1*04:01"
+       cy="184.25388"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle79" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="-303.01077"
+       class="id_DQA1*03:03,__DQB1*04:01"
+       cy="-208.89014"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle81" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="250.60684"
+       class="id_DQA1*02:01,__DQB1*04:02"
+       cy="83.174042"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle83" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="-218.22533"
+       class="id_DQA1*04:01,__DQB1*04:02"
+       cy="278.42603"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle85" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="-291.19113"
+       class="id_DQA1*01:01,__DQB1*05:01"
+       cy="80.368149"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle87" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="112.71397"
+       class="id_DQA1*01:02,__DQB1*05:02"
+       cy="-596.53735"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle89" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="19.614748"
+       class="id_DQA1*01:03,__DQB1*06:01"
+       cy="-399.5766"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle91" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="156.49133"
+       class="id_DQA1*01:02,__DQB1*06:02"
+       cy="-480.5032"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle93" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="272.39124"
+       class="id_DQA1*01:01,__DQB1*06:02"
+       cy="-428.97015"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle95" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="-96.078117"
+       class="id_DQA1*01:03,__DQB1*06:03"
+       cy="-318.94855"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle97" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="140.46596"
+       class="id_DQA1*01:02,__DQB1*06:04"
+       cy="-359.83212"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle99" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="26.660892"
+       class="id_DQA1*01:02,__DQB1*06:09"
+       cy="-278.79016"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle101" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="-138.21913"
+       class="id_DQA1*03:01,__DQB1*03:01"
+       cy="47.086243"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle103" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="-146.96646"
+       class="id_DQA1*02:01,__DQB1*03:01"
+       cy="173.11263"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle105" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="317.44669"
+       class="id_DQA1*05:03,__DQB1*03:01"
+       cy="-80.398895"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle107" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="318.78601"
+       class="id_DQA1*05:05,__DQB1*03:01"
+       cy="-207.25806"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle109" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="183.43263"
+       class="id_DQA1*06:01,__DQB1*03:01"
+       cy="-159.24258"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle111" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="-88.101189"
+       class="id_DQA1*02:01,__DQB1*03:02"
+       cy="-64.128685"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle113" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="-0.30299249"
+       class="id_DQA1*03:01,__DQB1*03:02"
+       cy="28.727884"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle115" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="157.00504"
+       class="id_DQA1*03:02,__DQB1*03:02"
+       cy="0.83776921"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle117" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="-23.397478"
+       class="id_DQA1*02:01,__DQB1*03:03"
+       cy="150.79646"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle119" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="56.964535"
+       class="id_DQA1*03:01,__DQB1*03:03"
+       cy="-84.264038"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle121" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="10"
+       cx="108.71085"
+       class="id_DQA1*03:02,__DQB1*03:03"
+       cy="120.18587"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="1"
+       id="circle123" />
+  </g>
+  <g
+     id="node-labels"
+     transform="translate(66.517728,-8.0655632)">
+    <text
+       font-size="10px"
+       x="60.737316"
+       y="351.84714"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*02:01,__DQB1*02:01"
+       id="text126">DQA1*02:01, DQB1*02:01</text>
+    <text
+       font-size="10px"
+       x="202.15462"
+       y="206.79056"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*03:01,__DQB1*02:01"
+       id="text128">DQA1*03:01, DQB1*02:01</text>
+    <text
+       font-size="10px"
+       x="180.16122"
+       y="328.70749"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*04:01,__DQB1*02:01"
+       id="text130">DQA1*04:01, DQB1*02:01</text>
+    <text
+       font-size="10px"
+       x="-189.38846"
+       y="-145.63892"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*05:01,__DQB1*02:01"
+       id="text132">DQA1*05:01, DQB1*02:01</text>
+    <text
+       font-size="10px"
+       x="-43.550728"
+       y="281.72656"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*02:01,__DQB1*02:02"
+       id="text134">DQA1*02:01, DQB1*02:02</text>
+    <text
+       font-size="10px"
+       x="322.54474"
+       y="186.43161"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*02:01,__DQB1*04:01"
+       id="text136">DQA1*02:01, DQB1*04:01</text>
+    <text
+       font-size="10px"
+       x="-303.01077"
+       y="-206.7124"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*03:03,__DQB1*04:01"
+       id="text138">DQA1*03:03, DQB1*04:01</text>
+    <text
+       font-size="10px"
+       x="250.60684"
+       y="85.351776"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*02:01,__DQB1*04:02"
+       id="text140">DQA1*02:01, DQB1*04:02</text>
+    <text
+       font-size="10px"
+       x="-218.22533"
+       y="280.60376"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*04:01,__DQB1*04:02"
+       id="text142">DQA1*04:01, DQB1*04:02</text>
+    <text
+       font-size="10px"
+       x="-291.19113"
+       y="82.545883"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*01:01,__DQB1*05:01"
+       id="text144">DQA1*01:01, DQB1*05:01</text>
+    <text
+       font-size="10px"
+       x="112.71397"
+       y="-594.35962"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*01:02,__DQB1*05:02"
+       id="text146">DQA1*01:02, DQB1*05:02</text>
+    <text
+       font-size="10px"
+       x="19.614748"
+       y="-397.39886"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*01:03,__DQB1*06:01"
+       id="text148">DQA1*01:03, DQB1*06:01</text>
+    <text
+       font-size="10px"
+       x="156.49133"
+       y="-478.32547"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*01:02,__DQB1*06:02"
+       id="text150">DQA1*01:02, DQB1*06:02</text>
+    <text
+       font-size="10px"
+       x="272.39124"
+       y="-426.79242"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*01:01,__DQB1*06:02"
+       id="text152">DQA1*01:01, DQB1*06:02</text>
+    <text
+       font-size="10px"
+       x="-96.078117"
+       y="-316.77081"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*01:03,__DQB1*06:03"
+       id="text154">DQA1*01:03, DQB1*06:03</text>
+    <text
+       font-size="10px"
+       x="140.46596"
+       y="-357.65439"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*01:02,__DQB1*06:04"
+       id="text156">DQA1*01:02, DQB1*06:04</text>
+    <text
+       font-size="10px"
+       x="26.660892"
+       y="-276.61243"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*01:02,__DQB1*06:09"
+       id="text158">DQA1*01:02, DQB1*06:09</text>
+    <text
+       font-size="10px"
+       x="-138.21913"
+       y="49.263977"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*03:01,__DQB1*03:01"
+       id="text160">DQA1*03:01, DQB1*03:01</text>
+    <text
+       font-size="10px"
+       x="-146.96646"
+       y="175.29036"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*02:01,__DQB1*03:01"
+       id="text162">DQA1*02:01, DQB1*03:01</text>
+    <text
+       font-size="10px"
+       x="317.44669"
+       y="-78.221161"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*05:03,__DQB1*03:01"
+       id="text164">DQA1*05:03, DQB1*03:01</text>
+    <text
+       font-size="10px"
+       x="318.78601"
+       y="-205.08032"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*05:05,__DQB1*03:01"
+       id="text166">DQA1*05:05, DQB1*03:01</text>
+    <text
+       font-size="10px"
+       x="183.43263"
+       y="-157.06485"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*06:01,__DQB1*03:01"
+       id="text168">DQA1*06:01, DQB1*03:01</text>
+    <text
+       font-size="10px"
+       x="-88.101189"
+       y="-61.950951"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*02:01,__DQB1*03:02"
+       id="text170">DQA1*02:01, DQB1*03:02</text>
+    <text
+       font-size="10px"
+       x="-0.30299249"
+       y="30.905619"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*03:01,__DQB1*03:02"
+       id="text172">DQA1*03:01, DQB1*03:02</text>
+    <text
+       font-size="10px"
+       x="157.00504"
+       y="3.0155036"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*03:02,__DQB1*03:02"
+       id="text174">DQA1*03:02, DQB1*03:02</text>
+    <text
+       font-size="10px"
+       x="-23.397478"
+       y="152.9742"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*02:01,__DQB1*03:03"
+       id="text176">DQA1*02:01, DQB1*03:03</text>
+    <text
+       font-size="10px"
+       x="56.964535"
+       y="-82.086304"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*03:01,__DQB1*03:03"
+       id="text178">DQA1*03:01, DQB1*03:03</text>
+    <text
+       font-size="10px"
+       x="108.71085"
+       y="122.3636"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_DQA1*03:02,__DQB1*03:03"
+       id="text180">DQA1*03:02, DQB1*03:03</text>
+  </g>
+</svg>
