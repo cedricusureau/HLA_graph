@@ -44,6 +44,8 @@ parser.add_argument(
 )
 parser.add_argument("-c", "--cutoff", help="cutoff", type=int, default=2000)
 
+parser.add_argument("-qp", "--dqdp", type=str, default="data/eplets/")
+
 args = parser.parse_args()
 
 
@@ -73,6 +75,7 @@ args = parser.parse_args()
 #             i,
 #             args.cutoff,
 #         )
+print(args.dqdp)
 for mfi in os.listdir("data/sample_example/SA2/"):
     full_name="data/sample_example/SA2/{}".format(mfi)
     for i in ["DQ","DP","DR"]:
@@ -84,6 +87,7 @@ for mfi in os.listdir("data/sample_example/SA2/"):
             "result/test/"+mfi+i,
             i,
             args.cutoff,
+            args.dqdp+i+"_eplets.csv"
         )
 
 for mfi in os.listdir("data/sample_example/SA1/"):
@@ -97,6 +101,7 @@ for mfi in os.listdir("data/sample_example/SA1/"):
             "result/test/"+mfi+i,
             i,
             args.cutoff,
+            args.dqdp + i + "_eplets.csv"
         )
 
 

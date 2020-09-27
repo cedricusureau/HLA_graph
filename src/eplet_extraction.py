@@ -125,3 +125,41 @@ def where_to_write_eplets(link_between_pos, always_present_eplet, not_always_pre
             strong_eplet_on_bead[not_linked].add(eplet)
 
     return stronger_eplet_on_link, strong_eplet_on_link, stronger_eplet_on_bead, strong_eplet_on_bead
+
+
+def A_or_B_eplet(path_to_DQ_or_DP):
+    df_A_B = pd.read_csv(path_to_DQ_or_DP).set_index("allele")
+
+    eplet_from_A = set()
+    eplet_from_B = set()
+
+    for i in df_A_B.index:
+        for eplet in list(df_A_B.loc[i]):
+            if type(eplet) == str:
+                if "A1" in i:
+                    eplet_from_A.add(eplet.replace(" ",""))
+                if "B1" in i :
+                    eplet_from_B.add(eplet.replace(" ",""))
+
+    return eplet_from_A, eplet_from_B
+
+def set_off_all_written_eplet(stronger_eplet_on_link, strong_eplet_on_link, stronger_eplet_on_bead, strong_eplet_on_bead):
+    all_written = set()
+
+    for j in stronger_eplet_on_link.values():
+        for eplet in j:
+            all_written.add(eplet)
+
+    for j in strong_eplet_on_link.values():
+        for eplet in j:
+            all_written.add(eplet)
+
+    for j in stronger_eplet_on_bead.values():
+        for eplet in j:
+            all_written.add(eplet)
+
+    for j in stronger_eplet_on_bead.values():
+        for eplet in j:
+            all_written.add(eplet)
+
+    return all_written
