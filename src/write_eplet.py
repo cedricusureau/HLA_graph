@@ -131,3 +131,28 @@ def purge_eplet_on_bead(eplet_on_bead, eplet_on_link):
             new_eplet_on_bead[i] = set(j)
 
     return new_eplet_on_bead
+
+def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written, allele_type):
+    for eplet in all_written:
+        if eplet in A_eplet:
+            svg = write_svg.write_text_on_svg(
+                svg,
+                -300,
+                -300,
+                font_size=120,
+                font_family="Dialog",
+                color="#FFA500",
+                text=eplet+": {}A".format(allele_type),
+            )
+        elif eplet in B_eplet:
+            svg = write_svg.write_text_on_svg(
+                svg,
+                -300,
+                -300,
+                font_size=120,
+                font_family="Dialog",
+                color="#FFA500",
+                text=eplet+": {}B".format(allele_type),
+            )
+        else: print("oups")
+    return svg
