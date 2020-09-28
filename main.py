@@ -75,7 +75,7 @@ args = parser.parse_args()
 #             i,
 #             args.cutoff,
 #         )
-print(args.dqdp)
+
 for mfi in os.listdir("data/sample_example/SA2/"):
     full_name="data/sample_example/SA2/{}".format(mfi)
     for i in ["DQ","DP","DR"]:
