@@ -150,15 +150,15 @@ def set_off_all_written_eplet(stronger_eplet_on_link, strong_eplet_on_link, stro
         for eplet in j:
             all_written.add(eplet)
 
+    for j in stronger_eplet_on_bead.values():
+        for eplet in j:
+            all_written.add(eplet)
+
     for j in strong_eplet_on_link.values():
         for eplet in j:
             all_written.add(eplet)
 
-    for j in stronger_eplet_on_bead.values():
-        for eplet in j:
-            all_written.add(eplet)
-
-    for j in stronger_eplet_on_bead.values():
+    for j in strong_eplet_on_bead.values():
         for eplet in j:
             all_written.add(eplet)
 
