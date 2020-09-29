@@ -4,7 +4,7 @@ import write_eplet
 
 
 def write_whole_svg(
-        template_graph, mfi, edges, eplet_path, output, allele_type, cutoff, path_to_DQ_or_DP
+        template_graph, mfi, edges, eplet_path, output, allele_type, cutoff, path_to_DQ_or_DP, text_size, text_position
 ):
     # Make list from each line of the template
     svg_list = [i for i in open(template_graph, "r")]
@@ -21,7 +21,6 @@ def write_whole_svg(
 
     data = write_svg.parse_excel_file(mfi)
     edges_ligne = write_svg.get_edges_dictionnary(svg_list)[0]
-
     # Create liste of link between positive beads
     link_between_pos = write_svg.find_link_between_pos(data, edges, cutoff)
 
@@ -34,12 +33,12 @@ def write_whole_svg(
         svg_list, edges_ligne, link_between_pos
     )
     # Liste of positive nodes, ambiguous nodes. Each node is list with node_id, line of opacity and line of color
-    node_to_color, node_to_color_light = write_svg.node_color_to_change_v2(svg_list, data, cutoff)
+    node_to_color, node_to_color_light, to_delete = write_svg.node_color_to_change_v2(svg_list, data, cutoff)
     ratio = write_svg.opacity_intensity(data)
-
     # Update svg_liste by coloring positive nodes
     svg_list = write_svg.replace_nodes_color_2(svg_list, node_to_color, ratio)
     svg_list = write_svg.replace_nodes_color_2_light(svg_list, node_to_color_light)
+    svg_list = write_svg.delete_nodes(svg_list,to_delete)
 
     df_eplet_file = eplet_extraction.parse_eplet_file(eplet_path)
 
@@ -56,20 +55,23 @@ def write_whole_svg(
 
 
     # Get path_position and bead_position
-    path_position = write_svg.get_path_position(svg_list, link_between_pos)[0]
     bead_position = write_svg.get_bead_position(svg_list)
+    path_position = write_svg.get_path_position_straight(svg_list, link_between_pos,allele_type, bead_position, edges_ligne)
+    # path_position = write_svg.get_path_position_curved(svg_list, link_between_pos)[0]
+
+
 
     # Write stronger eplet on path
-    svg_list = write_eplet.write_stronger_eplet_on_link(svg_list, path_position, stronger_eplet_on_link)
+    svg_list = write_eplet.write_stronger_eplet_on_link(svg_list, path_position, stronger_eplet_on_link, text_size)
 
     # Write strong eplet on path
-    svg_list = write_eplet.write_strong_eplet_on_link(svg_list, path_position, strong_eplet_on_link)
+    svg_list = write_eplet.write_strong_eplet_on_link(svg_list, path_position, strong_eplet_on_link, text_size, stronger_eplet_on_link)
 
     # Write stronger eplet on bead
-    svg_list = write_eplet.write_stronger_eplet_on_bead(svg_list, bead_position, stronger_eplet_on_bead, stronger_eplet_on_link)
+    svg_list = write_eplet.write_stronger_eplet_on_bead(svg_list, bead_position, stronger_eplet_on_bead, stronger_eplet_on_link, text_size, text_position)
 
     # Write strong eplet on bead
-    svg_list = write_eplet.write_strong_eplet_on_bead(svg_list, bead_position, strong_eplet_on_bead, strong_eplet_on_link)
+    svg_list = write_eplet.write_strong_eplet_on_bead(svg_list, bead_position, strong_eplet_on_bead, stronger_eplet_on_bead, strong_eplet_on_link, text_size, text_position)
 
     if allele_type == "DQ" or allele_type == "DP":
         A_eplet, B_eplet = eplet_extraction.A_or_B_eplet(path_to_DQ_or_DP)

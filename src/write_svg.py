@@ -34,6 +34,7 @@ def get_edges_dictionnary(svg_liste):
                     edges_ligne[
                         svg_liste[indice + i].split("class=")[1].split('"')[1]
                     ] = (int(indice) + i)
+                    break
 
         if "<circle" in ligne:
             for i, j in enumerate(svg_liste[indice:]):
@@ -41,13 +42,14 @@ def get_edges_dictionnary(svg_liste):
                     circle_ligne[
                         svg_liste[indice + i].split("class=")[1].split('"')[1]
                     ] = (int(indice) + i)
-
+                    break
         if "<text" in ligne:
             for i, j in enumerate(svg_liste[indice:]):
                 if "class" in j:
                     text_ligne[
                         svg_liste[indice + i].split("class=")[1].split('"')[1]
                     ] = (int(indice) + i)
+                    break
     return edges_ligne, circle_ligne, text_ligne
 
 def opacity_intensity(data):
@@ -76,6 +78,7 @@ def parse_excel_file(excel_path):
 def node_color_to_change_v2(svg_liste, MFI, cutoff):
     to_color = []
     to_color_light = []
+    to_delete = []
 
     for indice, ligne in enumerate(svg_liste):
         if "<circle" in ligne:
@@ -108,8 +111,13 @@ def node_color_to_change_v2(svg_liste, MFI, cutoff):
                             to_color_light.append(
                                 [tmp_id, tmp_fill_ligne, tmp_fill_opacity_ligne]
                             )
+
+                        if MFI[tmp_id] < 1000:
+                            to_delete.append(
+                                [tmp_id, tmp_fill_ligne, tmp_fill_opacity_ligne]
+                            )
                     break
-    return to_color, to_color_light
+    return to_color, to_color_light, to_delete
 
 
 def write_svg_file(svg, output):
@@ -120,10 +128,11 @@ def write_svg_file(svg, output):
 
 
 def replace_nodes_color_2(svg, to_color, ratio):
+
     new_svg = svg
     for i in to_color:
-        new_svg[i[1]] = new_svg[i[1]].replace("#858283", "#FF0000")
-        new_svg[i[1]] = new_svg[i[1]].replace("#000000", "#FF0000")
+        new_svg[i[1]] = new_svg[i[1]].replace("#858283", "#f15a73")
+        new_svg[i[1]] = new_svg[i[1]].replace("#000000", "#f15a73")
         new_svg[i[2]] = new_svg[i[2]].replace('fill-opacity="0.2"', 'fill-opacity="{}"'.format(ratio[i[0]]))
 
     return new_svg
@@ -131,11 +140,15 @@ def replace_nodes_color_2(svg, to_color, ratio):
 
 def replace_nodes_color_2_light(svg, to_color):
     new_svg = svg
-    for i in to_color:
-        new_svg[i[1]] = new_svg[i[1]].replace("#858283", "#FFFF00")
-        new_svg[i[1]] = new_svg[i[1]].replace("#000000", "#FFFF00")
-        new_svg[i[2]] = new_svg[i[2]].replace("fill-opacity:0.2", "fill-opacity:1")
 
+    for i in to_color:
+        new_svg[i[1]] = new_svg[i[1]].replace(new_svg[i[1]], '       fill="#0000ff"\n')
+    return new_svg
+
+def delete_nodes(svg, to_delete):
+    new_svg = svg
+    for i in to_delete:
+        new_svg[i[2]] = new_svg[i[2]].replace('fill-opacity="0.2"', 'fill-opacity="0"')
     return new_svg
 
 
@@ -162,7 +175,11 @@ def replace_edges_color(svg, edges_ligne, link_between_pos):
 
         if ident.replace("id_", "").replace(",__", "") in link_between_pos:
             new_svg[i + 2] = svg[i + 2].replace("#000000", "#FF0000")
-            new_svg[i - 2] = svg[i - 2].replace("1.0", "3.0")
+            new_svg[i - 2] = svg[i - 2].replace(str(new_svg[i-2]),'       stroke-width="4"\n')
+            new_svg[i + 1] = svg[i + 1].replace(str(new_svg[i+1]),'       stroke-opacity="0.2"\n')
+        else :
+            new_svg[i + 1] = svg[i+1].replace(str(new_svg[i+1]),'       stroke-opacity="0"\n')
+
 
     return new_svg
 
@@ -196,7 +213,7 @@ def get_position_of_beads(svg, beads_liste, bead_position):
     return position_of_beads
 
 
-def get_path_position(svg, link_between_pos):
+def get_path_position_curved(svg, link_between_pos):
     path_position = {}
 
     for indice, ligne in enumerate(svg):
@@ -275,3 +292,18 @@ def get_path_position(svg, link_between_pos):
 #
 #         print(middle_link_pos)
 #     return middle_link_pos
+
+def get_path_position_straight(svg, link_between_pos, allele, bead_position, edges_ligne):
+    path_position = {}
+
+    for couple in edges_ligne.keys():
+        bead1 = couple.split(" ")[0].replace("id_","")
+        bead2 = couple.split(" ")[1].replace("id_","")
+
+        bead1_pos = bead_position[bead1]
+        bead2_pos = bead_position[bead2]
+
+        middle_pos = [(bead1_pos[0] + bead2_pos[0]) / 2, (bead1_pos[1] + bead2_pos[1]) / 2]
+        path_position[str(bead1)+" "+str(bead2)] = middle_pos
+
+    return path_position
