@@ -144,22 +144,23 @@ def A_or_B_eplet(path_to_DQ_or_DP):
     return eplet_from_A, eplet_from_B
 
 def set_off_all_written_eplet(stronger_eplet_on_link, strong_eplet_on_link, stronger_eplet_on_bead, strong_eplet_on_bead):
-    all_written = set()
+    all_written_stronger = set()
+    all_written_strong = set()
 
     for j in stronger_eplet_on_link.values():
         for eplet in j:
-            all_written.add(eplet)
+            all_written_stronger.add(eplet)
 
     for j in stronger_eplet_on_bead.values():
         for eplet in j:
-            all_written.add(eplet)
+            all_written_stronger.add(eplet)
 
     for j in strong_eplet_on_link.values():
         for eplet in j:
-            all_written.add(eplet)
+            all_written_strong.add(eplet)
 
     for j in strong_eplet_on_bead.values():
         for eplet in j:
-            all_written.add(eplet)
+            all_written_strong.add(eplet)
 
-    return all_written
+    return all_written_stronger, all_written_strong
