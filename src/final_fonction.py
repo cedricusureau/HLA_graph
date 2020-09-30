@@ -62,7 +62,7 @@ def write_whole_svg(
 
 
     # Write stronger eplet on path
-    svg_list = write_eplet.write_stronger_eplet_on_link(svg_list, path_position, stronger_eplet_on_link, text_size)
+    svg_list = write_eplet.write_stronger_eplet_on_link(svg_list, path_position, stronger_eplet_on_link, text_size)[0]
 
     # Write strong eplet on path
     svg_list = write_eplet.write_strong_eplet_on_link(svg_list, path_position, strong_eplet_on_link, text_size, stronger_eplet_on_link)
@@ -75,7 +75,8 @@ def write_whole_svg(
 
     if allele_type == "DQ" or allele_type == "DP":
         A_eplet, B_eplet = eplet_extraction.A_or_B_eplet(path_to_DQ_or_DP)
-        all_written = eplet_extraction.set_off_all_written_eplet(stronger_eplet_on_link, strong_eplet_on_link, stronger_eplet_on_bead, strong_eplet_on_bead)
-        svg_list = write_eplet.write_A_or_B_eplets(svg_list, A_eplet, B_eplet, all_written, allele_type)
+        all_written_stronger, all_written_strong = eplet_extraction.set_off_all_written_eplet(stronger_eplet_on_link, strong_eplet_on_link, stronger_eplet_on_bead, strong_eplet_on_bead)
+        svg_list = write_eplet.write_A_or_B_eplets(svg_list, A_eplet, B_eplet, all_written_stronger, all_written_strong, allele_type)
+        svg_list = write_eplet.write_A_or_B_eplets(svg_list, A_eplet, B_eplet, all_written_stronger, all_written_strong, allele_type)
 
     write_svg.write_svg_file(svg_list, "{}.svg".format(output))

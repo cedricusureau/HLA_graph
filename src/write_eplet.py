@@ -2,6 +2,7 @@
 import write_svg
 
 def write_stronger_eplet_on_link(svg, path_position, stronger_eplet_on_link, text_size):
+    global_written = {}
     already_write = {}
     for couple in stronger_eplet_on_link.keys():
         already_write[couple] = 1
@@ -20,7 +21,11 @@ def write_stronger_eplet_on_link(svg, path_position, stronger_eplet_on_link, tex
                 text=eplet,
             )
             already_write[couple] += 1
-    return svg
+            if eplet in global_written.keys():
+                global_written[eplet].append(["stronger",path_position[couple][0],path_position[couple][1]])
+            else :
+                global_written[eplet] = [["stronger",path_position[couple][0],path_position[couple][1]]]
+    return svg, global_written
 
 def write_strong_eplet_on_link(svg, path_position, strong_eplet_on_link, text_size, stronger_eplet_on_link):
 
@@ -57,6 +62,7 @@ def write_strong_eplet_on_link(svg, path_position, strong_eplet_on_link, text_si
 
 def write_stronger_eplet_on_bead(svg, bead_position, stronger_eplet_on_bead, stronger_eplet_on_link, text_size, text_position):
     already_write = {}
+
     for bead in stronger_eplet_on_bead.keys():
         already_write[bead] = 1
 
@@ -113,7 +119,6 @@ def write_strong_eplet_on_bead(svg, bead_position, strong_eplet_on_bead, stronge
     return svg
 
 def purge_eplet_on_bead(eplet_on_bead, eplet_on_link):
-
     new_eplet_on_bead = {}
     for i,j in eplet_on_bead.items():
         new_eplet_on_bead[i] = list(j)
@@ -124,7 +129,8 @@ def purge_eplet_on_bead(eplet_on_bead, eplet_on_link):
                 if bead in couple:
                     if eplet in eplet_on_link[couple]:
                         if type(new_eplet_on_bead[bead]) == list:
-                            new_eplet_on_bead[bead] = new_eplet_on_bead[bead].remove(eplet)
+                            if eplet in new_eplet_on_bead[bead]:
+                                new_eplet_on_bead[bead].remove(eplet)
 
     for i,j in new_eplet_on_bead.items():
         if j is None:
@@ -134,58 +140,139 @@ def purge_eplet_on_bead(eplet_on_bead, eplet_on_link):
 
     return new_eplet_on_bead
 
-def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written, allele_type):
-    pos_x, pos_y = -350, -550
 
+def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written_strong, allele_type):
+    pos_x, pos_y = -900, -1100
     count_A = 1
     count_B = 1
-
+    already_write_suspension_A = False
+    already_write_suspension_B = False
     if allele_type == "DP":
-        pos_x, pos_y = 400, -500
+        pos_x, pos_y = -1200, -1400
 
 
     svg = write_svg.write_text_on_svg(
         svg,
         pos_x,
         pos_y,
-        font_size=20,
+        font_size=40,
         font_family="Dialog",
-        color="#FFA500",
-        text="DPA: ",
+        color="#1f618d",
+        text="{}A: ".format(allele_type),
     )
 
     svg = write_svg.write_text_on_svg(
         svg,
         pos_x,
-        pos_y + 35,
-        font_size=20,
+        pos_y + 50,
+        font_size=40,
         font_family="Dialog",
-        color="#FFA500",
-        text="DPB: ",
+        color="#196f3d",
+        text="{}B: ".format(allele_type),
     )
 
-    for eplet in all_written:
+    for eplet in all_written_stronger:
         if eplet in A_eplet:
-            svg = write_svg.write_text_on_svg(
-                svg,
-                pos_x + 45 + (18 * count_A),
-                pos_y,
-                font_size=20,
-                font_family="Dialog",
-                color="#FFA500",
-                text=eplet,
-            )
-            count_A += len(eplet)
+            if count_A > 36 :
+                if already_write_suspension_A == False:
+                    svg = write_svg.write_text_on_svg(
+                        svg,
+                        pos_x + (50 + 30 * count_A + 10 * len("...")),
+                        pos_y,
+                        font_size=36,
+                        font_family="Dialog",
+                        color="#FF0000",
+                        text="...",
+                    )
+
+                    already_write_suspension_A = True
+                else :
+                    continue
+            else :
+                svg = write_svg.write_text_on_svg(
+                    svg,
+                    pos_x + ( 50 + 30 * count_A + 10 * len(eplet)),
+                    pos_y,
+                    font_size=36,
+                    font_family="Dialog",
+                    color="#FF0000",
+                    text=eplet,
+                )
+                count_A += len(eplet)
         elif eplet in B_eplet:
-            svg = write_svg.write_text_on_svg(
-                svg,
-                pos_x + 45 + (18* count_B),
-                pos_y + 35,
-                font_size=20,
-                font_family="Dialog",
-                color="#FFA500",
-                text=eplet,
-            )
-            count_B += len(eplet)
+            if count_B > 36:
+                if already_write_suspension_B == False:
+                    svg = write_svg.write_text_on_svg(
+                        svg,
+                        pos_x + (50 + 30 * count_B + 10 * len("...")),
+                        pos_y + 50,
+                        font_size=36,
+                        font_family="Dialog",
+                        color="#FF0000",
+                        text="...",
+                    )
+                    already_write_suspension_B = True
+            else:
+                svg = write_svg.write_text_on_svg(
+                    svg,
+                    pos_x + (50 + 30 * count_B +  10 * len(eplet)),
+                    pos_y + 50,
+                    font_size=36,
+                    font_family="Dialog",
+                    color="#FF0000",
+                    text=eplet,
+                )
+                count_B += len(eplet)
+        else: print("oups")
+
+    for eplet in all_written_strong:
+        if eplet in A_eplet:
+            if count_A > 36:
+                if already_write_suspension_A == False:
+                    svg = write_svg.write_text_on_svg(
+                        svg,
+                        pos_x + (50 + 30 * count_A + 10 * len("...")),
+                        pos_y,
+                        font_size=36,
+                        font_family="Dialog",
+                        color="#FFA500",
+                        text="...",
+                    )
+                    already_write_suspension_A = True
+            else:
+                svg = write_svg.write_text_on_svg(
+                    svg,
+                    pos_x + ( 50 + 30 * count_A + 10 * len(eplet)),
+                    pos_y,
+                    font_size=36,
+                    font_family="Dialog",
+                    color="#FFA500",
+                    text=eplet,
+                )
+                count_A += len(eplet)
+        elif eplet in B_eplet:
+            if count_B > 36:
+                if already_write_suspension_B == False:
+                    svg = write_svg.write_text_on_svg(
+                        svg,
+                        pos_x + (50 + 30 * count_B + 10 * len("...")),
+                        pos_y + 50,
+                        font_size=36,
+                        font_family="Dialog",
+                        color="#FFA500",
+                        text="...",
+                    )
+                    already_write_suspension_B = True
+            else:
+                svg = write_svg.write_text_on_svg(
+                    svg,
+                    pos_x + (50 + 30 * count_B +  10 * len(eplet)),
+                    pos_y + 50,
+                    font_size=36,
+                    font_family="Dialog",
+                    color="#FFA500",
+                    text=eplet,
+                )
+                count_B += len(eplet)
         else: print("oups")
     return svg

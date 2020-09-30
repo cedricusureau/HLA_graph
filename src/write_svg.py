@@ -297,8 +297,8 @@ def get_path_position_straight(svg, link_between_pos, allele, bead_position, edg
     path_position = {}
 
     for couple in edges_ligne.keys():
-        bead1 = couple.split(" ")[0].replace("id_","")
-        bead2 = couple.split(" ")[1].replace("id_","")
+        bead1 = couple.split(" ")[0].replace("id_","").replace(",__","")
+        bead2 = couple.split(" ")[1].replace("id_","").replace(",__","").replace(",__","")
 
         bead1_pos = bead_position[bead1]
         bead2_pos = bead_position[bead2]
@@ -306,4 +306,9 @@ def get_path_position_straight(svg, link_between_pos, allele, bead_position, edg
         middle_pos = [(bead1_pos[0] + bead2_pos[0]) / 2, (bead1_pos[1] + bead2_pos[1]) / 2]
         path_position[str(bead1)+" "+str(bead2)] = middle_pos
 
-    return path_position
+    path_position_2 = {}
+    for i,j in path_position.items():
+        path_position_2[i] = j
+        path_position_2[i.split(" ")[1]+" "+i.split(" ")[0]] = j
+
+    return path_position_2
