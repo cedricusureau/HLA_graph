@@ -1,5 +1,6 @@
 
 import write_svg
+import math
 
 def write_stronger_eplet_on_link(svg, path_position, stronger_eplet_on_link, text_size):
     global_written = {}
@@ -9,26 +10,29 @@ def write_stronger_eplet_on_link(svg, path_position, stronger_eplet_on_link, tex
 
     for couple, eplets in stronger_eplet_on_link.items():
         for eplet in eplets:
-
-            svg = write_svg.write_text_on_svg(
-                svg,
-                path_position[couple][0],
-                path_position[couple][1]
-                + (text_size * already_write[couple]),
-                font_size=text_size,
-                font_family="Dialog",
-                color="#FF0000",
-                text=eplet,
-            )
-            already_write[couple] += 1
-            if eplet in global_written.keys():
-                global_written[eplet].append(["stronger",path_position[couple][0],path_position[couple][1]])
+            x = path_position[couple][0]
+            y = path_position[couple][1] + (text_size * already_write[couple])
+            if to_close_to_write(global_written,eplet,"stronger",x,y) == True :
+                continue
             else :
-                global_written[eplet] = [["stronger",path_position[couple][0],path_position[couple][1]]]
-    return svg, global_written
+                svg = write_svg.write_text_on_svg(
+                    svg,
+                    x,
+                    y,
+                    font_size=text_size,
+                    font_family="Dialog",
+                    color="#FF0000",
+                    text=eplet,
+                )
+                already_write[couple] += 1
+                if eplet in global_written.keys():
+                    global_written[eplet].append(["stronger",x,y])
+                else :
+                    global_written[eplet] = [["stronger",x,y]]
+    return svg
 
 def write_strong_eplet_on_link(svg, path_position, strong_eplet_on_link, text_size, stronger_eplet_on_link):
-
+    global_written = {}
     already_write = {}
     for couple in stronger_eplet_on_link.keys():
         already_write[couple] = 1 + len(stronger_eplet_on_link[couple])
@@ -36,27 +40,44 @@ def write_strong_eplet_on_link(svg, path_position, strong_eplet_on_link, text_si
     for couple, eplets in strong_eplet_on_link.items():
         for eplet in eplets:
             if already_write[couple] > 2:
-
-                svg = write_svg.write_text_on_svg(
-                    svg,
-                    path_position[couple][0],
-                    path_position[couple][1] + (text_size * already_write[couple]),
-                    font_size=text_size,
-                    font_family="Dialog",
-                    color="#FFA500",
-                    text="...",
-                )
+                x = path_position[couple][0]
+                y = path_position[couple][1] + (text_size * already_write[couple])
+                if to_close_to_write(global_written, "...", "stronger", x, y) == True:
+                    continue
+                else:
+                    svg = write_svg.write_text_on_svg(
+                        svg,
+                        x,
+                        y,
+                        font_size=text_size,
+                        font_family="Dialog",
+                        color="#FFA500",
+                        text="...",
+                    )
+                    if "..." in global_written.keys():
+                        global_written["..."].append(["strong", x, y])
+                    else:
+                        global_written["..."] = [["strong", x, y]]
             else:
-                svg = write_svg.write_text_on_svg(
-                    svg,
-                    path_position[couple][0] ,
-                    path_position[couple][1] + (text_size * already_write[couple]),
-                    font_size=text_size,
-                    font_family="Dialog",
-                    color="#FFA500",
-                    text=eplet,
-                )
-                already_write[couple] += 1
+                x = path_position[couple][0]
+                y = path_position[couple][1] + (text_size * already_write[couple])
+                if to_close_to_write(global_written, eplet, "strong", x, y) == True:
+                    continue
+                else:
+                    svg = write_svg.write_text_on_svg(
+                        svg,
+                        x,
+                        y,
+                        font_size=text_size,
+                        font_family="Dialog",
+                        color="#FFA500",
+                        text=eplet,
+                    )
+                    already_write[couple] += 1
+                    if eplet in global_written.keys():
+                        global_written[eplet].append(["strong",x,y])
+                    else :
+                        global_written[eplet] = [["strong",x,y]]
     return svg
 
 
@@ -276,3 +297,17 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
                 count_B += len(eplet)
         else: print("oups")
     return svg
+
+def calculate_distance(pos1, pos2):
+    return math.sqrt(((pos1[0] - pos2[0]) ** 2) + ((pos1[1] - pos2[1]) ** 2))
+
+
+def to_close_to_write(global_written, text, stronger, x,y):
+    to_close = False
+    if text in global_written.keys():
+        for i in global_written[text]:
+            if stronger == i[0]:
+                distance = calculate_distance([x,y], [i[1],i[2]])
+                if distance < 200:
+                    to_close  = True
+    return to_close

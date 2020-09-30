@@ -62,7 +62,7 @@ def write_whole_svg(
 
 
     # Write stronger eplet on path
-    svg_list = write_eplet.write_stronger_eplet_on_link(svg_list, path_position, stronger_eplet_on_link, text_size)[0]
+    svg_list = write_eplet.write_stronger_eplet_on_link(svg_list, path_position, stronger_eplet_on_link, text_size)
 
     # Write strong eplet on path
     svg_list = write_eplet.write_strong_eplet_on_link(svg_list, path_position, strong_eplet_on_link, text_size, stronger_eplet_on_link)
