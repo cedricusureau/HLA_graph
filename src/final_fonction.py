@@ -24,6 +24,8 @@ def write_whole_svg(
     # Create liste of link between positive beads
     link_between_pos = write_svg.find_link_between_pos(data, edges, cutoff)
 
+    bead_text_position = write_svg.get_bead_text_position(svg_list)
+
     # Create liste of positive bead, ambiguous bead, negative bead
     positive_bead, ambiguous_bead, negative_bead = eplet_extraction.get_beads_statut(data, cutoff, allele_type)
 
@@ -60,12 +62,16 @@ def write_whole_svg(
     # path_position = write_svg.get_path_position_curved(svg_list, link_between_pos)[0]
 
 
+    strong_eplet_on_link = eplet_extraction.reorder_dict_by_eplet_frequency(strong_eplet_on_link)
+    stronger_eplet_on_link = eplet_extraction.reorder_dict_by_eplet_frequency(stronger_eplet_on_link)
+    strong_eplet_on_bead = eplet_extraction.reorder_dict_by_eplet_frequency(strong_eplet_on_bead)
+    stronger_eplet_on_bead = eplet_extraction.reorder_dict_by_eplet_frequency(stronger_eplet_on_bead)
 
     # Write stronger eplet on path
-    svg_list = write_eplet.write_stronger_eplet_on_link(svg_list, path_position, stronger_eplet_on_link, text_size)
+    svg_list = write_eplet.write_stronger_eplet_on_link(svg_list, path_position, stronger_eplet_on_link, text_size, bead_text_position)
 
     # Write strong eplet on path
-    svg_list = write_eplet.write_strong_eplet_on_link(svg_list, path_position, strong_eplet_on_link, text_size, stronger_eplet_on_link)
+    svg_list = write_eplet.write_strong_eplet_on_link(svg_list, path_position, strong_eplet_on_link, text_size, stronger_eplet_on_link, bead_text_position)
 
     # Write stronger eplet on bead
     svg_list = write_eplet.write_stronger_eplet_on_bead(svg_list, bead_position, stronger_eplet_on_bead, stronger_eplet_on_link, text_size, text_position)
@@ -80,3 +86,4 @@ def write_whole_svg(
         svg_list = write_eplet.write_A_or_B_eplets(svg_list, A_eplet, B_eplet, all_written_stronger, all_written_strong, allele_type)
 
     write_svg.write_svg_file(svg_list, "{}.svg".format(output))
+    return stronger_eplet_on_link,strong_eplet_on_link,stronger_eplet_on_bead,strong_eplet_on_bead

@@ -8,6 +8,7 @@ The core file of my example project
 import final_fonction
 import argparse
 import os
+import make_raw
 
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
@@ -43,106 +44,99 @@ parser.add_argument(
     "-o", "--output", help="output_prefix", type=str, default="result/test/"
 )
 parser.add_argument("-c", "--cutoff", help="cutoff", type=int, default=2000)
-
+parser.add_argument("-g", "--gene", type=str, default="A B C DR DQ DP")
 parser.add_argument("-qp", "--dqdp", type=str, default="data/eplets/")
 
 args = parser.parse_args()
 
-for mfi in os.listdir("data/sample_example/SA1/"):
-    full_name="data/sample_example/SA1/{}".format(mfi)
-    i = "A"
-    final_fonction.write_whole_svg(
-        args.template+i+".svg",
-        full_name,
-        args.edges+i+".csv",
-        args.eplet+i+".csv",
-        "result/test/"+mfi+i,
-        i,
-        args.cutoff,
-        args.dqdp + i + "_eplets.csv",
-        36,
-        [110,20]
-        )
 
 for mfi in os.listdir("data/sample_example/SA1/"):
-    full_name="data/sample_example/SA1/{}".format(mfi)
-    i = "B"
-    final_fonction.write_whole_svg(
-        args.template+i+".svg",
-        full_name,
-        args.edges+i+".csv",
-        args.eplet+i+".csv",
-        "result/test/"+mfi+i,
-        i,
-        args.cutoff,
-        args.dqdp + i + "_eplets.csv",
-        36,
-        [110,20]
-        )
+    full_name_SA1="data/sample_example/SA1/{}".format(mfi)
+    for i in ["A","B","C"]:
+        if (i == "A") & ("A" in args.gene):
+            a_ep = final_fonction.write_whole_svg(
+                args.template+i+".svg",
+                full_name_SA1,
+                args.edges+i+".csv",
+                args.eplet+i+".csv",
+                "result/test/"+mfi+i,
+                i,
+                args.cutoff,
+                args.dqdp + i + "_eplets.csv",
+                36,
+                [110,20]
+                )
+        if (i == "B") & ("B" in args.gene):
+            b_ep = final_fonction.write_whole_svg(
+                args.template + i + ".svg",
+                full_name_SA1,
+                args.edges + i + ".csv",
+                args.eplet + i + ".csv",
+                "result/test/" + mfi + i,
+                i,
+                args.cutoff,
+                args.dqdp + i + "_eplets.csv",
+                36,
+                [110, 20]
+            )
+        if (i == "C") & ("C" in args.gene):
+            c_ep = final_fonction.write_whole_svg(
+                args.template + i + ".svg",
+                full_name_SA1,
+                args.edges + i + ".csv",
+                args.eplet + i + ".csv",
+                "result/test/" + mfi + i,
+                i,
+                args.cutoff,
+                args.dqdp + i + "_eplets.csv",
+                36,
+                [110, 20]
+            )
+    all_raw_data = [["A",make_raw.make_raw_data(a_ep)], ["B", make_raw.make_raw_data(b_ep)], ["C", make_raw.make_raw_data(c_ep)]]
+    make_raw.write_all_raw_data(all_raw_data)
 
-for mfi in os.listdir("data/sample_example/SA1/"):
-    full_name="data/sample_example/SA1/{}".format(mfi)
-    i = "C"
-    final_fonction.write_whole_svg(
-        args.template+i+".svg",
-        full_name,
-        args.edges+i+".csv",
-        args.eplet+i+".csv",
-        "result/test/"+mfi+i,
-        i,
-        args.cutoff,
-        args.dqdp + i + "_eplets.csv",
-        36,
-        [110,20]
-    )
 
 
 for mfi in os.listdir("data/sample_example/SA2/"):
-    full_name="data/sample_example/SA2/{}".format(mfi)
-    i = "DR"
-    final_fonction.write_whole_svg(
-        args.template+i+".svg",
-        full_name,
-        args.edges+i+".csv",
-        args.eplet+i+".csv",
-        "result/test/"+mfi+i,
-        i,
-        args.cutoff,
-        args.dqdp + i + "_eplets.csv",
-        36,
-        [90,30]
-    )
+    full_name_SA2="data/sample_example/SA2/{}".format(mfi)
+    for i in ["DR","DQ","DP"]:
+        if (i == "DR") & ("DR" in args.gene):
+            final_fonction.write_whole_svg(
+                args.template+i+".svg",
+                full_name_SA2,
+                args.edges+i+".csv",
+                args.eplet+i+".csv",
+                "result/test/"+mfi+i,
+                i,
+                args.cutoff,
+                args.dqdp + i + "_eplets.csv",
+                36,
+                [90,30]
+            )
+        if (i == "DQ") & ("DQ" in args.gene):
+            final_fonction.write_whole_svg(
+                args.template + i + ".svg",
+                full_name_SA2,
+                args.edges + i + ".csv",
+                args.eplet + i + ".csv",
+                "result/test/" + mfi + i,
+                i,
+                args.cutoff,
+                args.dqdp + i + "_eplets.csv",
+                36,
+                [90, 30]
+            )
+        if (i == "DP") & ("DP" in args.gene):
+            final_fonction.write_whole_svg(
+                args.template + i + ".svg",
+                full_name_SA2,
+                args.edges + i + ".csv",
+                args.eplet + i + ".csv",
+                "result/test/" + mfi + i,
+                i,
+                args.cutoff,
+                args.dqdp + i + "_eplets.csv",
+                36,
+                [90, 30]
+            )
 
-for mfi in os.listdir("data/sample_example/SA2/"):
-    full_name="data/sample_example/SA2/{}".format(mfi)
-    i = "DQ"
-    final_fonction.write_whole_svg(
-        args.template+i+".svg",
-        full_name,
-        args.edges+i+".csv",
-        args.eplet+i+".csv",
-        "result/test/"+mfi+i,
-        i,
-        args.cutoff,
-        args.dqdp + i + "_eplets.csv",
-        36,
-        [90,30]
-    )
-
-for mfi in os.listdir("data/sample_example/SA2/"):
-    full_name="data/sample_example/SA2/{}".format(mfi)
-    i = "DP"
-    final_fonction.write_whole_svg(
-        args.template+i+".svg",
-        full_name,
-        args.edges+i+".csv",
-        args.eplet+i+".csv",
-        "result/test/"+mfi+i,
-        i,
-        args.cutoff,
-        args.dqdp + i + "_eplets.csv",
-        36,
-        [90,30]
-    )
-#allele_type.write_svg_for_allele("data/graph_template/DP.svg", "data/sample_example/AFIR NORDINE.xls", "data/edges/strongly_correlated_HLA_DP.csv","data/eplets/DP_beads.csv","test_DP","DP",1000)
-#allele_type.write_svg_for_allele(args.template,"data/sample_example/SA1_ex1.xls",args.edges, args.eplet, args.output,"B",args.cutoff)

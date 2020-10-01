@@ -164,3 +164,27 @@ def set_off_all_written_eplet(stronger_eplet_on_link, strong_eplet_on_link, stro
             all_written_strong.add(eplet)
 
     return all_written_stronger, all_written_strong
+
+def reorder_dict_by_eplet_frequency(eplet_dict):
+    frequency_count = {}
+
+    for beads, eplets in eplet_dict.items():
+        for eplet in eplets:
+            if eplet not in frequency_count.keys():
+                frequency_count[eplet] = 1
+            else :
+                frequency_count[eplet] += 1
+
+    frequency_count = {k: v for k, v in sorted(frequency_count.items(), key=lambda item: item[1], reverse=True)}
+
+    new_eplet_dict = {}
+
+    for beads, eplets in eplet_dict.items():
+        new_eplets_list = []
+        for i,j in frequency_count.items():
+            if i in eplets:
+                new_eplets_list.append(i)
+
+        new_eplet_dict[beads] = new_eplets_list
+
+    return new_eplet_dict
