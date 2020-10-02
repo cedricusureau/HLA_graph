@@ -175,7 +175,7 @@ def replace_edges_color(svg, edges_ligne, link_between_pos):
 
         if ident.replace("id_", "").replace(",__", "") in link_between_pos:
             new_svg[i + 2] = svg[i + 2].replace("#000000", "#FF0000")
-            new_svg[i - 2] = svg[i - 2].replace(str(new_svg[i-2]),'       stroke-width="4"\n')
+            new_svg[i - 2] = svg[i - 2].replace(str(new_svg[i-2]),'       stroke-width="6"\n')
             new_svg[i + 1] = svg[i + 1].replace(str(new_svg[i+1]),'       stroke-opacity="0.2"\n')
         else :
             new_svg[i + 1] = svg[i+1].replace(str(new_svg[i+1]),'       stroke-opacity="0"\n')

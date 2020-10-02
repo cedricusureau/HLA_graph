@@ -52,7 +52,7 @@ def write_strong_eplet_on_link(svg, path_position, strong_eplet_on_link, text_si
                         y,
                         font_size=text_size,
                         font_family="Dialog",
-                        color="#FFA500",
+                        color="#1e8449",
                         text="...",
                     )
                     if "..." in global_written.keys():
@@ -71,7 +71,7 @@ def write_strong_eplet_on_link(svg, path_position, strong_eplet_on_link, text_si
                         y,
                         font_size=text_size,
                         font_family="Dialog",
-                        color="#FFA500",
+                        color="#1e8449 ",
                         text=eplet,
                     )
                     already_write[couple] += 1
@@ -122,7 +122,7 @@ def write_strong_eplet_on_bead(svg, bead_position, strong_eplet_on_bead, stronge
                     + (text_size * already_write[bead]),
                     font_size=text_size,
                     font_family="Dialog",
-                    color="#FFA500",
+                    color="#52be80 ",
                     text="...",
                 )
             else:
@@ -133,7 +133,7 @@ def write_strong_eplet_on_bead(svg, bead_position, strong_eplet_on_bead, stronge
                     + (text_size * already_write[bead]),
                     font_size=text_size,
                     font_family="Dialog",
-                    color="#FFA500",
+                    color="#52be80 ",
                     text=eplet,
                 )
                 already_write[bead] += 1
@@ -257,7 +257,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
                         pos_y,
                         font_size=36,
                         font_family="Dialog",
-                        color="#FFA500",
+                        color="#1e8449 ",
                         text="...",
                     )
                     already_write_suspension_A = True
@@ -268,7 +268,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
                     pos_y,
                     font_size=36,
                     font_family="Dialog",
-                    color="#FFA500",
+                    color="#1e8449 ",
                     text=eplet,
                 )
                 count_A += len(eplet)
@@ -281,7 +281,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
                         pos_y + 50,
                         font_size=36,
                         font_family="Dialog",
-                        color="#FFA500",
+                        color="#1e8449 ",
                         text="...",
                     )
                     already_write_suspension_B = True
@@ -292,7 +292,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
                     pos_y + 50,
                     font_size=36,
                     font_family="Dialog",
-                    color="#FFA500",
+                    color="#1e8449 ",
                     text=eplet,
                 )
                 count_B += len(eplet)
