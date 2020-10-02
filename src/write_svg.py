@@ -306,12 +306,12 @@ def get_path_position_straight(svg, link_between_pos, allele, bead_position, edg
         middle_pos = [(bead1_pos[0] + bead2_pos[0]) / 2, (bead1_pos[1] + bead2_pos[1]) / 2]
         path_position[str(bead1)+" "+str(bead2)] = middle_pos
 
-    path_position_2 = {}
-    for i,j in path_position.items():
-        path_position_2[i] = j
-        path_position_2[i.split(" ")[1]+" "+i.split(" ")[0]] = j
+    # path_position_2 = {}
+    # for i,j in path_position.items():
+    #     path_position_2[i] = j
+    #     path_position_2[i.split(" ")[1]+" "+i.split(" ")[0]] = j
 
-    return path_position_2
+    return path_position
 
 def get_bead_text_position(svg_liste):
     text_position = []
