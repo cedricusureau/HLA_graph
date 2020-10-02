@@ -12,7 +12,7 @@ def write_stronger_eplet_on_link(svg, path_position, stronger_eplet_on_link, tex
         for eplet in eplets:
             x = path_position[couple][0]
             y = path_position[couple][1] + (text_size * already_write[couple]) - 30
-            if to_close_to_write(global_written,eplet,"stronger",x,y, bead_text_position) == True :
+            if to_close_to_write(global_written,eplet,x,y, bead_text_position) == True :
                 continue
             else :
                 svg = write_svg.write_text_on_svg(
@@ -29,11 +29,12 @@ def write_stronger_eplet_on_link(svg, path_position, stronger_eplet_on_link, tex
                     global_written[eplet].append(["stronger",x,y])
                 else :
                     global_written[eplet] = [["stronger",x,y]]
-    return svg
+    return svg, global_written
 
-def write_strong_eplet_on_link(svg, path_position, strong_eplet_on_link, text_size, stronger_eplet_on_link, bead_text_position):
-    global_written = {}
+def write_strong_eplet_on_link(svg, path_position, strong_eplet_on_link, text_size, stronger_eplet_on_link, bead_text_position, global_written_stronger_link):
+    global_written = global_written_stronger_link
     already_write = {}
+
     for couple in stronger_eplet_on_link.keys():
         already_write[couple] = 1 + len(stronger_eplet_on_link[couple])
 
@@ -42,7 +43,7 @@ def write_strong_eplet_on_link(svg, path_position, strong_eplet_on_link, text_si
             if already_write[couple] > 2:
                 x = path_position[couple][0]
                 y = path_position[couple][1] + (text_size * already_write[couple]) - 30
-                if to_close_to_write(global_written, "...", "stronger", x, y, bead_text_position) == True:
+                if to_close_to_write(global_written, "...", x, y, bead_text_position) == True:
                     continue
                 else:
                     svg = write_svg.write_text_on_svg(
@@ -61,7 +62,7 @@ def write_strong_eplet_on_link(svg, path_position, strong_eplet_on_link, text_si
             else:
                 x = path_position[couple][0]
                 y = path_position[couple][1] + (text_size * already_write[couple]) - 30
-                if to_close_to_write(global_written, eplet, "strong", x, y, bead_text_position) == True:
+                if to_close_to_write(global_written, eplet, x, y, bead_text_position) == True:
                     continue
                 else:
                     svg = write_svg.write_text_on_svg(
@@ -78,7 +79,7 @@ def write_strong_eplet_on_link(svg, path_position, strong_eplet_on_link, text_si
                         global_written[eplet].append(["strong",x,y])
                     else :
                         global_written[eplet] = [["strong",x,y]]
-    return svg
+    return svg, global_written
 
 
 def write_stronger_eplet_on_bead(svg, bead_position, stronger_eplet_on_bead, stronger_eplet_on_link, text_size, text_position):
@@ -302,18 +303,25 @@ def calculate_distance(pos1, pos2):
     return math.sqrt(((pos1[0] - pos2[0]) ** 2) + ((pos1[1] - pos2[1]) ** 2))
 
 
-def to_close_to_write(global_written, text, stronger, x,y, bead_text_position):
+def to_close_to_write(global_written, text, x,y, bead_text_position):
     to_close = False
-    if text in global_written.keys():
-        for i in global_written[text]:
-            if stronger == i[0]:
-                distance = calculate_distance([x,y], [i[1],i[2]])
-                if distance < 100:
-                    to_close  = True
+    for value in global_written.values():
+        for i in value:
+            distance = calculate_distance([x,y], [i[1],i[2]])
+            if distance < 120:
+                to_close  = True
 
     for i in bead_text_position:
         distance = calculate_distance([x,y], [i[0], i[1]])
-        if distance < 50:
+        if distance < 80:
             to_close = True
     return to_close
 
+def check_couple_order(couple_dict, path_position):
+    new_couple_dict = {}
+    for couple, eplets in couple_dict.items():
+        if couple not in path_position.keys():
+            new_couple_dict[couple.split(" ")[1]+" "+couple.split(" ")[0]] = eplets
+        else :
+            new_couple_dict[couple] = eplets
+    return new_couple_dict

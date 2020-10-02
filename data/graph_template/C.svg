@@ -8,11 +8,11 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    contentScriptType="text/ecmascript"
-   width="1300"
+   width="900"
    zoomAndPan="magnify"
    contentStyleType="text/css"
-   viewBox="-707 -1049 1300 2600"
-   height="2600"
+   viewBox="-513 -678 900 1700"
+   height="1700"
    preserveAspectRatio="xMidYMid meet"
    version="1.1"
    id="svg182"
@@ -45,20 +45,20 @@
      inkscape:window-height="713"
      id="namedview184"
      showgrid="false"
-     inkscape:zoom="0.16745709"
-     inkscape:cx="600.34264"
-     inkscape:cy="1465.7773"
+     inkscape:zoom="0.25410948"
+     inkscape:cx="633.20401"
+     inkscape:cy="993.82007"
      inkscape:window-x="67"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg182" />
   <g
      id="edges"
-     transform="translate(101.90307,90.182233)">
+     transform="translate(39.175974,46.856365)">
     <path
        fill="none"
        stroke-width="1"
-       d="M -325.26593,-912.19324 -644.43897,-214.6282"
+       d="m -246.13301,-568.32831 -204.27074,446.44163"
        class="id_C*03:04 id_C*03:03"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -66,7 +66,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -325.26593,-912.19324 -625.58167,-654.7981"
+       d="M -246.13301,-568.32831 -438.33508,-403.5954"
        class="id_C*03:04 id_C*03:02"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -74,7 +74,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="m -644.43897,-214.6282 18.8573,-440.1699"
+       d="m -450.40375,-121.88668 12.06867,-281.70872"
        class="id_C*03:03 id_C*03:02"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -82,7 +82,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M 297.56927,545.66321 -54.755043,790.85297"
+       d="M 152.48152,364.69983 -73.00605,521.62128"
        class="id_C*06:02 id_C*18:02"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -90,7 +90,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -312.39056,-455.87021 -33.901257,-684.01038"
+       d="m -237.89278,-276.28159 178.233158,-146.0097"
        class="id_C*16:01 id_C*08:01"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -98,7 +98,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="m -312.39056,-455.87021 189.7711,325.4299"
+       d="m -237.89278,-276.28159 121.4535,208.275158"
        class="id_C*16:01 id_C*14:02"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -106,7 +106,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="m -122.61946,-130.44031 88.718203,-553.57007"
+       d="M -116.43928,-68.006432 -59.659622,-422.29129"
        class="id_C*14:02 id_C*08:01"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -114,7 +114,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M 251.82539,-165.79167 313.96121,-562.2193"
+       d="M 123.20543,-90.631302 162.97235,-344.34497"
        class="id_C*12:03 id_C*01:02"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -122,7 +122,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -122.61946,-130.44031 -325.26593,-912.19324"
+       d="M -116.43928,-68.006432 -246.13301,-568.32831"
        class="id_C*14:02 id_C*03:04"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -130,7 +130,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="m 313.96121,-562.2193 -436.58067,431.77899"
+       d="M 162.97235,-344.34497 -116.43928,-68.006432"
        class="id_C*01:02 id_C*14:02"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -138,7 +138,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -54.755043,790.85297 314.11511,938.47137"
+       d="m -73.00605,521.62128 236.0769,94.47577"
        class="id_C*18:02 id_C*05:01"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -146,7 +146,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -33.901257,-684.01038 -325.26593,-912.19324"
+       d="M -59.659622,-422.29129 -246.13301,-568.32831"
        class="id_C*08:01 id_C*03:04"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -154,7 +154,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -122.61946,-130.44031 -644.43897,-214.6282"
+       d="M -116.43928,-68.006432 -450.40375,-121.88668"
        class="id_C*14:02 id_C*03:03"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -162,7 +162,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="m -312.39056,-455.87021 564.21595,290.07854"
+       d="M -237.89278,-276.28159 123.20543,-90.631302"
        class="id_C*16:01 id_C*12:03"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -170,7 +170,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -33.901257,-684.01038 -625.58167,-654.7981"
+       d="M -59.659622,-422.29129 -438.33508,-403.5954"
        class="id_C*08:01 id_C*03:02"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -178,7 +178,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="m 209.93886,-986.51398 -332.55832,856.07367"
+       d="M 96.398048,-615.89362 -116.43928,-68.006432"
        class="id_C*07:02 id_C*14:02"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -186,7 +186,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M 297.56927,545.66321 -30.86091,315.81976"
+       d="M 152.48152,364.69983 -57.713806,217.60001"
        class="id_C*06:02 id_C*04:01"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -194,7 +194,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -122.61946,-130.44031 -625.58167,-654.7981"
+       d="M -116.43928,-68.006432 -438.33508,-403.5954"
        class="id_C*14:02 id_C*03:02"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -202,7 +202,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M 251.82539,-165.79167 -33.901257,-684.01038"
+       d="M 123.20543,-90.631302 -59.659622,-422.29129"
        class="id_C*12:03 id_C*08:01"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -210,7 +210,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="m -625.58167,-654.7981 313.19111,198.92789"
+       d="m -438.33508,-403.5954 200.4423,127.31381"
        class="id_C*03:02 id_C*16:01"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -218,7 +218,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -33.901257,-684.01038 209.93886,-986.51398"
+       d="M -59.659622,-422.29129 96.398048,-615.89362"
        class="id_C*08:01 id_C*07:02"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -226,7 +226,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -54.755043,790.85297 -30.86091,315.81976"
+       d="M -73.00605,521.62128 -57.713806,217.60001"
        class="id_C*18:02 id_C*04:01"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -234,7 +234,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -312.39056,-455.87021 209.93886,-986.51398"
+       d="M -237.89278,-276.28159 96.398048,-615.89362"
        class="id_C*16:01 id_C*07:02"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -242,7 +242,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="m -122.61946,-130.44031 374.44485,-35.35136"
+       d="m -116.43928,-68.006432 239.64471,-22.62487"
        class="id_C*14:02 id_C*12:03"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -250,7 +250,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="m -312.39056,-455.87021 -12.87537,-456.32303"
+       d="m -237.89278,-276.28159 -8.24023,-292.04672"
        class="id_C*16:01 id_C*03:04"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -258,7 +258,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="m 297.56927,545.66321 16.54584,392.80816"
+       d="m 152.48152,364.69983 10.58933,251.39722"
        class="id_C*06:02 id_C*05:01"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -266,7 +266,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -33.901257,-684.01038 -644.43897,-214.6282"
+       d="M -59.659622,-422.29129 -450.40375,-121.88668"
        class="id_C*08:01 id_C*03:03"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -274,7 +274,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="m -30.86091,315.81976 -91.75855,-446.26007"
+       d="M -57.713806,217.60001 -116.43928,-68.006432"
        class="id_C*04:01 id_C*14:02"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -282,7 +282,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -312.39056,-455.87021 313.96121,-562.2193"
+       d="m -237.89278,-276.28159 400.86513,-68.06338"
        class="id_C*16:01 id_C*01:02"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -290,7 +290,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -39.373203,1278.954 -30.86091,315.81976"
+       d="m -63.161671,834.00592 5.447865,-616.40591"
        class="id_C*02:02 id_C*04:01"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -298,7 +298,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -33.901257,-684.01038 313.96121,-562.2193"
+       d="m -59.659622,-422.29129 222.631972,77.94632"
        class="id_C*08:01 id_C*01:02"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -306,7 +306,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M 297.56927,545.66321 -39.373203,1278.954"
+       d="M 152.48152,364.69983 -63.161671,834.00592"
        class="id_C*06:02 id_C*02:02"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -314,7 +314,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="m -54.755043,790.85297 15.38184,488.10103"
+       d="m -73.00605,521.62128 9.844379,312.38464"
        class="id_C*18:02 id_C*02:02"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -322,7 +322,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -54.755043,790.85297 -445.74316,527.4754"
+       d="M -73.00605,521.62128 -323.23846,353.05963"
        class="id_C*18:02 id_C*17:01"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -330,7 +330,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -312.39056,-455.87021 -644.43897,-214.6282"
+       d="m -237.89278,-276.28159 -212.51097,154.39491"
        class="id_C*16:01 id_C*03:03"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -338,7 +338,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -39.373203,1278.954 -445.74316,527.4754"
+       d="M -63.161671,834.00592 -323.23846,353.05963"
        class="id_C*02:02 id_C*17:01"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -346,7 +346,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -54.755043,790.85297 -439.71619,1057.0226"
+       d="M -73.00605,521.62128 -319.38116,691.96985"
        class="id_C*18:02 id_C*15:02"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -354,7 +354,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -445.74316,527.4754 -30.86091,315.81976"
+       d="M -323.23846,353.05963 -57.713806,217.60001"
        class="id_C*17:01 id_C*04:01"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -362,7 +362,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M -39.373203,1278.954 -439.71619,1057.0226"
+       d="M -63.161671,834.00592 -319.38116,691.96985"
        class="id_C*02:02 id_C*15:02"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -370,7 +370,7 @@
     <path
        fill="none"
        stroke-width="1"
-       d="M 314.11511,938.47137 -39.373203,1278.954"
+       d="M 163.07085,616.09705 -63.161671,834.00592"
        class="id_C*05:01 id_C*02:02"
        stroke-opacity="0.34902"
        stroke="#000000"
@@ -378,14 +378,14 @@
   </g>
   <g
      id="nodes"
-     transform="translate(101.90307,90.182233)">
+     transform="translate(39.175974,46.856365)">
     <circle
        fill-opacity="0.2"
        fill="#858283"
        r="60"
-       cx="313.96121"
+       cx="162.97235"
        class="id_C*01:02"
-       cy="-562.2193"
+       cy="-344.34497"
        stroke="#737373"
        stroke-opacity="0.2"
        stroke-width="5"
@@ -394,9 +394,9 @@
        fill-opacity="0.2"
        fill="#858283"
        r="60"
-       cx="-39.373203"
+       cx="-63.161671"
        class="id_C*02:02"
-       cy="1278.954"
+       cy="834.00592"
        stroke="#737373"
        stroke-opacity="0.2"
        stroke-width="5"
@@ -405,9 +405,9 @@
        fill-opacity="0.2"
        fill="#858283"
        r="60"
-       cx="-625.58167"
+       cx="-438.33508"
        class="id_C*03:02"
-       cy="-654.7981"
+       cy="-403.5954"
        stroke="#737373"
        stroke-opacity="0.2"
        stroke-width="5"
@@ -416,9 +416,9 @@
        fill-opacity="0.2"
        fill="#858283"
        r="60"
-       cx="-644.43896"
+       cx="-450.40375"
        class="id_C*03:03"
-       cy="-214.6282"
+       cy="-121.88668"
        stroke="#737373"
        stroke-opacity="0.2"
        stroke-width="5"
@@ -427,9 +427,9 @@
        fill-opacity="0.2"
        fill="#858283"
        r="60"
-       cx="-325.26593"
+       cx="-246.13301"
        class="id_C*03:04"
-       cy="-912.19324"
+       cy="-568.32831"
        stroke="#737373"
        stroke-opacity="0.2"
        stroke-width="5"
@@ -438,9 +438,9 @@
        fill-opacity="0.2"
        fill="#858283"
        r="60"
-       cx="-30.86091"
+       cx="-57.713806"
        class="id_C*04:01"
-       cy="315.81976"
+       cy="217.60001"
        stroke="#737373"
        stroke-opacity="0.2"
        stroke-width="5"
@@ -449,9 +449,9 @@
        fill-opacity="0.2"
        fill="#858283"
        r="60"
-       cx="314.11511"
+       cx="163.07085"
        class="id_C*05:01"
-       cy="938.47137"
+       cy="616.09705"
        stroke="#737373"
        stroke-opacity="0.2"
        stroke-width="5"
@@ -460,9 +460,9 @@
        fill-opacity="0.2"
        fill="#858283"
        r="60"
-       cx="297.56927"
+       cx="152.48152"
        class="id_C*06:02"
-       cy="545.66321"
+       cy="364.69983"
        stroke="#737373"
        stroke-opacity="0.2"
        stroke-width="5"
@@ -471,9 +471,9 @@
        fill-opacity="0.2"
        fill="#858283"
        r="60"
-       cx="209.93886"
+       cx="96.398048"
        class="id_C*07:02"
-       cy="-986.51398"
+       cy="-615.89362"
        stroke="#737373"
        stroke-opacity="0.2"
        stroke-width="5"
@@ -482,9 +482,9 @@
        fill-opacity="0.2"
        fill="#858283"
        r="60"
-       cx="-33.901257"
+       cx="-59.659622"
        class="id_C*08:01"
-       cy="-684.01038"
+       cy="-422.29129"
        stroke="#737373"
        stroke-opacity="0.2"
        stroke-width="5"
@@ -493,9 +493,9 @@
        fill-opacity="0.2"
        fill="#858283"
        r="60"
-       cx="251.82539"
+       cx="123.20543"
        class="id_C*12:03"
-       cy="-165.79167"
+       cy="-90.631302"
        stroke="#737373"
        stroke-opacity="0.2"
        stroke-width="5"
@@ -504,9 +504,9 @@
        fill-opacity="0.2"
        fill="#858283"
        r="60"
-       cx="-122.61946"
+       cx="-116.43928"
        class="id_C*14:02"
-       cy="-130.44031"
+       cy="-68.006432"
        stroke="#737373"
        stroke-opacity="0.2"
        stroke-width="5"
@@ -515,9 +515,9 @@
        fill-opacity="0.2"
        fill="#858283"
        r="60"
-       cx="-439.71619"
+       cx="-319.38116"
        class="id_C*15:02"
-       cy="1057.0226"
+       cy="691.96985"
        stroke="#737373"
        stroke-opacity="0.2"
        stroke-width="5"
@@ -526,9 +526,9 @@
        fill-opacity="0.2"
        fill="#858283"
        r="60"
-       cx="-312.39056"
+       cx="-237.89278"
        class="id_C*16:01"
-       cy="-455.87021"
+       cy="-276.28159"
        stroke="#737373"
        stroke-opacity="0.2"
        stroke-width="5"
@@ -537,9 +537,9 @@
        fill-opacity="0.2"
        fill="#858283"
        r="60"
-       cx="-445.74316"
+       cx="-323.23846"
        class="id_C*17:01"
-       cy="527.4754"
+       cy="353.05963"
        stroke="#737373"
        stroke-opacity="0.2"
        stroke-width="5"
@@ -548,9 +548,9 @@
        fill-opacity="0.2"
        fill="#858283"
        r="60"
-       cx="-54.755043"
+       cx="-73.00605"
        class="id_C*18:02"
-       cy="790.85297"
+       cy="521.62128"
        stroke="#737373"
        stroke-opacity="0.2"
        stroke-width="5"
@@ -558,12 +558,12 @@
   </g>
   <g
      id="node-labels-outline"
-     transform="translate(101.90307,90.182233)">
+     transform="translate(39.175974,46.856365)">
     <text
        stroke-linecap="round"
        font-size="24px"
-       x="313.96121"
-       y="-557.68024"
+       x="162.97235"
+       y="-339.80591"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -576,8 +576,8 @@
     <text
        stroke-linecap="round"
        font-size="24px"
-       x="-39.373203"
-       y="1283.493"
+       x="-63.161671"
+       y="838.54498"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -590,8 +590,8 @@
     <text
        stroke-linecap="round"
        font-size="24px"
-       x="-625.58167"
-       y="-650.25903"
+       x="-438.33508"
+       y="-399.05634"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -604,8 +604,8 @@
     <text
        stroke-linecap="round"
        font-size="24px"
-       x="-644.43896"
-       y="-210.08914"
+       x="-450.40375"
+       y="-117.34762"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -618,8 +618,8 @@
     <text
        stroke-linecap="round"
        font-size="24px"
-       x="-325.26593"
-       y="-907.65417"
+       x="-246.13301"
+       y="-563.78925"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -632,8 +632,8 @@
     <text
        stroke-linecap="round"
        font-size="24px"
-       x="-30.86091"
-       y="320.35883"
+       x="-57.713806"
+       y="222.13907"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -646,8 +646,8 @@
     <text
        stroke-linecap="round"
        font-size="24px"
-       x="314.11511"
-       y="943.01044"
+       x="163.07085"
+       y="620.63611"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -660,8 +660,8 @@
     <text
        stroke-linecap="round"
        font-size="24px"
-       x="297.56927"
-       y="550.20227"
+       x="152.48152"
+       y="369.23889"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -674,8 +674,8 @@
     <text
        stroke-linecap="round"
        font-size="24px"
-       x="209.93886"
-       y="-981.97491"
+       x="96.398048"
+       y="-611.35455"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -688,8 +688,8 @@
     <text
        stroke-linecap="round"
        font-size="24px"
-       x="-33.901257"
-       y="-679.47131"
+       x="-59.659622"
+       y="-417.75223"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -702,8 +702,8 @@
     <text
        stroke-linecap="round"
        font-size="24px"
-       x="251.82539"
-       y="-161.25261"
+       x="123.20543"
+       y="-86.092239"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -716,8 +716,8 @@
     <text
        stroke-linecap="round"
        font-size="24px"
-       x="-122.61946"
-       y="-125.90125"
+       x="-116.43928"
+       y="-63.467369"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -730,8 +730,8 @@
     <text
        stroke-linecap="round"
        font-size="24px"
-       x="-439.71619"
-       y="1061.5616"
+       x="-319.38116"
+       y="696.50891"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -744,8 +744,8 @@
     <text
        stroke-linecap="round"
        font-size="24px"
-       x="-312.39056"
-       y="-451.33115"
+       x="-237.89278"
+       y="-271.74252"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -758,8 +758,8 @@
     <text
        stroke-linecap="round"
        font-size="24px"
-       x="-445.74316"
-       y="532.01447"
+       x="-323.23846"
+       y="357.59869"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -772,8 +772,8 @@
     <text
        stroke-linecap="round"
        font-size="24px"
-       x="-54.755043"
-       y="795.39203"
+       x="-73.00605"
+       y="526.16034"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -786,11 +786,11 @@
   </g>
   <g
      id="node-labels"
-     transform="translate(101.90307,90.182233)">
+     transform="translate(39.175974,46.856365)">
     <text
        font-size="24px"
-       x="313.96121"
-       y="-557.68024"
+       x="162.97235"
+       y="-339.80591"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
@@ -798,8 +798,8 @@
        id="text149">C*01:02</text>
     <text
        font-size="24px"
-       x="-39.373203"
-       y="1283.493"
+       x="-63.161671"
+       y="838.54498"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
@@ -807,8 +807,8 @@
        id="text151">C*02:02</text>
     <text
        font-size="24px"
-       x="-625.58167"
-       y="-650.25903"
+       x="-438.33508"
+       y="-399.05634"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
@@ -816,8 +816,8 @@
        id="text153">C*03:02</text>
     <text
        font-size="24px"
-       x="-644.43896"
-       y="-210.08914"
+       x="-450.40375"
+       y="-117.34762"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
@@ -825,8 +825,8 @@
        id="text155">C*03:03</text>
     <text
        font-size="24px"
-       x="-325.26593"
-       y="-907.65417"
+       x="-246.13301"
+       y="-563.78925"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
@@ -834,8 +834,8 @@
        id="text157">C*03:04</text>
     <text
        font-size="24px"
-       x="-30.86091"
-       y="320.35883"
+       x="-57.713806"
+       y="222.13907"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
@@ -843,8 +843,8 @@
        id="text159">C*04:01</text>
     <text
        font-size="24px"
-       x="314.11511"
-       y="943.01044"
+       x="163.07085"
+       y="620.63611"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
@@ -852,8 +852,8 @@
        id="text161">C*05:01</text>
     <text
        font-size="24px"
-       x="297.56927"
-       y="550.20227"
+       x="152.48152"
+       y="369.23889"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
@@ -861,8 +861,8 @@
        id="text163">C*06:02</text>
     <text
        font-size="24px"
-       x="209.93886"
-       y="-981.97491"
+       x="96.398048"
+       y="-611.35455"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
@@ -870,8 +870,8 @@
        id="text165">C*07:02</text>
     <text
        font-size="24px"
-       x="-33.901257"
-       y="-679.47131"
+       x="-59.659622"
+       y="-417.75223"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
@@ -879,8 +879,8 @@
        id="text167">C*08:01</text>
     <text
        font-size="24px"
-       x="251.82539"
-       y="-161.25261"
+       x="123.20543"
+       y="-86.092239"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
@@ -888,8 +888,8 @@
        id="text169">C*12:03</text>
     <text
        font-size="24px"
-       x="-122.61946"
-       y="-125.90125"
+       x="-116.43928"
+       y="-63.467369"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
@@ -897,8 +897,8 @@
        id="text171">C*14:02</text>
     <text
        font-size="24px"
-       x="-439.71619"
-       y="1061.5616"
+       x="-319.38116"
+       y="696.50891"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
@@ -906,8 +906,8 @@
        id="text173">C*15:02</text>
     <text
        font-size="24px"
-       x="-312.39056"
-       y="-451.33115"
+       x="-237.89278"
+       y="-271.74252"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
@@ -915,8 +915,8 @@
        id="text175">C*16:01</text>
     <text
        font-size="24px"
-       x="-445.74316"
-       y="532.01447"
+       x="-323.23846"
+       y="357.59869"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
@@ -924,8 +924,8 @@
        id="text177">C*17:01</text>
     <text
        font-size="24px"
-       x="-54.755043"
-       y="795.39203"
+       x="-73.00605"
+       y="526.16034"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"

@@ -61,17 +61,22 @@ def write_whole_svg(
     path_position = write_svg.get_path_position_straight(svg_list, link_between_pos,allele_type, bead_position, edges_ligne)
     # path_position = write_svg.get_path_position_curved(svg_list, link_between_pos)[0]
 
-
+    #Few reformating of eplets dictionnary. The most frequent eplets are displayed first. Check for the sens of the couple between link_position and the dictionnary too.
     strong_eplet_on_link = eplet_extraction.reorder_dict_by_eplet_frequency(strong_eplet_on_link)
+    strong_eplet_on_link = write_eplet.check_couple_order(strong_eplet_on_link, path_position)
+
     stronger_eplet_on_link = eplet_extraction.reorder_dict_by_eplet_frequency(stronger_eplet_on_link)
+
+    stronger_eplet_on_link = write_eplet.check_couple_order(stronger_eplet_on_link, path_position)
     strong_eplet_on_bead = eplet_extraction.reorder_dict_by_eplet_frequency(strong_eplet_on_bead)
     stronger_eplet_on_bead = eplet_extraction.reorder_dict_by_eplet_frequency(stronger_eplet_on_bead)
 
     # Write stronger eplet on path
-    svg_list = write_eplet.write_stronger_eplet_on_link(svg_list, path_position, stronger_eplet_on_link, text_size, bead_text_position)
+    svg_list, global_written_stronger_link = write_eplet.write_stronger_eplet_on_link(svg_list, path_position, stronger_eplet_on_link, text_size, bead_text_position)
+
 
     # Write strong eplet on path
-    svg_list = write_eplet.write_strong_eplet_on_link(svg_list, path_position, strong_eplet_on_link, text_size, stronger_eplet_on_link, bead_text_position)
+    svg_list, global_written = write_eplet.write_strong_eplet_on_link(svg_list, path_position, strong_eplet_on_link, text_size, stronger_eplet_on_link, bead_text_position, global_written_stronger_link)
 
     # Write stronger eplet on bead
     svg_list = write_eplet.write_stronger_eplet_on_bead(svg_list, bead_position, stronger_eplet_on_bead, stronger_eplet_on_link, text_size, text_position)

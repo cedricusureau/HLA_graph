@@ -56,24 +56,27 @@ def make_raw_data(final_fonction):
 
     return all_stronger, all_strong
 
-def write_all_raw_data(all_raw_data):
-    file = open("raw_test.csv","w")
+def write_all_raw_data(all_raw_data, output_raw):
+    file = open(output_raw+".csv","w")
     for allele, raw_data in all_raw_data:
         stronger = raw_data[0]
         strong = raw_data[1]
-        file.write("Eplets from HLA-{} beads. These eplets are present on each positive bead \n".format(allele))
+        file.write("Eplets from HLA-{} bead\n".format(allele))
         for i,j in stronger.items():
             file.write(str(i)+",")
             for eplet in j:
                 file.write(eplet+",")
+                if i in strong.keys():
+                    for eplet2 in strong[i]:
+                        file.write(str(eplet2) + ",")
             file.write("\n")
-
-        file.write("Eplets from HLA-{} beads. These eplets are present on some of the positive bead \n".format(allele))
-        for i,j in strong.items():
-            file.write(i+",")
-            for eplet in j:
-                file.write(eplet+",")
-            file.write("\n")
+        #
+        # file.write("Eplets from HLA-{} beads. These eplets are present on some of the positive bead \n".format(allele))
+        # for i,j in strong.items():
+        #     file.write(i+",")
+        #     for eplet in j:
+        #         file.write(eplet+",")
+        #     file.write("\n")
 
     file.close()
 
