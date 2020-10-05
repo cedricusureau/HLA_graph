@@ -135,7 +135,7 @@ for mfi in os.listdir("data/sample_example/SA2/"):
                 args.cutoff,
                 args.dqdp + i + "_eplets.csv",
                 36,
-                [90, 30]
+                [100, 40]
             )
             all_raw_data.append(["DQ", make_raw.make_raw_data(dq_ep)])
 
@@ -150,7 +150,7 @@ for mfi in os.listdir("data/sample_example/SA2/"):
                 args.cutoff,
                 args.dqdp + i + "_eplets.csv",
                 36,
-                [90, 30]
+                [100, 40]
             )
             all_raw_data.append(["DP", make_raw.make_raw_data(dp_ep)])
 

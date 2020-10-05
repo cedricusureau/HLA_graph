@@ -11,8 +11,8 @@
    width="1000"
    zoomAndPan="magnify"
    contentStyleType="text/css"
-   viewBox="-582 -810 1000 2050"
-   height="2050"
+   viewBox="-582 -810 1000 2150"
+   height="2150"
    preserveAspectRatio="xMidYMid meet"
    version="1.1"
    id="svg182"
@@ -47,14 +47,15 @@
      showgrid="false"
      inkscape:zoom="0.21459648"
      inkscape:cx="473.69823"
-     inkscape:cy="998.15963"
+     inkscape:cy="1221.8587"
      inkscape:window-x="67"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg182" />
+     inkscape:current-layer="svg182"
+     inkscape:document-rotation="0" />
   <g
      id="edges"
-     transform="translate(37.660389,110.76328)">
+     transform="translate(61.082517,40.725711)">
     <path
        fill="none"
        stroke-width="1"
@@ -378,7 +379,7 @@
   </g>
   <g
      id="nodes"
-     transform="translate(37.660389,110.76328)">
+     transform="translate(61.082517,40.725711)">
     <circle
        fill-opacity="0.2"
        fill="#858283"
@@ -558,7 +559,7 @@
   </g>
   <g
      id="node-labels-outline"
-     transform="translate(37.660389,110.76328)">
+     transform="translate(61.082517,40.725711)">
     <text
        stroke-linecap="round"
        font-size="24px"
@@ -786,7 +787,7 @@
   </g>
   <g
      id="node-labels"
-     transform="translate(37.660389,110.76328)">
+     transform="translate(61.082517,40.725711)">
     <text
        font-size="24px"
        x="216.65727"

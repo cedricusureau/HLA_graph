@@ -5,14 +5,20 @@ import math
 def write_stronger_eplet_on_link(svg, path_position, stronger_eplet_on_link, text_size, bead_text_position):
     global_written = {}
     already_write = {}
+    warning = False
     for couple in stronger_eplet_on_link.keys():
         already_write[couple] = 1
 
     for couple, eplets in stronger_eplet_on_link.items():
         for eplet in eplets:
+
             x = path_position[couple][0]
             y = path_position[couple][1] + (text_size * already_write[couple]) - 30
             if to_close_to_write(global_written,eplet,x,y, bead_text_position) == True :
+                if warning == False :
+                    view_box = get_view_box(svg)
+                    svg_list = write_warning_message(view_box, svg)
+                    warning = True
                 continue
             else :
                 svg = write_svg.write_text_on_svg(
@@ -34,6 +40,7 @@ def write_stronger_eplet_on_link(svg, path_position, stronger_eplet_on_link, tex
 def write_strong_eplet_on_link(svg, path_position, strong_eplet_on_link, text_size, stronger_eplet_on_link, bead_text_position, global_written_stronger_link):
     global_written = global_written_stronger_link
     already_write = {}
+    warning = False
 
     for couple in stronger_eplet_on_link.keys():
         already_write[couple] = 1 + len(stronger_eplet_on_link[couple])
@@ -63,6 +70,10 @@ def write_strong_eplet_on_link(svg, path_position, strong_eplet_on_link, text_si
                 x = path_position[couple][0]
                 y = path_position[couple][1] + (text_size * already_write[couple]) - 30
                 if to_close_to_write(global_written, eplet, x, y, bead_text_position) == True:
+                    if warning == False:
+                        view_box = get_view_box(svg)
+                        svg_list = write_warning_message(view_box, svg)
+                        warning = True
                     continue
                 else:
                     svg = write_svg.write_text_on_svg(
@@ -170,7 +181,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
     already_write_suspension_A = False
     already_write_suspension_B = False
     if allele_type == "DP":
-        pos_x, pos_y = -1200, -1400
+        pos_x, pos_y = -1150, -1250
 
 
     svg = write_svg.write_text_on_svg(
@@ -179,7 +190,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
         pos_y,
         font_size=40,
         font_family="Dialog",
-        color="#1f618d",
+        color="#1b2631",
         text="{}A: ".format(allele_type),
     )
 
@@ -189,7 +200,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
         pos_y + 50,
         font_size=40,
         font_family="Dialog",
-        color="#196f3d",
+        color="#1b2631",
         text="{}B: ".format(allele_type),
     )
 
@@ -296,7 +307,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
                     text=eplet,
                 )
                 count_B += len(eplet)
-        else: print("oups")
+
     return svg
 
 def calculate_distance(pos1, pos2):
@@ -325,3 +336,29 @@ def check_couple_order(couple_dict, path_position):
         else :
             new_couple_dict[couple] = eplets
     return new_couple_dict
+
+def get_view_box(mfi):
+    for i in mfi:
+        if 'viewBox="' in i :
+            return [int(k) for k in i.replace('   viewBox="','').replace('"\n','').split(" ")]
+
+def write_warning_message(view_box, svg):
+    svg = write_svg.write_text_on_svg(
+        svg,
+        view_box[0] + 450,
+        view_box[1] + view_box[3] - 180,
+        font_size=46,
+        font_family="Dialog",
+        color="#ba4a00",
+        text="Some positive eplets are not displayed."
+    )
+    svg = write_svg.write_text_on_svg(
+        svg,
+        view_box[0] + 450,
+        view_box[1] + view_box[3] - 180 + 46,
+        font_size=46,
+        font_family="Dialog",
+        color="#ba4a00",
+        text="Please check raw data."
+    )
+    return svg
