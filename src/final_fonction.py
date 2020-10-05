@@ -8,7 +8,6 @@ def write_whole_svg(
 ):
     # Make list from each line of the template
     svg_list = [i for i in open(template_graph, "r")]
-
     # add blank font in the list, on 20th line
     svg_list.insert(
         20,
@@ -60,14 +59,13 @@ def write_whole_svg(
     bead_position = write_svg.get_bead_position(svg_list)
     path_position = write_svg.get_path_position_straight(svg_list, link_between_pos,allele_type, bead_position, edges_ligne)
     # path_position = write_svg.get_path_position_curved(svg_list, link_between_pos)[0]
-
     #Few reformating of eplets dictionnary. The most frequent eplets are displayed first. Check for the sens of the couple between link_position and the dictionnary too.
     strong_eplet_on_link = eplet_extraction.reorder_dict_by_eplet_frequency(strong_eplet_on_link)
     strong_eplet_on_link = write_eplet.check_couple_order(strong_eplet_on_link, path_position)
 
     stronger_eplet_on_link = eplet_extraction.reorder_dict_by_eplet_frequency(stronger_eplet_on_link)
-
     stronger_eplet_on_link = write_eplet.check_couple_order(stronger_eplet_on_link, path_position)
+
     strong_eplet_on_bead = eplet_extraction.reorder_dict_by_eplet_frequency(strong_eplet_on_bead)
     stronger_eplet_on_bead = eplet_extraction.reorder_dict_by_eplet_frequency(stronger_eplet_on_bead)
 
@@ -89,6 +87,7 @@ def write_whole_svg(
         all_written_stronger, all_written_strong = eplet_extraction.set_off_all_written_eplet(stronger_eplet_on_link, strong_eplet_on_link, stronger_eplet_on_bead, strong_eplet_on_bead)
         svg_list = write_eplet.write_A_or_B_eplets(svg_list, A_eplet, B_eplet, all_written_stronger, all_written_strong, allele_type)
         svg_list = write_eplet.write_A_or_B_eplets(svg_list, A_eplet, B_eplet, all_written_stronger, all_written_strong, allele_type)
+
 
     write_svg.write_svg_file(svg_list, "{}.svg".format(output))
     return stronger_eplet_on_link,strong_eplet_on_link,stronger_eplet_on_bead,strong_eplet_on_bead

@@ -8,18 +8,16 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    contentScriptType="text/ecmascript"
-   width="2700"
+   width="2650"
    zoomAndPan="magnify"
    contentStyleType="text/css"
-   viewBox="-1160 -1230 2700 2700"
-   height="2700"
+   viewBox="-1160 -1230 2650 2650"
+   height="2650"
    preserveAspectRatio="xMidYMid meet"
    version="1.1"
    id="svg300"
    sodipodi:docname="DP.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
-  <style
-     id="style308"></style>
   <metadata
      id="metadata306">
     <rdf:RDF>
@@ -48,15 +46,16 @@
      id="namedview302"
      showgrid="false"
      inkscape:zoom="0.16823137"
-     inkscape:cx="1226.9003"
-     inkscape:cy="1192.8008"
+     inkscape:cx="1414.0127"
+     inkscape:cy="1597.8548"
      inkscape:window-x="67"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg300" />
+     inkscape:current-layer="svg300"
+     inkscape:document-rotation="0" />
   <g
      id="edges"
-     transform="translate(158.38173,204.93902)">
+     transform="translate(138.21377,133.91552)">
     <path
        fill="none"
        stroke-width="2"
@@ -492,7 +491,7 @@
   </g>
   <g
      id="nodes"
-     transform="translate(158.38173,204.93902)">
+     transform="translate(138.21377,133.91552)">
     <circle
        fill-opacity="0.2"
        fill="#000000"
@@ -837,7 +836,7 @@
   </g>
   <g
      id="node-labels-outline"
-     transform="translate(158.38173,204.93902)">
+     transform="translate(139.70986,114.40481)">
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -851,7 +850,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text174">DPA1*01:03, DPB1*01:01</text>
+       id="text174"><tspan
+         sodipodi:role="line"
+         id="tspan408"
+         x="416.70892"
+         y="726.44586"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
+         sodipodi:role="line"
+         id="tspan410"
+         x="416.70892"
+         y="761.44586"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*01:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -865,7 +874,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text176">DPA1*02:01, DPB1*01:01</text>
+       id="text176"><tspan
+         sodipodi:role="line"
+         id="tspan424"
+         x="490.74384"
+         y="1091.7177"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
+         sodipodi:role="line"
+         id="tspan426"
+         x="490.74384"
+         y="1126.7177"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*01:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -879,7 +898,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text178">DPA1*01:03, DPB1*02:01</text>
+       id="text178"><tspan
+         sodipodi:role="line"
+         id="tspan356"
+         x="-725.33954"
+         y="-197.84967"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
+         sodipodi:role="line"
+         id="tspan358"
+         x="-725.33954"
+         y="-162.84967"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*02:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -893,7 +922,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text180">DPA1*02:02, DPB1*05:01</text>
+       id="text180"><tspan
+         sodipodi:role="line"
+         id="tspan420"
+         x="29.801994"
+         y="1092.5439"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:02</tspan><tspan
+         sodipodi:role="line"
+         id="tspan422"
+         x="29.801994"
+         y="1127.5439"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*05:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -907,7 +946,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text182">DPA1*01:03, DPB1*03:01</text>
+       id="text182"><tspan
+         sodipodi:role="line"
+         id="tspan412"
+         x="-99.110191"
+         y="759.42078"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
+         sodipodi:role="line"
+         id="tspan414"
+         x="-99.110191"
+         y="794.42078"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*03:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -921,7 +970,19 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text184">DPA1*01:05, DPB1*03:01</text>
+       id="text184"><tspan
+         sodipodi:role="line"
+         id="tspan439"
+         x="-513.76556"
+         y="555.42163"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'"
+           id="tspan436">DPA1*01:05</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan441"
+         x="-513.76556"
+         y="590.42163"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'"
+           id="tspan443">DPB1*03:01</tspan></tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -935,7 +996,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text186">DPA1*02:01, DPB1*03:01</text>
+       id="text186"><tspan
+         sodipodi:role="line"
+         id="tspan368"
+         x="-450.25195"
+         y="99.251366"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
+         sodipodi:role="line"
+         id="tspan370"
+         x="-450.25195"
+         y="134.25137"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*03:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -949,7 +1020,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text188">DPA1*01:03, DPB1*04:01</text>
+       id="text188"><tspan
+         sodipodi:role="line"
+         id="tspan316"
+         x="197.45363"
+         y="-816.72205"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
+         sodipodi:role="line"
+         id="tspan318"
+         x="197.45363"
+         y="-781.72205"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*04:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -963,7 +1044,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text190">DPA1*01:03, DPB1*04:02</text>
+       id="text190"><tspan
+         sodipodi:role="line"
+         id="tspan352"
+         x="-328.51767"
+         y="-279.49362"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
+         sodipodi:role="line"
+         id="tspan354"
+         x="-328.51767"
+         y="-244.49362"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*04:02</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -977,7 +1068,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text192">DPA1*02:01, DPB1*05:01</text>
+       id="text192"><tspan
+         sodipodi:role="line"
+         id="tspan392"
+         x="791.9339"
+         y="-214.26538"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
+         sodipodi:role="line"
+         id="tspan394"
+         x="791.9339"
+         y="-179.26538"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*05:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -991,7 +1092,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text194">DPA1*02:01, DPB1*06:01</text>
+       id="text194"><tspan
+         sodipodi:role="line"
+         id="tspan376"
+         x="-162.4413"
+         y="363.74261"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
+         sodipodi:role="line"
+         id="tspan378"
+         x="-162.4413"
+         y="398.74261"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*06:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1005,7 +1116,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text196">DPA1*01:03, DPB1*06:01</text>
+       id="text196"><tspan
+         sodipodi:role="line"
+         id="tspan372"
+         x="-821.28247"
+         y="261.84915"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
+         sodipodi:role="line"
+         id="tspan374"
+         x="-821.28247"
+         y="296.84915"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*06:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1019,7 +1140,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text198">DPA1*02:01, DPB1*09:01</text>
+       id="text198"><tspan
+         sodipodi:role="line"
+         id="tspan380"
+         x="8.9333725"
+         y="-15.142532"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
+         sodipodi:role="line"
+         id="tspan382"
+         x="8.9333725"
+         y="19.857468"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*09:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1033,7 +1164,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text200">DPA1*02:02, DPB1*10:01</text>
+       id="text200"><tspan
+         sodipodi:role="line"
+         id="tspan344"
+         x="37.873615"
+         y="-447.90103"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:02</tspan><tspan
+         sodipodi:role="line"
+         id="tspan346"
+         x="37.873615"
+         y="-412.90103"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*10:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1047,7 +1188,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text202">DPA1*01:03, DPB1*11:01</text>
+       id="text202"><tspan
+         sodipodi:role="line"
+         id="tspan404"
+         x="1017.8429"
+         y="530.69611"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
+         sodipodi:role="line"
+         id="tspan406"
+         x="1017.8429"
+         y="565.69611"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*11:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1061,7 +1212,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text204">DPA1*01:03, DPB1*28:01</text>
+       id="text204"><tspan
+         sodipodi:role="line"
+         id="tspan324"
+         x="-681.3009"
+         y="-965.36011"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
+         sodipodi:role="line"
+         id="tspan326"
+         x="-681.3009"
+         y="-930.36011"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*28:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1075,7 +1236,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text206">DPA1*02:01, DPB1*13:01</text>
+       id="text206"><tspan
+         sodipodi:role="line"
+         id="tspan388"
+         x="786.0379"
+         y="192.50722"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
+         sodipodi:role="line"
+         id="tspan390"
+         x="786.0379"
+         y="227.50722"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*13:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1089,7 +1260,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text208">DPA1*02:02, DPB1*13:01</text>
+       id="text208"><tspan
+         sodipodi:role="line"
+         id="tspan396"
+         x="1161.926"
+         y="54.269825"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:02</tspan><tspan
+         sodipodi:role="line"
+         id="tspan398"
+         x="1161.926"
+         y="89.269821"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*13:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1103,7 +1284,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text210">DPA1*03:01, DPB1*13:01</text>
+       id="text210"><tspan
+         sodipodi:role="line"
+         id="tspan428"
+         x="763.03687"
+         y="917.55334"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*03:01</tspan><tspan
+         sodipodi:role="line"
+         id="tspan430"
+         x="763.03687"
+         y="952.55334"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*13:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1117,7 +1308,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text212">DPA1*02:01, DPB1*14:01</text>
+       id="text212"><tspan
+         sodipodi:role="line"
+         id="tspan348"
+         x="419.99478"
+         y="-349.34378"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
+         sodipodi:role="line"
+         id="tspan350"
+         x="419.99478"
+         y="-314.34378"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*14:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1131,7 +1332,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text214">DPA1*02:01, DPB1*15:01</text>
+       id="text214"><tspan
+         sodipodi:role="line"
+         id="tspan400"
+         x="1049.4679"
+         y="-530.08545"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
+         sodipodi:role="line"
+         id="tspan402"
+         x="1049.4679"
+         y="-495.08545"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*15:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1145,7 +1356,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text216">DPA1*02:01, DPB1*17:01</text>
+       id="text216"><tspan
+         sodipodi:role="line"
+         id="tspan384"
+         x="402.39191"
+         y="58.461971"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
+         sodipodi:role="line"
+         id="tspan386"
+         x="402.39191"
+         y="93.461975"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*17:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1159,7 +1380,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text218">DPA1*02:01, DPB1*18:01</text>
+       id="text218"><tspan
+         sodipodi:role="line"
+         id="tspan308"
+         x="-213.5175"
+         y="-1161.0258"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
+         sodipodi:role="line"
+         id="tspan310"
+         x="-213.5175"
+         y="-1126.0258"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*18:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1173,7 +1404,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text220">DPA1*01:05, DPB1*18:01</text>
+       id="text220"><tspan
+         sodipodi:role="line"
+         id="tspan320"
+         x="-227.57373"
+         y="-768.34515"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:05</tspan><tspan
+         sodipodi:role="line"
+         id="tspan322"
+         x="-227.57373"
+         y="-733.34515"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*18:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1187,7 +1428,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text222">DPA1*01:04, DPB1*18:01</text>
+       id="text222"><tspan
+         sodipodi:role="line"
+         id="tspan340"
+         x="-586.93652"
+         y="-572.37805"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:04</tspan><tspan
+         sodipodi:role="line"
+         id="tspan342"
+         x="-586.93652"
+         y="-537.37805"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*18:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1201,7 +1452,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text224">DPA1*01:03, DPB1*19:01</text>
+       id="text224"><tspan
+         sodipodi:role="line"
+         id="tspan336"
+         x="663.62628"
+         y="-660.51965"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
+         sodipodi:role="line"
+         id="tspan338"
+         x="663.62628"
+         y="-625.51965"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*19:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1215,7 +1476,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text226">DPA1*03:01, DPB1*20:01</text>
+       id="text226"><tspan
+         sodipodi:role="line"
+         id="tspan432"
+         x="227.25606"
+         y="419.98169"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*03:01</tspan><tspan
+         sodipodi:role="line"
+         id="tspan434"
+         x="227.25606"
+         y="454.98169"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*20:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1229,7 +1500,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text228">DPA1*01:03, DPB1*23:01</text>
+       id="text228"><tspan
+         sodipodi:role="line"
+         id="tspan312"
+         x="545.12518"
+         y="-1039.4604"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
+         sodipodi:role="line"
+         id="tspan314"
+         x="545.12518"
+         y="-1004.4604"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*23:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1243,7 +1524,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text230">DPA1*01:05, DPB1*28:01</text>
+       id="text230"><tspan
+         sodipodi:role="line"
+         id="tspan360"
+         x="-996.10541"
+         y="-494.43832"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:05</tspan><tspan
+         sodipodi:role="line"
+         id="tspan362"
+         x="-996.10541"
+         y="-459.43832"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*28:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1257,7 +1548,17 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text232">DPA1*04:01, DPB1*28:01</text>
+       id="text232"><tspan
+         sodipodi:role="line"
+         id="tspan364"
+         x="-1097.7224"
+         y="-70.939003"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*04:01</tspan><tspan
+         sodipodi:role="line"
+         id="tspan366"
+         x="-1097.7224"
+         y="-35.939003"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*28:01</tspan></text>
     <text
        stroke-linecap="round"
        font-size="28px"
@@ -1271,289 +1572,16 @@
        stroke="#f5fffe"
        stroke-opacity="0.8"
        stroke-width="0.875px"
-       id="text234">DPA1*02:02, DPB1*11:01</text>
-  </g>
-  <g
-     id="node-labels"
-     transform="translate(158.38173,204.93902)">
-    <text
-       font-size="28px"
-       x="416.70892"
-       y="726.44586"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*01:03,__DPB1*01:01"
-       id="text237">DPA1*01:03, DPB1*01:01</text>
-    <text
-       font-size="28px"
-       x="490.74384"
-       y="1091.7177"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*02:01,__DPB1*01:01"
-       id="text239">DPA1*02:01, DPB1*01:01</text>
-    <text
-       font-size="28px"
-       x="-725.33954"
-       y="-197.84967"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*01:03,__DPB1*02:01"
-       id="text241">DPA1*01:03, DPB1*02:01</text>
-    <text
-       font-size="28px"
-       x="29.801994"
-       y="1092.5439"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*02:02,__DPB1*05:01"
-       id="text243">DPA1*02:02, DPB1*05:01</text>
-    <text
-       font-size="28px"
-       x="-99.110191"
-       y="759.42078"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*01:03,__DPB1*03:01"
-       id="text245">DPA1*01:03, DPB1*03:01</text>
-    <text
-       font-size="28px"
-       x="-513.76556"
-       y="555.42163"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*01:05,__DPB1*03:01"
-       id="text247">DPA1*01:05, DPB1*03:01</text>
-    <text
-       font-size="28px"
-       x="-450.25195"
-       y="99.251366"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*02:01,__DPB1*03:01"
-       id="text249">DPA1*02:01, DPB1*03:01</text>
-    <text
-       font-size="28px"
-       x="197.45363"
-       y="-816.72205"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*01:03,__DPB1*04:01"
-       id="text251">DPA1*01:03, DPB1*04:01</text>
-    <text
-       font-size="28px"
-       x="-328.51767"
-       y="-279.49362"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*01:03,__DPB1*04:02"
-       id="text253">DPA1*01:03, DPB1*04:02</text>
-    <text
-       font-size="28px"
-       x="791.9339"
-       y="-214.26538"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*02:01,__DPB1*05:01"
-       id="text255">DPA1*02:01, DPB1*05:01</text>
-    <text
-       font-size="28px"
-       x="-162.4413"
-       y="363.74261"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*02:01,__DPB1*06:01"
-       id="text257">DPA1*02:01, DPB1*06:01</text>
-    <text
-       font-size="28px"
-       x="-821.28247"
-       y="261.84915"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*01:03,__DPB1*06:01"
-       id="text259">DPA1*01:03, DPB1*06:01</text>
-    <text
-       font-size="28px"
-       x="8.9333725"
-       y="-15.142532"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*02:01,__DPB1*09:01"
-       id="text261">DPA1*02:01, DPB1*09:01</text>
-    <text
-       font-size="28px"
-       x="37.873615"
-       y="-447.90103"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*02:02,__DPB1*10:01"
-       id="text263">DPA1*02:02, DPB1*10:01</text>
-    <text
-       font-size="28px"
-       x="1017.8429"
-       y="530.69611"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*01:03,__DPB1*11:01"
-       id="text265">DPA1*01:03, DPB1*11:01</text>
-    <text
-       font-size="28px"
-       x="-681.3009"
-       y="-965.36011"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*01:03,__DPB1*28:01"
-       id="text267">DPA1*01:03, DPB1*28:01</text>
-    <text
-       font-size="28px"
-       x="786.0379"
-       y="192.50722"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*02:01,__DPB1*13:01"
-       id="text269">DPA1*02:01, DPB1*13:01</text>
-    <text
-       font-size="28px"
-       x="1161.926"
-       y="54.269825"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*02:02,__DPB1*13:01"
-       id="text271">DPA1*02:02, DPB1*13:01</text>
-    <text
-       font-size="28px"
-       x="763.03687"
-       y="917.55334"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*03:01,__DPB1*13:01"
-       id="text273">DPA1*03:01, DPB1*13:01</text>
-    <text
-       font-size="28px"
-       x="419.99478"
-       y="-349.34378"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*02:01,__DPB1*14:01"
-       id="text275">DPA1*02:01, DPB1*14:01</text>
-    <text
-       font-size="28px"
-       x="1049.4679"
-       y="-530.08545"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*02:01,__DPB1*15:01"
-       id="text277">DPA1*02:01, DPB1*15:01</text>
-    <text
-       font-size="28px"
-       x="402.39191"
-       y="58.461971"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*02:01,__DPB1*17:01"
-       id="text279">DPA1*02:01, DPB1*17:01</text>
-    <text
-       font-size="28px"
-       x="-213.5175"
-       y="-1161.0258"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*02:01,__DPB1*18:01"
-       id="text281">DPA1*02:01, DPB1*18:01</text>
-    <text
-       font-size="28px"
-       x="-227.57373"
-       y="-768.34515"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*01:05,__DPB1*18:01"
-       id="text283">DPA1*01:05, DPB1*18:01</text>
-    <text
-       font-size="28px"
-       x="-586.93652"
-       y="-572.37805"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*01:04,__DPB1*18:01"
-       id="text285">DPA1*01:04, DPB1*18:01</text>
-    <text
-       font-size="28px"
-       x="663.62628"
-       y="-660.51965"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*01:03,__DPB1*19:01"
-       id="text287">DPA1*01:03, DPB1*19:01</text>
-    <text
-       font-size="28px"
-       x="227.25606"
-       y="419.98169"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*03:01,__DPB1*20:01"
-       id="text289">DPA1*03:01, DPB1*20:01</text>
-    <text
-       font-size="28px"
-       x="545.12518"
-       y="-1039.4604"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*01:03,__DPB1*23:01"
-       id="text291">DPA1*01:03, DPB1*23:01</text>
-    <text
-       font-size="28px"
-       x="-996.10541"
-       y="-494.43832"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*01:05,__DPB1*28:01"
-       id="text293">DPA1*01:05, DPB1*28:01</text>
-    <text
-       font-size="28px"
-       x="-1097.7224"
-       y="-70.939003"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*04:01,__DPB1*28:01"
-       id="text295">DPA1*04:01, DPB1*28:01</text>
-    <text
-       font-size="28px"
-       x="-453.99115"
-       y="964.52936"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*02:02,__DPB1*11:01"
-       id="text297">DPA1*02:02, DPB1*11:01</text>
+       id="text234"><tspan
+         sodipodi:role="line"
+         id="tspan416"
+         x="-453.99115"
+         y="964.52936"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:02</tspan><tspan
+         sodipodi:role="line"
+         id="tspan418"
+         x="-453.99115"
+         y="999.52936"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*11:01</tspan></text>
   </g>
 </svg>

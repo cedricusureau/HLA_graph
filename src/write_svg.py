@@ -55,10 +55,10 @@ def get_edges_dictionnary(svg_liste):
 def opacity_intensity(data):
     ratio = {}
     for bead, value in data.items():
-        if value/10000 > 1:
+        if value/15000 > 1:
             ratio[bead] = 0.8
         else :
-           ratio[bead] = value/10000
+           ratio[bead] = value/15000
     return ratio
 
 
@@ -320,9 +320,9 @@ def get_bead_text_position(svg_liste):
             tmp_value = []
             for i, j in enumerate(svg_liste[indice:]):
                 if "  x=" in j:
-                    tmp_value.append(float(j.replace('       x="','').replace('"\n','')))
+                    tmp_value.append(float(j.replace('       x="','').replace('     x="','').replace('"\n','')))
                 if "  y=" in j:
-                    tmp_value.append(float(j.replace('       y="','').replace('"\n','')))
+                    tmp_value.append(float(j.replace('       y="','').replace('     y="','').replace('"\n','')))
 
                 if len(tmp_value) == 2:
                     text_position.append(tmp_value)
