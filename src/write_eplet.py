@@ -188,7 +188,7 @@ def purge_eplet_on_bead(eplet_on_bead, eplet_on_link):
 
 
 def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written_strong, allele_type):
-    pos_x, pos_y = -900, -1100
+    pos_x, pos_y = -900, -1200
     count_A = 1
     count_B = 1
     already_write_suspension_A = False
@@ -201,7 +201,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
         svg,
         pos_x,
         pos_y,
-        font_size=40,
+        font_size=50,
         font_family="Dialog",
         color="#1b2631",
         text="{}A: ".format(allele_type),
@@ -211,7 +211,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
         svg,
         pos_x,
         pos_y + 50,
-        font_size=40,
+        font_size=46,
         font_family="Dialog",
         color="#1b2631",
         text="{}B: ".format(allele_type),
@@ -219,13 +219,13 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
 
     for eplet in all_written_stronger:
         if eplet in A_eplet:
-            if count_A > 36 :
+            if count_A > 20 :
                 if already_write_suspension_A == False:
                     svg = write_svg.write_text_on_svg(
                         svg,
-                        pos_x + (50 + 30 * count_A + 10 * len("...")),
+                        pos_x + (30 + 40 * count_A + 10 * len("...")),
                         pos_y,
-                        font_size=36,
+                        font_size=46,
                         font_family="Dialog",
                         color="#FF0000",
                         text="...",
@@ -237,22 +237,22 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
             else :
                 svg = write_svg.write_text_on_svg(
                     svg,
-                    pos_x + ( 50 + 30 * count_A + 10 * len(eplet)),
+                    pos_x + (30 + 46 * count_A + 10 * len(eplet)),
                     pos_y,
-                    font_size=36,
+                    font_size=46,
                     font_family="Dialog",
                     color="#FF0000",
                     text=eplet,
                 )
                 count_A += len(eplet)
         elif eplet in B_eplet:
-            if count_B > 36:
+            if count_B > 20:
                 if already_write_suspension_B == False:
                     svg = write_svg.write_text_on_svg(
                         svg,
-                        pos_x + (50 + 30 * count_B + 10 * len("...")),
+                        pos_x + (30 + 46 * count_B + 10 * len("...")),
                         pos_y + 50,
-                        font_size=36,
+                        font_size=46,
                         font_family="Dialog",
                         color="#FF0000",
                         text="...",
@@ -261,9 +261,9 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
             else:
                 svg = write_svg.write_text_on_svg(
                     svg,
-                    pos_x + (50 + 30 * count_B +  10 * len(eplet)),
+                    pos_x + (30 + 46 * count_B +  10 * len(eplet)),
                     pos_y + 50,
-                    font_size=36,
+                    font_size=46,
                     font_family="Dialog",
                     color="#FF0000",
                     text=eplet,
@@ -273,13 +273,13 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
 
     for eplet in all_written_strong:
         if eplet in A_eplet:
-            if count_A > 36:
+            if count_A > 20:
                 if already_write_suspension_A == False:
                     svg = write_svg.write_text_on_svg(
                         svg,
-                        pos_x + (50 + 30 * count_A + 10 * len("...")),
+                        pos_x + (30 + 46 * count_A + 10 * len("...")),
                         pos_y,
-                        font_size=36,
+                        font_size=46,
                         font_family="Dialog",
                         color="#1e8449 ",
                         text="...",
@@ -288,22 +288,22 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
             else:
                 svg = write_svg.write_text_on_svg(
                     svg,
-                    pos_x + ( 50 + 30 * count_A + 10 * len(eplet)),
+                    pos_x + ( 30 + 46* count_A + 10 * len(eplet)),
                     pos_y,
-                    font_size=36,
+                    font_size=46,
                     font_family="Dialog",
                     color="#1e8449 ",
                     text=eplet,
                 )
                 count_A += len(eplet)
         elif eplet in B_eplet:
-            if count_B > 36:
+            if count_B > 20:
                 if already_write_suspension_B == False:
                     svg = write_svg.write_text_on_svg(
                         svg,
-                        pos_x + (50 + 30 * count_B + 10 * len("...")),
+                        pos_x + (30 + 46 * count_B + 10 * len("...")),
                         pos_y + 50,
-                        font_size=36,
+                        font_size=46,
                         font_family="Dialog",
                         color="#1e8449 ",
                         text="...",
@@ -312,9 +312,9 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
             else:
                 svg = write_svg.write_text_on_svg(
                     svg,
-                    pos_x + (50 + 30 * count_B +  10 * len(eplet)),
+                    pos_x + (30 + 46 * count_B +  10 * len(eplet)),
                     pos_y + 50,
-                    font_size=36,
+                    font_size=46,
                     font_family="Dialog",
                     color="#1e8449 ",
                     text=eplet,
@@ -358,7 +358,7 @@ def get_view_box(mfi):
 def write_warning_message(view_box, svg):
     svg = write_svg.write_text_on_svg(
         svg,
-        view_box[0] + 450,
+        view_box[0] + 480,
         view_box[1] + view_box[3] - 180,
         font_size=46,
         font_family="Dialog",
@@ -367,7 +367,7 @@ def write_warning_message(view_box, svg):
     )
     svg = write_svg.write_text_on_svg(
         svg,
-        view_box[0] + 450,
+        view_box[0] + 480,
         view_box[1] + view_box[3] - 180 + 46,
         font_size=46,
         font_family="Dialog",

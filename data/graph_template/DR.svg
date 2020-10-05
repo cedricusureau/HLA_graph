@@ -8,18 +8,16 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    contentScriptType="text/ecmascript"
-   width="2300"
+   width="2350"
    zoomAndPan="magnify"
    contentStyleType="text/css"
-   viewBox="-1078 -954 2300 2100"
-   height="2100"
+   viewBox="-1093 -969 2350 2050"
+   height="2050"
    preserveAspectRatio="xMidYMid meet"
    version="1.1"
    id="svg284"
    sodipodi:docname="DR.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
-  <style
-     id="style1115"></style>
   <metadata
      id="metadata290">
     <rdf:RDF>
@@ -47,16 +45,16 @@
      inkscape:window-height="713"
      id="namedview286"
      showgrid="false"
-     inkscape:zoom="0.21142231"
-     inkscape:cx="1197.1185"
-     inkscape:cy="1139.0632"
+     inkscape:zoom="0.20812399"
+     inkscape:cx="1156.9109"
+     inkscape:cy="1076.8987"
      inkscape:window-x="67"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg284" />
   <g
      id="edges"
-     transform="translate(55.091839,70.069423)">
+     transform="translate(55.194817,18.070159)">
     <path
        fill="none"
        stroke-width="1"
@@ -308,11 +306,11 @@
   </g>
   <g
      id="nodes"
-     transform="translate(55.091839,70.069423)">
+     transform="translate(55.194817,18.070159)">
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="694.14777"
        class="id_DRB1*01:01"
        cy="522.36835"
@@ -323,7 +321,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="505.39813"
        class="id_DRB1*01:02"
        cy="298.14838"
@@ -334,7 +332,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="771.56464"
        class="id_DRB1*01:03"
        cy="219.88039"
@@ -345,7 +343,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="983.83374"
        class="id_DRB1*03:01"
        cy="-93.103943"
@@ -356,7 +354,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="680.82379"
        class="id_DRB1*03:02"
        cy="-39.188782"
@@ -367,7 +365,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="-527.2489"
        class="id_DRB1*04:01"
        cy="-642.39105"
@@ -378,7 +376,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="-752.58331"
        class="id_DRB1*04:02"
        cy="-81.980957"
@@ -389,7 +387,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="-965.64197"
        class="id_DRB1*04:04"
        cy="-651.24359"
@@ -400,7 +398,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="-487.35013"
        class="id_DRB1*04:05"
        cy="-327.96417"
@@ -411,7 +409,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="395.38458"
        class="id_DRB1*07:01"
        cy="876.30249"
@@ -422,7 +420,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="-994.78546"
        class="id_DRB1*04:03"
        cy="-340.12546"
@@ -433,7 +431,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="25.970173"
        class="id_DRB1*08:01"
        cy="-12.145006"
@@ -444,7 +442,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="550.76019"
        class="id_DRB1*09:01"
        cy="-315.7926"
@@ -455,7 +453,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="239.64586"
        class="id_DRB1*09:02"
        cy="-283.40598"
@@ -466,7 +464,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="-1015.1789"
        class="id_DRB1*10:01"
        cy="44.8424"
@@ -477,7 +475,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="-526.63245"
        class="id_DRB1*11:01"
        cy="17.146324"
@@ -488,7 +486,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="-196.68472"
        class="id_DRB1*11:04"
        cy="-190.7916"
@@ -499,7 +497,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="54.46032"
        class="id_DRB1*12:01"
        cy="-875.58759"
@@ -510,7 +508,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="160.4075"
        class="id_DRB1*12:02"
        cy="-594.40417"
@@ -521,7 +519,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="-370.22476"
        class="id_DRB1*13:01"
        cy="305.32523"
@@ -532,7 +530,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="-40.930954"
        class="id_DRB1*13:03"
        cy="293.77847"
@@ -543,7 +541,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="242.99854"
        class="id_DRB1*14:01"
        cy="238.37732"
@@ -554,7 +552,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="-344.83368"
        class="id_DRB1*14:02"
        cy="-891.56262"
@@ -565,7 +563,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="366.75159"
        class="id_DRB1*14:54"
        cy="-27.108555"
@@ -576,7 +574,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="52.59156"
        class="id_DRB1*15:01"
        cy="533.80743"
@@ -587,7 +585,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="380.86298"
        class="id_DRB1*15:02"
        cy="596.95959"
@@ -598,7 +596,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="54.368362"
        class="id_DRB1*15:03"
        cy="808.3454"
@@ -609,7 +607,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="-465.21869"
        class="id_DRB1*16:01"
        cy="784.94775"
@@ -620,7 +618,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="-267.92532"
        class="id_DRB1*16:02"
        cy="534.97632"
@@ -631,7 +629,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="523.46857"
        class="id_DRB3*01:01"
        cy="-633.05084"
@@ -642,7 +640,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="-177.55431"
        class="id_DRB3*02:02"
        cy="-562.16925"
@@ -653,7 +651,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="845.47644"
        class="id_DRB3*03:01"
        cy="-378.90289"
@@ -664,7 +662,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="705.55933"
        class="id_DRB4*01:01"
        cy="796.99384"
@@ -675,7 +673,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="-875.97455"
        class="id_DRB4*01:03"
        cy="320.32373"
@@ -686,7 +684,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="-699.35724"
        class="id_DRB5*01:01"
        cy="561.03247"
@@ -697,7 +695,7 @@
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="60"
+       r="75"
        cx="368.70526"
        class="id_DRB5*02:02"
        cy="-891.04596"
@@ -708,12 +706,12 @@
   </g>
   <g
      id="node-labels-outline"
-     transform="translate(55.091839,70.069423)">
+     transform="translate(55.194817,18.070159)">
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="694.14777"
-       y="526.90741"
+       y="528.04218"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -721,13 +719,13 @@
        class="id_DRB1*01:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text138">DRB1*01:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="505.39813"
-       y="302.68744"
+       y="303.8222"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -735,13 +733,13 @@
        class="id_DRB1*01:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text140">DRB1*01:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="771.56464"
-       y="224.41945"
+       y="225.55421"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -749,13 +747,13 @@
        class="id_DRB1*01:03"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text142">DRB1*01:03</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="983.83374"
-       y="-88.56488"
+       y="-87.430115"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -763,13 +761,13 @@
        class="id_DRB1*03:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text144">DRB1*03:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="680.82379"
-       y="-34.649719"
+       y="-33.514954"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -777,13 +775,13 @@
        class="id_DRB1*03:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text146">DRB1*03:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="-527.2489"
-       y="-637.85199"
+       y="-636.71722"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -791,13 +789,13 @@
        class="id_DRB1*04:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text148">DRB1*04:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="-752.58331"
-       y="-77.441895"
+       y="-76.307129"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -805,13 +803,13 @@
        class="id_DRB1*04:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text150">DRB1*04:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="-965.64197"
-       y="-646.70453"
+       y="-645.56976"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -819,13 +817,13 @@
        class="id_DRB1*04:04"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text152">DRB1*04:04</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="-487.35013"
-       y="-323.42511"
+       y="-322.29034"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -833,13 +831,13 @@
        class="id_DRB1*04:05"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text154">DRB1*04:05</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="395.38458"
-       y="880.84155"
+       y="881.97632"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -847,13 +845,13 @@
        class="id_DRB1*07:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text156">DRB1*07:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="-994.78546"
-       y="-335.5864"
+       y="-334.45163"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -861,13 +859,13 @@
        class="id_DRB1*04:03"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text158">DRB1*04:03</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="25.970173"
-       y="-7.6059437"
+       y="-6.4711785"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -875,13 +873,13 @@
        class="id_DRB1*08:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text160">DRB1*08:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="550.76019"
-       y="-311.25354"
+       y="-310.11877"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -889,13 +887,13 @@
        class="id_DRB1*09:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text162">DRB1*09:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="239.64586"
-       y="-278.86691"
+       y="-277.73215"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -903,13 +901,13 @@
        class="id_DRB1*09:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text164">DRB1*09:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="-1015.1789"
-       y="49.381462"
+       y="50.516228"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -917,13 +915,13 @@
        class="id_DRB1*10:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text166">DRB1*10:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="-526.63245"
-       y="21.685387"
+       y="22.820152"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -931,13 +929,13 @@
        class="id_DRB1*11:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text168">DRB1*11:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="-196.68472"
-       y="-186.25253"
+       y="-185.11777"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -945,13 +943,13 @@
        class="id_DRB1*11:04"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text170">DRB1*11:04</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="54.46032"
-       y="-871.04852"
+       y="-869.91376"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -959,13 +957,13 @@
        class="id_DRB1*12:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text172">DRB1*12:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="160.4075"
-       y="-589.86511"
+       y="-588.73035"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -973,13 +971,13 @@
        class="id_DRB1*12:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text174">DRB1*12:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="-370.22476"
-       y="309.86429"
+       y="310.99905"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -987,13 +985,13 @@
        class="id_DRB1*13:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text176">DRB1*13:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="-40.930954"
-       y="298.31754"
+       y="299.4523"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1001,13 +999,13 @@
        class="id_DRB1*13:03"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text178">DRB1*13:03</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="242.99854"
-       y="242.91638"
+       y="244.05115"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1015,13 +1013,13 @@
        class="id_DRB1*14:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text180">DRB1*14:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="-344.83368"
-       y="-887.02356"
+       y="-885.88879"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1029,13 +1027,13 @@
        class="id_DRB1*14:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text182">DRB1*14:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="366.75159"
-       y="-22.569492"
+       y="-21.434727"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1043,13 +1041,13 @@
        class="id_DRB1*14:54"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text184">DRB1*14:54</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="52.59156"
-       y="538.3465"
+       y="539.48126"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1057,13 +1055,13 @@
        class="id_DRB1*15:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text186">DRB1*15:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="380.86298"
-       y="601.49866"
+       y="602.63342"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1071,13 +1069,13 @@
        class="id_DRB1*15:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text188">DRB1*15:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="54.368362"
-       y="812.88446"
+       y="814.01923"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1085,13 +1083,13 @@
        class="id_DRB1*15:03"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text190">DRB1*15:03</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="-465.21869"
-       y="789.48682"
+       y="790.62158"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1099,13 +1097,13 @@
        class="id_DRB1*16:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text192">DRB1*16:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="-267.92532"
-       y="539.51538"
+       y="540.65015"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1113,13 +1111,13 @@
        class="id_DRB1*16:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text194">DRB1*16:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="523.46857"
-       y="-628.51178"
+       y="-627.37701"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1127,13 +1125,13 @@
        class="id_DRB3*01:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text196">DRB3*01:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="-177.55431"
-       y="-557.63019"
+       y="-556.49542"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1141,13 +1139,13 @@
        class="id_DRB3*02:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text198">DRB3*02:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="845.47644"
-       y="-374.36383"
+       y="-373.22906"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1155,13 +1153,13 @@
        class="id_DRB3*03:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text200">DRB3*03:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="705.55933"
-       y="801.5329"
+       y="802.66766"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1169,13 +1167,13 @@
        class="id_DRB4*01:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text202">DRB4*01:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="-875.97455"
-       y="324.86279"
+       y="325.99756"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1183,13 +1181,13 @@
        class="id_DRB4*01:03"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text204">DRB4*01:03</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="-699.35724"
-       y="565.57153"
+       y="566.7063"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1197,13 +1195,13 @@
        class="id_DRB5*01:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text206">DRB5*01:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="30px"
        x="368.70526"
-       y="-886.5069"
+       y="-885.37213"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1211,331 +1209,331 @@
        class="id_DRB5*02:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="0.9375px"
        id="text208">DRB5*02:02</text>
   </g>
   <g
      id="node-labels"
-     transform="translate(55.091839,70.069423)">
+     transform="translate(55.194817,18.070159)">
     <text
-       font-size="24px"
+       font-size="30px"
        x="694.14777"
-       y="526.90741"
+       y="528.04218"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*01:01"
        id="text211">DRB1*01:01</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="505.39813"
-       y="302.68744"
+       y="303.8222"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*01:02"
        id="text213">DRB1*01:02</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="771.56464"
-       y="224.41945"
+       y="225.55421"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*01:03"
        id="text215">DRB1*01:03</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="983.83374"
-       y="-88.56488"
+       y="-87.430115"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*03:01"
        id="text217">DRB1*03:01</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="680.82379"
-       y="-34.649719"
+       y="-33.514954"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*03:02"
        id="text219">DRB1*03:02</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="-527.2489"
-       y="-637.85199"
+       y="-636.71722"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*04:01"
        id="text221">DRB1*04:01</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="-752.58331"
-       y="-77.441895"
+       y="-76.307129"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*04:02"
        id="text223">DRB1*04:02</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="-965.64197"
-       y="-646.70453"
+       y="-645.56976"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*04:04"
        id="text225">DRB1*04:04</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="-487.35013"
-       y="-323.42511"
+       y="-322.29034"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*04:05"
        id="text227">DRB1*04:05</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="395.38458"
-       y="880.84155"
+       y="881.97632"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*07:01"
        id="text229">DRB1*07:01</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="-994.78546"
-       y="-335.5864"
+       y="-334.45163"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*04:03"
        id="text231">DRB1*04:03</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="25.970173"
-       y="-7.6059437"
+       y="-6.4711785"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*08:01"
        id="text233">DRB1*08:01</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="550.76019"
-       y="-311.25354"
+       y="-310.11877"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*09:01"
        id="text235">DRB1*09:01</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="239.64586"
-       y="-278.86691"
+       y="-277.73215"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*09:02"
        id="text237">DRB1*09:02</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="-1015.1789"
-       y="49.381462"
+       y="50.516228"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*10:01"
        id="text239">DRB1*10:01</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="-526.63245"
-       y="21.685387"
+       y="22.820152"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*11:01"
        id="text241">DRB1*11:01</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="-196.68472"
-       y="-186.25253"
+       y="-185.11777"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*11:04"
        id="text243">DRB1*11:04</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="54.46032"
-       y="-871.04852"
+       y="-869.91376"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*12:01"
        id="text245">DRB1*12:01</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="160.4075"
-       y="-589.86511"
+       y="-588.73035"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*12:02"
        id="text247">DRB1*12:02</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="-370.22476"
-       y="309.86429"
+       y="310.99905"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*13:01"
        id="text249">DRB1*13:01</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="-40.930954"
-       y="298.31754"
+       y="299.4523"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*13:03"
        id="text251">DRB1*13:03</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="242.99854"
-       y="242.91638"
+       y="244.05115"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*14:01"
        id="text253">DRB1*14:01</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="-344.83368"
-       y="-887.02356"
+       y="-885.88879"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*14:02"
        id="text255">DRB1*14:02</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="366.75159"
-       y="-22.569492"
+       y="-21.434727"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*14:54"
        id="text257">DRB1*14:54</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="52.59156"
-       y="538.3465"
+       y="539.48126"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*15:01"
        id="text259">DRB1*15:01</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="380.86298"
-       y="601.49866"
+       y="602.63342"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*15:02"
        id="text261">DRB1*15:02</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="54.368362"
-       y="812.88446"
+       y="814.01923"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*15:03"
        id="text263">DRB1*15:03</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="-465.21869"
-       y="789.48682"
+       y="790.62158"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*16:01"
        id="text265">DRB1*16:01</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="-267.92532"
-       y="539.51538"
+       y="540.65015"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB1*16:02"
        id="text267">DRB1*16:02</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="523.46857"
-       y="-628.51178"
+       y="-627.37701"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB3*01:01"
        id="text269">DRB3*01:01</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="-177.55431"
-       y="-557.63019"
+       y="-556.49542"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB3*02:02"
        id="text271">DRB3*02:02</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="845.47644"
-       y="-374.36383"
+       y="-373.22906"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB3*03:01"
        id="text273">DRB3*03:01</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="705.55933"
-       y="801.5329"
+       y="802.66766"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB4*01:01"
        id="text275">DRB4*01:01</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="-875.97455"
-       y="324.86279"
+       y="325.99756"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB4*01:03"
        id="text277">DRB4*01:03</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="-699.35724"
-       y="565.57153"
+       y="566.7063"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_DRB5*01:01"
        id="text279">DRB5*01:01</text>
     <text
-       font-size="24px"
+       font-size="30px"
        x="368.70526"
-       y="-886.5069"
+       y="-885.37213"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
