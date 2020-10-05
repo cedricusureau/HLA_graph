@@ -51,8 +51,16 @@ def write_strong_eplet_on_link(svg, path_position, strong_eplet_on_link, text_si
                 x = path_position[couple][0]
                 y = path_position[couple][1] + (text_size * already_write[couple]) - 30
                 if to_close_to_write(global_written, "...", x, y, bead_text_position) == True:
+                    if warning == False:
+                        view_box = get_view_box(svg)
+                        svg_list = write_warning_message(view_box, svg)
+                        warning = True
                     continue
                 else:
+                    if warning == False:
+                        view_box = get_view_box(svg)
+                        svg_list = write_warning_message(view_box, svg)
+                        warning = True
                     svg = write_svg.write_text_on_svg(
                         svg,
                         x,
@@ -118,6 +126,7 @@ def write_stronger_eplet_on_bead(svg, bead_position, stronger_eplet_on_bead, str
 
 def write_strong_eplet_on_bead(svg, bead_position, strong_eplet_on_bead, stronger_eplet_on_bead, strong_eplet_on_link, text_size, text_position):
     already_write = {}
+    warning = False
 
     strong_eplet_on_bead = purge_eplet_on_bead(strong_eplet_on_bead, strong_eplet_on_link)
     for bead in stronger_eplet_on_bead.keys():
@@ -126,6 +135,10 @@ def write_strong_eplet_on_bead(svg, bead_position, strong_eplet_on_bead, stronge
     for bead, eplets in strong_eplet_on_bead.items():
         for eplet in eplets:
             if already_write[bead] > 2:
+                if warning == False :
+                    view_box = get_view_box(svg)
+                    svg_list = write_warning_message(view_box, svg)
+                    warning = True
                 svg = write_svg.write_text_on_svg(
                     svg,
                     bead_position[bead][0] + text_position[0],
