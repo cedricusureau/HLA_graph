@@ -8,18 +8,16 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    contentScriptType="text/ecmascript"
-   width="2400"
+   width="2420"
    zoomAndPan="magnify"
    contentStyleType="text/css"
-   viewBox="-1183 -969 2400 2100"
-   height="2100"
+   viewBox="-1193 -979 2420 2050"
+   height="2050"
    preserveAspectRatio="xMidYMid meet"
    version="1.1"
    id="svg284"
    sodipodi:docname="A.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
-  <style
-     id="style1115"></style>
   <metadata
      id="metadata290">
     <rdf:RDF>
@@ -47,9 +45,9 @@
      inkscape:window-height="713"
      id="namedview286"
      showgrid="false"
-     inkscape:zoom="0.14512821"
-     inkscape:cx="1374.8422"
-     inkscape:cy="639.93177"
+     inkscape:zoom="0.2031586"
+     inkscape:cx="1190.5825"
+     inkscape:cy="1211.749"
      inkscape:window-x="67"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -57,7 +55,7 @@
      inkscape:document-rotation="0" />
   <g
      id="edges"
-     transform="translate(56.755659,87.349105)">
+     transform="translate(40.115209)">
     <path
        fill="none"
        stroke-width="1"
@@ -429,11 +427,11 @@
   </g>
   <g
      id="nodes"
-     transform="translate(56.755659,87.349105)">
+     transform="translate(40.115209)">
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="-1021.8233"
        class="id_A*01:01"
        cy="292.32419"
@@ -443,8 +441,8 @@
        id="circle95" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="-376.80109"
        class="id_A*02:01"
        cy="750.70605"
@@ -454,8 +452,8 @@
        id="circle97" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="75.385818"
        class="id_A*02:03"
        cy="918.87115"
@@ -465,8 +463,8 @@
        id="circle99" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="307.62924"
        class="id_A*02:06"
        cy="619.21667"
@@ -476,8 +474,8 @@
        id="circle101" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="-884.14313"
        class="id_A*03:01"
        cy="-264.78821"
@@ -487,8 +485,8 @@
        id="circle103" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="-708.6076"
        class="id_A*11:01"
        cy="160.97372"
@@ -498,8 +496,8 @@
        id="circle105" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="-748.03223"
        class="id_A*11:02"
        cy="571.43976"
@@ -509,8 +507,8 @@
        id="circle107" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="1035.3712"
        class="id_A*23:01"
        cy="355.65948"
@@ -520,8 +518,8 @@
        id="circle109" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="827.19861"
        class="id_A*24:02"
        cy="607.44556"
@@ -531,8 +529,8 @@
        id="circle111" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="614.31427"
        class="id_A*24:03"
        cy="372.91486"
@@ -542,8 +540,8 @@
        id="circle113" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="813.70526"
        class="id_A*25:01"
        cy="-190.24254"
@@ -553,8 +551,8 @@
        id="circle115" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="155.31702"
        class="id_A*26:01"
        cy="50.919827"
@@ -564,8 +562,8 @@
        id="circle117" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="-628.5033"
        class="id_A*29:01"
        cy="-800.76715"
@@ -575,8 +573,8 @@
        id="circle119" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="-877.71655"
        class="id_A*29:02"
        cy="-583.9682"
@@ -586,8 +584,8 @@
        id="circle121" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="-234.8302"
        class="id_A*30:01"
        cy="-906.06036"
@@ -597,8 +595,8 @@
        id="circle123" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="369.99271"
        class="id_A*30:02"
        cy="-751.44641"
@@ -608,8 +606,8 @@
        id="circle125" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="131.42058"
        class="id_A*31:01"
        cy="-458.55753"
@@ -619,8 +617,8 @@
        id="circle127" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="945.39722"
        class="id_A*32:01"
        cy="83.091492"
@@ -630,8 +628,8 @@
        id="circle129" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="-186.92097"
        class="id_A*33:01"
        cy="-589.86334"
@@ -641,8 +639,8 @@
        id="circle131" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="589.7583"
        class="id_A*34:01"
        cy="54.293289"
@@ -652,8 +650,8 @@
        id="circle133" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="-100.60023"
        class="id_A*34:02"
        cy="-177.49446"
@@ -663,8 +661,8 @@
        id="circle135" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="-1120.926"
        class="id_A*36:01"
        cy="-29.455894"
@@ -674,8 +672,8 @@
        id="circle137" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="283.48337"
        class="id_A*43:01"
        cy="300.02725"
@@ -685,8 +683,8 @@
        id="circle139" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="351.2522"
        class="id_A*66:01"
        cy="-145.21086"
@@ -696,8 +694,8 @@
        id="circle141" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="519.44617"
        class="id_A*66:02"
        cy="-377.55814"
@@ -707,8 +705,8 @@
        id="circle143" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="-181.6266"
        class="id_A*68:01"
        cy="154.02078"
@@ -718,8 +716,8 @@
        id="circle145" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="-454.62473"
        class="id_A*68:02"
        cy="387.98682"
@@ -729,8 +727,8 @@
        id="circle147" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="-46.84433"
        class="id_A*69:01"
        cy="461.56644"
@@ -740,8 +738,8 @@
        id="circle149" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="-499.60544"
        class="id_A*74:01"
        cy="-415.09747"
@@ -751,8 +749,8 @@
        id="circle151" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="805.50262"
        class="id_A*80:01"
        cy="-535.01727"
@@ -762,8 +760,8 @@
        id="circle153" />
     <circle
        fill-opacity="0.2"
-       fill="#000000"
-       r="60"
+       fill="#001633"
+       r="70"
        cx="-568.20862"
        class="id_A*33:03"
        cy="-86.775345"
@@ -774,12 +772,12 @@
   </g>
   <g
      id="node-labels-outline"
-     transform="translate(56.755659,87.349105)">
+     transform="translate(40.115209)">
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-1021.8233"
-       y="296.86325"
+       y="298.37628"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -787,13 +785,13 @@
        class="id_A*01:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text158">A*01:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-376.80109"
-       y="755.24512"
+       y="756.75812"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -801,13 +799,13 @@
        class="id_A*02:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text160">A*02:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="75.385818"
-       y="923.41022"
+       y="924.92322"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -815,13 +813,13 @@
        class="id_A*02:03"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text162">A*02:03</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="307.62924"
-       y="623.75574"
+       y="625.26874"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -829,13 +827,13 @@
        class="id_A*02:06"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text164">A*02:06</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-884.14313"
-       y="-260.24915"
+       y="-258.73611"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -843,13 +841,13 @@
        class="id_A*03:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text166">A*03:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-708.6076"
-       y="165.51279"
+       y="167.0258"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -857,13 +855,13 @@
        class="id_A*11:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text168">A*11:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-748.03223"
-       y="575.97882"
+       y="577.49182"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -871,13 +869,13 @@
        class="id_A*11:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text170">A*11:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="1035.3712"
-       y="360.19855"
+       y="361.71158"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -885,13 +883,13 @@
        class="id_A*23:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text172">A*23:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="827.19861"
-       y="611.98462"
+       y="613.49762"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -899,13 +897,13 @@
        class="id_A*24:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text174">A*24:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="614.31427"
-       y="377.45392"
+       y="378.96695"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -913,13 +911,13 @@
        class="id_A*24:03"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text176">A*24:03</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="813.70526"
-       y="-185.70348"
+       y="-184.19046"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -927,13 +925,13 @@
        class="id_A*25:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text178">A*25:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="155.31702"
-       y="55.458889"
+       y="56.971909"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -941,13 +939,13 @@
        class="id_A*26:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text180">A*26:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-628.5033"
-       y="-796.22809"
+       y="-794.71509"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -955,13 +953,13 @@
        class="id_A*29:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text182">A*29:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-877.71655"
-       y="-579.42914"
+       y="-577.91614"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -969,13 +967,13 @@
        class="id_A*29:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text184">A*29:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-234.8302"
-       y="-901.5213"
+       y="-900.0083"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -983,13 +981,13 @@
        class="id_A*30:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text186">A*30:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="369.99271"
-       y="-746.90735"
+       y="-745.39435"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -997,13 +995,13 @@
        class="id_A*30:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text188">A*30:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="131.42058"
-       y="-454.01846"
+       y="-452.50543"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1011,13 +1009,13 @@
        class="id_A*31:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text190">A*31:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="945.39722"
-       y="87.630554"
+       y="89.143578"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1025,13 +1023,13 @@
        class="id_A*32:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text192">A*32:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-186.92097"
-       y="-585.32428"
+       y="-583.81128"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1039,13 +1037,13 @@
        class="id_A*33:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text194">A*33:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="589.7583"
-       y="58.832352"
+       y="60.345371"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1053,13 +1051,13 @@
        class="id_A*34:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text196">A*34:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-100.60023"
-       y="-172.9554"
+       y="-171.44238"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1067,13 +1065,13 @@
        class="id_A*34:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text198">A*34:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-1120.926"
-       y="-24.916832"
+       y="-23.403811"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1081,13 +1079,13 @@
        class="id_A*36:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text200">A*36:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="283.48337"
-       y="304.56631"
+       y="306.07935"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1095,13 +1093,13 @@
        class="id_A*43:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text202">A*43:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="351.2522"
-       y="-140.6718"
+       y="-139.15878"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1109,13 +1107,13 @@
        class="id_A*66:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text204">A*66:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="519.44617"
-       y="-373.01907"
+       y="-371.50604"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1123,13 +1121,13 @@
        class="id_A*66:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text206">A*66:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-181.6266"
-       y="158.55984"
+       y="160.07286"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1137,13 +1135,13 @@
        class="id_A*68:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text208">A*68:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-454.62473"
-       y="392.52588"
+       y="394.03891"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1151,13 +1149,13 @@
        class="id_A*68:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text210">A*68:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-46.84433"
-       y="466.1055"
+       y="467.61853"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1165,13 +1163,13 @@
        class="id_A*69:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text212">A*69:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-499.60544"
-       y="-410.55841"
+       y="-409.04538"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1179,13 +1177,13 @@
        class="id_A*74:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text214">A*74:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="805.50262"
-       y="-530.47821"
+       y="-528.96521"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1193,13 +1191,13 @@
        class="id_A*80:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text216">A*80:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-568.20862"
-       y="-82.236282"
+       y="-80.723259"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -1207,286 +1205,286 @@
        class="id_A*33:03"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text218">A*33:03</text>
   </g>
   <g
      id="node-labels"
-     transform="translate(56.755659,87.349105)">
+     transform="translate(40.115209)">
     <text
-       font-size="24px"
+       font-size="32px"
        x="-1021.8233"
-       y="296.86325"
+       y="298.37628"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*01:01"
        id="text221">A*01:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-376.80109"
-       y="755.24512"
+       y="756.75812"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*02:01"
        id="text223">A*02:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="75.385818"
-       y="923.41022"
+       y="924.92322"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*02:03"
        id="text225">A*02:03</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="307.62924"
-       y="623.75574"
+       y="625.26874"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*02:06"
        id="text227">A*02:06</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-884.14313"
-       y="-260.24915"
+       y="-258.73611"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*03:01"
        id="text229">A*03:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-708.6076"
-       y="165.51279"
+       y="167.0258"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*11:01"
        id="text231">A*11:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-748.03223"
-       y="575.97882"
+       y="577.49182"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*11:02"
        id="text233">A*11:02</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="1035.3712"
-       y="360.19855"
+       y="361.71158"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*23:01"
        id="text235">A*23:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="827.19861"
-       y="611.98462"
+       y="613.49762"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*24:02"
        id="text237">A*24:02</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="614.31427"
-       y="377.45392"
+       y="378.96695"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*24:03"
        id="text239">A*24:03</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="813.70526"
-       y="-185.70348"
+       y="-184.19046"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*25:01"
        id="text241">A*25:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="155.31702"
-       y="55.458889"
+       y="56.971909"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*26:01"
        id="text243">A*26:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-628.5033"
-       y="-796.22809"
+       y="-794.71509"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*29:01"
        id="text245">A*29:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-877.71655"
-       y="-579.42914"
+       y="-577.91614"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*29:02"
        id="text247">A*29:02</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-234.8302"
-       y="-901.5213"
+       y="-900.0083"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*30:01"
        id="text249">A*30:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="369.99271"
-       y="-746.90735"
+       y="-745.39435"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*30:02"
        id="text251">A*30:02</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="131.42058"
-       y="-454.01846"
+       y="-452.50543"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*31:01"
        id="text253">A*31:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="945.39722"
-       y="87.630554"
+       y="89.143578"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*32:01"
        id="text255">A*32:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-186.92097"
-       y="-585.32428"
+       y="-583.81128"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*33:01"
        id="text257">A*33:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="589.7583"
-       y="58.832352"
+       y="60.345371"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*34:01"
        id="text259">A*34:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-100.60023"
-       y="-172.9554"
+       y="-171.44238"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*34:02"
        id="text261">A*34:02</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-1120.926"
-       y="-24.916832"
+       y="-23.403811"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*36:01"
        id="text263">A*36:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="283.48337"
-       y="304.56631"
+       y="306.07935"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*43:01"
        id="text265">A*43:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="351.2522"
-       y="-140.6718"
+       y="-139.15878"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*66:01"
        id="text267">A*66:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="519.44617"
-       y="-373.01907"
+       y="-371.50604"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*66:02"
        id="text269">A*66:02</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-181.6266"
-       y="158.55984"
+       y="160.07286"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*68:01"
        id="text271">A*68:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-454.62473"
-       y="392.52588"
+       y="394.03891"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*68:02"
        id="text273">A*68:02</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-46.84433"
-       y="466.1055"
+       y="467.61853"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*69:01"
        id="text275">A*69:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-499.60544"
-       y="-410.55841"
+       y="-409.04538"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*74:01"
        id="text277">A*74:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="805.50262"
-       y="-530.47821"
+       y="-528.96521"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_A*80:01"
        id="text279">A*80:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-568.20862"
-       y="-82.236282"
+       y="-80.723259"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"

@@ -19,6 +19,7 @@ def write_whole_svg(
     # edges_ligne, circle_ligne, text_ligne = write_svg.get_edges_dictionnary(svg_liste)
 
     data = write_svg.parse_excel_file(mfi)
+
     edges_ligne = write_svg.get_edges_dictionnary(svg_list)[0]
     # Create liste of link between positive beads
     link_between_pos = write_svg.find_link_between_pos(data, edges, cutoff)

@@ -67,8 +67,8 @@ for mfi in os.listdir("data/sample_example/SA1/"):
                 i,
                 args.cutoff,
                 args.dqdp + i + "_eplets.csv",
-                36,
-                [110,20]
+                38,
+                [120,30]
                 )
             all_raw_data.append(["A",make_raw.make_raw_data(a_ep)])
 
@@ -97,7 +97,7 @@ for mfi in os.listdir("data/sample_example/SA1/"):
                 args.cutoff,
                 args.dqdp + i + "_eplets.csv",
                 36,
-                [100, 20]
+                [120, 30]
             )
             all_raw_data.append(["C",make_raw.make_raw_data(c_ep)])
 
@@ -120,7 +120,7 @@ for mfi in os.listdir("data/sample_example/SA2/"):
                 args.cutoff,
                 args.dqdp + i + "_eplets.csv",
                 36,
-                [90,30]
+                [110,35]
             )
             all_raw_data.append(["DR", make_raw.make_raw_data(dr_ep)])
 
@@ -134,8 +134,8 @@ for mfi in os.listdir("data/sample_example/SA2/"):
                 i,
                 args.cutoff,
                 args.dqdp + i + "_eplets.csv",
-                36,
-                [100, 40]
+                44,
+                [120, 55]
             )
             all_raw_data.append(["DQ", make_raw.make_raw_data(dq_ep)])
 
@@ -149,8 +149,8 @@ for mfi in os.listdir("data/sample_example/SA2/"):
                 i,
                 args.cutoff,
                 args.dqdp + i + "_eplets.csv",
-                36,
-                [100, 40]
+                38,
+                [120, 45]
             )
             all_raw_data.append(["DP", make_raw.make_raw_data(dp_ep)])
 

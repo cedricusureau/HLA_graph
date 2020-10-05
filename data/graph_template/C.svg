@@ -8,10 +8,10 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    contentScriptType="text/ecmascript"
-   width="1000"
+   width="1020"
    zoomAndPan="magnify"
    contentStyleType="text/css"
-   viewBox="-582 -810 1000 2150"
+   viewBox="-597 -825 1020 2150"
    height="2150"
    preserveAspectRatio="xMidYMid meet"
    version="1.1"
@@ -45,17 +45,23 @@
      inkscape:window-height="713"
      id="namedview184"
      showgrid="false"
-     inkscape:zoom="0.21459648"
-     inkscape:cx="473.69823"
-     inkscape:cy="1221.8587"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.21119918"
+     inkscape:cx="250.04609"
+     inkscape:cy="1048.7372"
      inkscape:window-x="67"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg182"
-     inkscape:document-rotation="0" />
+     inkscape:current-layer="svg182">
+    <sodipodi:guide
+       position="1482.0134,-330.04728"
+       orientation="0,-1"
+       id="guide190" />
+  </sodipodi:namedview>
   <g
      id="edges"
-     transform="translate(61.082517,40.725711)">
+     transform="translate(32.796988,23.988037)">
     <path
        fill="none"
        stroke-width="1"
@@ -379,11 +385,11 @@
   </g>
   <g
      id="nodes"
-     transform="translate(61.082517,40.725711)">
+     transform="translate(32.796988,23.988037)">
     <circle
        fill-opacity="0.2"
-       fill="#858283"
-       r="60"
+       fill="#000000"
+       r="75"
        cx="216.65727"
        class="id_C*01:02"
        cy="-421.8114"
@@ -393,8 +399,8 @@
        id="circle83" />
     <circle
        fill-opacity="0.2"
-       fill="#858283"
-       r="60"
+       fill="#000000"
+       r="75"
        cx="-54.703548"
        class="id_C*02:02"
        cy="992.20966"
@@ -404,8 +410,8 @@
        id="circle85" />
     <circle
        fill-opacity="0.2"
-       fill="#858283"
-       r="60"
+       fill="#000000"
+       r="75"
        cx="-504.91165"
        class="id_C*03:02"
        cy="-492.9119"
@@ -415,8 +421,8 @@
        id="circle87" />
     <circle
        fill-opacity="0.2"
-       fill="#858283"
-       r="60"
+       fill="#000000"
+       r="75"
        cx="-519.39404"
        class="id_C*03:03"
        cy="-154.86143"
@@ -426,8 +432,8 @@
        id="circle89" />
     <circle
        fill-opacity="0.2"
-       fill="#858283"
-       r="60"
+       fill="#000000"
+       r="75"
        cx="-274.26917"
        class="id_C*03:04"
        cy="-690.59137"
@@ -437,8 +443,8 @@
        id="circle91" />
     <circle
        fill-opacity="0.2"
-       fill="#858283"
-       r="60"
+       fill="#000000"
+       r="75"
        cx="-48.166111"
        class="id_C*04:01"
        cy="252.52258"
@@ -448,8 +454,8 @@
        id="circle93" />
     <circle
        fill-opacity="0.2"
-       fill="#858283"
-       r="60"
+       fill="#000000"
+       r="75"
        cx="216.77547"
        class="id_C*05:01"
        cy="730.71906"
@@ -459,8 +465,8 @@
        id="circle95" />
     <circle
        fill-opacity="0.2"
-       fill="#858283"
-       r="60"
+       fill="#000000"
+       r="75"
        cx="204.06828"
        class="id_C*06:02"
        cy="429.04236"
@@ -470,8 +476,8 @@
        id="circle97" />
     <circle
        fill-opacity="0.2"
-       fill="#858283"
-       r="60"
+       fill="#000000"
+       r="75"
        cx="136.76811"
        class="id_C*07:02"
        cy="-747.66974"
@@ -481,8 +487,8 @@
        id="circle99" />
     <circle
        fill-opacity="0.2"
-       fill="#858283"
-       r="60"
+       fill="#000000"
+       r="75"
        cx="-50.501091"
        class="id_C*08:01"
        cy="-515.34698"
@@ -492,8 +498,8 @@
        id="circle101" />
     <circle
        fill-opacity="0.2"
-       fill="#858283"
-       r="60"
+       fill="#000000"
+       r="75"
        cx="168.93697"
        class="id_C*12:03"
        cy="-117.35499"
@@ -503,8 +509,8 @@
        id="circle103" />
     <circle
        fill-opacity="0.2"
-       fill="#858283"
-       r="60"
+       fill="#000000"
+       r="75"
        cx="-118.63668"
        class="id_C*14:02"
        cy="-90.205139"
@@ -514,8 +520,8 @@
        id="circle105" />
     <circle
        fill-opacity="0.2"
-       fill="#858283"
-       r="60"
+       fill="#000000"
+       r="75"
        cx="-362.16693"
        class="id_C*15:02"
        cy="821.76642"
@@ -525,8 +531,8 @@
        id="circle107" />
     <circle
        fill-opacity="0.2"
-       fill="#858283"
-       r="60"
+       fill="#000000"
+       r="75"
        cx="-264.38089"
        class="id_C*16:01"
        cy="-340.13531"
@@ -536,8 +542,8 @@
        id="circle109" />
     <circle
        fill-opacity="0.2"
-       fill="#858283"
-       r="60"
+       fill="#000000"
+       r="75"
        cx="-366.79572"
        class="id_C*17:01"
        cy="415.07413"
@@ -547,8 +553,8 @@
        id="circle111" />
     <circle
        fill-opacity="0.2"
-       fill="#858283"
-       r="60"
+       fill="#000000"
+       r="75"
        cx="-66.516808"
        class="id_C*18:02"
        cy="617.34808"
@@ -559,12 +565,12 @@
   </g>
   <g
      id="node-labels-outline"
-     transform="translate(61.082517,40.725711)">
+     transform="translate(32.796988,23.988037)">
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="216.65727"
-       y="-417.27234"
+       y="-415.75931"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -572,13 +578,13 @@
        class="id_C*01:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text116">C*01:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-54.703548"
-       y="996.74872"
+       y="998.26172"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -586,13 +592,13 @@
        class="id_C*02:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text118">C*02:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-504.91165"
-       y="-488.37283"
+       y="-486.8598"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -600,13 +606,13 @@
        class="id_C*03:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text120">C*03:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-519.39404"
-       y="-150.32237"
+       y="-148.80936"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -614,13 +620,13 @@
        class="id_C*03:03"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text122">C*03:03</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-274.26917"
-       y="-686.05231"
+       y="-684.53931"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -628,13 +634,13 @@
        class="id_C*03:04"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text124">C*03:04</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-48.166111"
-       y="257.06165"
+       y="258.57468"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -642,13 +648,13 @@
        class="id_C*04:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text126">C*04:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="216.77547"
-       y="735.25812"
+       y="736.77112"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -656,13 +662,13 @@
        class="id_C*05:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text128">C*05:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="204.06828"
-       y="433.58142"
+       y="435.09445"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -670,13 +676,13 @@
        class="id_C*06:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text130">C*06:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="136.76811"
-       y="-743.13068"
+       y="-741.61768"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -684,13 +690,13 @@
        class="id_C*07:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text132">C*07:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-50.501091"
-       y="-510.80792"
+       y="-509.29492"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -698,13 +704,13 @@
        class="id_C*08:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text134">C*08:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="168.93697"
-       y="-112.81593"
+       y="-111.3029"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -712,13 +718,13 @@
        class="id_C*12:03"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text136">C*12:03</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-118.63668"
-       y="-85.666077"
+       y="-84.153053"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -726,13 +732,13 @@
        class="id_C*14:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text138">C*14:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-362.16693"
-       y="826.30548"
+       y="827.81848"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -740,13 +746,13 @@
        class="id_C*15:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text140">C*15:02</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-264.38089"
-       y="-335.59625"
+       y="-334.08322"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -754,13 +760,13 @@
        class="id_C*16:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text142">C*16:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-366.79572"
-       y="419.61319"
+       y="421.12622"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -768,13 +774,13 @@
        class="id_C*17:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text144">C*17:01</text>
     <text
        stroke-linecap="round"
-       font-size="24px"
+       font-size="32px"
        x="-66.516808"
-       y="621.88715"
+       y="623.40015"
        fill="#000000"
        stroke-linejoin="round"
        style="dominant-baseline:central;text-anchor:middle"
@@ -782,151 +788,151 @@
        class="id_C*18:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.75px"
+       stroke-width="1px"
        id="text146">C*18:02</text>
   </g>
   <g
      id="node-labels"
-     transform="translate(61.082517,40.725711)">
+     transform="translate(32.796988,23.988037)">
     <text
-       font-size="24px"
+       font-size="32px"
        x="216.65727"
-       y="-417.27234"
+       y="-415.75931"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_C*01:02"
        id="text149">C*01:02</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-54.703548"
-       y="996.74872"
+       y="998.26172"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_C*02:02"
        id="text151">C*02:02</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-504.91165"
-       y="-488.37283"
+       y="-486.8598"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_C*03:02"
        id="text153">C*03:02</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-519.39404"
-       y="-150.32237"
+       y="-148.80936"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_C*03:03"
        id="text155">C*03:03</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-274.26917"
-       y="-686.05231"
+       y="-684.53931"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_C*03:04"
        id="text157">C*03:04</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-48.166111"
-       y="257.06165"
+       y="258.57468"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_C*04:01"
        id="text159">C*04:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="216.77547"
-       y="735.25812"
+       y="736.77112"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_C*05:01"
        id="text161">C*05:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="204.06828"
-       y="433.58142"
+       y="435.09445"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_C*06:02"
        id="text163">C*06:02</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="136.76811"
-       y="-743.13068"
+       y="-741.61768"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_C*07:02"
        id="text165">C*07:02</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-50.501091"
-       y="-510.80792"
+       y="-509.29492"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_C*08:01"
        id="text167">C*08:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="168.93697"
-       y="-112.81593"
+       y="-111.3029"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_C*12:03"
        id="text169">C*12:03</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-118.63668"
-       y="-85.666077"
+       y="-84.153053"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_C*14:02"
        id="text171">C*14:02</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-362.16693"
-       y="826.30548"
+       y="827.81848"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_C*15:02"
        id="text173">C*15:02</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-264.38089"
-       y="-335.59625"
+       y="-334.08322"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_C*16:01"
        id="text175">C*16:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-366.79572"
-       y="419.61319"
+       y="421.12622"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"
        class="id_C*17:01"
        id="text177">C*17:01</text>
     <text
-       font-size="24px"
+       font-size="32px"
        x="-66.516808"
-       y="621.88715"
+       y="623.40015"
        fill="#000000"
        style="dominant-baseline:central;text-anchor:middle"
        font-family="Dialog"

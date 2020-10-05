@@ -55,10 +55,10 @@ def get_edges_dictionnary(svg_liste):
 def opacity_intensity(data):
     ratio = {}
     for bead, value in data.items():
-        if value/15000 > 1:
+        if value/10000 > 1:
             ratio[bead] = 0.8
         else :
-           ratio[bead] = value/15000
+           ratio[bead] = value/10000
     return ratio
 
 
@@ -133,6 +133,7 @@ def replace_nodes_color_2(svg, to_color, ratio):
     for i in to_color:
         new_svg[i[1]] = new_svg[i[1]].replace("#858283", "#f15a73")
         new_svg[i[1]] = new_svg[i[1]].replace("#000000", "#f15a73")
+        new_svg[i[1]] = new_svg[i[1]].replace("#001633", "#f15a73")
         new_svg[i[2]] = new_svg[i[2]].replace('fill-opacity="0.2"', 'fill-opacity="{}"'.format(ratio[i[0]]))
 
     return new_svg
