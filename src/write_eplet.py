@@ -223,7 +223,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
                 if already_write_suspension_A == False:
                     svg = write_svg.write_text_on_svg(
                         svg,
-                        pos_x + (30 + 40 * count_A + 10 * len("...")),
+                        pos_x + (50 + 40 * count_A + 10 * len("...")),
                         pos_y,
                         font_size=46,
                         font_family="Dialog",
@@ -237,7 +237,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
             else :
                 svg = write_svg.write_text_on_svg(
                     svg,
-                    pos_x + (30 + 46 * count_A + 10 * len(eplet)),
+                    pos_x + (50 + 40 * count_A + 10 * len(eplet)),
                     pos_y,
                     font_size=46,
                     font_family="Dialog",
@@ -250,7 +250,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
                 if already_write_suspension_B == False:
                     svg = write_svg.write_text_on_svg(
                         svg,
-                        pos_x + (30 + 46 * count_B + 10 * len("...")),
+                        pos_x + (50 + 40 * count_B + 10 * len("...")),
                         pos_y + 50,
                         font_size=46,
                         font_family="Dialog",
@@ -261,7 +261,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
             else:
                 svg = write_svg.write_text_on_svg(
                     svg,
-                    pos_x + (30 + 46 * count_B +  10 * len(eplet)),
+                    pos_x + (50 + 40 * count_B +  10 * len(eplet)),
                     pos_y + 50,
                     font_size=46,
                     font_family="Dialog",
@@ -277,7 +277,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
                 if already_write_suspension_A == False:
                     svg = write_svg.write_text_on_svg(
                         svg,
-                        pos_x + (30 + 46 * count_A + 10 * len("...")),
+                        pos_x + (50 + 40 * count_A + 10 * len("...")),
                         pos_y,
                         font_size=46,
                         font_family="Dialog",
@@ -288,7 +288,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
             else:
                 svg = write_svg.write_text_on_svg(
                     svg,
-                    pos_x + ( 30 + 46* count_A + 10 * len(eplet)),
+                    pos_x + ( 50 + 40* count_A + 10 * len(eplet)),
                     pos_y,
                     font_size=46,
                     font_family="Dialog",
@@ -301,7 +301,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
                 if already_write_suspension_B == False:
                     svg = write_svg.write_text_on_svg(
                         svg,
-                        pos_x + (30 + 46 * count_B + 10 * len("...")),
+                        pos_x + (50 + 40 * count_B + 10 * len("...")),
                         pos_y + 50,
                         font_size=46,
                         font_family="Dialog",
@@ -312,7 +312,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
             else:
                 svg = write_svg.write_text_on_svg(
                     svg,
-                    pos_x + (30 + 46 * count_B +  10 * len(eplet)),
+                    pos_x + (50 + 40 * count_B +  10 * len(eplet)),
                     pos_y + 50,
                     font_size=46,
                     font_family="Dialog",

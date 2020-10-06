@@ -11,8 +11,8 @@
    width="2650"
    zoomAndPan="magnify"
    contentStyleType="text/css"
-   viewBox="-1175 -1245 2650 2700"
-   height="2700"
+   viewBox="-1175 -1245 2650 2730"
+   height="2730"
    preserveAspectRatio="xMidYMid meet"
    version="1.1"
    id="svg300"
@@ -65,15 +65,16 @@
      id="namedview302"
      showgrid="false"
      inkscape:zoom="0.16613634"
-     inkscape:cx="1083.0233"
+     inkscape:cx="1114.4559"
      inkscape:cy="1582.7888"
      inkscape:window-x="67"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg300" />
+     inkscape:current-layer="svg300"
+     inkscape:document-rotation="0" />
   <g
      id="edges"
-     transform="translate(65.503769,116.97699)">
+     transform="translate(65.352408,149.18758)">
     <path
        fill="none"
        stroke-width="2"
@@ -509,7 +510,7 @@
   </g>
   <g
      id="nodes"
-     transform="translate(65.503769,116.97699)">
+     transform="translate(65.352408,149.18758)">
     <circle
        fill-opacity="0.2"
        fill="#000000"
@@ -854,7 +855,7 @@
   </g>
   <g
      id="node-labels-outline"
-     transform="translate(67.915732,98.132259)">
+     transform="translate(67.764371,130.34285)">
     <text
        stroke-linecap="round"
        font-size="32px"
