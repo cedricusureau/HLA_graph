@@ -11,6 +11,6 @@ conda env create -f environment.yml
 ## Usage 
 
 ```shell script
-python main.py
+python -m src.hla_main.py
 ```
 
