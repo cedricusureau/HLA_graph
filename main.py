@@ -5,10 +5,10 @@ main.py
 The core file of my example project
 """
 
-import final_fonction
+import src.final_fonction as final_fonction
 import argparse
 import os
-import make_raw
+import src.make_raw as make_raw
 
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 

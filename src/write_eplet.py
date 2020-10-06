@@ -1,5 +1,5 @@
 
-import write_svg
+import src.write_svg as write_svg
 import math
 
 def write_stronger_eplet_on_link(svg, path_position, stronger_eplet_on_link, text_size, bead_text_position):
@@ -372,6 +372,6 @@ def write_warning_message(view_box, svg):
         font_size=46,
         font_family="Dialog",
         color="#ba4a00",
-        text="Please check raw data."
+        text="Please check raw_data data."
     )
     return svg

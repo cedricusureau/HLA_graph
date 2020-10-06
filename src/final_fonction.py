@@ -1,6 +1,6 @@
-import write_svg
-import eplet_extraction
-import write_eplet
+import src.write_svg as write_svg
+import src.eplet_extraction as eplet_extraction
+import src.write_eplet as write_eplet
 
 
 def write_whole_svg(
