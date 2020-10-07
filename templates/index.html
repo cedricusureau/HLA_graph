@@ -9,11 +9,33 @@
   <body>
     <div class="container">
         <div class="jumbotron">
-            <h1>File Upload</h1>
-            <form method="POST" action="" enctype="multipart/form-data">
-              <p><input type="file" name="file"></p>
-              <p><input type="submit" value="Submit"></p>
+            <h1>HLA Graph</h1>
+            <form method="POST" action="" enctype="multipart/form-data" class="form-inline">
+
+                <div class="custom-file form-group">
+                  <input type="file" class="custom-file-input" name="file" id="customFile">
+                  <label class="custom-file-label" for="customFile">Choose file</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="quantity">Threshold:</label>
+                    <input type="number" id="quantity" name="quantity" placeholder="1000" min="1000" max="3000" step="100">
+                </div>
+
+                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+
             </form>
+{% if allele_type %}
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Choose Allele
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">{{allele_type[0]}}</a>
+            <a class="dropdown-item" href="#">{{allele_type[1]}}</a>
+            <a class="dropdown-item" href="#">{{allele_type[2]}}</a>
+          </div>
+        </div>
 
             <div>
                 <!--<object type="image/svg+xml" data="image.svg">-->
@@ -28,11 +50,21 @@
             </div>
         </div>
     </div>
+    {% endif %}
 
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+      <script>
+        // Add the following code if you want the name of the file appear on select
+        $(".custom-file-input").on("change", function() {
+          var fileName = $(this).val().split("\\").pop();
+          $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+        });
+        </script>
+
   </body>
 </html>

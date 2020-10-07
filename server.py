@@ -15,6 +15,7 @@ def index():
 def upload_files():
     uploaded_file = request.files['file']
     filename = uploaded_file.filename
+    print(uploaded_file)
     if filename != '':
         file_ext = os.path.splitext(filename)[1]
         if file_ext not in app.config['UPLOAD_EXTENSIONS']:
@@ -26,13 +27,14 @@ def upload_files():
         allele_type = input_file_func.check_parsing(upload_filename)
         args = hla_main.parse_args()
         args.gene=allele_type
-        args.mfi=upload_filename
+        args.mfi=filename
         output_list = input_file_func.find_output(filename, allele_type)
 
-        hla_main.main(args)
+        hla_main.main_server(args)
+        return render_template("index.html", data=output_list, allele_type=allele_type.split(" "))
 
-
-    return render_template("index.html", data=output_list)
+    else :
+        return render_template("index.html")
 
 
 if __name__ == '__main__':

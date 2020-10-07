@@ -158,6 +158,105 @@ def main(args):
 
         make_raw.write_all_raw_data(all_raw_data,args.raw+mfi.split(".")[0]+"_SA2")
 
+def main_server(args):
+    all_raw_data = []
+    for i in ["A", "B", "C"]:
+        if (i == "A") & ("A" in args.gene):
+            a_ep = final_fonction.write_whole_svg(
+                args.template+i+".svg",
+                "uploads/{}".format(args.mfi),
+                args.edges+i+".csv",
+                args.eplet+i+".csv",
+                args.output + args.mfi.split(".")[0] +"_"+ i,
+                i,
+                args.cutoff,
+                args.dqdp + i + "_eplets.csv",
+                38,
+                [120,30]
+                )
+            all_raw_data.append(["A",make_raw.make_raw_data(a_ep)])
+
+        if (i == "B") & ("B" in args.gene):
+            b_ep = final_fonction.write_whole_svg(
+                args.template + i + ".svg",
+                "uploads/{}".format(args.mfi),
+                args.edges + i + ".csv",
+                args.eplet + i + ".csv",
+                args.output + args.mfi.split(".")[0] +"_" + i,
+                i,
+                args.cutoff,
+                args.dqdp + i + "_eplets.csv",
+                36,
+                [110, 20]
+            )
+            all_raw_data.append(["B", make_raw.make_raw_data(b_ep)])
+        if (i == "C") & ("C" in args.gene):
+            c_ep = final_fonction.write_whole_svg(
+                args.template + i + ".svg",
+                "uploads/{}".format(args.mfi),
+                args.edges + i + ".csv",
+                args.eplet + i + ".csv",
+                args.output + args.mfi.split(".")[0] +"_" + i,
+                i,
+                args.cutoff,
+                args.dqdp + i + "_eplets.csv",
+                36,
+                [120, 30]
+            )
+            all_raw_data.append(["C",make_raw.make_raw_data(c_ep)])
+
+        make_raw.write_all_raw_data(all_raw_data, args.raw+args.mfi.split(".")[0] +"_SA1")
+
+
+
+    for i in ["DR","DQ","DP"]:
+        if (i == "DR") & ("DR" in args.gene):
+            dr_ep = final_fonction.write_whole_svg(
+                args.template+i+".svg",
+                "uploads/{}".format(args.mfi),
+                args.edges+i+".csv",
+                args.eplet+i+".csv",
+                args.output + args.mfi.split(".")[0] +"_"+ i,
+                i,
+                args.cutoff,
+                args.dqdp + i + "_eplets.csv",
+                36,
+                [110,35]
+            )
+            all_raw_data.append(["DR", make_raw.make_raw_data(dr_ep)])
+
+        if (i == "DQ") & ("DQ" in args.gene):
+            dq_ep = final_fonction.write_whole_svg(
+                args.template + i + ".svg",
+                "uploads/{}".format(args.mfi),
+                args.edges + i + ".csv",
+                args.eplet + i + ".csv",
+                args.output + args.mfi.split(".")[0] +"_"+ i,
+                i,
+                args.cutoff,
+                args.dqdp + i + "_eplets.csv",
+                44,
+                [120, 55]
+            )
+            all_raw_data.append(["DQ", make_raw.make_raw_data(dq_ep)])
+
+        if (i == "DP") & ("DP" in args.gene):
+            dp_ep = final_fonction.write_whole_svg(
+                args.template + i + ".svg",
+                "uploads/{}".format(args.mfi),
+                args.edges + i + ".csv",
+                args.eplet + i + ".csv",
+                args.output + args.mfi.split(".")[0] +"_"+ i,
+                i,
+                args.cutoff,
+                args.dqdp + i + "_eplets.csv",
+                38,
+                [120, 45]
+            )
+            all_raw_data.append(["DP", make_raw.make_raw_data(dp_ep)])
+
+    make_raw.write_all_raw_data(all_raw_data,args.raw+args.mfi.split(".")[0]+"_SA2")
+
 if __name__ == "__main__":
     args = parse_args()
     main(args)
