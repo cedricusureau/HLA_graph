@@ -18,7 +18,12 @@
             <div>
                 <!--<object type="image/svg+xml" data="image.svg">-->
                 <!-- Your fall back here -->
-                    <img src="{{ url_for('static', filename='graph/sa1_example_A.svg') }}" width="1000" height="600" />
+                    <img src="{{ url_for('static', filename=data[0]) }}" width="1000" height="600" />
+                    <br/>
+                    <img src="{{ url_for('static', filename=data[1]) }}" width="1000" height="600" />
+                    <br/>
+                    <img src="{{ url_for('static', filename=data[2]) }}" width="1000" height="600" />
+                    <br/>
                 <!--</object>-->
             </div>
         </div>
