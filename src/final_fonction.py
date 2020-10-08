@@ -19,7 +19,7 @@ def write_whole_svg(
     # edges_ligne, circle_ligne, text_ligne = write_svg.get_edges_dictionnary(svg_liste)
 
     data = write_svg.parse_excel_file(mfi)
-
+    data, unknown_allele = write_svg.clean_mfi_data(allele_type, data)
     edges_ligne = write_svg.get_edges_dictionnary(svg_list)[0]
     # Create liste of link between positive beads
     link_between_pos = write_svg.find_link_between_pos(data, edges, cutoff)
@@ -37,6 +37,7 @@ def write_whole_svg(
     # Liste of positive nodes, ambiguous nodes. Each node is list with node_id, line of opacity and line of color
     node_to_color, node_to_color_light, to_delete = write_svg.node_color_to_change_v2(svg_list, data, cutoff)
     ratio = write_svg.opacity_intensity(data)
+
     # Update svg_liste by coloring positive nodes
     svg_list = write_svg.replace_nodes_color_2(svg_list, node_to_color, ratio)
     svg_list = write_svg.replace_nodes_color_2_light(svg_list, node_to_color_light)

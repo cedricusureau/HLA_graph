@@ -116,6 +116,8 @@ def node_color_to_change_v2(svg_liste, MFI, cutoff):
                             to_delete.append(
                                 [tmp_id, tmp_fill_ligne, tmp_fill_opacity_ligne]
                             )
+                    if tmp_id not in MFI.keys():
+                        to_delete.append([tmp_id, tmp_fill_ligne, tmp_fill_opacity_ligne])
                     break
     return to_color, to_color_light, to_delete
 
@@ -330,3 +332,23 @@ def get_bead_text_position(svg_liste):
                     break
 
     return text_position
+
+def clean_mfi_data(allele_type,data):
+    data_cleaned = {}
+    unknown_allele = []
+
+    if allele_type in "DR DQ DP":
+        kit_SA2 = [i.replace('\n','') for i in open("data/kit/SA2_kit")]
+        for i,j in data.items():
+            if i in kit_SA2:
+                data_cleaned[i] = j
+            else :
+                unknown_allele.append(i)
+    else:
+        kit_SA1 = [i.replace('\n','') for i in open("data/kit/SA1_kit")]
+        for i,j in data.items():
+            if i in kit_SA1:
+                data_cleaned[i] = j
+            else :
+                unknown_allele.append(i)
+    return data_cleaned, unknown_allele

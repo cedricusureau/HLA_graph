@@ -1,7 +1,7 @@
-from flask import Flask, render_template, request, redirect, url_for, abort
+from flask import Flask, render_template, request, abort
 import os
 import src.input_file_func as input_file_func
-import src.hla_main as hla_main
+from src import hla_main as hla_main
 
 app = Flask(__name__, static_folder="result")
 app.config['UPLOAD_PATH'] = 'uploads'
@@ -15,7 +15,6 @@ def index():
 def upload_files():
     uploaded_file = request.files['file']
     filename = uploaded_file.filename
-    print(uploaded_file)
     if filename != '':
         file_ext = os.path.splitext(filename)[1]
         if file_ext not in app.config['UPLOAD_EXTENSIONS']:
