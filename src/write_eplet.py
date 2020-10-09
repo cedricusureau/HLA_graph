@@ -223,7 +223,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
                 if already_write_suspension_A == False:
                     svg = write_svg.write_text_on_svg(
                         svg,
-                        pos_x + (50 + 40 * count_A + 10 * len("...")),
+                        pos_x + (60 + 40 * count_A + 10 * len("...")),
                         pos_y,
                         font_size=46,
                         font_family="Dialog",
@@ -237,7 +237,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
             else :
                 svg = write_svg.write_text_on_svg(
                     svg,
-                    pos_x + (50 + 40 * count_A + 10 * len(eplet)),
+                    pos_x + (60 + 40 * count_A + 10 * len(eplet)),
                     pos_y,
                     font_size=46,
                     font_family="Dialog",
@@ -250,7 +250,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
                 if already_write_suspension_B == False:
                     svg = write_svg.write_text_on_svg(
                         svg,
-                        pos_x + (50 + 40 * count_B + 10 * len("...")),
+                        pos_x + (60 + 40 * count_B + 10 * len("...")),
                         pos_y + 50,
                         font_size=46,
                         font_family="Dialog",
@@ -261,7 +261,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
             else:
                 svg = write_svg.write_text_on_svg(
                     svg,
-                    pos_x + (50 + 40 * count_B +  10 * len(eplet)),
+                    pos_x + (60 + 40 * count_B +  10 * len(eplet)),
                     pos_y + 50,
                     font_size=46,
                     font_family="Dialog",
@@ -277,7 +277,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
                 if already_write_suspension_A == False:
                     svg = write_svg.write_text_on_svg(
                         svg,
-                        pos_x + (50 + 40 * count_A + 10 * len("...")),
+                        pos_x + (60 + 40 * count_A + 10 * len("...")),
                         pos_y,
                         font_size=46,
                         font_family="Dialog",
@@ -288,7 +288,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
             else:
                 svg = write_svg.write_text_on_svg(
                     svg,
-                    pos_x + ( 50 + 40* count_A + 10 * len(eplet)),
+                    pos_x + ( 60 + 40* count_A + 10 * len(eplet)),
                     pos_y,
                     font_size=46,
                     font_family="Dialog",
@@ -301,7 +301,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
                 if already_write_suspension_B == False:
                     svg = write_svg.write_text_on_svg(
                         svg,
-                        pos_x + (50 + 40 * count_B + 10 * len("...")),
+                        pos_x + (60 + 40 * count_B + 10 * len("...")),
                         pos_y + 50,
                         font_size=46,
                         font_family="Dialog",
@@ -312,7 +312,7 @@ def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written
             else:
                 svg = write_svg.write_text_on_svg(
                     svg,
-                    pos_x + (50 + 40 * count_B +  10 * len(eplet)),
+                    pos_x + (60 + 40 * count_B +  10 * len(eplet)),
                     pos_y + 50,
                     font_size=46,
                     font_family="Dialog",
@@ -329,11 +329,12 @@ def calculate_distance(pos1, pos2):
 
 def to_close_to_write(global_written, text, x,y, bead_text_position):
     to_close = False
-    for value in global_written.values():
-        for i in value:
-            distance = calculate_distance([x,y], [i[1],i[2]])
-            if distance < 120:
-                to_close  = True
+    for text2, value in global_written.items():
+        if text == text2:
+            for i in value:
+                distance = calculate_distance([x,y], [i[1],i[2]])
+                if distance < 120:
+                    to_close  = True
 
     for i in bead_text_position:
         distance = calculate_distance([x,y], [i[0], i[1]])

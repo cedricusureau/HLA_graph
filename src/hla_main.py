@@ -102,7 +102,6 @@ def main(args):
                     [120, 30]
                 )
                 all_raw_data.append(["C",make_raw.make_raw_data(c_ep)])
-
         make_raw.write_all_raw_data(all_raw_data, args.raw+mfi.split(".")[0] +"_SA1")
 
 
@@ -204,10 +203,9 @@ def main_server(args):
                 [120, 30]
             )
             all_raw_data.append(["C",make_raw.make_raw_data(c_ep)])
+    make_raw.write_all_raw_data(all_raw_data, args.raw+args.mfi.split(".")[0] +"_SA1")
 
-        make_raw.write_all_raw_data(all_raw_data, args.raw+args.mfi.split(".")[0] +"_SA1")
-
-
+    all_raw_data = []
     for i in ["DR","DQ","DP"]:
         if (i == "DR") & ("DR" in args.gene):
             dr_ep = final_fonction.write_whole_svg(

@@ -1,4 +1,5 @@
 import json
+import pandas as pd
 
 def make_raw_data(final_fonction):
     stronger_eplet_on_link, strong_eplet_on_link, stronger_eplet_on_bead, strong_eplet_on_bead = final_fonction[0],final_fonction[1],final_fonction[2],final_fonction[3]
@@ -59,6 +60,7 @@ def make_raw_data(final_fonction):
     return all_stronger, all_strong
 
 def write_all_raw_data(all_raw_data, output_raw):
+
     file = open(output_raw+".csv","w")
     for allele, raw_data in all_raw_data:
         stronger = raw_data[0]
@@ -72,6 +74,12 @@ def write_all_raw_data(all_raw_data, output_raw):
                     for eplet2 in strong[i]:
                         file.write(str(eplet2) + ",")
             file.write("\n")
+        for i,j in strong.items():
+            if i not in stronger.keys():
+                file.write(str(i)+',')
+                for eplet in j:
+                    file.write(eplet+",")
+                file.write("\n")
         #
         # file.write("Eplets from HLA-{} beads. These eplets are present on some of the positive bead \n".format(allele))
         # for i,j in strong.items():
@@ -110,42 +118,140 @@ def write_json_unknown(unknown_allele, mfi):
             uk_by_type["C"] = i
 
     uk_al["Unknown_allele"].append(uk_by_type)
+    whole_json = {}
+    whole_json["main"] = []
+    whole_json["main"].append(uk_al)
     with open('result/json/{}.json'.format(mfi.split(".")[0]), 'w') as outfile:
-         json.dump(uk_al, outfile, indent=4)
-    return uk_al
+         json.dump(whole_json, outfile, indent=4)
 
 
 
-def get_forbidden_bead(df_eplet_file, stronger_eplet_on_link, positive_bead, allele_type, mfi):
+def get_forbidden_bead(df_eplet_file, stronger_eplet_on_link, stronger_eplet_on_bead, positive_bead, allele_type, mfi):
+    if allele_type in "A B C DR":
+        allele_forbid = {}
+        allele_forbid[allele_type+"_stronger"] = []
 
-    allele_forbid = {}
-    allele_forbid[allele_type+"_stronger"] = []
+        all_stronger = set()
+        for couple, eplets in stronger_eplet_on_link.items():
+            for eplet in eplets:
+                all_stronger.add(eplet)
+        for bead,eplets in stronger_eplet_on_bead.items():
+            for eplet in eplets:
+                all_stronger.add(eplet)
+        forbidden_bead = {}
+        for eplet in all_stronger:
+            forbidden_bead[eplet] = []
 
-    all_stronger = set()
-    for couple, eplets in stronger_eplet_on_link.items():
-        for eplet in eplets:
-            all_stronger.add(eplet)
 
-    forbidden_bead = {}
-    for eplet in all_stronger:
-        forbidden_bead[eplet] = []
+        for eplet in all_stronger:
+            for allele in df_eplet_file.index:
+                if eplet in list(df_eplet_file.loc[allele]):
+                    if allele not in positive_bead:
+                        forbidden_bead[eplet].append(allele)
+
+        allele_forbid[allele_type+"_stronger"].append(forbidden_bead)
+
+    elif allele_type in "DQ DP":
+        allele_forbid = {}
+        allele_forbid[allele_type + "_stronger"] = []
+
+        new_positive_bead = []
+        for i in positive_bead:
+            new_positive_bead.append(i[0:10])
+            new_positive_bead.append(i[10:])
 
 
-    for eplet in all_stronger:
-        for allele in df_eplet_file.index:
-            if eplet in list(df_eplet_file.loc[allele]):
-                if allele not in positive_bead:
-                    forbidden_bead[eplet].append(allele)
+        all_stronger = set()
+        for couple, eplets in stronger_eplet_on_link.items():
+            for eplet in eplets:
+                all_stronger.add(eplet)
 
-    allele_forbid[allele_type+"_stronger"].append(forbidden_bead)
+        for bead,eplets in stronger_eplet_on_bead.items():
+            for eplet in eplets:
+                all_stronger.add(eplet)
+
+        forbidden_bead = {}
+        for eplet in all_stronger:
+            forbidden_bead[eplet] = []
+
+        df_eplet_file = pd.read_csv("data/eplets/{}_eplets.csv".format(allele_type)).set_index("allele")
+        for eplet in all_stronger:
+            for allele in df_eplet_file.index:
+                if eplet in list(df_eplet_file.loc[allele]):
+                    if allele not in new_positive_bead:
+                        forbidden_bead[eplet].append(allele)
+
+        allele_forbid[allele_type + "_stronger"].append(forbidden_bead)
+
     with open('result/json/{}.json'.format(mfi.split(".")[0])) as data_file:
-        old_data = json.load(data_file)
+            old_data = json.load(data_file)
+            old_data["main"].append(allele_forbid)
 
-        json_dict = {}
-        json_dict["main"] = []
-        json_dict["main"].append(old_data)
-        json_dict["main"].append(allele_forbid)
 
     with open('result/json/{}.json'.format(mfi.split(".")[0]), 'w') as outfile:
-        json.dump(json_dict, outfile, indent=4)
+            json.dump(old_data, outfile, indent=4)
 
+def get_forbidden_bead_light(df_eplet_file, strong_eplet_on_link, strong_eplet_on_bead, positive_bead, allele_type, mfi):
+    if allele_type in "A B C DR":
+        allele_forbid = {}
+        allele_forbid[allele_type+"_strong"] = []
+
+        all_strong = set()
+        for couple, eplets in strong_eplet_on_link.items():
+            for eplet in eplets:
+                all_strong.add(eplet)
+        for bead,eplets in strong_eplet_on_bead.items():
+            for eplet in eplets:
+                all_strong.add(eplet)
+        forbidden_bead = {}
+        for eplet in all_strong:
+            forbidden_bead[eplet] = []
+
+
+        for eplet in all_strong:
+            for allele in df_eplet_file.index:
+                if eplet in list(df_eplet_file.loc[allele]):
+                    if allele not in positive_bead:
+                        forbidden_bead[eplet].append(allele)
+
+        allele_forbid[allele_type+"_strong"].append(forbidden_bead)
+
+    elif allele_type in "DQ DP":
+        allele_forbid = {}
+        allele_forbid[allele_type + "_strong"] = []
+
+        new_positive_bead = []
+        for i in positive_bead:
+            new_positive_bead.append(i[0:10])
+            new_positive_bead.append(i[10:])
+
+
+        all_strong = set()
+        for couple, eplets in strong_eplet_on_link.items():
+            for eplet in eplets:
+                all_strong.add(eplet)
+
+        for bead,eplets in strong_eplet_on_bead.items():
+            for eplet in eplets:
+                all_strong.add(eplet)
+
+        forbidden_bead = {}
+        for eplet in all_strong:
+            forbidden_bead[eplet] = []
+
+        df_eplet_file = pd.read_csv("data/eplets/{}_eplets.csv".format(allele_type)).set_index("allele")
+        for eplet in all_strong:
+            for allele in df_eplet_file.index:
+                if eplet in list(df_eplet_file.loc[allele]):
+                    if allele not in new_positive_bead:
+                        forbidden_bead[eplet].append(allele)
+
+        allele_forbid[allele_type + "_strong"].append(forbidden_bead)
+
+    with open('result/json/{}.json'.format(mfi.split(".")[0])) as data_file:
+            old_data = json.load(data_file)
+            old_data["main"].append(allele_forbid)
+
+
+    with open('result/json/{}.json'.format(mfi.split(".")[0]), 'w') as outfile:
+            json.dump(old_data, outfile, indent=4)

@@ -11,8 +11,8 @@
    width="2650"
    zoomAndPan="magnify"
    contentStyleType="text/css"
-   viewBox="-1175 -1245 2650 2730"
-   height="2730"
+   viewBox="-1175 -1245 2650 2770"
+   height="2770"
    preserveAspectRatio="xMidYMid meet"
    version="1.1"
    id="svg300"
@@ -74,7 +74,7 @@
      inkscape:document-rotation="0" />
   <g
      id="edges"
-     transform="translate(65.352408,149.18758)">
+     transform="translate(99.872528,133.08991)">
     <path
        fill="none"
        stroke-width="2"
@@ -510,7 +510,7 @@
   </g>
   <g
      id="nodes"
-     transform="translate(65.352408,149.18758)">
+     transform="translate(99.872528,133.08991)">
     <circle
        fill-opacity="0.2"
        fill="#000000"
@@ -855,7 +855,7 @@
   </g>
   <g
      id="node-labels-outline"
-     transform="translate(67.764371,130.34285)">
+     transform="translate(102.28449,114.24518)">
     <text
        stroke-linecap="round"
        font-size="32px"
