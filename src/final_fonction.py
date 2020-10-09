@@ -97,6 +97,7 @@ def write_whole_svg(
         make_raw.write_json_unknown(unknown_allele, mfi.split('/')[1])
 
     make_raw.get_forbidden_bead(df_eplet_file, stronger_eplet_on_link,stronger_eplet_on_bead, positive_bead, allele_type, mfi.split('/')[1])
-    make_raw.get_forbidden_bead_light(df_eplet_file, strong_eplet_on_link,strong_eplet_on_bead, positive_bead, allele_type, mfi.split('/')[1])
+    json_file_name = make_raw.get_forbidden_bead_light(df_eplet_file, strong_eplet_on_link,strong_eplet_on_bead, positive_bead, allele_type, mfi.split('/')[1])
+
 
     return stronger_eplet_on_link,strong_eplet_on_link,stronger_eplet_on_bead,strong_eplet_on_bead

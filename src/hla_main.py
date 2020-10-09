@@ -253,6 +253,7 @@ def main_server(args):
             all_raw_data.append(["DP", make_raw.make_raw_data(dp_ep)])
 
     make_raw.write_all_raw_data(all_raw_data,args.raw+args.mfi.split(".")[0]+"_SA2")
+    make_raw.parse_json_to_html("result/json/"+args.mfi.split('.')[0] + ".json")
 
 if __name__ == "__main__":
     args = parse_args()

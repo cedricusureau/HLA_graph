@@ -1,5 +1,8 @@
 import json
 import pandas as pd
+from bokeh.models.widgets import DataTable, DateFormatter, TableColumn
+from bokeh.models import ColumnDataSource
+from bokeh.io import output_file, show
 
 def make_raw_data(final_fonction):
     stronger_eplet_on_link, strong_eplet_on_link, stronger_eplet_on_bead, strong_eplet_on_bead = final_fonction[0],final_fonction[1],final_fonction[2],final_fonction[3]
@@ -255,3 +258,26 @@ def get_forbidden_bead_light(df_eplet_file, strong_eplet_on_link, strong_eplet_o
 
     with open('result/json/{}.json'.format(mfi.split(".")[0]), 'w') as outfile:
             json.dump(old_data, outfile, indent=4)
+
+    return 'result/json/{}.json'.format(mfi.split(".")[0])
+
+def parse_json_to_html(json_file):
+    with open(json_file) as data_file:
+        json_to_parse = json.load(data_file)
+        global_dict = {}
+        eplets = json_to_parse["main"][1:]
+        for dico in eplets:
+            for liste in dico.values():
+                for element in liste:
+                    for eplet, allele in element.items():
+                        global_dict[eplet] = allele
+        df = pd.DataFrame.from_dict(global_dict, orient="index")
+
+        df.replace(to_replace=[None], value="", inplace=True)
+        df = df.transpose()
+        df.to_html("test.html")
+        output_file("log_lines.html")
+        Columns = [TableColumn(field=Ci, title=Ci, width=350) for Ci in df.columns]  # bokeh columns
+        data_table = DataTable(columns=Columns, source=ColumnDataSource(df), width=900, height=450, fit_columns=True)  # bokeh table
+
+        show(data_table)

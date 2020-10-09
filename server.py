@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, abort
 import os
 import src.input_file_func as input_file_func
 from src import hla_main as hla_main
+import pandas as pd
 
 app = Flask(__name__, static_folder="result")
 app.config['UPLOAD_PATH'] = 'uploads'
@@ -30,6 +31,7 @@ def upload_files():
         output_list = input_file_func.find_output(filename, allele_type)
 
         hla_main.main_server(args)
+
         return render_template("index.html", data=output_list, allele_type=allele_type.split(" "))
 
     else :
