@@ -47,7 +47,7 @@ def parse_args():
     parser.add_argument(
         "-r", "--raw", help="output_prefix", type=str, default="result/raw_data/"
     )
-    parser.add_argument("-c", "--cutoff", help="cutoff", type=int, default=2000)
+    parser.add_argument("-c", "--cutoff", help="cutoff", type=int, default=1000)
     parser.add_argument("-g", "--gene", type=str, default="A B C DR DQ DP")
     parser.add_argument("-qp", "--dqdp", type=str, default="data/eplets/")
 

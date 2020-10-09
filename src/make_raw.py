@@ -1,3 +1,5 @@
+import json
+
 def make_raw_data(final_fonction):
     stronger_eplet_on_link, strong_eplet_on_link, stronger_eplet_on_bead, strong_eplet_on_bead = final_fonction[0],final_fonction[1],final_fonction[2],final_fonction[3]
 
@@ -80,4 +82,70 @@ def write_all_raw_data(all_raw_data, output_raw):
 
     file.close()
 
+
+def write_json(data, filename):
+    with open(filename,'w') as f:
+        json.dump(data, f, indent=4)
+
+
+def write_json_unknown(unknown_allele, mfi):
+
+    uk_al = {}
+    uk_al["Unknown_allele"] = []
+
+    uk_by_type = {}
+
+    for i in unknown_allele:
+        if "DR" in i :
+            uk_by_type["DR"] = i
+        elif "DP" in i :
+            uk_by_type["DP"] = i
+        elif "DQ" in i :
+            uk_by_type["DQ"] = i
+        elif "A*" in i:
+            uk_by_type["A"] = i
+        elif "B*" in i :
+            uk_by_type["B"] = i
+        elif "C*" in i :
+            uk_by_type["C"] = i
+
+    uk_al["Unknown_allele"].append(uk_by_type)
+    with open('result/json/{}.json'.format(mfi.split(".")[0]), 'w') as outfile:
+         json.dump(uk_al, outfile, indent=4)
+    return uk_al
+
+
+
+def get_forbidden_bead(df_eplet_file, stronger_eplet_on_link, positive_bead, allele_type, mfi):
+
+    allele_forbid = {}
+    allele_forbid[allele_type+"_stronger"] = []
+
+    all_stronger = set()
+    for couple, eplets in stronger_eplet_on_link.items():
+        for eplet in eplets:
+            all_stronger.add(eplet)
+
+    forbidden_bead = {}
+    for eplet in all_stronger:
+        forbidden_bead[eplet] = []
+
+
+    for eplet in all_stronger:
+        for allele in df_eplet_file.index:
+            if eplet in list(df_eplet_file.loc[allele]):
+                if allele not in positive_bead:
+                    forbidden_bead[eplet].append(allele)
+
+    allele_forbid[allele_type+"_stronger"].append(forbidden_bead)
+    with open('result/json/{}.json'.format(mfi.split(".")[0])) as data_file:
+        old_data = json.load(data_file)
+
+        json_dict = {}
+        json_dict["main"] = []
+        json_dict["main"].append(old_data)
+        json_dict["main"].append(allele_forbid)
+
+    with open('result/json/{}.json'.format(mfi.split(".")[0]), 'w') as outfile:
+        json.dump(json_dict, outfile, indent=4)
 

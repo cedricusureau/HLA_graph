@@ -1,6 +1,7 @@
 import src.write_svg as write_svg
 import src.eplet_extraction as eplet_extraction
 import src.write_eplet as write_eplet
+import src.make_raw as make_raw
 
 
 def write_whole_svg(
@@ -92,4 +93,8 @@ def write_whole_svg(
 
 
     write_svg.write_svg_file(svg_list, "{}.svg".format(output))
+    if (allele_type == "DR") or (allele_type == "A"):
+        make_raw.write_json_unknown(unknown_allele, mfi.split('/')[1])
+
+    make_raw.get_forbidden_bead(df_eplet_file, stronger_eplet_on_link, positive_bead, allele_type, mfi.split('/')[1])
     return stronger_eplet_on_link,strong_eplet_on_link,stronger_eplet_on_bead,strong_eplet_on_bead
