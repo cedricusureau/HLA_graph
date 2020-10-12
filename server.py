@@ -31,15 +31,19 @@ def index():
 def upload_files():
     uploaded_file = request.files['file']
     tresh = request.form['tresh']
-    filename = uploaded_file.filename.split('.')[0] + "_" + str(random.randint(0, 1000)) + "." + \
-               uploaded_file.filename.split('.')[1]
-    while os.path.isfile("uploads/" + filename):
-        filename = uploaded_file.filename.split('.')[0] + "_" + str(random.randint(0, 1000)) + "." + \
-                   uploaded_file.filename.split('.')[1]
+    filename = uploaded_file.filename
+
     if filename != '':
         file_ext = os.path.splitext(filename)[1]
         if file_ext not in app.config['UPLOAD_EXTENSIONS']:
             abort(400)
+        filename = uploaded_file.filename.split('.')[0] + "_" + str(random.randint(0, 1000)) + "." + \
+               uploaded_file.filename.split('.')[1]
+
+        while os.path.isfile("uploads/" + filename):
+            filename = uploaded_file.filename.split('.')[0] + "_" + str(random.randint(0, 1000)) + "." + \
+                       uploaded_file.filename.split('.')[1]
+
 
         upload_filename = os.path.join(app.config['UPLOAD_PATH'], filename)
         uploaded_file.save(upload_filename)

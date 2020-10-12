@@ -21,16 +21,15 @@
                     <label class="custom-file-label" for="customFile">Choose file</label>
                     <input type="file" class="custom-file-input border" name="file" id="customFile">
                 </div>
+                <br/><br/>
                 <div class="form-group">
-                    <label for="tresh">Threshold, step by 100:
+                    <label for="tresh">Threshold:
                         <input type="number" id="tresh" name="tresh" placeholder="1000" value="1000" min="1000" max="3000" step="100">
                     </label>
+                    <div style="float: right">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-
-
             </form>
             <br/>
 
@@ -55,9 +54,12 @@
                 <a class="dropdown-item" href="#">{{allele_type[2]}}</a>
               </div>
             </div>
-            <div class="col-8"></div>
+            <div class="col-8" style="text-align: center">
+                <h3 id="title">HLA {{allele_type[0]}}</h3>
+            </div>
             <div class="col-2">
-                <button class="btn btn-primary" onclick="window.location.href='result/html_table/'+file_html ">View raw data</button>
+                <button class="btn btn-primary" onclick="window.location.href='result/html_table/'+file_html" style="float: right" data-toggle="tooltip" data-placement="right" title="Show all alleles which bear positive eplets.">
+                    View all eplets</button>
             </div>
         </div>
 
@@ -70,15 +72,32 @@
                     <img src="{{ url_for('static', filename=data[0]) }}" width="100%" height="100%" class="img-responsive" id="graph"/>
                 </a>
             </div>
-            <div>
-                <button type="button" class="btn"><a href="{{ url_for('static', filename='raw_data/'+file) }}" download>Download raw data</a></button>
+            <br/>
+            <div class="row">
+                <div class="col-2">
+                  <button type="button" class="btn btn-outline-info"><a href="{{ url_for('static', filename='raw_data/'+file) }}" download>Download raw data</a></button>
+                </div>
+                <div class="col-8" style="text-align: center">
+                </div>
+                <div class="col-2">
+                    <button class="btn btn-outline-secondary" onclick="window.location.href='https://google.fr'" style="float: right">Help</button>
+                </div>
+            </div>
+        <br/>
+    {% else %}
+
+        <div class="row">
+                <div class="btn-group col-4">
+                    <button type="button" class="btn btn-outline-info"><a href="{{ url_for('static', filename='test_data/SA1.xls') }}" download>Download Example SA1</a></button>
+                    <button type="button" class="btn btn-outline-info"><a href="{{ url_for('static', filename='test_data/SA2.xls') }}" download>Download Example SA2</a></button>
+                </div>
+                <div class="col-4" style="text-align: center">
+                </div>
+                <div class="col-4">
+                    <button class="btn btn-outline-secondary" onclick="window.location.href='https://google.fr'" style="float: right">Help</button>
+                </div>
             </div>
 
-    {% else %}
-    <div class="btn-group">
-        <button type="button" class="btn"><a href="{{ url_for('static', filename='test_data/SA1.xls') }}" download>Download Example SA1</a></button>
-        <button type="button" class="btn"><a href="{{ url_for('static', filename='test_data/SA2.xls') }}" download>Download Example SA2</a></button>
-    </div>
     {% endif %}
     </div>
 <!--</div>-->
@@ -100,6 +119,7 @@
             }
             $("#graph").attr("src",path);
             $("#img_link").attr("href", path);
+            $("#title").text("HLA "+allele);
 
         });
 
@@ -107,6 +127,9 @@
         $(".custom-file-input").on("change", function() {
           var fileName = $(this).val().split("\\").pop();
           $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+        });
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
         });
         </script>
 
