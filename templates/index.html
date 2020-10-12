@@ -28,23 +28,20 @@
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Choose Allele
           </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">{{allele_type[0]}}</a>
-            <a class="dropdown-item" href="#">{{allele_type[1]}}</a>
-            <a class="dropdown-item" href="#">{{allele_type[2]}}</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dpdown">
+            <a class="dropdown-item" href="#" value="A">{{allele_type[0]}}</a>
+            <a class="dropdown-item" href="#" value="B">{{allele_type[1]}}</a>
+            <a class="dropdown-item" href="#" value="C">{{allele_type[2]}}</a>
           </div>
         </div>
 
             <div>
-                <!--<object type="image/svg+xml" data="image.svg">-->
-                <!-- Your fall back here -->
-                    <img src="{{ url_for('static', filename=data[0]) }}" width="1000" height="600" />
-                    <br/>
-                    <img src="{{ url_for('static', filename=data[1]) }}" width="1000" height="600" />
-                    <br/>
-                    <img src="{{ url_for('static', filename=data[2]) }}" width="1000" height="600" />
-                    <br/>
-                <!--</object>-->
+                <img src="{{ url_for('static', filename=data[0]) }}" width="1000" height="600" id="graph"/>
+               <!-- <br/>
+                <img src="{{ url_for('static', filename=data[1]) }}" width="1000" height="600" />
+                <br/>
+                <img src="{{ url_for('static', filename=data[2]) }}" width="1000" height="600" />
+                <br/>-->
             </div>
         </div>
     </div>
@@ -57,6 +54,23 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
       <script>
+        function myFunc(vars) {
+            return vars
+        }
+        data = myFunc( {{ data|tojson }} )
+        $('#dpdown a').on('click', function(){
+            allele = $(this).html()
+            if (allele==="A") {
+                path = {{ url_for('static', filename=data[0])|tojson }}
+            }else if (allele==="B"){
+                path = {{ url_for('static', filename=data[1])|tojson }}
+            }else {
+                path = {{ url_for('static', filename=data[2])|tojson }}
+            }
+            $("#graph").attr("src",path);
+
+        });
+
         // Add the following code if you want the name of the file appear on select
         $(".custom-file-input").on("change", function() {
           var fileName = $(this).val().split("\\").pop();
