@@ -11,30 +11,57 @@ def write_stronger_eplet_on_link(svg, path_position, stronger_eplet_on_link, tex
 
     for couple, eplets in stronger_eplet_on_link.items():
         for eplet in eplets:
-
-            x = path_position[couple][0]
-            y = path_position[couple][1] + (text_size * already_write[couple]) - 30
-            if to_close_to_write(global_written,eplet,x,y, bead_text_position) == True :
-                if warning == False :
-                    view_box = get_view_box(svg)
-                    svg_list = write_warning_message(view_box, svg)
-                    warning = True
-                continue
-            else :
-                svg = write_svg.write_text_on_svg(
-                    svg,
-                    x,
-                    y,
-                    font_size=text_size,
-                    font_family="Dialog",
-                    color="#FF0000",
-                    text=eplet,
-                )
-                already_write[couple] += 1
-                if eplet in global_written.keys():
-                    global_written[eplet].append(["stronger",x,y])
+            if already_write[couple] > 2:
+                x = path_position[couple][0]
+                y = path_position[couple][1] + (text_size * already_write[couple]) - 30
+                if to_close_to_write(global_written, "...", x, y, bead_text_position) == True:
+                    if warning == False:
+                        view_box = get_view_box(svg)
+                        svg_list = write_warning_message(view_box, svg)
+                        warning = True
+                    continue
+                else:
+                    if warning == False:
+                        view_box = get_view_box(svg)
+                        svg_list = write_warning_message(view_box, svg)
+                        warning = True
+                    svg = write_svg.write_text_on_svg(
+                        svg,
+                        x,
+                        y,
+                        font_size=text_size,
+                        font_family="Dialog",
+                        color="#1e8449",
+                        text="...",
+                    )
+                    if "..." in global_written.keys():
+                        global_written["..."].append(["strong", x, y])
+                    else:
+                        global_written["..."] = [["strong", x, y]]
+            else:
+                x = path_position[couple][0]
+                y = path_position[couple][1] + (text_size * already_write[couple]) - 30
+                if to_close_to_write(global_written,eplet,x,y, bead_text_position) == True :
+                    if warning == False :
+                        view_box = get_view_box(svg)
+                        svg_list = write_warning_message(view_box, svg)
+                        warning = True
+                    continue
                 else :
-                    global_written[eplet] = [["stronger",x,y]]
+                    svg = write_svg.write_text_on_svg(
+                        svg,
+                        x,
+                        y,
+                        font_size=text_size,
+                        font_family="Dialog",
+                        color="#FF0000",
+                        text=eplet,
+                    )
+                    already_write[couple] += 1
+                    if eplet in global_written.keys():
+                        global_written[eplet].append(["stronger",x,y])
+                    else :
+                        global_written[eplet] = [["stronger",x,y]]
     return svg, global_written
 
 def write_strong_eplet_on_link(svg, path_position, strong_eplet_on_link, text_size, stronger_eplet_on_link, bead_text_position, global_written_stronger_link):
