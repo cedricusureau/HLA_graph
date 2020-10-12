@@ -262,6 +262,7 @@ def get_forbidden_bead_light(df_eplet_file, strong_eplet_on_link, strong_eplet_o
     return 'result/json/{}.json'.format(mfi.split(".")[0])
 
 def parse_json_to_html(json_file):
+    print(json_file)
     with open(json_file) as data_file:
         json_to_parse = json.load(data_file)
         global_dict = {}
@@ -275,8 +276,7 @@ def parse_json_to_html(json_file):
 
         df.replace(to_replace=[None], value="", inplace=True)
         df = df.transpose()
-        df.to_html("test.html")
-        output_file("log_lines.html")
+        output_file("result/html_table/{}.html".format(json_file.split("/")[2].split(".")[0]))
         Columns = [TableColumn(field=Ci, title=Ci, width=350) for Ci in df.columns]  # bokeh columns
         data_table = DataTable(columns=Columns, source=ColumnDataSource(df), width=900, height=450, fit_columns=True)  # bokeh table
 
