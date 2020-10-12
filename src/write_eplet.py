@@ -373,6 +373,6 @@ def write_warning_message(view_box, svg):
         font_size=46,
         font_family="Dialog",
         color="#ba4a00",
-        text="Please check raw_data data."
+        text="Please check raw data."
     )
     return svg

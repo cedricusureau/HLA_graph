@@ -2,7 +2,7 @@ import json
 import pandas as pd
 from bokeh.models.widgets import DataTable, DateFormatter, TableColumn
 from bokeh.models import ColumnDataSource
-from bokeh.io import output_file, show
+from bokeh.io import output_file, save
 
 def make_raw_data(final_fonction):
     stronger_eplet_on_link, strong_eplet_on_link, stronger_eplet_on_bead, strong_eplet_on_bead = final_fonction[0],final_fonction[1],final_fonction[2],final_fonction[3]
@@ -64,7 +64,7 @@ def make_raw_data(final_fonction):
 
 def write_all_raw_data(all_raw_data, output_raw):
 
-    file = open(output_raw+".csv","w")
+    file = open(output_raw+".csv","a")
     for allele, raw_data in all_raw_data:
         stronger = raw_data[0]
         strong = raw_data[1]
@@ -262,7 +262,6 @@ def get_forbidden_bead_light(df_eplet_file, strong_eplet_on_link, strong_eplet_o
     return 'result/json/{}.json'.format(mfi.split(".")[0])
 
 def parse_json_to_html(json_file):
-    print(json_file)
     with open(json_file) as data_file:
         json_to_parse = json.load(data_file)
         global_dict = {}
@@ -279,5 +278,4 @@ def parse_json_to_html(json_file):
         output_file("result/html_table/{}.html".format(json_file.split("/")[2].split(".")[0]))
         Columns = [TableColumn(field=Ci, title=Ci, width=350) for Ci in df.columns]  # bokeh columns
         data_table = DataTable(columns=Columns, source=ColumnDataSource(df), width=900, height=450, fit_columns=True)  # bokeh table
-
-        show(data_table)
+        save(data_table)

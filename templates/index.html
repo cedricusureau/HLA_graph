@@ -7,54 +7,90 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   </head>
   <body>
-    <div class="container">
-        <div class="jumbotron">
-            <h1>HLA Graph</h1>
-            <form method="POST" action="" enctype="multipart/form-data" class="form-inline">
-
+  <script>
+         function myFunc(vars) {
+             return vars
+         }
+  </script>
+    <div class="container" style="width:75% !important;">
+<!--        <div class="jumbotron">-->
+            <h1 style="text-align: center">HLA Graph</h1>
+            <hr/>
+            <form method="POST" enctype="multipart/form-data">
                 <div class="custom-file form-group">
-                  <input type="file" class="custom-file-input" name="file" id="customFile">
-                  <label class="custom-file-label col-sm-12" for="customFile">Choose file</label>
-                    <button type="submit" class="btn btn-primary col">Submit</button>
+                    <label class="custom-file-label" for="customFile">Choose file</label>
+                    <input type="file" class="custom-file-input border" name="file" id="customFile">
                 </div>
-
                 <div class="form-group">
-                    <label for="quantity">Threshold:</label>
-                    <input type="number" id="quantity" name="quantity" placeholder="1000" min="1000" max="3000" step="100">
+                    <label for="tresh">Threshold, step by 100:
+                        <input type="number" id="tresh" name="tresh" placeholder="1000" value="1000" min="1000" max="3000" step="100">
+                    </label>
                 </div>
-            </form>
-{% if allele_type %}
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Choose Allele
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dpdown">
-            <a class="dropdown-item" href="#">{{allele_type[0]}}</a>
-            <a class="dropdown-item" href="#">{{allele_type[1]}}</a>
-            <a class="dropdown-item" href="#">{{allele_type[2]}}</a>
-          </div>
-        </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
 
-            <div>
-                <img src="{{ url_for('static', filename=data[0]) }}" width="1000" height="600" id="graph"/>
+
+            </form>
+            <br/>
+
+
+
+
+
+
+
+{% if allele_type %}
+        <script>
+            file_html = myFunc({{file_html|tojson}})
+        </script>
+        <div class="row">
+            <div class="dropdown col-2">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Choose Allele
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dpdown">
+                <a class="dropdown-item" href="#">{{allele_type[0]}}</a>
+                <a class="dropdown-item" href="#">{{allele_type[1]}}</a>
+                <a class="dropdown-item" href="#">{{allele_type[2]}}</a>
+              </div>
+            </div>
+            <div class="col-8"></div>
+            <div class="col-2">
+                <button class="btn btn-primary" onclick="window.location.href='result/html_table/'+file_html ">View raw data</button>
             </div>
         </div>
+
+
+
+
+        <br/>
+            <div style="border: solid 1px;">
+                <a href="{{ url_for('static', filename=data[0]) }}" id="img_link">
+                    <img src="{{ url_for('static', filename=data[0]) }}" width="100%" height="100%" class="img-responsive" id="graph"/>
+                </a>
+            </div>
+            <div>
+                <button type="button" class="btn"><a href="{{ url_for('static', filename='raw_data/'+file) }}" download>Download raw data</a></button>
+            </div>
+
+    {% else %}
+    <div class="btn-group">
+        <button type="button" class="btn"><a href="{{ url_for('static', filename='test_data/SA1.xls') }}" download>Download Example SA1</a></button>
+        <button type="button" class="btn"><a href="{{ url_for('static', filename='test_data/SA2.xls') }}" download>Download Example SA2</a></button>
     </div>
     {% endif %}
-
-
+    </div>
+<!--</div>-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
       <script>
-        function myFunc(vars) {
-            return vars
-        }
-        data = myFunc( {{ data|tojson }} )
         $('#dpdown a').on('click', function(){
             allele = $(this).html()
+            data = myFunc( {{ data|tojson }} )
             if ((allele==="A") || (allele==="DR")) {
                 path = {{ url_for('static', filename=data[0])|tojson }}
             }else if ((allele==="B")||(allele==="DQ")){
@@ -63,6 +99,7 @@
                 path = {{ url_for('static', filename=data[2])|tojson }}
             }
             $("#graph").attr("src",path);
+            $("#img_link").attr("href", path);
 
         });
 
