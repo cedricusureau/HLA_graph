@@ -288,16 +288,38 @@ def parse_json_to_html(json_file):
         df.replace(to_replace=[None], value="", inplace=True)
         df = df.transpose()
 
-        output_file("result/html_table/{}.html".format(json_file.split("/")[2].split(".")[0]))
-        Columns = [TableColumn(field=Ci, title=Ci, width=350) for Ci in df.columns]  # bokeh columns
-        data_table = DataTable(columns=Columns, source=ColumnDataSource(df), width=900, height=450, fit_columns=True)  # bokeh table
-        save(data_table)
+        # output_file("result/html_table/{}.html".format(json_file.split("/")[2].split(".")[0]))
+        # Columns = [TableColumn(field=Ci, title=Ci, width=350) for Ci in df.columns]  # bokeh columns
+        # data_table = DataTable(columns=Columns, source=ColumnDataSource(df), width=900, height=450, fit_columns=True)  # bokeh table
+        # save(data_table)
 
         return df
 
-def clean_data_frame(df):
-    # print(df)
-    return
+def make_html_file(df, output):
+    template_liste = [i for i in open("data/html_table_template/html_table.html","r")]
+    for i, ligne in enumerate(template_liste):
+        if "<tr>" in ligne :
+            first_tr = i
+            break
+
+    template_liste.insert(first_tr+1, write_column(df))
+
+    for i, ligne in enumerate(template_liste):
+        if "<tbody>" in ligne:
+            first_tbody = i
+            break
+
+    count2 = 0
+    for i in range(df.shape[0]):
+        template_liste.insert(int(first_tbody)+1+count2, "<tr>")
+        template_liste.insert(int(first_tbody)+2+count2, write_ligne(df.iloc[i]))
+        template_liste.insert(int(first_tbody)+3+count2, "</tr>\n")
+        count2+=3
+
+    file = open(output, "w")
+    for ligne in template_liste:
+        file.write(ligne)
+    file.close()
 
 def sorted_dict_by_true_eplet(dico):
     sorted_dict = {}
@@ -317,3 +339,40 @@ def sorted_dict_by_true_eplet(dico):
                 sorted_dict[eplet].append(bead)
 
     return sorted_dict
+
+def write_ligne(panda_series):
+
+    whole_str = ""
+    for i in list(panda_series):
+        if type(i) == list:
+            if i[1]:
+                whole_str += '<td class="table-active">{}</td>'.format(i[0])
+            else :
+                whole_str += '<td class="table-warning">{}</td>'.format(i[0])
+        else :
+            whole_str += '<td> </td>'
+
+    return whole_str
+def write_column(df):
+    whole_str = ""
+    for i in list(df.columns):
+        if "stronger" in i:
+            whole_str += '<td class = "table-danger">{}</td>'.format(i.replace("stronger",""))
+        else :
+            whole_str += '<td class = "table-success">{}</td>'.format(i.replace("strong",""))
+
+    return whole_str
+
+def reorder_column(df):
+    columns = df.columns.tolist()
+
+    new_col_order = []
+    for i in columns:
+        if "stronger" in i:
+            new_col_order.append(i)
+    for i in columns:
+        if "stronger" not in i :
+             new_col_order.append(i)
+
+    df = df[new_col_order]
+    return df

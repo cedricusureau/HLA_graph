@@ -254,7 +254,8 @@ def main_server(args):
 
     make_raw.write_all_raw_data(all_raw_data,args.raw+args.mfi.split(".")[0])
     dataframe = make_raw.parse_json_to_html("result/json/"+args.mfi.split('.')[0] + ".json")
-    df = make_raw.clean_data_frame(dataframe)
+    dataframe = make_raw.reorder_column(dataframe)
+    make_raw.make_html_file(dataframe, "result/html_table/{}.html".format(args.mfi.split(".")[0]))
 
 if __name__ == "__main__":
     args = parse_args()
