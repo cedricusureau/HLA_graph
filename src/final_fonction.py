@@ -90,7 +90,8 @@ def write_whole_svg(
         svg_list = write_eplet.write_A_or_B_eplets(svg_list, A_eplet, B_eplet, all_written_stronger, all_written_strong, allele_type)
         svg_list = write_eplet.write_A_or_B_eplets(svg_list, A_eplet, B_eplet, all_written_stronger, all_written_strong, allele_type)
 
-    if ".xls" in mfi.split('/')[3]:
+
+    if len(mfi.split("/")) > 2:
         name =  mfi.split('/')[3]
     else :
         name =  mfi.split('/')[1]
