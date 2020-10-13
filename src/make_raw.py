@@ -150,7 +150,9 @@ def get_forbidden_bead(df_eplet_file, stronger_eplet_on_link, stronger_eplet_on_
             for allele in df_eplet_file.index:
                 if eplet in list(df_eplet_file.loc[allele]):
                     if allele not in positive_bead:
-                        forbidden_bead[eplet].append(allele)
+                        forbidden_bead[eplet].append([allele, False])
+                    else:
+                        forbidden_bead[eplet].append([allele, True])
 
         allele_forbid[allele_type+"_stronger"].append(forbidden_bead)
 
@@ -162,7 +164,6 @@ def get_forbidden_bead(df_eplet_file, stronger_eplet_on_link, stronger_eplet_on_
         for i in positive_bead:
             new_positive_bead.append(i[0:10])
             new_positive_bead.append(i[10:])
-
 
         all_stronger = set()
         for couple, eplets in stronger_eplet_on_link.items():
@@ -182,7 +183,9 @@ def get_forbidden_bead(df_eplet_file, stronger_eplet_on_link, stronger_eplet_on_
             for allele in df_eplet_file.index:
                 if eplet in list(df_eplet_file.loc[allele]):
                     if allele not in new_positive_bead:
-                        forbidden_bead[eplet].append(allele)
+                        forbidden_bead[eplet].append([allele, False])
+                    else:
+                        forbidden_bead[eplet].append([allele, True])
 
         allele_forbid[allele_type + "_stronger"].append(forbidden_bead)
 
@@ -215,7 +218,9 @@ def get_forbidden_bead_light(df_eplet_file, strong_eplet_on_link, strong_eplet_o
             for allele in df_eplet_file.index:
                 if eplet in list(df_eplet_file.loc[allele]):
                     if allele not in positive_bead:
-                        forbidden_bead[eplet].append(allele)
+                        forbidden_bead[eplet].append([allele, False])
+                    else:
+                        forbidden_bead[eplet].append([allele, True])
 
         allele_forbid[allele_type+"_strong"].append(forbidden_bead)
 
@@ -247,7 +252,9 @@ def get_forbidden_bead_light(df_eplet_file, strong_eplet_on_link, strong_eplet_o
             for allele in df_eplet_file.index:
                 if eplet in list(df_eplet_file.loc[allele]):
                     if allele not in new_positive_bead:
-                        forbidden_bead[eplet].append(allele)
+                        forbidden_bead[eplet].append([allele, False])
+                    else :
+                        forbidden_bead[eplet].append([allele, True])
 
         allele_forbid[allele_type + "_strong"].append(forbidden_bead)
 
@@ -266,16 +273,47 @@ def parse_json_to_html(json_file):
         json_to_parse = json.load(data_file)
         global_dict = {}
         eplets = json_to_parse["main"][1:]
+
         for dico in eplets:
-            for liste in dico.values():
+            for name, liste in dico.items():
                 for element in liste:
                     for eplet, allele in element.items():
-                        global_dict[eplet] = allele
-        df = pd.DataFrame.from_dict(global_dict, orient="index")
+                        if "stronger" in name:
+                            global_dict[eplet+"stronger"] = allele
+                        else :
+                            global_dict[eplet + "strong"] = allele
 
+        global_dict = sorted_dict_by_true_eplet(global_dict)
+        df = pd.DataFrame.from_dict(global_dict, orient="index")
         df.replace(to_replace=[None], value="", inplace=True)
         df = df.transpose()
+
         output_file("result/html_table/{}.html".format(json_file.split("/")[2].split(".")[0]))
         Columns = [TableColumn(field=Ci, title=Ci, width=350) for Ci in df.columns]  # bokeh columns
         data_table = DataTable(columns=Columns, source=ColumnDataSource(df), width=900, height=450, fit_columns=True)  # bokeh table
         save(data_table)
+
+        return df
+
+def clean_data_frame(df):
+    # print(df)
+    return
+
+def sorted_dict_by_true_eplet(dico):
+    sorted_dict = {}
+
+    for eplet in dico.keys():
+        sorted_dict[eplet] = []
+
+    for eplet, beads_list in dico.items():
+        for bead in beads_list:
+            if bead[1] == True:
+                sorted_dict[eplet].append(bead)
+
+
+    for eplet, beads_list in dico.items():
+        for bead in beads_list:
+            if bead[1] == False:
+                sorted_dict[eplet].append(bead)
+
+    return sorted_dict
