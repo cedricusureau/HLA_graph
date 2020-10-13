@@ -18,7 +18,6 @@ def write_whole_svg(
     # extrait les indices des lignes des noeuds, edges et texte.
     # NEED ?
     # edges_ligne, circle_ligne, text_ligne = write_svg.get_edges_dictionnary(svg_liste)
-
     data = write_svg.parse_excel_file(mfi)
     data, unknown_allele = write_svg.clean_mfi_data(allele_type, data)
     edges_ligne = write_svg.get_edges_dictionnary(svg_list)[0]
@@ -91,13 +90,17 @@ def write_whole_svg(
         svg_list = write_eplet.write_A_or_B_eplets(svg_list, A_eplet, B_eplet, all_written_stronger, all_written_strong, allele_type)
         svg_list = write_eplet.write_A_or_B_eplets(svg_list, A_eplet, B_eplet, all_written_stronger, all_written_strong, allele_type)
 
+    if ".xls" in mfi.split('/')[3]:
+        name =  mfi.split('/')[3]
+    else :
+        name =  mfi.split('/')[1]
 
     write_svg.write_svg_file(svg_list, "{}.svg".format(output))
     if (allele_type == "DR") or (allele_type == "A"):
-        make_raw.write_json_unknown(unknown_allele, mfi.split('/')[1])
+        make_raw.write_json_unknown(unknown_allele, name)
 
-    make_raw.get_forbidden_bead(df_eplet_file, stronger_eplet_on_link,stronger_eplet_on_bead, positive_bead, allele_type, mfi.split('/')[1])
-    json_file_name = make_raw.get_forbidden_bead_light(df_eplet_file, strong_eplet_on_link,strong_eplet_on_bead, positive_bead, allele_type, mfi.split('/')[1])
+    make_raw.get_forbidden_bead(df_eplet_file, stronger_eplet_on_link,stronger_eplet_on_bead, positive_bead, allele_type, name)
+    json_file_name = make_raw.get_forbidden_bead_light(df_eplet_file, strong_eplet_on_link,strong_eplet_on_bead, positive_bead, allele_type, name)
 
 
     return stronger_eplet_on_link,strong_eplet_on_link,stronger_eplet_on_bead,strong_eplet_on_bead

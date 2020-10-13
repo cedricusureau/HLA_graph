@@ -3,7 +3,6 @@ import os
 import src.input_file_func as input_file_func
 from src import hla_main as hla_main
 import random
-import pandas as pd
 
 app = Flask(__name__, static_folder="result")
 app.config['UPLOAD_PATH'] = 'uploads'

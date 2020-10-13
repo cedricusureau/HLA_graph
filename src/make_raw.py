@@ -1,8 +1,5 @@
 import json
 import pandas as pd
-from bokeh.models.widgets import DataTable, DateFormatter, TableColumn
-from bokeh.models import ColumnDataSource
-from bokeh.io import output_file, save
 
 def make_raw_data(final_fonction):
     stronger_eplet_on_link, strong_eplet_on_link, stronger_eplet_on_bead, strong_eplet_on_bead = final_fonction[0],final_fonction[1],final_fonction[2],final_fonction[3]
@@ -198,6 +195,7 @@ def get_forbidden_bead(df_eplet_file, stronger_eplet_on_link, stronger_eplet_on_
             json.dump(old_data, outfile, indent=4)
 
 def get_forbidden_bead_light(df_eplet_file, strong_eplet_on_link, strong_eplet_on_bead, positive_bead, allele_type, mfi):
+
     if allele_type in "A B C DR":
         allele_forbid = {}
         allele_forbid[allele_type+"_strong"] = []

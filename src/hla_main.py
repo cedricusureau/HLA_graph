@@ -55,7 +55,7 @@ def parse_args():
     return args
 
 def main(args):
-    for mfi in os.listdir("../data/sample_example/SA1/"):
+    for mfi in os.listdir("data/sample_example/SA1/"):
         full_name_SA1="data/sample_example/SA1/{}".format(mfi)
         all_raw_data = []
         for i in ["A","B","C"]:
@@ -103,10 +103,11 @@ def main(args):
                 )
                 all_raw_data.append(["C",make_raw.make_raw_data(c_ep)])
         make_raw.write_all_raw_data(all_raw_data, args.raw+mfi.split(".")[0] +"_SA1")
+        dataframe = make_raw.parse_json_to_html("result/json/" + mfi.split(".")[0] + ".json")
+        dataframe = make_raw.reorder_column(dataframe)
+        make_raw.make_html_file(dataframe, "result/html_table/{}.html".format(mfi.split(".")[0]))
 
-
-
-    for mfi in os.listdir("../data/sample_example/SA2/"):
+    for mfi in os.listdir("data/sample_example/SA2/"):
         full_name_SA2="data/sample_example/SA2/{}".format(mfi)
         all_raw_data = []
         for i in ["DR","DQ","DP"]:
@@ -156,6 +157,9 @@ def main(args):
                 all_raw_data.append(["DP", make_raw.make_raw_data(dp_ep)])
 
         make_raw.write_all_raw_data(all_raw_data,args.raw+mfi.split(".")[0]+"_SA2")
+        dataframe = make_raw.parse_json_to_html("result/json/" + mfi.split('.')[0] + ".json")
+        dataframe = make_raw.reorder_column(dataframe)
+        make_raw.make_html_file(dataframe, "result/html_table/{}.html".format(mfi.split(".")[0]))
 
 def main_server(args):
     all_raw_data = []
