@@ -115,14 +115,15 @@ def where_to_write_eplets(link_between_pos, always_present_eplet, not_always_pre
                 strong_eplet_on_bead[bead1].add(eplet)
             elif eplet in not_always_present_eplet_dict[bead2]:
                 strong_eplet_on_bead[bead2].add(eplet)
+    print(strong_eplet_on_bead)
 
     for not_linked in positive_not_linked:
-
         for eplet in always_present_eplet:
             stronger_eplet_on_bead[not_linked].add(eplet)
 
         for eplet in not_always_present_eplet:
-            strong_eplet_on_bead[not_linked].add(eplet)
+            if eplet in not_always_present_eplet_dict[not_linked]:
+                strong_eplet_on_bead[not_linked].add(eplet)
 
     return stronger_eplet_on_link, strong_eplet_on_link, stronger_eplet_on_bead, strong_eplet_on_bead
 
