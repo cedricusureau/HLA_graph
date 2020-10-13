@@ -1,6 +1,6 @@
-# hla_graph
+# HLA graph
 
-Mon projet est cool pourquoi ? qu'est ce qu'on a fait
+Mon projet est cool !
 
 ## Installation 
 
@@ -13,12 +13,18 @@ conda env create -f environment.yml
 ## Usage 
 
 
-###Activate environment:
+### Activate environment:
 ```shell script
 conda activate HLA_graph
 ```
 
-###Run in CLI:
+### Run server:
+```shell script
+python server.py
+```
+Once running, open a web browser and go to `localhost:5000
+
+### Run in CLI:
 
 Place any number of input file in `/data/sample_example/SA1` or `/data/sample_example/SA2`. Then run :
 
@@ -32,9 +38,3 @@ You could change the MFI's treshold with `-c` argument (default: 1000).
 python -m src.hla_main.py -c 2000
 ```
 
-###Run server:
-```shell script
-python server.py
-```
-
-Once running, open a web browser and go to `localhost:5000`
