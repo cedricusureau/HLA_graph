@@ -38,4 +38,4 @@ You could change the MFI's treshold with `-c` argument (default: 1000).
 python -m src.hla_main.py -c 2000
 ```
 
-<a id="raw-url" href="https://raw.githubusercontent.com/cedricusureau/HLA_graph/src/hla_main.py">Download FILE</a>
+<a id="raw-url" href="https://raw.githubusercontent.com/cedricusureau/HLA_graph/README.md">Download script</a>
