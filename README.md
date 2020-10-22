@@ -20,7 +20,7 @@ Based on this model, we have implemented HLA Graph, a data visualization tool. O
    - From the eplets sequences provided by HLA Matchmaker, identify potentially immunoreactive eplet following specific rules. 
 
 <p align="center">
-  <img width="500" height="300" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/HLA_graph_Flowcharts.png">
+  <img width="650" height="450" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/HLA_graph_Flowcharts.png">
 </p>
 
 ## Installation 
