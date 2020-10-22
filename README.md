@@ -9,7 +9,10 @@ In these graphs, each node correspond to an allele and each link correspond to a
 
 As we showed that strong MFI correlation between different antigens reflect epitopic similarity, we have developed a tool 
 
-![alt text](https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/eplet_corr.png '=eplet_correlation') 
+<p align="center">
+  <img width="300" height="200" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/eplet_corr.png">
+</p>
+
 ## Installation 
 
 ```shell script
@@ -45,5 +48,3 @@ You could change the MFI's treshold with `-c` argument (default: 1000).
 ```shell script
 python -m src.hla_main.py -c 2000
 ```
-
-<a id="raw-url" href="https://github.com/cedricusureau/HLA_graph/blob/master/src/deletes_files.py">Download script</a>
