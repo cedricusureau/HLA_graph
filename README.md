@@ -1,7 +1,15 @@
 # HLA graph
 
-Mon projet est cool !
+HLA Graph is a tool dedicated to biologist working on anti-HLA antibodies assay. 
 
+Based on retrospective analysis of thousands of samples from Luminex™ LABScreen™ single-antigen assays, we designed networks, also named graphs, 
+providing an updated overview of class I and II HLA antigens cross-reactivity. 
+
+In these graphs, each node correspond to an allele and each link correspond to a strong MFI correlation between two alleles. 
+
+As we showed that strong MFI correlation between different antigens reflect epitopic similarity, we have developed a tool 
+
+[logo]: https://github.com/cedricusureau/HLA_graph/figures/eplet_corr.pdf "test"
 ## Installation 
 
 ```shell script
@@ -38,4 +46,4 @@ You could change the MFI's treshold with `-c` argument (default: 1000).
 python -m src.hla_main.py -c 2000
 ```
 
-<a id="raw-url" href="https://raw.githubusercontent.com/cedricusureau/HLA_graph/README.md">Download script</a>
+<a id="raw-url" href="https://github.com/cedricusureau/HLA_graph/blob/master/src/deletes_files.py">Download script</a>
