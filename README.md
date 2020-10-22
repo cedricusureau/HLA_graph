@@ -9,7 +9,7 @@ In these graphs, each node correspond to an allele and each link correspond to a
 
 As we showed that strong MFI correlation between different antigens reflect epitopic similarity, we have developed a tool 
 
-[logo]: https://github.com/cedricusureau/HLA_graph/figures/eplet_corr.png "test"
+![alt text](https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/eplet_corr.png '=eplet_correlation') 
 ## Installation 
 
 ```shell script
