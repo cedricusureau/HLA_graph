@@ -1,16 +1,26 @@
 # HLA graph
 
-HLA Graph is a tool dedicated to biologist working on anti-HLA antibodies assay. 
+__HLA Graph__ is a tool dedicated to biologist working on anti-HLA antibodies assay. 
 
-Based on retrospective analysis of thousands of samples from Luminex™ LABScreen™ single-antigen assays, we designed networks, also named graphs, 
+Based on retrospective analysis of __thousands of samples__ from Luminex™ LABScreen™ single-antigen assays, we designed networks, also called __graphs__, 
 providing an updated overview of class I and II HLA antigens cross-reactivity. 
 
-In these graphs, each node correspond to an allele and each link correspond to a strong MFI correlation between two alleles. 
+[In these graphs](https://github.com/cedricusureau/HLA_graph/tree/master/data/graph_template), each node correspond to an allele and each link correspond to a strong MFI correlation between two alleles. 
 
-As we showed that strong MFI correlation between different antigens reflect epitopic similarity, we have developed a tool 
+We showed that strong MFI correlation between different antigens reflect epitopic similarity (see figure below), and we assumed that drawing graphs is a good way to display cross-reactivity interaction.
 
 <p align="center">
   <img width="300" height="200" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/eplet_corr.png">
+</p>
+
+Based on this model, we have implemented HLA Graph, a data visualization tool. Once user as uploaded datatable containing MFI values from SA1 or SA2 assay, HLA Graph workflow is following these steps :
+   - Extract positive antigens toward given MFI Thresholds.
+   - From empty graphs templates, highlight with shade of red the positive beads (proportional to MFI). Graphs templates for HLA-A, -B, -C, -DRB1, -DQB1, -DQA1, -DPB1 and -DPA1 are present in supplemental data.
+   - Highlight in red the links between positive beads that are usually correlated.
+   - From the eplets sequences provided by HLA Matchmaker, identify potentially immunoreactive eplet following specific rules. 
+
+<p align="center">
+  <img width="300" height="200" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/HLA_graph_Flowcharts.png">
 </p>
 
 ## Installation 
