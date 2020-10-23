@@ -21,7 +21,7 @@ Based on this model, we have implemented HLA Graph, a data visualization tool. O
 
 
 <p align="center">
-  <img width="50%" height="50%" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/HLA_graph_Flowcharts.png">
+  <img width="80%" height="80%" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/HLA_graph_Flowcharts.png">
 </p>
 
 Rules that identify an eplet to be potentially immuno-reactive are the following : 
