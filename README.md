@@ -5,7 +5,7 @@ __HLA Graph__ is a tool dedicated to biologist working on anti-HLA antibodies as
 Based on retrospective analysis of __thousands of samples__ from Luminex™ LABScreen™ single-antigen assays, we designed networks, also called __graphs__, 
 providing an updated overview of class I and II HLA antigens cross-reactivity. 
 
-[In these graphs](https://github.com/cedricusureau/HLA_graph/tree/master/data/graph_template), each node correspond to an allele and each link correspond to a strong MFI correlation between two alleles. 
+[In these graphs](https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/b15_exemple.png), each node correspond to an allele and each link correspond to a strong MFI correlation between two alleles. 
 
 We showed that strong MFI correlation between different antigens reflect epitopic similarity (see figure below), and we assumed that drawing graphs is a good way to display cross-reactivity interaction.
 
@@ -20,7 +20,7 @@ Based on this model, we have implemented HLA Graph, a data visualization tool. O
    - From the eplets sequences provided by HLA Matchmaker, identify potentially immunoreactive eplet following specific rules. 
 
 <p align="center">
-  <img width="650" height="500" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/HLA_graph_Flowcharts.png">
+  <img width="550" height="400" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/HLA_graph_Flowcharts.png">
 </p>
 
 test
