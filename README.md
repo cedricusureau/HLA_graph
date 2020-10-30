@@ -61,8 +61,18 @@ Another way to understand input files shape is to download examples, directly fr
 </p>
 
 <aside class="notice">
-    HLA Graph use the most common kit of Luminex Assay. However, you should check if your laboratory uses the same alleles. 
+    HLA Graph use the most common kit of Luminex Assay. However, you should check if your laboratory uses the same alleles. If you change any allele name in the input file, the raw could be not considered by HLA Graph. 
 </aside>
+
+Once your input file is ready, you can use HLA graph following this simple steps : 
+
+    - 1. Select your input file (Browse)
+    - 2. Select MFI threshold. MFI bellow this value are considered as negative bead. You could not change this threshold once the graph are generated. 
+    - 3. Launch Analysis. 
+    
+<p align="center">
+  <img width="110%" height="100%" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/user_help.png">
+</p>
 
 # Installation 
 
