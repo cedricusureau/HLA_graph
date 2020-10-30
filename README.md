@@ -1,8 +1,8 @@
 # Table of Content
 
-- [Description](#Description)
-- [Quick Start](#QuickStart)
-- [Installation](#Installation)
+- [**Description**](#Description)
+- [**Quick Start**](#QuickStart)
+- [**Local Use**](#Installation)
 
 # Description
 
@@ -52,7 +52,7 @@ Immuno-reactive eplets carried by tested bead could be shared by many antigens w
 
 ## First visit 
 
-HLA Graph take as an input an excel file with specific shape. In order to use HLA Graph, you must copy/paste the MFI values of a sample into this excel file. 
+HLA Graph take as an input an **excel file** with specific shape. In order to use HLA Graph, you must **copy/paste** the MFI values of a sample into this excel file. 
 You could find templates of these files here : [SA1](https://github.com/cedricusureau/HLA_graph/blob/master/templates/template_SA1.xls) & [SA2](https://github.com/cedricusureau/HLA_graph/blob/master/templates/template_SA2.xls)
 
 Another way to understand input files shape is to download examples, directly from the websites. Once acquired, you can modify these files by overwriting the MFI values from a new sample : 
@@ -60,6 +60,9 @@ Another way to understand input files shape is to download examples, directly fr
   <img width="110%" height="100%" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/download_examples.png">
 </p>
 
+<aside class="notice">
+    HLA Graph use the most common kit of Luminex Assay. However, you should check if your laboratory uses the same alleles. 
+</aside>
 
 # Installation 
 
