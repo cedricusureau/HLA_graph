@@ -90,9 +90,13 @@ Several kind of informations are displayed on graphs :
   <img width="80%" height="80%" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/DP_example_2.png">
 </p>
 
+On this specific graph, users can intuitively observe that 9H is a probably reactive eplet carried by DPB subunit and shared by DPB*09:01, DPB*10:01, DPB1*14:01 and DPB1*17:01.
+By clicking on "View all eplet", users can also see other alleles carrying 9H, as showed by the figure in [Positive eplet algorithm]("https://github.com/cedricusureau/HLA_graph#positive-eplet-algorithm") part
+
 
 # Local use 
 
+## Installation
 ```shell script
 git clone https://github.com/cedricusureau/HLA_graph.git
 cd HLA_graph
@@ -101,12 +105,10 @@ conda env create -f environment.yml
 
 ## Usage 
 
-
 ### Activate environment:
 ```shell script
 conda activate HLA_graph
 ```
-
 ### Run server:
 ```shell script
 python server.py
