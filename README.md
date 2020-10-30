@@ -84,14 +84,14 @@ Several kind of informations are displayed on graphs :
    
    2 - **Blue nodes** correspond to MFI value **upper than 1000** but lower than given threshold. It indicates to the user that some beads may become positive by decreasing the threshold, thus revealing new positive eplets. 
    
-   3 - For **DQ** or **DP** graphs, indicates the sub-unit carrying positive eplets. 
+   3 - For **DQ** or **DP** graphs, indicates the **sub-unit** carrying positive eplets. 
   
 <p align="center">
   <img width="80%" height="80%" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/DP_example_2.png">
 </p>
 
-On this specific graph, users can intuitively observe that 9H is a probably reactive eplet carried by DPB subunit and shared by DPB*09:01, DPB*10:01, DPB1*14:01 and DPB1*17:01.
-By clicking on "View all eplet", users can also see other alleles carrying 9H (as showed in the table above).
+On this specific graph, users can intuitively see that **9H** is a probably reactive eplet carried by **DPB** subunit and shared by *09:01*, *10:01*, *14:01* and *17:01*.
+By clicking on "View all eplet", users can also see other *not tested* alleles carrying 9H (as showed in the table above).
 
 
 # Local use 
