@@ -1,4 +1,4 @@
-- [Introduction](#heading)
+- [Introduction](#Introduction)
 - [Heading](#heading-1)
   * [Sub-heading](#sub-heading-1)
     + [Sub-sub-heading](#sub-sub-heading-1)
