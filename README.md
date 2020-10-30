@@ -57,9 +57,8 @@ You could find the template of this files here : [SA1](https://github.com/cedric
 
 
 <p align="center">
-  <img width="125%" height="125%" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/first_visite_exemple.png">
+  <img width="110%" height="100%" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/first_visite_exemple.png">
 </p>
-
 
 
 # Installation 
