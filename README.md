@@ -50,7 +50,7 @@ Immuno-reactive eplets carried by tested bead could be shared by many antigens w
 
 # Quick Start <a name="QuickStart"></a>
 
-## First visit 
+## Input Format 
 
 HLA Graph take as an input an **excel file** with specific shape. In order to use HLA Graph, you must **copy/paste** the MFI values of a sample into this excel file. 
 You could find templates of these files here : [SA1](https://github.com/cedricusureau/HLA_graph/blob/master/templates/template_SA1.xls) & [SA2](https://github.com/cedricusureau/HLA_graph/blob/master/templates/template_SA2.xls)
@@ -64,6 +64,8 @@ Another way to understand input files shape is to download examples, directly fr
     HLA Graph use the most common kit of Luminex Assay. However, you should check if your laboratory uses the same alleles. If you change any allele name in the input file, the raw could be not considered by HLA Graph. 
 </aside>
 
+## Launch Analysis
+
 Once your input file is ready, you can use HLA graph following this simple steps : 
 
    - Select your input file.
@@ -73,6 +75,21 @@ Once your input file is ready, you can use HLA graph following this simple steps
 <p align="center">
   <img width="110%" height="100%" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/user_help.png">
 </p>
+
+## Graph Analysis 
+
+Several kind of informations are displayed on graphs :
+ 
+   1 - **Positive nodes** are colored in red. Link between two positives nodes are displayed in red too. **Positive eplets** shared by positives alleles are displayed in **red** (*probably reactive eplets*) or **green** (*potentially reactive eplets*)
+   
+   2 - Blue nodes correspond to MFI value upper than 1000 but lower than given threshold. they indicate to the user that some beads may become positive by decreasing the threshold, thus revealing new positive eplets. 
+   
+   3 - For DQ or DP Graph, indicates the sub-unit carrying positive eplets. 
+  
+<p align="center">
+  <img width="110%" height="100%" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/DP_exemple2.png">
+</p>
+
 
 # Installation 
 
