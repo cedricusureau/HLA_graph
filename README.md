@@ -13,7 +13,6 @@
 
 > This is a fixture to test heading levels
 
-<!-- toc -->
 
 ## Heading
 
