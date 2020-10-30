@@ -34,7 +34,7 @@ Based on this model, we have implemented HLA Graph, a data visualization tool. O
   <img width="80%" height="80%" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/HLA_graph_Flowcharts.png">
 </p>
 
-## Positive Eplet algorithm
+## Positive eplet algorithm
 
 Rules that identify an eplet to be potentially immuno-reactive are the following : 
    - Not reactive : Eplet carried by one or more of the negative beads.     
@@ -50,7 +50,16 @@ Immuno-reactive eplets carried by tested bead could be shared by many antigens w
 
 # Quick Start <a name="QuickStart"></a>
 
-TODO Write Quick Start here
+## First visit 
+
+HLA Graph take as an input an excel file with specific shape. 
+If your trying to use HLA Graph for the first time, you need to 
+
+<p align="center">
+  <img width="50%" height="50%" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/first_visite_exemple.png">
+</p>
+
+
 
 # Installation 
 
