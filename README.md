@@ -1,9 +1,9 @@
-- [Tool Description](#Tool Description)
-- [Quick Start](#Quick Start)
+- [Description](#Description)
+- [QuickStart](#QuickStart)
 - [Installation](#Installation)
 
 
-# Tool Description
+# Description
 
 __HLA Graph__ is a tool dedicated to biologist working on anti-HLA antibodies assay. 
 
@@ -41,7 +41,7 @@ Immuno-reactive eplets carried by tested bead could be shared by many antigens w
 </p>
 
 
-# Quick Start
+# QuickStart
 
 TODO Write Quick Start here
 
