@@ -66,9 +66,9 @@ Another way to understand input files shape is to download examples, directly fr
 
 Once your input file is ready, you can use HLA graph following this simple steps : 
 
-    - 1. Select your input file (Browse)
-    - 2. Select MFI threshold. MFI bellow this value are considered as negative bead. You could not change this threshold once the graph are generated. 
-    - 3. Launch Analysis. 
+   - Select your input file.
+   - Select MFI threshold. Lower MFIs are considered negative. You could not change this threshold once the graph are generated. 
+   - Launch Analysis. 
     
 <p align="center">
   <img width="110%" height="100%" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/user_help.png">
