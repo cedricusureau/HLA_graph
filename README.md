@@ -6,6 +6,8 @@
 
 # Description
 
+## Introduction
+
 __HLA Graph__ is a tool dedicated to biologist working on anti-HLA antibodies assay. 
 
 Based on retrospective analysis of __thousands of samples__ from Luminex™ LABScreen™ single-antigen assays, we designed networks, also called __graphs__, 
@@ -19,6 +21,8 @@ In our work, we showed that **strong MFI correlation** between different antigen
   <img width="300" height="200" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/eplet_corr.png">
 </p>
 
+## HLA Graph Workflow
+
 Based on this model, we have implemented HLA Graph, a data visualization tool. Once user as uploaded datatable containing MFI values from SA1 or SA2 assay, HLA Graph workflow is following these steps :
    - Extract positive antigens toward given MFI Thresholds.
    - From empty graphs templates, highlight with shade of red the positive beads (proportional to MFI). Graphs templates for HLA-A, -B, -C, -DRB1, -DQB1, -DQA1, -DPB1 and -DPA1 are present in supplemental data.
@@ -29,6 +33,8 @@ Based on this model, we have implemented HLA Graph, a data visualization tool. O
 <p align="center">
   <img width="80%" height="80%" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/HLA_graph_Flowcharts.png">
 </p>
+
+## Positive Eplet algorithm
 
 Rules that identify an eplet to be potentially immuno-reactive are the following : 
    - Not reactive : Eplet carried by one or more of the negative beads.     
