@@ -1,4 +1,4 @@
-# Table of Content
+# Table of Content
 
 - [Description](#Description)
 - [QuickStart](#QuickStart)
