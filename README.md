@@ -53,11 +53,11 @@ Immuno-reactive eplets carried by tested bead could be shared by many antigens w
 ## First visit 
 
 HLA Graph take as an input an excel file with specific shape. In order to use HLA Graph, you must copy/paste the MFI values of a sample into this excel file. 
-You could find the template of this files here : [SA1](https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/templates/templates_SA1.xls) & [SA2](https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/templates/templates_SA2.xls)
+You could find the template of this files here : [SA1](https://github.com/cedricusureau/HLA_graph/raw/master/templates/template_SA1.xls) & [SA2](https://github.com/cedricusureau/HLA_graph/raw/master/templates/template_SA1.xls)
 If your trying to use HLA Graph for the first time, you need to 
 
 <p align="center">
-  <img width="50%" height="50%" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/first_visite_exemple.png">
+  <img width="100%" height="100%" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/first_visite_exemple.png">
 </p>
 
 
