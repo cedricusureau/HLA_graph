@@ -1,7 +1,7 @@
 # Table of Content
 
 - [Description](#Description)
-- [QuickStart](#QuickStart)
+- [Quick Start](#Quick Start)
 - [Installation](#Installation)
 
 # Description
@@ -48,7 +48,7 @@ Immuno-reactive eplets carried by tested bead could be shared by many antigens w
 </p>
 
 
-# QuickStart
+# Quick Start
 
 TODO Write Quick Start here
 
