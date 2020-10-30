@@ -1,8 +1,8 @@
 # Table of Content
 
 - [**Description**](#Description)
-- [**Quick Start**](#QuickStart)
-- [**Local Use**](#Installation)
+- [**Quick start**](#QuickStart)
+- [**Local use**](#Installation)
 
 # Description
 
@@ -91,7 +91,7 @@ Several kind of informations are displayed on graphs :
 </p>
 
 
-# Installation 
+# Local use 
 
 ```shell script
 git clone https://github.com/cedricusureau/HLA_graph.git
