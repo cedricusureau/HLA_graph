@@ -87,7 +87,7 @@ Several kind of informations are displayed on graphs :
    3 - For DQ or DP Graph, indicates the sub-unit carrying positive eplets. 
   
 <p align="center">
-  <img width="80%" height="80%" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/DP_exemple2.png">
+  <img width="80%" height="80%" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/DP_exemple_2.png">
 </p>
 
 
