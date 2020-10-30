@@ -91,7 +91,7 @@ Several kind of informations are displayed on graphs :
 </p>
 
 On this specific graph, users can intuitively observe that 9H is a probably reactive eplet carried by DPB subunit and shared by DPB*09:01, DPB*10:01, DPB1*14:01 and DPB1*17:01.
-By clicking on "View all eplet", users can also see other alleles carrying 9H, as showed by the figure in [Positive eplet algorithm]("https://github.com/cedricusureau/HLA_graph#positive-eplet-algorithm") part
+By clicking on "View all eplet", users can also see other alleles carrying 9H (as showed in the table above).
 
 
 # Local use 
