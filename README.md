@@ -1,6 +1,6 @@
-- [Introduction](#Tool Description)
+- [Tool Description](#Tool Description)
 - [Quick Start](#Quick Start)
-- [Heading](#heading-2)
+- [Installation](#Installation)
 
 
 # Tool Description
