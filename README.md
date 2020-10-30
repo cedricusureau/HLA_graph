@@ -1,4 +1,17 @@
+# Table of contents
+
+- [Introduction](#HLA graph)
+  * [Principle](#Principle)
+- [Heading](#heading-1)
+  * [Sub-heading](#sub-heading-1)
+    + [Sub-sub-heading](#sub-sub-heading-1)
+- [Heading](#heading-2)
+  * [Sub-heading](#sub-heading-2)
+    + [Sub-sub-heading](#sub-sub-heading-2)
+
 # HLA graph
+
+## Principle
 
 __HLA Graph__ is a tool dedicated to biologist working on anti-HLA antibodies assay. 
 

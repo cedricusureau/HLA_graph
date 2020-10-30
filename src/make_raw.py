@@ -244,7 +244,6 @@ def get_forbidden_bead_light(df_eplet_file, strong_eplet_on_link, strong_eplet_o
             for allele in df_all_abc_eplet.index:
                 if eplet in list(df_all_abc_eplet.loc[allele]):
                     if allele not in positive_bead:
-                        print(eplet, allele)
                         forbidden_bead[eplet].append([allele, False])
                     else:
                         forbidden_bead[eplet].append([allele, True])
