@@ -80,11 +80,11 @@ Once your input file is ready, you can use HLA graph following this simple steps
 
 Several kind of informations are displayed on graphs :
  
-   1 - **Positive nodes** are colored in red. Link between two positives nodes are displayed in red too. **Positive eplets** shared by positives alleles are displayed in **red** (*probably reactive eplets*) or **green** (*potentially reactive eplets*)
+   1 - **Positive nodes** are colored in red. Link between two positives nodes are displayed in red too. **Positive eplets** are displayed in **red** (*probably reactive eplets*) or **green** (*potentially reactive eplets*)
    
-   2 - Blue nodes correspond to MFI value upper than 1000 but lower than given threshold. they indicate to the user that some beads may become positive by decreasing the threshold, thus revealing new positive eplets. 
+   2 - **Blue nodes** correspond to MFI value **upper than 1000** but lower than given threshold. It indicates to the user that some beads may become positive by decreasing the threshold, thus revealing new positive eplets. 
    
-   3 - For DQ or DP Graph, indicates the sub-unit carrying positive eplets. 
+   3 - For **DQ** or **DP** graphs, indicates the sub-unit carrying positive eplets. 
   
 <p align="center">
   <img width="80%" height="80%" src="https://raw.githubusercontent.com/cedricusureau/HLA_graph/master/figures/DP_example_2.png">
