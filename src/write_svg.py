@@ -70,7 +70,7 @@ def parse_excel_file(excel_path):
         if "DP" in allele_name:
             allele_name = allele_name[:10] + ", " + allele_name[10:]
 
-        dico[df[df.columns[0]][i]] = df[df.columns[1]][i]
+        dico[df[df.columns[0]][i]] = int(df[df.columns[1]][i])
 
     return dico
 
