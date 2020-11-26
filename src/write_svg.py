@@ -1,5 +1,5 @@
 import pandas as pd
-
+import math
 
 def get_bead_position(svg_liste):
     bead_position = {}
@@ -65,12 +65,37 @@ def opacity_intensity(data):
 def parse_excel_file(excel_path):
     df = pd.read_excel(excel_path)
     dico = {}
-    for i in df.index:
-        allele_name = df[df.columns[0]][i]
-        if "DP" in allele_name:
-            allele_name = allele_name[:10] + ", " + allele_name[10:]
 
-        dico[df[df.columns[0]][i]] = int(df[df.columns[1]][i])
+    if len(df.columns) == 2:
+        for i in df.index:
+            allele_name = df[df.columns[0]][i]
+            if "DP" in allele_name:
+                allele_name = allele_name[:10] + ", " + allele_name[10:]
+
+            if type(df[df.columns[1]][i]) == str:
+                dico[df[df.columns[0]][i]] = 0
+            elif math.isnan(df[df.columns[1]][i]):
+                dico[df[df.columns[0]][i]] = 0
+            else:
+                dico[df[df.columns[0]][i]] = int(df[df.columns[1]][i])
+
+    elif len(df.columns) == 3:
+        for i in range(len(df[df.columns[0]])):
+            col1 = df[df.columns[0]][i]
+            col2 = df[df.columns[1]][i]
+            if type(col2) == str:
+                allele_name = col1+col2
+            else :
+                allele_name = col1
+
+
+
+            if type(df[df.columns[2]][i]) == str:
+                dico[df[df.columns[0]][i]] = 0
+            elif math.isnan(df[df.columns[2]][i]):
+                dico[df[df.columns[0]][i]] = 0
+            else:
+                dico[df[df.columns[0]][i]] = int(df[df.columns[2]][i])
 
     return dico
 
