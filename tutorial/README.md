@@ -5,7 +5,7 @@
  - Template examples could be download [here](https://github.com/cedricusureau/HLA_graph/tree/master/result/test_data)
 ## Classe I format
 
- - __Two column__ : lists of alleles and corresponding MFI.
+ - __Two column__ : lists of alleles and corresponding MFI. Column name is not mandatory (example 1)
  - Contain __HLA-A__, __-B__ and/or __-C__ alleles in any order.
  
 ##### Compatible format example:  

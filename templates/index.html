@@ -92,12 +92,14 @@
                     <button type="button" class="btn btn-outline-info"><a href="{{ url_for('static', filename='test_data/SA1.xls') }}" download>Download Example SA1</a></button>
                     <button type="button" class="btn btn-outline-info"><a href="{{ url_for('static', filename='test_data/SA2.xls') }}" download>Download Example SA2</a></button>
                 </div>
-                <div class="col-4" style="text-align: center">
+                <div class="col-5" style="text-align: center">
                 </div>
-                <div class="col-4">
+                <div class="btn-group col-3">
+                    <button class="btn btn-outline-secondary" onclick="window.location.href='https://github.com/cedricusureau/HLA_graph/tree/master/tutorial#input-files-format'" style="float: right">Input file tutorial</button>
                     <button class="btn btn-outline-secondary" onclick="window.location.href='https://github.com/cedricusureau/HLA_graph#table-of-content'" style="float: right">Help</button>
+
                 </div>
-            </div>
+
 
     {% endif %}
     </div>
