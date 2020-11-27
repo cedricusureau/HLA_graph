@@ -2,7 +2,7 @@
 
  - Input files should have ".xls" or ".xlsx" extension. 
  - Empty MFI cells are considered to be equal to 0. 
-
+ - Working template example could be download here
 ## Classe I format
 
  - __Two column__ : lists of alleles and corresponding MFI.
