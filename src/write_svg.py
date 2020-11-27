@@ -64,6 +64,9 @@ def opacity_intensity(data):
 
 def parse_excel_file(excel_path):
     df = pd.read_excel(excel_path)
+    if ("DR" in str(df.columns[0])) or ("A" in str(df.columns[0])):
+        df = pd.read_excel(excel_path, names = ["Allele","Mfi"])
+
     dico = {}
 
     if len(df.columns) == 2:

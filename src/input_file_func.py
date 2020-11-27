@@ -2,9 +2,13 @@ import pandas as pd
 
 def check_parsing(upload_file):
     df = pd.read_excel(upload_file)
+    if ("DR" in str(df.columns[0])) or ("A" in str(df.columns[0])):
+        df = pd.read_excel(upload_file, names = ["Allele","Mfi"])
+
     if len(df.columns) < 2:
         return "Parsing Error. Check input file syntax"
-    if df.iloc[0][0][0][0] == "A":
+
+    if df[df.columns[0]][0][0] == "A":
         return "A B C"
     else :
         return "DR DQ DP"
