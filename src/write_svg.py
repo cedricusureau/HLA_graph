@@ -64,9 +64,20 @@ def opacity_intensity(data):
 
 def parse_excel_file(excel_path):
     df = pd.read_excel(excel_path)
-    if ("DR" in str(df.columns[0])) or ("A" in str(df.columns[0])):
-        df = pd.read_excel(excel_path, names = ["Allele","Mfi"])
+    if len(df.columns) == 2:
+        if ("A*" in str(df.columns[0])) or ("B*" in str(df.columns[0])) or ("C*" in str(df.columns[0])) or (
+                "DR*" in str(df.columns[0])):
+            first_row = list(df.columns)
+            df = pd.read_excel(excel_path, names=["Allele", "Mfi"])
+            df = df.append({"Allele": first_row[0], "Mfi": first_row[1]}, ignore_index=True)
 
+    elif len(df.columns) == 3:
+        if ("DR" in str(df.columns[0])) or ("DQ" in str(df.columns[0])) or ("DP" in str(df.columns[0])):
+            first_row = list(df.columns)
+            df = pd.read_excel(excel_path, names=["Allele", "Allele2", "Mfi"])
+            df = df.append({"Allele": first_row[0], "Allele2": first_row[1], "Mfi": first_row[2]}, ignore_index=True)
+
+    print(df)
     dico = {}
 
     if len(df.columns) == 2:
@@ -91,14 +102,12 @@ def parse_excel_file(excel_path):
             else :
                 allele_name = col1
 
-
-
             if type(df[df.columns[2]][i]) == str:
                 dico[df[df.columns[0]][i]] = 0
             elif math.isnan(df[df.columns[2]][i]):
                 dico[df[df.columns[0]][i]] = 0
             else:
-                dico[df[df.columns[0]][i]] = int(df[df.columns[2]][i])
+                dico[allele_name] = int(df[df.columns[2]][i])
 
     return dico
 
