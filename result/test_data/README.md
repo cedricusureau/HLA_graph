@@ -9,7 +9,7 @@ Every input files should have ".xls" or ".xlsx" extension.
  - __Empty MFI__ cells are considered to be __equal to 0__. 
  - __WARNING__: Alleles not present in the file will not be considered negative. Some eplets may therefore not be eliminated.
  
-###Compatible format example:  
+### Compatible format example:  
  
  |Example 1|Example 2|
 |--|--|
@@ -18,13 +18,13 @@ Every input files should have ".xls" or ".xlsx" extension.
  ## Classe II format
  
   - __Two or three column__ (with or without column name)
-  - __For two column file__, alpha and beta chain should follow this format :  DQA1\*02:01DQB1\*02:01
-  - __For three column file__, DQ and QP alpha chain are in column 1 and beta chain is in column 2. DRB alleles are in column 1.
+  - __For two column file__, alpha and beta chain should follow this format :  DQA1\*02:01DQB1\*02:01. (See example 1)
+  - __For three column file__, DQ and QP alpha chain are in column 1 and beta chain is in column 2. DRB alleles are in column 1. (See example 2)
   - Contain HLA-DR __and/or__ HLA-DQ __and/or__ HLA-DP alleles in any orders.
   - __Empty MFI__ cells are considered to be __equal to 0__. 
   - __WARNING__: Alleles not present in the file will not be considered negative. Some eplets may therefore not be eliminated.
  
- ###Compatible format example:  
+ ### Compatible format example:  
  
   |Example 1|Example 2|
 |--|--|
