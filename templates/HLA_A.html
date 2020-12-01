@@ -16,7 +16,50 @@
 <!--        <div class="jumbotron">-->
             <h1 style="text-align: center">HLA Graph</h1>
             <hr/>
-            <form method="POST" enctype="multipart/form-data">
+
+{% if allele_type %}
+        <script>
+            file_html = myFunc({{file_html|tojson}})
+        </script>
+        <br/>
+        <div class="row">
+            <div class="dropdown col-2">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Choose Allele
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dpdown">
+                <a class="dropdown-item disable" href="#">{{allele_type[0]}}</a>
+              </div>
+            </div>
+            <div class="col-8" style="text-align: center">
+                <h3 id="title">HLA {{allele_type[0]}}</h3>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-primary" onclick="window.location.href='../result/html_table/'+file_html" style="float: right" data-toggle="tooltip" data-placement="right" title="Show alleles carrying positive eplets.">
+                    View all eplets</button>
+            </div>
+        </div>
+
+        <br/>
+            <div style="border: solid 1px;">
+                <a href="{{ url_for('static', filename=data[0]) }}" id="img_link">
+                    <img src="{{ url_for('static', filename=data[0]) }}" width="100%" height="100%" class="img-responsive" id="graph"/>
+                </a>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-2">
+                  <button type="button" class="btn btn-outline-info"><a href="{{ url_for('static', filename='raw_data/'+file) }}" download>Download raw data</a></button>
+                </div>
+                <div class="col-8" style="text-align: center">
+                </div>
+                <div class="col-2">
+                    <button class="btn btn-outline-secondary" onclick="window.location.href='https://github.com/cedricusureau/HLA_graph#table-of-content'" style="float: right">Help</button>
+                </div>
+            </div>
+        <br/>
+    {% else %}
+                    <form method="POST" enctype="multipart/form-data">
                 <h5 align="left">Select positive antigen :</h5>
                 <br/>
                 <div class="form-group">
@@ -157,48 +200,6 @@
 
   <br/><br/>
 
-{% if allele_type %}
-        <script>
-            file_html = myFunc({{file_html|tojson}})
-        </script>
-        <br/>
-        <div class="row">
-            <div class="dropdown col-2">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Choose Allele
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dpdown">
-                <a class="dropdown-item disable" href="#">{{allele_type[0]}}</a>
-              </div>
-            </div>
-            <div class="col-8" style="text-align: center">
-                <h3 id="title">HLA {{allele_type[0]}}</h3>
-            </div>
-            <div class="col-2">
-                <button class="btn btn-primary" onclick="window.location.href='../result/html_table/'+file_html" style="float: right" data-toggle="tooltip" data-placement="right" title="Show alleles carrying positive eplets.">
-                    View all eplets</button>
-            </div>
-        </div>
-
-        <br/>
-            <div style="border: solid 1px;">
-                <a href="{{ url_for('static', filename=data[0]) }}" id="img_link">
-                    <img src="{{ url_for('static', filename=data[0]) }}" width="100%" height="100%" class="img-responsive" id="graph"/>
-                </a>
-            </div>
-            <br/>
-            <div class="row">
-                <div class="col-2">
-                  <button type="button" class="btn btn-outline-info"><a href="{{ url_for('static', filename='raw_data/'+file) }}" download>Download raw data</a></button>
-                </div>
-                <div class="col-8" style="text-align: center">
-                </div>
-                <div class="col-2">
-                    <button class="btn btn-outline-secondary" onclick="window.location.href='https://github.com/cedricusureau/HLA_graph#table-of-content'" style="float: right">Help</button>
-                </div>
-            </div>
-        <br/>
-    {% else %}
     {% endif %}
     </div>
 <!--</div>-->

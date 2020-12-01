@@ -92,17 +92,31 @@
                     <button type="button" class="btn btn-outline-info"><a href="{{ url_for('static', filename='test_data/SA1.xls') }}" download>Download Example SA1</a></button>
                     <button type="button" class="btn btn-outline-info"><a href="{{ url_for('static', filename='test_data/SA2.xls') }}" download>Download Example SA2</a></button>
                 </div>
-                <div class="col-5" style="text-align: center">
+                <div class="col-6" style="text-align: center">
                 </div>
-                <div class="btn-group col-3">
+                <div class="btn-group col-2">
                     <button class="btn btn-outline-secondary" onclick="window.location.href='https://github.com/cedricusureau/HLA_graph/tree/master/tutorial#input-files-format'" style="float: right">Input file tutorial</button>
-                    <button class="btn btn-outline-secondary" onclick="window.location.href='https://github.com/cedricusureau/HLA_graph#table-of-content'" style="float: right">Help</button>
 
-                </div>
+                </div></div><br/><br/>
+            <h4 style="color: #1E90FF">Or select positive beads manually :</h4>
+            <div class="row">
+        <div class="btn-group col-8">
+            <button type="button" class="btn btn-outline-info"><a href="https://cusureau.pythonanywhere.com/A" >HLA-A</a></button>
+            <button type="button" class="btn btn-outline-info"><a href="https://cusureau.pythonanywhere.com/B" >HLA-B</a></button>
+            <button type="button" class="btn btn-outline-info"><a href="https://cusureau.pythonanywhere.com/C" >HLA-C</a></button>
+            <button type="button" class="btn btn-outline-info"><a href="https://cusureau.pythonanywhere.com/DR" >HLA-DR</a></button>
+            <button type="button" class="btn btn-outline-info"><a href="https://cusureau.pythonanywhere.com/DQ" >HLA-DQ</a></button>
+            <button type="button" class="btn btn-outline-info"><a href="https://cusureau.pythonanywhere.com/DP" >HLA-DP</a></button>
+        </div><div class="col-2" style="text-align: center"></div>
 
+            <div class="btn-group col-2">
+                  <button class="btn btn-outline-secondary" onclick="window.location.href='https://github.com/cedricusureau/HLA_graph#table-of-content'" style="float: right">Help</button>
+            </div>
 
-    {% endif %}
-    </div>
+        </div></div><br/>
+
+            {% endif %}
+
 <!--</div>-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
