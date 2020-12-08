@@ -1,4 +1,5 @@
-<p align=center>[WEBSITE](https://cusureau.pythonanywhere.com)</p>
+
+<link href="https://cusureau.pythonanywhere.com" rel="stylesheet">
 
 # Table of Content
 
