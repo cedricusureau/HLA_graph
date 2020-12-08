@@ -131,5 +131,3 @@ You could change the MFI's treshold with `-c` argument (default: 1000).
 ```shell script
 python -m src.hla_main.py -c 2000
 ```
-
-J'écris des truc pour tester
