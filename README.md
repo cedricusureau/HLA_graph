@@ -1,5 +1,5 @@
 
-<link href="https://cusureau.pythonanywhere.com" rel="stylesheet">
+<link align=center href="https://cusureau.pythonanywhere.com" WEBSITE>
 
 # Table of Content
 
