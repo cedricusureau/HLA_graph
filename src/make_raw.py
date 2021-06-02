@@ -80,6 +80,7 @@ def write_all_raw_data(all_raw_data, output_raw):
                 for eplet in j:
                     file.write(eplet+",")
                 file.write("\n")
+
         #
         # file.write("Eplets from HLA-{} beads. These eplets are present on some of the positive bead \n".format(allele))
         # for i,j in strong.items():

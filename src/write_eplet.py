@@ -173,7 +173,7 @@ def write_strong_eplet_on_bead(svg, bead_position, strong_eplet_on_bead, stronge
                     + (text_size * already_write[bead]),
                     font_size=text_size,
                     font_family="Dialog",
-                    color="#52be80 ",
+                    color="#A9A9A9 ",
                     text="...",
                 )
             else:
@@ -184,7 +184,7 @@ def write_strong_eplet_on_bead(svg, bead_position, strong_eplet_on_bead, stronge
                     + (text_size * already_write[bead]),
                     font_size=text_size,
                     font_family="Dialog",
-                    color="#52be80 ",
+                    color="#A9A9A9 ",
                     text=eplet,
                 )
                 already_write[bead] += 1
