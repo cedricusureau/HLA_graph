@@ -12,9 +12,12 @@ display:block
 .form-check-label{
 outline:solid 2px;
 outline-color:currentcolor;
+ moz-border-radius: 0.2rem;
+-webkit-border-radius: 0.2rem;
 border-radius: 0.2rem;
 padding:3px;
 }
+
 
 .A9:checked + .A9_label{
 background-color: #F4D03F;
@@ -61,6 +64,8 @@ background-color: #EAEDED;
 .legend{
 outline:solid 2px;
 outline-color:currentcolor;
+ moz-border-radius: 0.2rem;
+-webkit-border-radius: 0.2rem;
 border-radius: 0.2rem;
 padding:3px;
 }
