@@ -61,8 +61,5 @@ background-color: #EAEDED;
 .legend{
 outline:solid 2px;
 outline-color:currentcolor;
--moz-border-radius: 2px;
--webkit-border-radius: 2px;
-border-radius: 2px;
 padding:3px;
 }
