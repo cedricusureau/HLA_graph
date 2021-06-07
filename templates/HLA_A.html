@@ -60,15 +60,13 @@
             </div>
         <br/>
     {% else %}
-                    <div method="POST" enctype="multipart/form-data">
+                <form method="POST" enctype="multipart/form-data">
                 <h5 align="left">Select positive antigen :</h5>
                 <br/>
-
-
                 <div class="form-group">
                     <div class="form-group" >
                         <div class="form-group" >
-
+<div class="form-group" >
 <div class="form-check form-check-inline" type="test">
             <input class="form-check-input autre" type="checkbox" id="inlineCheckboxA1" name="A*01:01" value="True" >
             <label class="form-check-label autre_label" for="inlineCheckboxA1" border="thick">A*01:01</label>
@@ -195,11 +193,18 @@
 <div class="form-check form-check-inline">
             <input class="form-check-input autre" type="checkbox" id="inlineCheckbox1A*33:03" name="A*33:03" value="True">
             <label class="form-check-label autre_label" for="inlineCheckbox1A*33:03">A*33:03</label>
-</div></div>
-        <br/>
+            </div>
 
-        <div class="form-group" >
-            <font size="+1"> Legend :  </font>
+
+</div>
+</div></form>
+            </div>
+                    <div style="float: right">
+                        <button type="submit" class="btn btn-primary">Analyze</button>
+                    </div>
+                </div>  <br/>
+                            <div class="form-group" >
+            <font size="+1"> Legend:  </font>
             <div class="form-check form-check-inline"><label class="legend A2_label">A2</label></div>
             <div class="form-check form-check-inline"><label class="legend A9_label">A9</label></div>
              <div class="form-check form-check-inline"><label class="legend A10_label">A10</label></div>
@@ -207,14 +212,8 @@
              <div class="form-check form-check-inline"><label class="legend A28_label">A28</label></div>
              <div class="form-check form-check-inline"><label class="legend autre_label">Others</label></div>
 
-            </div></form>
-
-                    <div style="float: right">
-                        <button type="submit" class="btn btn-primary">Analyze</button>
-                    </div>
-                </div>
-
-  <br/><br/>
+            </div>
+<br/>
 
     {% endif %}
     </div>
