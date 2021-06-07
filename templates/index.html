@@ -27,20 +27,13 @@
                 <br/><br/>
                 <div class="form-group">
                     <label for="tresh">Threshold:
-                        <input type="number" id="tresh" name="tresh" placeholder="1000" value="1000" min="300" max="3000" step="100" data-toggle="tooltip" data-placement="bottom" title="MFI values below are negative">
+                        <input type="number" id="tresh" name="tresh" placeholder="1000" value="1000" min="200" max="12000" step="100" data-toggle="tooltip" data-placement="bottom" title="MFI values below are negative">
                     </label>
                     <div style="float: right">
                         <button type="submit" class="btn btn-primary">Analyze</button>
                     </div>
                 </div>
             </form>
-
-
-
-
-
-
-
 
 {% if allele_type %}
         <script>
@@ -92,12 +85,12 @@
             <h4 style="color: #1E90FF">Or select positive beads manually :</h4>
             <div class="row">
         <div class="btn-group col-9">
-            <button type="button" class="btn btn-outline-primary" onclick="window.location.href='https://cusureau.pythonanywhere.com/A'">HLA-A</button>
-            <button type="button" class="btn btn-outline-primary" onclick="window.location.href='https://cusureau.pythonanywhere.com/B'">HLA-B</button>
-            <button type="button" class="btn btn-outline-primary" onclick="window.location.href='https://cusureau.pythonanywhere.com/C'">HLA-C</button>
-            <button type="button" class="btn btn-outline-primary" onclick="window.location.href='https://cusureau.pythonanywhere.com/DR'">HLA-DR</button>
-            <button type="button" class="btn btn-outline-primary" onclick="window.location.href='https://cusureau.pythonanywhere.com/DQ'">HLA-DQ</button>
-            <button type="button" class="btn btn-outline-primary" onclick="window.location.href='https://cusureau.pythonanywhere.com/DP'">HLA-DP</button>
+            <button type="button" class="btn btn-outline-primary" onclick="window.location.href='A'">HLA-A</button>
+            <button type="button" class="btn btn-outline-primary" onclick="window.location.href='B'">HLA-B</button>
+            <button type="button" class="btn btn-outline-primary" onclick="window.location.href='C'">HLA-C</button>
+            <button type="button" class="btn btn-outline-primary" onclick="window.location.href='DR'">HLA-DR</button>
+            <button type="button" class="btn btn-outline-primary" onclick="window.location.href='DQ'">HLA-DQ</button>
+            <button type="button" class="btn btn-outline-primary" onclick="window.location.href='DP'">HLA-DP</button>
 
         </div>
 

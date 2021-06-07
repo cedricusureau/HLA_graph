@@ -71,7 +71,9 @@ def HLA_A():
 @app.route('/A/', methods=['POST'])
 def make_file_A():
     request_form = request.form
+
     data = {}
+
     for i in hla_A.split(","):
         data[i] = 0
 
@@ -107,7 +109,7 @@ def HLA_B():
 
 @app.route('/B/', methods=['POST'])
 def make_file_B():
-    print("coucou")
+
     request_form = request.form
     data = {}
     for i in hla_B.split(","):
@@ -115,7 +117,7 @@ def make_file_B():
 
     for i in request_form:
         data[i] = 7000
-    print(data)
+
     filename="check_output.xls"
     if filename != '':
         file_ext = os.path.splitext(filename)[1]
