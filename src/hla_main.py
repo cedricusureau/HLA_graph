@@ -9,6 +9,7 @@ import src.final_fonction as final_fonction
 import argparse
 import os
 import src.make_raw as make_raw
+import time
 
 def parse_args():
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
@@ -103,9 +104,13 @@ def main(args):
                 )
                 all_raw_data.append(["C",make_raw.make_raw_data(c_ep)])
         make_raw.write_all_raw_data(all_raw_data, args.raw+mfi.split(".")[0] +"_SA1")
+
         dataframe = make_raw.parse_json_to_html("result/json/" + mfi.split(".")[0] + ".json")
+
         dataframe = make_raw.reorder_column(dataframe)
+
         make_raw.make_html_file(dataframe, "result/html_table/{}.html".format(mfi.split(".")[0]))
+        make_raw.make_html_file_light(dataframe, "result/html_table_light/{}.html".format(mfi.split(".")[0]))
 
     for mfi in os.listdir("data/sample_example/SA2/"):
         full_name_SA2="data/sample_example/SA2/{}".format(mfi)
@@ -160,6 +165,7 @@ def main(args):
         dataframe = make_raw.parse_json_to_html("result/json/" + mfi.split('.')[0] + ".json")
         dataframe = make_raw.reorder_column(dataframe)
         make_raw.make_html_file(dataframe, "result/html_table/{}.html".format(mfi.split(".")[0]))
+        make_raw.make_html_file_light(dataframe, "result/html_table_light/{}.html".format(mfi.split(".")[0]))
 
 def main_server(args):
     all_raw_data = []
@@ -259,7 +265,9 @@ def main_server(args):
     make_raw.write_all_raw_data(all_raw_data,args.raw+args.mfi.split(".")[0])
     dataframe = make_raw.parse_json_to_html("result/json/"+args.mfi.split('.')[0] + ".json")
     dataframe = make_raw.reorder_column(dataframe)
+    print(dataframe)
     make_raw.make_html_file(dataframe, "result/html_table/{}.html".format(args.mfi.split(".")[0]))
+    make_raw.make_html_file_light(dataframe, "result/html_table_light/{}.html".format(args.mfi.split(".")[0]))
 
 if __name__ == "__main__":
     args = parse_args()
