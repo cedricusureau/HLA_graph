@@ -1,0 +1,132 @@
+.form-check-input{
+    opacity:0;
+    position:absolute;
+    left:9999px;
+}
+
+.form-check-input:checked + .form-check-label {
+font-weight: bold;
+display:block
+}
+
+.form-check-label{
+outline:solid 2px;
+outline-color:currentcolor;
+padding:3px;
+}
+
+
+.A9:checked + .A9_label{
+background-color: #F4D03F;
+}
+.A9_label{
+background-color: #FCF3CF
+}
+
+.A10:checked + .A10_label{
+background-color: #52BE82;
+}
+.A10_label{
+background-color: #D4EFDF;
+}
+
+.A19:checked + .A19_label{
+background-color: #EC7063;
+}
+.A19_label{
+background-color: #FADBD8;
+}
+
+.B12:checked + .B12_label{
+background-color: #EC7063;
+}
+.B12_label{
+background-color: #FADBD8;
+}
+
+.C76:checked + .C76_label{
+background-color: #EC7063;
+}
+.C76_label{
+background-color: #FADBD8;
+}
+
+
+.B16:checked + .B16_label{
+background-color: #EC7063;
+}
+.B16_label{
+background-color: #FADBD8;
+}
+
+
+.A28:checked + .A28_label{
+background-color: #BB8FCE;
+}
+.A28_label{
+background-color: #EBDEF0;
+}
+
+.B15:checked + .B15_label{
+background-color: #A569BD;
+}
+.B15_label{
+background-color:#D2B4DE ;
+}
+
+.A2:checked + .A2_label{
+background-color: #7FB3D5;
+}
+.A2_label{
+background-color: #D4E6F1;
+}
+
+.B14:checked + .B14_label{
+background-color: #7FB3D5;
+}
+.B14_label{
+background-color: #D4E6F1;
+}
+
+.B40:checked + .B40_label{
+background-color: #45B39D;
+}
+.B40_label{
+background-color: #A2D9CE;
+}
+
+.B5:checked + .B5_label{
+background-color: #F4D03F ;
+}
+.B5_label{
+background-color: #FCF3CF ;
+}
+
+.B17:checked + .B17_label{
+background-color: #3498DB;
+}
+.B17_label{
+background-color: #D4E6F1;
+}
+
+.C80:checked + .C80_label{
+background-color: #3498DB;
+}
+.C80_label{
+background-color: #D4E6F1;
+}
+
+
+
+.autre:checked + .autre_label{
+background-color: #AAB7B8;
+}
+.autre_label{
+background-color: #EAEDED;
+}
+
+.legend{
+outline:solid 2px;
+outline-color:currentcolor;
+padding:3px;
+}

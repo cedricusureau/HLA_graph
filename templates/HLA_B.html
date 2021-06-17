@@ -1,0 +1,332 @@
+<!doctype html>
+<html>
+  <head>
+       <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    <title>Hla Graph</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+  <script>
+         function myFunc(vars) {
+             return vars
+         }
+  </script>
+    <div class="container" style="width:75% !important;">
+<!--        <div class="jumbotron">-->
+            <h1 style="text-align: center">HLA Graph</h1>
+            <hr/>
+
+
+{% if allele_type %}
+        <script>
+            file_html = myFunc({{file_html|tojson}})
+        </script>
+        <br/>
+        <div class="row">
+            <div class="dropdown col-2">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Choose Allele
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dpdown">
+                <a class="dropdown-item disable" href="#">HLA-B</a>
+              </div>
+            </div>
+            <div class="col-7" style="text-align: center">
+                <h3 id="title">HLA-B</h3>
+            </div>
+            <div class="btn-group col-3" role="group" >
+                <button class="btn btn-primary" onclick="window.location.href='../result/html_table_light/'+file_html" style="float: right" data-toggle="tooltip" data-placement="left" title="Show positive eplets">
+                    View positives eplets</button>
+                <button class="btn btn-primary" onclick="window.location.href='../result/html_table/'+file_html" style="float: right" data-toggle="tooltip" data-placement="right" title="Show alleles carrying positive eplets.">
+                    View all alleles</button>
+            </div>
+        </div>
+
+        <br/>
+            <div style="border: solid 1px;">
+                <a href="{{ url_for('static', filename=data[1]) }}" id="img_link">
+                    <img src="{{ url_for('static', filename=data[1]) }}" width="100%" height="100%" class="img-responsive" id="graph"/>
+                </a>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-2">
+                  <button type="button" class="btn btn-outline-info"><a href="{{ url_for('static', filename='raw_data/'+file) }}" download>Download raw data</a></button>
+                </div>
+                <div class="col-8" style="text-align: center">
+                </div>
+                <div class="col-2">
+                    <button class="btn btn-outline-secondary" onclick="window.location.href='https://github.com/cedricusureau/HLA_graph#table-of-content'" style="float: right">Help</button>
+                </div>
+            </div>
+        <br/>
+    {% else %}
+                <form method="POST" enctype="multipart/form-data">
+                <h5 align="left">Select positive antigen :</h5>
+                <br/>
+                <div class="form-group">
+                    <div class="form-group" >
+                        <div class="form-group" >
+<div class="form-group" >
+
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox1B7" name="B*07:02" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox1B7">B*07:02</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox801" name="B*08:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox801">B*08:01</label>
+            </div>
+    <div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox11301" name="B*13:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox11301">B*13:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox1302" name="B*13:02" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox1302">B*13:02</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox1401" name="B*14:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox1401">B*14:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox1402" name="B*14:02" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox1402">B*14:02</label>
+</div></div><div class="form-group" >
+<div class="form-check form-check-inline">
+            <input class="form-check-input B15" type="checkbox" id="inlineCheckbox1501" name="B*15:01" value="True">
+            <label class="form-check-label B15_label" for="inlineCheckbox1501">B*15:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B15" type="checkbox" id="inlineCheckbox1502" name="B*15:02" value="True">
+            <label class="form-check-label B15_label" for="inlineCheckbox1502">B*15:02</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B15" type="checkbox" id="inlineCheckbox1503" name="B*15:03" value="True">
+            <label class="form-check-label B15_label" for="inlineCheckbox1503">B*15:03</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B15" type="checkbox" id="inlineCheckbox1510" name="B*15:10" value="True">
+            <label class="form-check-label B15_label" for="inlineCheckbox1510">B*15:10</label>
+            </div>
+                            <div class="form-check form-check-inline">
+            <input class="form-check-input B15" type="checkbox" id="inlineCheckbox1511" name="B*15:11" value="True">
+            <label class="form-check-label B15_label" for="inlineCheckbox1511">B*15:11</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B15" type="checkbox" id="inlineCheckbox1512" name="B*15:12" value="True">
+            <label class="form-check-label B15_label" for="inlineCheckbox1512">B*15:12</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B15" type="checkbox" id="inlineCheckbox1513" name="B*15:13" value="True">
+            <label class="form-check-label B15_label" for="inlineCheckbox1513">B*15:13</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B15" type="checkbox" id="inlineCheckbox1516" name="B*15:16" value="True">
+            <label class="form-check-label B15_label" for="inlineCheckbox1516">B*15:16</label>
+</div></div><div class="form-group" >
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox1801" name="B*18:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox1801">B*18:01</label>
+            </div>
+
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox3501" name="B*35:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox3501">B*35:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox3701" name="B*37:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox3701">B*37:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B16" type="checkbox" id="inlineCheckbox3801" name="B*38:01" value="True">
+            <label class="form-check-label B16_label" for="inlineCheckbox3801">B*38:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B16" type="checkbox" id="inlineCheckbox3901" name="B*39:01" value="True">
+            <label class="form-check-label B16_label" for="inlineCheckbox3901">B*39:01</label>
+            </div></div><div class="form-group" >
+                            <div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox12705" name="B*27:05" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox12705">B*27:05</label>
+            </div>
+                            <div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox2708" name="B*27:08" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox2708">B*27:08</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B40" type="checkbox" id="inlineCheckbox4001" name="B*40:01" value="True">
+            <label class="form-check-label B40_label" for="inlineCheckbox4001">B*40:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B40" type="checkbox" id="inlineCheckbox402" name="B*40:02" value="True">
+            <label class="form-check-label B40_label" for="inlineCheckbox402">B*40:02</label>
+        </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B40" type="checkbox" id="inlineCheckbox406" name="B*40:06" value="True">
+            <label class="form-check-label B40_label" for="inlineCheckbox406">B*40:06</label>
+</div>
+                        </div><div class="form-group" >
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox4101" name="B*41:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox4101">B*41:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox4201" name="B*42:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox4201">B*42:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B12" type="checkbox" id="inlineCheckbox4402" name="B*44:02" value="True">
+            <label class="form-check-label B12_label" for="inlineCheckbox4402">B*44:02</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B12" type="checkbox" id="inlineCheckbox4403" name="B*44:03" value="True">
+            <label class="form-check-label B12_label" for="inlineCheckbox4403">B*44:03</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B12" type="checkbox" id="inlineCheckbox4501" name="B*45:01" value="True">
+            <label class="form-check-label B12_label" for="inlineCheckbox4501">B*45:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox4601" name="B*46:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox4601">B*46:01</label>
+</div></div><div class="form-group" >
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox4701" name="B*47:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox4701">B*47:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox4801" name="B*48:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox4801">B*48:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox4901" name="B*49:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox4901">B*49:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox5001" name="B*50:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox5001">B*50:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B5" type="checkbox" id="inlineCheckbox5101" name="B*51:01" value="True">
+            <label class="form-check-label B5_label" for="inlineCheckbox5101">B*51:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B5" type="checkbox" id="inlineCheckbox5102" name="B*51:02" value="True">
+            <label class="form-check-label B5_label" for="inlineCheckbox5102">B*51:02</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B5" type="checkbox" id="inlineCheckbox5201" name="B*52:01" value="True">
+            <label class="form-check-label B5_label" for="inlineCheckbox5201">B*52:01</label>
+</div></div><div class="form-group" >
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox5301" name="B*53:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox5301">B*53:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B5" type="checkbox" id="inlineCheckbox5401" name="B*54:01" value="True">
+            <label class="form-check-label B5_label" for="inlineCheckbox5401">B*54:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B5" type="checkbox" id="inlineCheckbox5501" name="B*55:01" value="True">
+            <label class="form-check-label B5_label" for="inlineCheckbox5501">B*55:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B5" type="checkbox" id="inlineCheckbox5601" name="B*56:01" value="True">
+            <label class="form-check-label B5_label" for="inlineCheckbox5601">B*56:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B17" type="checkbox" id="inlineCheckbox5701" name="B*57:01" value="True">
+            <label class="form-check-label B17_label" for="inlineCheckbox5701">B*57:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B17" type="checkbox" id="inlineCheckbox5703" name="B*57:03" value="True">
+            <label class="form-check-label B17_label" for="inlineCheckbox5703">B*57:03</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input B17" type="checkbox" id="inlineCheckbox5801" name="B*58:01" value="True">
+            <label class="form-check-label B17_label" for="inlineCheckbox5801">B*58:01</label>
+            </div></div><div class="form-group" >
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox5901" name="B*59:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox5901">B*59:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox6701" name="B*67:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox6701">B*67:01</label>
+</div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox7301" name="B*73:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox7301">B*73:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox7801" name="B*78:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox7801">B*78:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox8101" name="B*81:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox8101">B*81:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input autre" type="checkbox" id="inlineCheckbox8201" name="B*82:01" value="True">
+            <label class="form-check-label autre_label" for="inlineCheckbox8201">B*82:01</label>
+            </div>
+
+
+</div>
+</div></form>
+            </div>
+                    <div style="float: right">
+                        <button type="submit" class="btn btn-primary">Analyze</button>
+                    </div>
+                </div>  <br/>
+                            <div class="form-group" >
+            <font size="+1"> Legend:  </font>
+            <div class="form-check form-check-inline"><label class="legend B5_label">B5</label></div>
+            <div class="form-check form-check-inline"><label class="legend B12_label">B12</label></div>
+             <div class="form-check form-check-inline"><label class="legend B15_label">B15</label></div>
+             <div class="form-check form-check-inline"><label class="legend B17_label">B17</label></div>
+<div class="form-check form-check-inline"><label class="legend B40_label">B40</label></div>
+             <div class="form-check form-check-inline"><label class="legend autre_label">Others</label></div>
+
+            </div>
+<br/>
+    {% endif %}
+    </div>
+<!--</div>-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+      <script>
+        $('#dpdown a').on('click', function(){
+            allele = $(this).html()
+            data = myFunc( {{ data|tojson }} )
+            if ((allele==="A") || (allele==="DR")) {
+                path = {{ url_for('static', filename=data[0])|tojson }}
+            }else if ((allele==="B")||(allele==="DQ")){
+                path = {{ url_for('static', filename=data[1])|tojson }}
+            }else {
+                path = {{ url_for('static', filename=data[2])|tojson }}
+            }
+            $("#graph").attr("src",path);
+            $("#img_link").attr("href", path);
+            $("#title").text("HLA "+allele);
+
+        });
+
+        // Add the following code if you want the name of the file appear on select
+        $(".custom-file-input").on("change", function() {
+          var fileName = $(this).val().split("\\").pop();
+          $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+        });
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+        </script>
+
+  </body>
+</html>

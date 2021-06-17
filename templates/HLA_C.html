@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+  <head>
+             <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    <title>Hla Graph</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+  <script>
+         function myFunc(vars) {
+             return vars
+         }
+  </script>
+    <div class="container" style="width:75% !important;">
+<!--        <div class="jumbotron">-->
+            <h1 style="text-align: center">HLA Graph</h1>
+            <hr/>
+
+{% if allele_type %}
+        <script>
+            file_html = myFunc({{file_html|tojson}})
+        </script>
+        <br/>
+        <div class="row">
+            <div class="dropdown col-2">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Choose Allele
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dpdown">
+                <a class="dropdown-item disable" href="#">HLA-C</a>
+              </div>
+            </div>
+            <div class="col-7" style="text-align: center">
+                <h3 id="title">HLA-C</h3>
+            </div>
+            <div class="btn-group col-3" role="group" >
+                <button class="btn btn-primary" onclick="window.location.href='../result/html_table_light/'+file_html" style="float: right" data-toggle="tooltip" data-placement="left" title="Show positive eplets">
+                    View positives eplets</button>
+                <button class="btn btn-primary" onclick="window.location.href='../result/html_table/'+file_html" style="float: right" data-toggle="tooltip" data-placement="right" title="Show alleles carrying positive eplets.">
+                    View all alleles</button>
+            </div>
+        </div>
+
+        <br/>
+            <div style="text-align:center;>
+                <a href="{{ url_for('static', filename=data[2]) }}" id="img_link">
+                    <img src="{{ url_for('static', filename=data[2]) }}" width="40%" height="40%" preserveAspectRatio="none" class="img-responsive" id="graph"/>
+                </a>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-2">
+                  <button type="button" class="btn btn-outline-info"><a href="{{ url_for('static', filename='raw_data/'+file) }}" download>Download raw data</a></button>
+                </div>
+                <div class="col-8" style="text-align: center">
+                </div>
+                <div class="col-2">
+                    <button class="btn btn-outline-secondary" onclick="window.location.href='https://github.com/cedricusureau/HLA_graph#table-of-content'" style="float: right">Help</button>
+                </div>
+            </div>
+        <br/>
+    {% else %}
+              <form method="POST" enctype="multipart/form-data">
+                <h5 align="left">Select positive antigen :</h5>
+                <br/>
+                <div class="form-group">
+                    <div class="form-group" >
+                        <div class="form-group" >
+                            <div class="form-group" >
+                        	<div class="form-check form-check-inline">
+            <input class="form-check-input C76" type="checkbox" id="inlineCheckbox102" name="C*01:02" value="True">
+            <label class="form-check-label C76_label" for="inlineCheckbox102">C*01:02</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input C80" type="checkbox" id="inlineCheckbox1202" name="C*02:02" value="True">
+            <label class="form-check-label C80_label" for="inlineCheckbox1202">C*02:02</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input C76" type="checkbox" id="inlineCheckbox1302" name="C*03:02" value="True">
+            <label class="form-check-label C76_label" for="inlineCheckbox1302">C*03:02</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input C76" type="checkbox" id="inlineCheckbox1303" name="C*03:03" value="True">
+            <label class="form-check-label C76_label" for="inlineCheckbox1303">C*03:03</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input C76" type="checkbox" id="inlineCheckbox1304" name="C*03:04" value="True">
+            <label class="form-check-label C76_label" for="inlineCheckbox1304">C*03:04</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input C80" type="checkbox" id="inlineCheckbox1401" name="C*04:01" value="True">
+            <label class="form-check-label C80_label" for="inlineCheckbox1401">C*04:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input C80" type="checkbox" id="inlineCheckbox1501" name="C*05:01" value="True">
+            <label class="form-check-label C80_label" for="inlineCheckbox1501">C*05:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input C80" type="checkbox" id="inlineCheckbox1602" name="C*06:02" value="True">
+            <label class="form-check-label C80_label" for="inlineCheckbox1602">C*06:02</label>
+</div></div><div class="form-group" >
+<div class="form-check form-check-inline">
+            <input class="form-check-input C76" type="checkbox" id="inlineCheckbox1702" name="C*07:02" value="True">
+            <label class="form-check-label C76_label" for="inlineCheckbox1702">C*07:02</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input C76" type="checkbox" id="inlineCheckbox1801" name="C*08:01" value="True">
+            <label class="form-check-label C76_label" for="inlineCheckbox1801">C*08:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input C76" type="checkbox" id="inlineCheckbox11203" name="C*12:03" value="True">
+            <label class="form-check-label C76_label" for="inlineCheckbox11203">C*12:03</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input C76" type="checkbox" id="inlineCheckbox11402" name="C*14:02" value="True">
+            <label class="form-check-label C76_label" for="inlineCheckbox11402">C*14:02</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input C80" type="checkbox" id="inlineCheckbox11502" name="C*15:02" value="True">
+            <label class="form-check-label C80_label" for="inlineCheckbox11502">C*15:02</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input C76" type="checkbox" id="inlineCheckbox1601" name="C*16:01" value="True">
+            <label class="form-check-label C76_label" for="inlineCheckbox1601">C*16:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input C80" type="checkbox" id="inlineCheckbox1701" name="C*17:01" value="True">
+            <label class="form-check-label C80_label" for="inlineCheckbox1701">C*17:01</label>
+            </div>
+<div class="form-check form-check-inline">
+            <input class="form-check-input C80" type="checkbox" id="inlineCheckbox1802" name="C*18:02" value="True">
+            <label class="form-check-label C80_label" for="inlineCheckbox1802">C*18:02</label>
+</div>
+</div>
+</div></form>
+            </div>
+                    <div style="float: right">
+                        <button type="submit" class="btn btn-primary">Analyze</button>
+                    </div>
+                </div>  <br/>
+                            <div class="form-group" >
+            <font size="+1"> Legend:  </font>
+            <div class="form-check form-check-inline"><label class="legend C76_label">76VS76VRN</label></div>
+            <div class="form-check form-check-inline"><label class="legend C80_label">80K</label></div>
+
+            </div>
+<br/>
+
+  <br/><br/>
+
+    {% endif %}
+    </div>
+<!--</div>-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+      <script>
+        $('#dpdown a').on('click', function(){
+            allele = $(this).html()
+            data = myFunc( {{ data|tojson }} )
+            if ((allele==="A") || (allele==="DR")) {
+                path = {{ url_for('static', filename=data[0])|tojson }}
+            }else if ((allele==="B")||(allele==="DQ")){
+                path = {{ url_for('static', filename=data[1])|tojson }}
+            }else {
+                path = {{ url_for('static', filename=data[2])|tojson }}
+            }
+            $("#graph").attr("src",path);
+            $("#img_link").attr("href", path);
+            $("#title").text("HLA "+allele);
+
+        });
+
+        // Add the following code if you want the name of the file appear on select
+        $(".custom-file-input").on("change", function() {
+          var fileName = $(this).val().split("\\").pop();
+          $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+        });
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+        </script>
+
+  </body>
+</html>

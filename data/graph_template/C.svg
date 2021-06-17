@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   contentScriptType="text/ecmascript"
+   width="1020"
+   zoomAndPan="magnify"
+   contentStyleType="text/css"
+   viewBox="-597 -825 1020 2150"
+   height="2150"
+   preserveAspectRatio="xMidYMid meet"
+   version="1.1"
+   id="svg182"
+   sodipodi:docname="C.svg"
+   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)">
+  <metadata
+     id="metadata188">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs186" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1299"
+     inkscape:window-height="713"
+     id="namedview184"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.21119918"
+     inkscape:cx="250.04609"
+     inkscape:cy="1076.7587"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg182"
+     inkscape:document-rotation="0"
+     scale-x="0.8"
+     units="pc">
+    <sodipodi:guide
+       position="1482.0134,-330.04728"
+       orientation="0,-1"
+       id="guide190" />
+  </sodipodi:namedview>
+  <g
+     id="edges"
+     transform="translate(32.796988,23.988037)">
+    <path
+       fill="none"
+       stroke-width="1"
+       d="m -274.26916,-690.59137 -245.12488,535.72994"
+       class="id_C*03:04 id_C*03:03"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path2" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -274.26916,-690.59137 -504.91165,-492.9119"
+       class="id_C*03:04 id_C*03:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path4" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="m -519.39404,-154.86143 14.48239,-338.05047"
+       class="id_C*03:03 id_C*03:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path6" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M 204.06828,429.04236 -66.516808,617.34808"
+       class="id_C*06:02 id_C*18:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path8" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -264.38089,-340.13531 -50.501091,-515.34699"
+       class="id_C*16:01 id_C*08:01"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path10" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="m -264.38089,-340.13531 145.74421,249.930171"
+       class="id_C*16:01 id_C*14:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path12" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -118.63668,-90.205139 -50.501091,-515.34699"
+       class="id_C*14:02 id_C*08:01"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path14" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="m 168.93697,-117.35499 47.7203,-304.45641"
+       class="id_C*12:03 id_C*01:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path16" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -118.63668,-90.205139 -274.26916,-690.59137"
+       class="id_C*14:02 id_C*03:04"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path18" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M 216.65727,-421.8114 -118.63668,-90.205139"
+       class="id_C*01:02 id_C*14:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path20" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -66.516808,617.34808 216.77547,730.71906"
+       class="id_C*18:02 id_C*05:01"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path22" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -50.501091,-515.34699 -274.26916,-690.59137"
+       class="id_C*08:01 id_C*03:04"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path24" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -118.63668,-90.205139 -519.39404,-154.86143"
+       class="id_C*14:02 id_C*03:03"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path26" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="m -264.38089,-340.13531 433.31786,222.78032"
+       class="id_C*16:01 id_C*12:03"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path28" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -50.501091,-515.34699 -504.91165,-492.9119"
+       class="id_C*08:01 id_C*03:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path30" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M 136.76811,-747.66974 -118.63668,-90.205139"
+       class="id_C*07:02 id_C*14:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path32" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M 204.06828,429.04236 -48.166111,252.52258"
+       class="id_C*06:02 id_C*04:01"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path34" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -118.63668,-90.205139 -504.91165,-492.9119"
+       class="id_C*14:02 id_C*03:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path36" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="m 168.93697,-117.35499 -219.438061,-397.992"
+       class="id_C*12:03 id_C*08:01"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path38" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="m -504.91165,-492.9119 240.53076,152.77659"
+       class="id_C*03:02 id_C*16:01"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path40" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -50.501091,-515.34699 136.76811,-747.66974"
+       class="id_C*08:01 id_C*07:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path42" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="m -66.516808,617.34808 18.350697,-364.8255"
+       class="id_C*18:02 id_C*04:01"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path44" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="m -264.38089,-340.13531 401.149,-407.53443"
+       class="id_C*16:01 id_C*07:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path46" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -118.63668,-90.205139 168.93697,-117.35499"
+       class="id_C*14:02 id_C*12:03"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path48" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="m -264.38089,-340.13531 -9.88827,-350.45606"
+       class="id_C*16:01 id_C*03:04"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path50" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="m 204.06828,429.04236 12.70719,301.6767"
+       class="id_C*06:02 id_C*05:01"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path52" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -50.501091,-515.34699 -519.39404,-154.86143"
+       class="id_C*08:01 id_C*03:03"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path54" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -48.166111,252.52258 -118.63668,-90.205139"
+       class="id_C*04:01 id_C*14:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path56" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -264.38089,-340.13531 216.65727,-421.8114"
+       class="id_C*16:01 id_C*01:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path58" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="m -54.703548,992.20966 6.537437,-739.68708"
+       class="id_C*02:02 id_C*04:01"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path60" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -50.501091,-515.34699 216.65727,-421.8114"
+       class="id_C*08:01 id_C*01:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path62" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M 204.06828,429.04236 -54.703548,992.20966"
+       class="id_C*06:02 id_C*02:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path64" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="m -66.516808,617.34808 11.81326,374.86158"
+       class="id_C*18:02 id_C*02:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path66" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -66.516808,617.34808 -366.79571,415.07413"
+       class="id_C*18:02 id_C*17:01"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path68" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="m -264.38089,-340.13531 -255.01315,185.27388"
+       class="id_C*16:01 id_C*03:03"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path70" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -54.703548,992.20966 -366.79571,415.07413"
+       class="id_C*02:02 id_C*17:01"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path72" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -66.516808,617.34808 -362.16693,821.76642"
+       class="id_C*18:02 id_C*15:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path74" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -366.79571,415.07413 -48.166111,252.52258"
+       class="id_C*17:01 id_C*04:01"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path76" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M -54.703548,992.20966 -362.16693,821.76642"
+       class="id_C*02:02 id_C*15:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path78" />
+    <path
+       fill="none"
+       stroke-width="1"
+       d="M 216.77547,730.71906 -54.703548,992.20966"
+       class="id_C*05:01 id_C*02:02"
+       stroke-opacity="0.34902"
+       stroke="#000000"
+       id="path80" />
+  </g>
+  <g
+     id="nodes"
+     transform="translate(32.796988,23.988037)">
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="75"
+       cx="216.65727"
+       class="id_C*01:02"
+       cy="-421.8114"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5"
+       id="circle83" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="75"
+       cx="-54.703548"
+       class="id_C*02:02"
+       cy="992.20966"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5"
+       id="circle85" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="75"
+       cx="-504.91165"
+       class="id_C*03:02"
+       cy="-492.9119"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5"
+       id="circle87" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="75"
+       cx="-519.39404"
+       class="id_C*03:03"
+       cy="-154.86143"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5"
+       id="circle89" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="75"
+       cx="-274.26917"
+       class="id_C*03:04"
+       cy="-690.59137"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5"
+       id="circle91" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="75"
+       cx="-48.166111"
+       class="id_C*04:01"
+       cy="252.52258"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5"
+       id="circle93" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="75"
+       cx="216.77547"
+       class="id_C*05:01"
+       cy="730.71906"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5"
+       id="circle95" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="75"
+       cx="204.06828"
+       class="id_C*06:02"
+       cy="429.04236"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5"
+       id="circle97" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="75"
+       cx="136.76811"
+       class="id_C*07:02"
+       cy="-747.66974"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5"
+       id="circle99" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="75"
+       cx="-50.501091"
+       class="id_C*08:01"
+       cy="-515.34698"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5"
+       id="circle101" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="75"
+       cx="168.93697"
+       class="id_C*12:03"
+       cy="-117.35499"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5"
+       id="circle103" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="75"
+       cx="-118.63668"
+       class="id_C*14:02"
+       cy="-90.205139"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5"
+       id="circle105" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="75"
+       cx="-362.16693"
+       class="id_C*15:02"
+       cy="821.76642"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5"
+       id="circle107" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="75"
+       cx="-264.38089"
+       class="id_C*16:01"
+       cy="-340.13531"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5"
+       id="circle109" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="75"
+       cx="-366.79572"
+       class="id_C*17:01"
+       cy="415.07413"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5"
+       id="circle111" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="75"
+       cx="-66.516808"
+       class="id_C*18:02"
+       cy="617.34808"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5"
+       id="circle113" />
+  </g>
+  <g
+     id="node-labels-outline"
+     transform="translate(32.796988,23.988037)">
+    <text
+       stroke-linecap="round"
+       font-size="32px"
+       x="216.65727"
+       y="-415.75931"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*01:02"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="1px"
+       id="text116">C*01:02</text>
+    <text
+       stroke-linecap="round"
+       font-size="32px"
+       x="-54.703548"
+       y="998.26172"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*02:02"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="1px"
+       id="text118">C*02:02</text>
+    <text
+       stroke-linecap="round"
+       font-size="32px"
+       x="-504.91165"
+       y="-486.8598"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*03:02"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="1px"
+       id="text120">C*03:02</text>
+    <text
+       stroke-linecap="round"
+       font-size="32px"
+       x="-519.39404"
+       y="-148.80936"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*03:03"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="1px"
+       id="text122">C*03:03</text>
+    <text
+       stroke-linecap="round"
+       font-size="32px"
+       x="-274.26917"
+       y="-684.53931"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*03:04"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="1px"
+       id="text124">C*03:04</text>
+    <text
+       stroke-linecap="round"
+       font-size="32px"
+       x="-48.166111"
+       y="258.57468"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*04:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="1px"
+       id="text126">C*04:01</text>
+    <text
+       stroke-linecap="round"
+       font-size="32px"
+       x="216.77547"
+       y="736.77112"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*05:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="1px"
+       id="text128">C*05:01</text>
+    <text
+       stroke-linecap="round"
+       font-size="32px"
+       x="204.06828"
+       y="435.09445"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*06:02"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="1px"
+       id="text130">C*06:02</text>
+    <text
+       stroke-linecap="round"
+       font-size="32px"
+       x="136.76811"
+       y="-741.61768"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*07:02"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="1px"
+       id="text132">C*07:02</text>
+    <text
+       stroke-linecap="round"
+       font-size="32px"
+       x="-50.501091"
+       y="-509.29492"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*08:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="1px"
+       id="text134">C*08:01</text>
+    <text
+       stroke-linecap="round"
+       font-size="32px"
+       x="168.93697"
+       y="-111.3029"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*12:03"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="1px"
+       id="text136">C*12:03</text>
+    <text
+       stroke-linecap="round"
+       font-size="32px"
+       x="-118.63668"
+       y="-84.153053"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*14:02"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="1px"
+       id="text138">C*14:02</text>
+    <text
+       stroke-linecap="round"
+       font-size="32px"
+       x="-362.16693"
+       y="827.81848"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*15:02"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="1px"
+       id="text140">C*15:02</text>
+    <text
+       stroke-linecap="round"
+       font-size="32px"
+       x="-264.38089"
+       y="-334.08322"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*16:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="1px"
+       id="text142">C*16:01</text>
+    <text
+       stroke-linecap="round"
+       font-size="32px"
+       x="-366.79572"
+       y="421.12622"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*17:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="1px"
+       id="text144">C*17:01</text>
+    <text
+       stroke-linecap="round"
+       font-size="32px"
+       x="-66.516808"
+       y="623.40015"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*18:02"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="1px"
+       id="text146">C*18:02</text>
+  </g>
+  <g
+     id="node-labels"
+     transform="translate(32.796988,23.988037)">
+    <text
+       font-size="32px"
+       x="216.65727"
+       y="-415.75931"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*01:02"
+       id="text149">C*01:02</text>
+    <text
+       font-size="32px"
+       x="-54.703548"
+       y="998.26172"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*02:02"
+       id="text151">C*02:02</text>
+    <text
+       font-size="32px"
+       x="-504.91165"
+       y="-486.8598"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*03:02"
+       id="text153">C*03:02</text>
+    <text
+       font-size="32px"
+       x="-519.39404"
+       y="-148.80936"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*03:03"
+       id="text155">C*03:03</text>
+    <text
+       font-size="32px"
+       x="-274.26917"
+       y="-684.53931"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*03:04"
+       id="text157">C*03:04</text>
+    <text
+       font-size="32px"
+       x="-48.166111"
+       y="258.57468"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*04:01"
+       id="text159">C*04:01</text>
+    <text
+       font-size="32px"
+       x="216.77547"
+       y="736.77112"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*05:01"
+       id="text161">C*05:01</text>
+    <text
+       font-size="32px"
+       x="204.06828"
+       y="435.09445"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*06:02"
+       id="text163">C*06:02</text>
+    <text
+       font-size="32px"
+       x="136.76811"
+       y="-741.61768"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*07:02"
+       id="text165">C*07:02</text>
+    <text
+       font-size="32px"
+       x="-50.501091"
+       y="-509.29492"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*08:01"
+       id="text167">C*08:01</text>
+    <text
+       font-size="32px"
+       x="168.93697"
+       y="-111.3029"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*12:03"
+       id="text169">C*12:03</text>
+    <text
+       font-size="32px"
+       x="-118.63668"
+       y="-84.153053"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*14:02"
+       id="text171">C*14:02</text>
+    <text
+       font-size="32px"
+       x="-362.16693"
+       y="827.81848"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*15:02"
+       id="text173">C*15:02</text>
+    <text
+       font-size="32px"
+       x="-264.38089"
+       y="-334.08322"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*16:01"
+       id="text175">C*16:01</text>
+    <text
+       font-size="32px"
+       x="-366.79572"
+       y="421.12622"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*17:01"
+       id="text177">C*17:01</text>
+    <text
+       font-size="32px"
+       x="-66.516808"
+       y="623.40015"
+       fill="#000000"
+       style="dominant-baseline:central;text-anchor:middle"
+       font-family="Dialog"
+       class="id_C*18:02"
+       id="text179">C*18:02</text>
+  </g>
+</svg>
