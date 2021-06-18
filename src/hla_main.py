@@ -265,7 +265,6 @@ def main_server(args):
     make_raw.write_all_raw_data(all_raw_data,args.raw+args.mfi.split(".")[0])
     dataframe = make_raw.parse_json_to_html("result/json/"+args.mfi.split('.')[0] + ".json")
     dataframe = make_raw.reorder_column(dataframe)
-    print(dataframe)
     make_raw.make_html_file(dataframe, "result/html_table/{}.html".format(args.mfi.split(".")[0]))
     make_raw.make_html_file_light(dataframe, "result/html_table_light/{}.html".format(args.mfi.split(".")[0]))
 

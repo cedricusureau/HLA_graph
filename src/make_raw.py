@@ -255,7 +255,6 @@ def make_html_file(df, output):
 def make_html_file_light(df, output):
 
     df = reformate_df(df)
-    print(df)
 
     template_liste = [i for i in open("data/html_table_template/html_table.html","r")]
     for i, ligne in enumerate(template_liste):

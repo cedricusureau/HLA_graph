@@ -77,7 +77,6 @@ def parse_excel_file(excel_path):
             df = pd.read_excel(excel_path, names=["Allele", "Allele2", "Mfi"])
             df = df.append({"Allele": first_row[0], "Allele2": first_row[1], "Mfi": first_row[2]}, ignore_index=True)
 
-    print(df)
     dico = {}
 
     if len(df.columns) == 2:
