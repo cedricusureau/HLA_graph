@@ -3,6 +3,7 @@ import math
 
 
 def write_stronger_eplet_on_link(svg, path_position, stronger_eplet_on_link, text_size, bead_text_position):
+
     global_written = {}
     already_write = {}
     warning = False
