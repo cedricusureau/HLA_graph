@@ -225,9 +225,11 @@ def parse_json_to_html(json_file):
                     for eplet, allele in element.items():
                         for element in allele:
                             if "stronger" in name:
-                                global_dict[eplet+"stronger"].append(element)
+                                if element not in global_dict[eplet+"stronger"]:
+                                    global_dict[eplet+"stronger"].append(element)
                             else :
-                                global_dict[eplet + "strong"].append(element)
+                                if element not in global_dict[eplet+"strong"]:
+                                    global_dict[eplet + "strong"].append(element)
 
         global_dict = put_strong_in_stronger(global_dict)
         global_dict = sorted_dict_by_true_eplet(global_dict)
@@ -385,6 +387,7 @@ def check_true_in_row(pandas_series):
     return False
 
 def reformate_df(df):
+
     df.to_csv("test.csv")
     bool_l = []
 
@@ -394,6 +397,7 @@ def reformate_df(df):
 
     df = df[bool_l]
     df.to_csv("test2.csv")
+
     return df
 
 def put_strong_in_stronger(global_dict):
