@@ -183,12 +183,16 @@ def get_forbidden_bead_light(df_eplet_file, strong_eplet_on_link, strong_eplet_o
     for eplet in ep_set:
         forbidden_bead[eplet] = []
 
+
     for eplet in ep_set:
-        for i in [i for i in list(df_all_eplet[eplet]) if str(i) !="nan"] :
-            if i in positive_bead:
-                forbidden_bead[eplet].append([i, True])
-            else:
-                forbidden_bead[eplet].append([i, False])
+        try:
+            for i in [i for i in list(df_all_eplet[eplet]) if str(i) !="nan"] :
+                if i in positive_bead:
+                    forbidden_bead[eplet].append([i, True])
+                else:
+                    forbidden_bead[eplet].append([i, False])
+        except:
+            print(eplet)
 
     allele_forbid[allele_type + "_strong"].append(forbidden_bead)
 
@@ -368,11 +372,11 @@ def check_true_in_row(pandas_series):
 
 def reformate_df(df):
     bool_l = []
-    print([i for i in df["62GKstrong"]])
+
     for i in df.index:
         pandas_series = df.loc[i]
         bool_l.append(check_true_in_row(pandas_series))
 
     df = df[bool_l]
-    print([i for i in df["62GKstrong"]])
+
     return df
