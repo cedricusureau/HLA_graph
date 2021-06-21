@@ -368,9 +368,11 @@ def check_true_in_row(pandas_series):
 
 def reformate_df(df):
     bool_l = []
+    print([i for i in df["62GKstrong"]])
     for i in df.index:
         pandas_series = df.loc[i]
         bool_l.append(check_true_in_row(pandas_series))
 
     df = df[bool_l]
+    print([i for i in df["62GKstrong"]])
     return df
