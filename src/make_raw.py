@@ -307,6 +307,7 @@ def sorted_dict_by_true_eplet(dico):
 def write_ligne(panda_series):
     whole_str = ""
     for i in list(panda_series):
+
         if type(i) == list:
             if i[1]:
                 whole_str += '<td class="table-active">{}</td>'.format(i[0])
@@ -318,11 +319,15 @@ def write_ligne(panda_series):
     return whole_str
 
 def write_ligne_light(panda_series):
+
     whole_str = ""
     for i in list(panda_series):
+        print(i)
         if type(i) == list:
             if i[1]:
                 whole_str += '<td class="table-active">{}</td>'.format(i[0])
+            else:
+                whole_str += '<td> </td>'
         else :
             whole_str += '<td> </td>'
 
@@ -371,6 +376,7 @@ def check_true_in_row(pandas_series):
     return False
 
 def reformate_df(df):
+    df.to_csv("test.csv")
     bool_l = []
 
     for i in df.index:
@@ -378,5 +384,5 @@ def reformate_df(df):
         bool_l.append(check_true_in_row(pandas_series))
 
     df = df[bool_l]
-
+    df.to_csv("test2.csv")
     return df
