@@ -8,18 +8,18 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    contentScriptType="text/ecmascript"
-   width="2650"
+   width="2256.0"
    zoomAndPan="magnify"
    contentStyleType="text/css"
-   viewBox="-1175 -1245 2650 2770"
-   height="2770"
+   viewBox="-1257 -1306 2386 2600"
+   height="2200.0"
    preserveAspectRatio="xMidYMid meet"
    version="1.1"
-   id="svg300"
+   id="svg286"
    sodipodi:docname="DP.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
   <metadata
-     id="metadata306">
+     id="metadata292">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -31,26 +31,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs304">
-    <rect
-       x="2308.8469"
-       y="1639.8364"
-       width="4297.0439"
-       height="3124.5156"
-       id="rect1613" />
-    <rect
-       x="-1344.135"
-       y="-1382.4408"
-       width="3074.9983"
-       height="3181.9661"
-       id="rect1607" />
-    <rect
-       x="-1330.5819"
-       y="-1183.6392"
-       width="3151.4001"
-       height="3191.9954"
-       id="rect1601" />
-  </defs>
+     id="defs290" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -60,1547 +41,1525 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1299"
-     inkscape:window-height="713"
-     id="namedview302"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview288"
      showgrid="false"
-     inkscape:zoom="0.16613634"
-     inkscape:cx="1114.4559"
-     inkscape:cy="1582.7888"
-     inkscape:window-x="67"
+     inkscape:zoom="0.10727273"
+     inkscape:cx="1128"
+     inkscape:cy="1100"
+     inkscape:window-x="72"
      inkscape:window-y="27"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg300"
-     inkscape:document-rotation="0" />
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg286" />
   <g
-     id="edges"
-     transform="translate(99.872528,133.08991)">
+     id="edges">
     <path
        fill="none"
-       stroke-width="2"
-       d="m -586.93652,-578.38684 359.36279,-195.9671"
-       class="id_DPA1*01:04,__DPB1*18:01 id_DPA1*01:05,__DPB1*18:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 470.077454,454.575592 L -272.822968,80.718590"
+       class="id_DPA1*01:03,__DPB1*01:01 id_DPA1*02:01,__DPB1*01:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path2" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m -328.51767,-285.50241 -667.58774,-214.9447"
-       class="id_DPA1*01:03,__DPB1*04:02 id_DPA1*01:05,__DPB1*28:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 470.077454,454.575592 L 40.092793,-287.712402"
+       class="id_DPA1*01:03,__DPB1*01:01 id_DPA1*02:02,__DPB1*01:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path4" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -99.110191,753.41199 -513.76556,549.41284"
-       class="id_DPA1*01:03,__DPB1*03:01 id_DPA1*01:05,__DPB1*03:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 470.077454,454.575592 L 945.327454,392.129333"
+       class="id_DPA1*01:03,__DPB1*01:01 id_DPA1*03:01,__DPB1*01:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path6" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m -681.3009,-971.3689 -314.80451,470.92179"
-       class="id_DPA1*01:03,__DPB1*28:01 id_DPA1*01:05,__DPB1*28:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 470.077454,454.575592 L 637.898499,18.036005"
+       class="id_DPA1*01:03,__DPB1*01:01 id_DPA1*02:02,__DPB1*05:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path8" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 786.0379,186.49843 1161.926,48.261036"
-       class="id_DPA1*02:01,__DPB1*13:01 id_DPA1*02:02,__DPB1*13:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 470.077454,454.575592 L 100.351662,581.217529"
+       class="id_DPA1*01:03,__DPB1*01:01 id_DPA1*03:01,__DPB1*05:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path10" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m 490.74383,1085.7089 -460.941836,0.8263"
-       class="id_DPA1*02:01,__DPB1*01:01 id_DPA1*02:02,__DPB1*05:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 470.077454,454.575592 L 464.353027,-361.187195"
+       class="id_DPA1*01:03,__DPB1*01:01 id_DPA1*02:01,__DPB1*19:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path12" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -162.4413,357.73383 8.933372,-21.151321"
-       class="id_DPA1*02:01,__DPB1*06:01 id_DPA1*02:01,__DPB1*09:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -272.822968,80.718590 L 40.092793,-287.712402"
+       class="id_DPA1*02:01,__DPB1*01:01 id_DPA1*02:02,__DPB1*01:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path14" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -1097.7224,-76.947792 -328.51767,-285.50241"
-       class="id_DPA1*04:01,__DPB1*28:01 id_DPA1*01:03,__DPB1*04:02"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -272.822968,80.718590 L 945.327454,392.129333"
+       class="id_DPA1*02:01,__DPB1*01:01 id_DPA1*03:01,__DPB1*01:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path16" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m -227.57373,-774.35394 -768.53168,273.90683"
-       class="id_DPA1*01:05,__DPB1*18:01 id_DPA1*01:05,__DPB1*28:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -272.822968,80.718590 L 683.913879,-758.277954"
+       class="id_DPA1*02:01,__DPB1*01:01 id_DPA1*02:01,__DPB1*05:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path18" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -328.51767,-285.50241 -681.3009,-971.3689"
-       class="id_DPA1*01:03,__DPB1*04:02 id_DPA1*01:03,__DPB1*28:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -272.822968,80.718590 L 637.898499,18.036005"
+       class="id_DPA1*02:01,__DPB1*01:01 id_DPA1*02:02,__DPB1*05:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path20" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -725.33954,-203.85846 -996.10541,-500.44711"
-       class="id_DPA1*01:03,__DPB1*02:01 id_DPA1*01:05,__DPB1*28:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -272.822968,80.718590 L 100.351662,581.217529"
+       class="id_DPA1*02:01,__DPB1*01:01 id_DPA1*03:01,__DPB1*05:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path22" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m -725.33954,-203.85846 396.82187,-81.64395"
-       class="id_DPA1*01:03,__DPB1*02:01 id_DPA1*01:03,__DPB1*04:02"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -272.822968,80.718590 L 348.992004,-980.208740"
+       class="id_DPA1*02:01,__DPB1*01:01 id_DPA1*02:01,__DPB1*11:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path24" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 8.933372,-21.151321 402.39191,52.453182"
-       class="id_DPA1*02:01,__DPB1*09:01 id_DPA1*02:01,__DPB1*17:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -272.822968,80.718590 L 927.785339,-424.567444"
+       class="id_DPA1*02:01,__DPB1*01:01 id_DPA1*02:01,__DPB1*13:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path26" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -996.10541,-500.44711 -1097.7224,-76.947792"
-       class="id_DPA1*01:05,__DPB1*28:01 id_DPA1*04:01,__DPB1*28:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -272.822968,80.718590 L 136.217560,-653.128357"
+       class="id_DPA1*02:01,__DPB1*01:01 id_DPA1*04:01,__DPB1*13:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path28" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 197.45363,-822.73083 545.12518,-1045.4692"
-       class="id_DPA1*01:03,__DPB1*04:01 id_DPA1*01:03,__DPB1*23:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -272.822968,80.718590 L 311.302124,143.904083"
+       class="id_DPA1*02:01,__DPB1*01:01 id_DPA1*02:01,__DPB1*15:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path30" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -725.33954,-203.85846 -681.3009,-971.3689"
-       class="id_DPA1*01:03,__DPB1*02:01 id_DPA1*01:03,__DPB1*28:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -272.822968,80.718590 L 464.353027,-361.187195"
+       class="id_DPA1*02:01,__DPB1*01:01 id_DPA1*02:01,__DPB1*19:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path32" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m -586.93652,-578.38684 -409.16889,77.93973"
-       class="id_DPA1*01:04,__DPB1*18:01 id_DPA1*01:05,__DPB1*28:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 40.092793,-287.712402 L 945.327454,392.129333"
+       class="id_DPA1*02:02,__DPB1*01:01 id_DPA1*03:01,__DPB1*01:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path34" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m -681.3009,-971.3689 94.36438,392.98206"
-       class="id_DPA1*01:03,__DPB1*28:01 id_DPA1*01:04,__DPB1*18:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 40.092793,-287.712402 L 683.913879,-758.277954"
+       class="id_DPA1*02:02,__DPB1*01:01 id_DPA1*02:01,__DPB1*05:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path36" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 416.70892,720.43707 29.801994,1086.5352"
-       class="id_DPA1*01:03,__DPB1*01:01 id_DPA1*02:02,__DPB1*05:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 40.092793,-287.712402 L 637.898499,18.036005"
+       class="id_DPA1*02:02,__DPB1*01:01 id_DPA1*02:02,__DPB1*05:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path38" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m 416.70892,720.43707 74.03491,365.27183"
-       class="id_DPA1*01:03,__DPB1*01:01 id_DPA1*02:01,__DPB1*01:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 40.092793,-287.712402 L 348.992004,-980.208740"
+       class="id_DPA1*02:02,__DPB1*01:01 id_DPA1*02:01,__DPB1*11:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path40" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -162.4413,357.73383 402.39191,52.453182"
-       class="id_DPA1*02:01,__DPB1*06:01 id_DPA1*02:01,__DPB1*17:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 40.092793,-287.712402 L 927.785339,-424.567444"
+       class="id_DPA1*02:02,__DPB1*01:01 id_DPA1*02:01,__DPB1*13:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path42" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m -328.51767,-285.50241 100.94394,-488.85153"
-       class="id_DPA1*01:03,__DPB1*04:02 id_DPA1*01:05,__DPB1*18:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 40.092793,-287.712402 L 136.217560,-653.128357"
+       class="id_DPA1*02:02,__DPB1*01:01 id_DPA1*04:01,__DPB1*13:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path44" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -513.76556,549.41284 227.25606,413.9729"
-       class="id_DPA1*01:05,__DPB1*03:01 id_DPA1*03:01,__DPB1*20:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 40.092793,-287.712402 L 311.302124,143.904083"
+       class="id_DPA1*02:02,__DPB1*01:01 id_DPA1*02:01,__DPB1*15:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path46" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -227.57373,-774.35394 -681.3009,-971.3689"
-       class="id_DPA1*01:05,__DPB1*18:01 id_DPA1*01:03,__DPB1*28:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 40.092793,-287.712402 L 464.353027,-361.187195"
+       class="id_DPA1*02:02,__DPB1*01:01 id_DPA1*02:01,__DPB1*19:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path48" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m -227.57373,-774.35394 14.05623,-392.68056"
-       class="id_DPA1*01:05,__DPB1*18:01 id_DPA1*02:01,__DPB1*18:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 945.327454,392.129333 L 637.898499,18.036005"
+       class="id_DPA1*03:01,__DPB1*01:01 id_DPA1*02:02,__DPB1*05:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path50" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -162.4413,357.73383 37.873615,-453.90982"
-       class="id_DPA1*02:01,__DPB1*06:01 id_DPA1*02:02,__DPB1*10:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 945.327454,392.129333 L 100.351662,581.217529"
+       class="id_DPA1*03:01,__DPB1*01:01 id_DPA1*03:01,__DPB1*05:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path52" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m -725.33954,-203.85846 497.76581,-570.49548"
-       class="id_DPA1*01:03,__DPB1*02:01 id_DPA1*01:05,__DPB1*18:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 945.327454,392.129333 L 927.785339,-424.567444"
+       class="id_DPA1*03:01,__DPB1*01:01 id_DPA1*02:01,__DPB1*13:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path54" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -328.51767,-285.50241 -586.93652,-578.38684"
-       class="id_DPA1*01:03,__DPB1*04:02 id_DPA1*01:04,__DPB1*18:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 945.327454,392.129333 L 464.353027,-361.187195"
+       class="id_DPA1*03:01,__DPB1*01:01 id_DPA1*02:01,__DPB1*19:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path56" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m 37.873615,-453.90982 382.121165,98.55725"
-       class="id_DPA1*02:02,__DPB1*10:01 id_DPA1*02:01,__DPB1*14:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -103.542648,1031.026489 L -505.373016,905.705444"
+       class="id_DPA1*01:03,__DPB1*02:01 id_DPA1*01:03,__DPB1*04:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path58" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 37.873615,-453.90982 402.39191,52.453182"
-       class="id_DPA1*02:02,__DPB1*10:01 id_DPA1*02:01,__DPB1*17:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -103.542648,1031.026489 L 343.018982,968.084229"
+       class="id_DPA1*01:03,__DPB1*02:01 id_DPA1*03:01,__DPB1*04:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path60" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m -725.33954,-203.85846 138.40302,-374.52838"
-       class="id_DPA1*01:03,__DPB1*02:01 id_DPA1*01:04,__DPB1*18:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -103.542648,1031.026489 L 698.841431,789.463562"
+       class="id_DPA1*01:03,__DPB1*02:01 id_DPA1*01:03,__DPB1*18:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path62" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m -213.5175,-1167.0345 -373.41902,588.64766"
-       class="id_DPA1*02:01,__DPB1*18:01 id_DPA1*01:04,__DPB1*18:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -1030.010376,-160.649246 L -1044.738403,256.179047"
+       class="id_DPA1*01:03,__DPB1*03:01 id_DPA1*01:03,__DPB1*06:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path64" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 791.9339,-220.27417 1161.926,48.261036"
-       class="id_DPA1*02:01,__DPB1*05:01 id_DPA1*02:02,__DPB1*13:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -1030.010376,-160.649246 L -629.809631,192.244888"
+       class="id_DPA1*01:03,__DPB1*03:01 id_DPA1*02:01,__DPB1*09:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path66" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 37.873615,-453.90982 8.933372,-21.151321"
-       class="id_DPA1*02:02,__DPB1*10:01 id_DPA1*02:01,__DPB1*09:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -1030.010376,-160.649246 L -374.668030,518.327820"
+       class="id_DPA1*01:03,__DPB1*03:01 id_DPA1*02:01,__DPB1*14:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path68" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -227.57373,-774.35394 -1097.7224,-76.947792"
-       class="id_DPA1*01:05,__DPB1*18:01 id_DPA1*04:01,__DPB1*28:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -1030.010376,-160.649246 L -830.019226,640.538574"
+       class="id_DPA1*01:03,__DPB1*03:01 id_DPA1*02:01,__DPB1*17:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path70" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -586.93652,-578.38684 -1097.7224,-76.947792"
-       class="id_DPA1*01:04,__DPB1*18:01 id_DPA1*04:01,__DPB1*28:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -545.571472,-225.240891 L -873.350220,-601.085632"
+       class="id_DPA1*01:03,__DPB1*04:01 id_DPA1*03:01,__DPB1*04:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path72" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -725.33954,-203.85846 -1097.7224,-76.947792"
-       class="id_DPA1*01:03,__DPB1*02:01 id_DPA1*04:01,__DPB1*28:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -148.800430,-1043.609009 L -554.952881,-891.732117"
+       class="id_DPA1*02:01,__DPB1*04:01 id_DPA1*02:02,__DPB1*04:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path74" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -162.4413,357.73383 227.25606,413.9729"
-       class="id_DPA1*02:01,__DPB1*06:01 id_DPA1*03:01,__DPB1*20:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -505.373016,905.705444 L 343.018982,968.084229"
+       class="id_DPA1*01:03,__DPB1*04:02 id_DPA1*03:01,__DPB1*04:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path76" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -162.4413,357.73383 -450.25195,93.242577"
-       class="id_DPA1*02:01,__DPB1*06:01 id_DPA1*02:01,__DPB1*03:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -505.373016,905.705444 L 698.841431,789.463562"
+       class="id_DPA1*01:03,__DPB1*04:02 id_DPA1*01:03,__DPB1*18:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path78" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 419.99478,-355.35257 8.933372,-21.151321"
-       class="id_DPA1*02:01,__DPB1*14:01 id_DPA1*02:01,__DPB1*09:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 343.018982,968.084229 L 698.841431,789.463562"
+       class="id_DPA1*03:01,__DPB1*04:02 id_DPA1*01:03,__DPB1*18:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path80" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m -681.3009,-971.3689 -416.4215,894.421108"
-       class="id_DPA1*01:03,__DPB1*28:01 id_DPA1*04:01,__DPB1*28:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 683.913879,-758.277954 L 637.898499,18.036005"
+       class="id_DPA1*02:01,__DPB1*05:01 id_DPA1*02:02,__DPB1*05:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path82" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m 791.9339,-220.27417 -5.896,406.7726"
-       class="id_DPA1*02:01,__DPB1*05:01 id_DPA1*02:01,__DPB1*13:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 683.913879,-758.277954 L 348.992004,-980.208740"
+       class="id_DPA1*02:01,__DPB1*05:01 id_DPA1*02:01,__DPB1*11:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path84" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 1017.8429,524.68732 763.03687,911.54456"
-       class="id_DPA1*01:03,__DPB1*11:01 id_DPA1*03:01,__DPB1*13:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 683.913879,-758.277954 L 927.785339,-424.567444"
+       class="id_DPA1*02:01,__DPB1*05:01 id_DPA1*02:01,__DPB1*13:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path86" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -162.4413,357.73383 -821.28247,255.84036"
-       class="id_DPA1*02:01,__DPB1*06:01 id_DPA1*01:03,__DPB1*06:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 683.913879,-758.277954 L 464.353027,-361.187195"
+       class="id_DPA1*02:01,__DPB1*05:01 id_DPA1*02:01,__DPB1*19:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path88" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -450.25195,93.242577 8.933372,-21.151321"
-       class="id_DPA1*02:01,__DPB1*03:01 id_DPA1*02:01,__DPB1*09:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 637.898499,18.036005 L 100.351662,581.217529"
+       class="id_DPA1*02:02,__DPB1*05:01 id_DPA1*03:01,__DPB1*05:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path90" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -450.25195,93.242577 37.873615,-453.90982"
-       class="id_DPA1*02:01,__DPB1*03:01 id_DPA1*02:02,__DPB1*10:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 637.898499,18.036005 L 348.992004,-980.208740"
+       class="id_DPA1*02:02,__DPB1*05:01 id_DPA1*02:01,__DPB1*11:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path92" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -450.25195,93.242577 -513.76556,549.41284"
-       class="id_DPA1*02:01,__DPB1*03:01 id_DPA1*01:05,__DPB1*03:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 637.898499,18.036005 L 927.785339,-424.567444"
+       class="id_DPA1*02:02,__DPB1*05:01 id_DPA1*02:01,__DPB1*13:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path94" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 8.933372,-21.151321 227.25606,413.9729"
-       class="id_DPA1*02:01,__DPB1*09:01 id_DPA1*03:01,__DPB1*20:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 637.898499,18.036005 L 464.353027,-361.187195"
+       class="id_DPA1*02:02,__DPB1*05:01 id_DPA1*02:01,__DPB1*19:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path96" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -99.110191,753.41199 227.25606,413.9729"
-       class="id_DPA1*01:03,__DPB1*03:01 id_DPA1*03:01,__DPB1*20:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -1044.738403,256.179047 L -629.809631,192.244888"
+       class="id_DPA1*01:03,__DPB1*06:01 id_DPA1*02:01,__DPB1*09:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path98" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 419.99478,-355.35257 402.39191,52.453182"
-       class="id_DPA1*02:01,__DPB1*14:01 id_DPA1*02:01,__DPB1*17:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -1044.738403,256.179047 L -830.019226,640.538574"
+       class="id_DPA1*01:03,__DPB1*06:01 id_DPA1*02:01,__DPB1*17:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path100" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 402.39191,52.453182 227.25606,413.9729"
-       class="id_DPA1*02:01,__DPB1*17:01 id_DPA1*03:01,__DPB1*20:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -629.809631,192.244888 L -374.668030,518.327820"
+       class="id_DPA1*02:01,__DPB1*09:01 id_DPA1*02:01,__DPB1*14:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path102" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m -213.5175,-1167.0345 -782.58791,666.58739"
-       class="id_DPA1*02:01,__DPB1*18:01 id_DPA1*01:05,__DPB1*28:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -629.809631,192.244888 L -830.019226,640.538574"
+       class="id_DPA1*02:01,__DPB1*09:01 id_DPA1*02:01,__DPB1*17:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path104" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -513.76556,549.41284 -162.4413,357.73383"
-       class="id_DPA1*01:05,__DPB1*03:01 id_DPA1*02:01,__DPB1*06:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 348.992004,-980.208740 L 927.785339,-424.567444"
+       class="id_DPA1*02:01,__DPB1*11:01 id_DPA1*02:01,__DPB1*13:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path106" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m -681.3009,-971.3689 467.7834,-195.6656"
-       class="id_DPA1*01:03,__DPB1*28:01 id_DPA1*02:01,__DPB1*18:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 348.992004,-980.208740 L 136.217560,-653.128357"
+       class="id_DPA1*02:01,__DPB1*11:01 id_DPA1*04:01,__DPB1*13:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path108" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 348.992004,-980.208740 L 464.353027,-361.187195"
+       class="id_DPA1*02:01,__DPB1*11:01 id_DPA1*02:01,__DPB1*19:01"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path110" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 927.785339,-424.567444 L 136.217560,-653.128357"
+       class="id_DPA1*02:01,__DPB1*13:01 id_DPA1*04:01,__DPB1*13:01"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path112" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 927.785339,-424.567444 L 464.353027,-361.187195"
+       class="id_DPA1*02:01,__DPB1*13:01 id_DPA1*02:01,__DPB1*19:01"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path114" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 136.217560,-653.128357 L 464.353027,-361.187195"
+       class="id_DPA1*04:01,__DPB1*13:01 id_DPA1*02:01,__DPB1*19:01"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path116" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 311.302124,143.904083 L 464.353027,-361.187195"
+       class="id_DPA1*02:01,__DPB1*15:01 id_DPA1*02:01,__DPB1*19:01"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path118" />
   </g>
   <g
-     id="nodes"
-     transform="translate(99.872528,133.08991)">
+     id="nodes">
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="416.70892"
+       r="60.0"
+       cx="470.07745"
        class="id_DPA1*01:03,__DPB1*01:01"
-       cy="720.43707"
+       cy="454.5756"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle111" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="490.74384"
-       class="id_DPA1*02:01,__DPB1*01:01"
-       cy="1085.7089"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle113" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-725.33954"
-       class="id_DPA1*01:03,__DPB1*02:01"
-       cy="-203.85846"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle115" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="29.801994"
-       class="id_DPA1*02:02,__DPB1*05:01"
-       cy="1086.5352"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle117" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-99.110191"
-       class="id_DPA1*01:03,__DPB1*03:01"
-       cy="753.41199"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle119" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-513.76556"
-       class="id_DPA1*01:05,__DPB1*03:01"
-       cy="549.41284"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle121" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-450.25195"
-       class="id_DPA1*02:01,__DPB1*03:01"
-       cy="93.242577"
+       r="60.0"
+       cx="-272.82297"
+       class="id_DPA1*02:01,__DPB1*01:01"
+       cy="80.71859"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle123" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="197.45363"
-       class="id_DPA1*01:03,__DPB1*04:01"
-       cy="-822.73083"
+       r="60.0"
+       cx="40.092793"
+       class="id_DPA1*02:02,__DPB1*01:01"
+       cy="-287.7124"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle125" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-328.51767"
-       class="id_DPA1*01:03,__DPB1*04:02"
-       cy="-285.50241"
+       r="60.0"
+       cx="945.32745"
+       class="id_DPA1*03:01,__DPB1*01:01"
+       cy="392.12933"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle127" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="791.9339"
-       class="id_DPA1*02:01,__DPB1*05:01"
-       cy="-220.27417"
+       r="60.0"
+       cx="-103.54265"
+       class="id_DPA1*01:03,__DPB1*02:01"
+       cy="1031.0265"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle129" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-162.4413"
-       class="id_DPA1*02:01,__DPB1*06:01"
-       cy="357.73383"
+       r="60.0"
+       cx="-1030.0104"
+       class="id_DPA1*01:03,__DPB1*03:01"
+       cy="-160.64925"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle131" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-821.28247"
-       class="id_DPA1*01:03,__DPB1*06:01"
-       cy="255.84036"
+       r="60.0"
+       cx="-545.5715"
+       class="id_DPA1*01:03,__DPB1*04:01"
+       cy="-225.24089"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle133" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="8.9333725"
-       class="id_DPA1*02:01,__DPB1*09:01"
-       cy="-21.151321"
+       r="60.0"
+       cx="-148.80043"
+       class="id_DPA1*02:01,__DPB1*04:01"
+       cy="-1043.609"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle135" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="37.873615"
-       class="id_DPA1*02:02,__DPB1*10:01"
-       cy="-453.90982"
+       r="60.0"
+       cx="-554.9529"
+       class="id_DPA1*02:02,__DPB1*04:01"
+       cy="-891.7321"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle137" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="1017.8429"
-       class="id_DPA1*01:03,__DPB1*11:01"
-       cy="524.68732"
+       r="60.0"
+       cx="-873.3502"
+       class="id_DPA1*03:01,__DPB1*04:01"
+       cy="-601.08563"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle139" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-681.3009"
-       class="id_DPA1*01:03,__DPB1*28:01"
-       cy="-971.3689"
+       r="60.0"
+       cx="-284.00604"
+       class="id_DPA1*04:01,__DPB1*04:01"
+       cy="-538.7181"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle141" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="786.0379"
-       class="id_DPA1*02:01,__DPB1*13:01"
-       cy="186.49843"
+       r="60.0"
+       cx="-505.37302"
+       class="id_DPA1*01:03,__DPB1*04:02"
+       cy="905.70544"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle143" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="1161.926"
-       class="id_DPA1*02:02,__DPB1*13:01"
-       cy="48.261036"
+       r="60.0"
+       cx="343.01898"
+       class="id_DPA1*03:01,__DPB1*04:02"
+       cy="968.0842"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle145" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="763.03687"
-       class="id_DPA1*03:01,__DPB1*13:01"
-       cy="911.54456"
+       r="60.0"
+       cx="683.9139"
+       class="id_DPA1*02:01,__DPB1*05:01"
+       cy="-758.27795"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle147" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="419.99478"
-       class="id_DPA1*02:01,__DPB1*14:01"
-       cy="-355.35257"
+       r="60.0"
+       cx="637.8985"
+       class="id_DPA1*02:02,__DPB1*05:01"
+       cy="18.036005"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle149" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="1049.4679"
-       class="id_DPA1*02:01,__DPB1*15:01"
-       cy="-536.09424"
+       r="60.0"
+       cx="100.35166"
+       class="id_DPA1*03:01,__DPB1*05:01"
+       cy="581.2175"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle151" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="402.39191"
-       class="id_DPA1*02:01,__DPB1*17:01"
-       cy="52.453182"
+       r="60.0"
+       cx="-1044.7384"
+       class="id_DPA1*01:03,__DPB1*06:01"
+       cy="256.17905"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle153" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-213.5175"
-       class="id_DPA1*02:01,__DPB1*18:01"
-       cy="-1167.0345"
+       r="60.0"
+       cx="-629.80963"
+       class="id_DPA1*02:01,__DPB1*09:01"
+       cy="192.24489"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle155" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-227.57373"
-       class="id_DPA1*01:05,__DPB1*18:01"
-       cy="-774.35394"
+       r="60.0"
+       cx="348.992"
+       class="id_DPA1*02:01,__DPB1*11:01"
+       cy="-980.20874"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle157" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-586.93652"
-       class="id_DPA1*01:04,__DPB1*18:01"
-       cy="-578.38684"
+       r="60.0"
+       cx="927.78534"
+       class="id_DPA1*02:01,__DPB1*13:01"
+       cy="-424.56744"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle159" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="663.62628"
-       class="id_DPA1*01:03,__DPB1*19:01"
-       cy="-666.52844"
+       r="60.0"
+       cx="136.21756"
+       class="id_DPA1*04:01,__DPB1*13:01"
+       cy="-653.12836"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle161" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="227.25606"
-       class="id_DPA1*03:01,__DPB1*20:01"
-       cy="413.9729"
+       r="60.0"
+       cx="-374.66803"
+       class="id_DPA1*02:01,__DPB1*14:01"
+       cy="518.3278"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle163" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="545.12518"
-       class="id_DPA1*01:03,__DPB1*23:01"
-       cy="-1045.4692"
+       r="60.0"
+       cx="311.30212"
+       class="id_DPA1*02:01,__DPB1*15:01"
+       cy="143.90408"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle165" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-996.10541"
-       class="id_DPA1*01:05,__DPB1*28:01"
-       cy="-500.44711"
+       r="60.0"
+       cx="-830.0192"
+       class="id_DPA1*02:01,__DPB1*17:01"
+       cy="640.5386"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle167" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-1097.7224"
-       class="id_DPA1*04:01,__DPB1*28:01"
-       cy="-76.947792"
+       r="60.0"
+       cx="698.84143"
+       class="id_DPA1*01:03,__DPB1*18:01"
+       cy="789.46356"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle169" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-453.99115"
-       class="id_DPA1*02:02,__DPB1*11:01"
-       cy="958.52057"
+       r="60.0"
+       cx="464.35303"
+       class="id_DPA1*02:01,__DPB1*19:01"
+       cy="-361.1872"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle171" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="1086.6974"
+       class="id_DPA1*02:02,__DPB1*28:01"
+       cy="-44.248623"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle173" />
   </g>
   <g
-     id="node-labels-outline"
-     transform="translate(102.28449,114.24518)">
+     id="node-labels-outline">
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="416.70892"
-       y="727.30426"
+       font-size="28"
+       x="470.07745"
+       y="460.58438"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DPA1*01:03,__DPB1*01:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text174"><tspan
-         sodipodi:role="line"
-         id="tspan1287"
-         x="416.70892"
-         y="727.30426"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1289"
-         x="416.70892"
-         y="767.30426"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*01:01</tspan></text>
+       stroke-width="0.875px"
+       id="text176">
+            DPA1*01:03, DPB1*01:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="490.74384"
-       y="1092.576"
+       font-size="28"
+       x="-272.82297"
+       y="86.72738"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DPA1*02:01,__DPB1*01:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text176"><tspan
-         sodipodi:role="line"
-         id="tspan1291"
-         x="490.74384"
-         y="1092.576"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1293"
-         x="490.74384"
-         y="1132.576"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*01:01</tspan></text>
+       stroke-width="0.875px"
+       id="text178">
+            DPA1*02:01, DPB1*01:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="-725.33954"
-       y="-196.99127"
+       font-size="28"
+       x="40.092793"
+       y="-281.7036"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*02:02,__DPB1*01:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text180">
+            DPA1*02:02, DPB1*01:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="945.32745"
+       y="398.13812"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*03:01,__DPB1*01:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text182">
+            DPA1*03:01, DPB1*01:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="-103.54265"
+       y="1037.0353"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DPA1*01:03,__DPB1*02:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text178"><tspan
-         sodipodi:role="line"
-         id="tspan1226"
-         x="-725.33954"
-         y="-196.99127"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1228"
-         x="-725.33954"
-         y="-156.99127"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*02:01</tspan></text>
+       stroke-width="0.875px"
+       id="text184">
+            DPA1*01:03, DPB1*02:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="29.801994"
-       y="1093.4023"
+       font-size="28"
+       x="-1030.0104"
+       y="-154.64046"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*02:02,__DPB1*05:01"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text180"><tspan
-         sodipodi:role="line"
-         id="tspan1297"
-         x="29.801994"
-         y="1093.4023"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:02</tspan><tspan
-         sodipodi:role="line"
-         x="29.801994"
-         y="1133.4023"
-         id="tspan1301"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*05:01</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="-99.110191"
-       y="760.27917"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DPA1*01:03,__DPB1*03:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text182"><tspan
-         sodipodi:role="line"
-         id="tspan1307"
-         x="-99.110191"
-         y="760.27917"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1309"
-         x="-99.110191"
-         y="800.27917"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*03:01</tspan></text>
+       stroke-width="0.875px"
+       id="text186">
+            DPA1*01:03, DPB1*03:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="-513.76556"
-       y="556.28003"
+       font-size="28"
+       x="-545.5715"
+       y="-219.2321"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*01:05,__DPB1*03:01"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text184"><tspan
-         sodipodi:role="line"
-         id="tspan1311"
-         x="-513.76556"
-         y="556.28003"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:05</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1313"
-         x="-513.76556"
-         y="596.28003"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*03:01</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="-450.25195"
-       y="100.10976"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*02:01,__DPB1*03:01"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text186"><tspan
-         sodipodi:role="line"
-         id="tspan1327"
-         x="-450.25195"
-         y="100.10976"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1329"
-         x="-450.25195"
-         y="140.10976"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*03:01</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="197.45363"
-       y="-815.86365"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DPA1*01:03,__DPB1*04:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text188"><tspan
-         sodipodi:role="line"
-         id="tspan1238"
-         x="197.45363"
-         y="-815.86365"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1240"
-         x="197.45363"
-         y="-775.86365"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*04:01</tspan></text>
+       stroke-width="0.875px"
+       id="text188">
+            DPA1*01:03, DPB1*04:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="-328.51767"
-       y="-278.63522"
+       font-size="28"
+       x="-148.80043"
+       y="-1037.6002"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*02:01,__DPB1*04:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text190">
+            DPA1*02:01, DPB1*04:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="-554.9529"
+       y="-885.7233"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*02:02,__DPB1*04:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text192">
+            DPA1*02:02, DPB1*04:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="-873.3502"
+       y="-595.07684"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*03:01,__DPB1*04:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text194">
+            DPA1*03:01, DPB1*04:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="-284.00604"
+       y="-532.7093"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*04:01,__DPB1*04:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text196">
+            DPA1*04:01, DPB1*04:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="-505.37302"
+       y="911.71423"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DPA1*01:03,__DPB1*04:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text190"><tspan
-         sodipodi:role="line"
-         id="tspan1230"
-         x="-328.51767"
-         y="-278.63522"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1232"
-         x="-328.51767"
-         y="-238.63522"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*04:02</tspan></text>
+       stroke-width="0.875px"
+       id="text198">
+            DPA1*01:03, DPB1*04:02
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="791.9339"
-       y="-213.40698"
+       font-size="28"
+       x="343.01898"
+       y="974.093"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*03:01,__DPB1*04:02"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text200">
+            DPA1*03:01, DPB1*04:02
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="683.9139"
+       y="-752.26917"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DPA1*02:01,__DPB1*05:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text192"><tspan
-         sodipodi:role="line"
-         id="tspan1258"
-         x="791.9339"
-         y="-213.40698"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1260"
-         x="791.9339"
-         y="-173.40698"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*05:01</tspan></text>
+       stroke-width="0.875px"
+       id="text202">
+            DPA1*02:01, DPB1*05:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="-162.4413"
-       y="364.60101"
+       font-size="28"
+       x="637.8985"
+       y="24.044794"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DPA1*02:01,__DPB1*06:01"
+       class="id_DPA1*02:02,__DPB1*05:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text194"><tspan
-         sodipodi:role="line"
-         id="tspan1315"
-         x="-162.4413"
-         y="364.60101"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1317"
-         x="-162.4413"
-         y="404.60101"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*06:01</tspan></text>
+       stroke-width="0.875px"
+       id="text204">
+            DPA1*02:02, DPB1*05:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="-821.28247"
-       y="262.70755"
+       font-size="28"
+       x="100.35166"
+       y="587.2263"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*03:01,__DPB1*05:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text206">
+            DPA1*03:01, DPB1*05:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="-1044.7384"
+       y="262.18784"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DPA1*01:03,__DPB1*06:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text196"><tspan
-         sodipodi:role="line"
-         id="tspan1323"
-         x="-821.28247"
-         y="262.70755"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1325"
-         x="-821.28247"
-         y="302.70755"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*06:01</tspan></text>
+       stroke-width="0.875px"
+       id="text208">
+            DPA1*01:03, DPB1*06:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="8.9333725"
-       y="-14.284134"
+       font-size="28"
+       x="-629.80963"
+       y="198.25368"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DPA1*02:01,__DPB1*09:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text198"><tspan
-         sodipodi:role="line"
-         id="tspan1331"
-         x="8.9333725"
-         y="-14.284134"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1333"
-         x="8.9333725"
-         y="25.715866"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*09:01</tspan></text>
+       stroke-width="0.875px"
+       id="text210">
+            DPA1*02:01, DPB1*09:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="37.873615"
-       y="-447.04263"
+       font-size="28"
+       x="348.992"
+       y="-974.19995"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DPA1*02:02,__DPB1*10:01"
+       class="id_DPA1*02:01,__DPB1*11:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text200"><tspan
-         sodipodi:role="line"
-         id="tspan1234"
-         x="37.873615"
-         y="-447.04263"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:02</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1236"
-         x="37.873615"
-         y="-407.04263"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*10:01</tspan></text>
+       stroke-width="0.875px"
+       id="text212">
+            DPA1*02:01, DPB1*11:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="1017.8429"
-       y="531.5545"
+       font-size="28"
+       x="927.78534"
+       y="-418.55865"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*01:03,__DPB1*11:01"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text202"><tspan
-         sodipodi:role="line"
-         id="tspan1279"
-         x="1017.8429"
-         y="531.5545"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1281"
-         x="1017.8429"
-         y="571.5545"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*11:01</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="-681.3009"
-       y="-964.50171"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*01:03,__DPB1*28:01"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text204"><tspan
-         sodipodi:role="line"
-         id="tspan1202"
-         x="-681.3009"
-         y="-964.50171"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1204"
-         x="-681.3009"
-         y="-924.50171"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*28:01</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="786.0379"
-       y="193.36562"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DPA1*02:01,__DPB1*13:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text206"><tspan
-         sodipodi:role="line"
-         id="tspan1266"
-         x="786.0379"
-         y="193.36562"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1268"
-         x="786.0379"
-         y="233.36562"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*13:01</tspan></text>
+       stroke-width="0.875px"
+       id="text214">
+            DPA1*02:01, DPB1*13:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="1161.926"
-       y="55.128223"
+       font-size="28"
+       x="136.21756"
+       y="-647.11957"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DPA1*02:02,__DPB1*13:01"
+       class="id_DPA1*04:01,__DPB1*13:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text208"><tspan
-         sodipodi:role="line"
-         id="tspan1273"
-         x="1161.926"
-         y="55.128223"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'"
-           id="tspan1270">DPA1*02:02</tspan></tspan><tspan
-         sodipodi:role="line"
-         id="tspan1275"
-         x="1161.926"
-         y="95.12822"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'"
-           id="tspan1277">DPB1*13:01</tspan></tspan></text>
+       stroke-width="0.875px"
+       id="text216">
+            DPA1*04:01, DPB1*13:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="763.03687"
-       y="918.41174"
+       font-size="28"
+       x="-374.66803"
+       y="524.3366"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DPA1*03:01,__DPB1*13:01"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text210"><tspan
-         sodipodi:role="line"
-         id="tspan1283"
-         x="763.03687"
-         y="918.41174"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*03:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1285"
-         x="763.03687"
-         y="958.41174"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*13:01</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="419.99478"
-       y="-348.48538"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DPA1*02:01,__DPB1*14:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text212"><tspan
-         sodipodi:role="line"
-         id="tspan1254"
-         x="419.99478"
-         y="-348.48538"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1256"
-         x="419.99478"
-         y="-308.48538"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*14:01</tspan></text>
+       stroke-width="0.875px"
+       id="text218">
+            DPA1*02:01, DPB1*14:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="1049.4679"
-       y="-529.22705"
+       font-size="28"
+       x="311.30212"
+       y="149.91287"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DPA1*02:01,__DPB1*15:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text214"><tspan
-         sodipodi:role="line"
-         id="tspan1250"
-         x="1049.4679"
-         y="-529.22705"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1252"
-         x="1049.4679"
-         y="-489.22705"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*15:01</tspan></text>
+       stroke-width="0.875px"
+       id="text220">
+            DPA1*02:01, DPB1*15:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="402.39191"
-       y="59.32037"
+       font-size="28"
+       x="-830.0192"
+       y="646.54736"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DPA1*02:01,__DPB1*17:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text216"><tspan
-         sodipodi:role="line"
-         id="tspan1262"
-         x="402.39191"
-         y="59.32037"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1264"
-         x="402.39191"
-         y="99.320374"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*17:01</tspan></text>
+       stroke-width="0.875px"
+       id="text222">
+            DPA1*02:01, DPB1*17:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="-213.5175"
-       y="-1160.1674"
+       font-size="28"
+       x="698.84143"
+       y="795.47235"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DPA1*02:01,__DPB1*18:01"
+       class="id_DPA1*01:03,__DPB1*18:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text218"><tspan
-         sodipodi:role="line"
-         id="tspan1206"
-         x="-213.5175"
-         y="-1160.1674"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1208"
-         x="-213.5175"
-         y="-1120.1674"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*18:01</tspan></text>
+       stroke-width="0.875px"
+       id="text224">
+            DPA1*01:03, DPB1*18:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="-227.57373"
-       y="-767.48676"
+       font-size="28"
+       x="464.35303"
+       y="-355.1784"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DPA1*01:05,__DPB1*18:01"
+       class="id_DPA1*02:01,__DPB1*19:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text220"><tspan
-         sodipodi:role="line"
-         id="tspan1210"
-         x="-227.57373"
-         y="-767.48676"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:05</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1212"
-         x="-227.57373"
-         y="-727.48676"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*18:01</tspan></text>
+       stroke-width="0.875px"
+       id="text226">
+            DPA1*02:01, DPB1*19:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="-586.93652"
-       y="-571.51965"
+       font-size="28"
+       x="1086.6974"
+       y="-38.239834"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DPA1*01:04,__DPB1*18:01"
+       class="id_DPA1*02:02,__DPB1*28:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text222"><tspan
-         sodipodi:role="line"
-         id="tspan1214"
-         x="-586.93652"
-         y="-571.51965"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:04</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1216"
-         x="-586.93652"
-         y="-531.51965"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*18:01</tspan></text>
+       stroke-width="0.875px"
+       id="text228">
+            DPA1*02:02, DPB1*28:01
+        </text>
+  </g>
+  <g
+     id="node-labels">
     <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="663.62628"
-       y="-659.66125"
+       font-size="28"
+       x="470.07745"
+       y="460.58438"
        fill="#000000"
-       stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DPA1*01:03,__DPB1*19:01"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text224"><tspan
-         sodipodi:role="line"
-         id="tspan1246"
-         x="663.62628"
-         y="-659.66125"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1248"
-         x="663.62628"
-         y="-619.66125"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*19:01</tspan></text>
+       class="id_DPA1*01:03,__DPB1*01:01"
+       id="text231">
+            DPA1*01:03, DPB1*01:01
+        </text>
     <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="227.25606"
-       y="420.84009"
+       font-size="28"
+       x="-272.82297"
+       y="86.72738"
        fill="#000000"
-       stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DPA1*03:01,__DPB1*20:01"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text226"><tspan
-         sodipodi:role="line"
-         id="tspan1319"
-         x="227.25606"
-         y="420.84009"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*03:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1321"
-         x="227.25606"
-         y="460.84009"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*20:01</tspan></text>
+       class="id_DPA1*02:01,__DPB1*01:01"
+       id="text233">
+            DPA1*02:01, DPB1*01:01
+        </text>
     <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="545.12518"
-       y="-1038.6021"
+       font-size="28"
+       x="40.092793"
+       y="-281.7036"
        fill="#000000"
-       stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DPA1*01:03,__DPB1*23:01"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text228"><tspan
-         sodipodi:role="line"
-         id="tspan1242"
-         x="545.12518"
-         y="-1038.6021"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:03</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1244"
-         x="545.12518"
-         y="-998.60205"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*23:01</tspan></text>
+       class="id_DPA1*02:02,__DPB1*01:01"
+       id="text235">
+            DPA1*02:02, DPB1*01:01
+        </text>
     <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="-996.10541"
-       y="-493.57993"
+       font-size="28"
+       x="945.32745"
+       y="398.13812"
        fill="#000000"
-       stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DPA1*01:05,__DPB1*28:01"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text230"><tspan
-         sodipodi:role="line"
-         id="tspan1218"
-         x="-996.10541"
-         y="-493.57993"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*01:05</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1220"
-         x="-996.10541"
-         y="-453.57993"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*28:01</tspan></text>
+       class="id_DPA1*03:01,__DPB1*01:01"
+       id="text237">
+            DPA1*03:01, DPB1*01:01
+        </text>
     <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="-1097.7224"
-       y="-70.080605"
+       font-size="28"
+       x="-103.54265"
+       y="1037.0353"
        fill="#000000"
-       stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DPA1*04:01,__DPB1*28:01"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text232"><tspan
-         sodipodi:role="line"
-         id="tspan1222"
-         x="-1097.7224"
-         y="-70.080605"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*04:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1224"
-         x="-1097.7224"
-         y="-30.080605"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*28:01</tspan></text>
+       class="id_DPA1*01:03,__DPB1*02:01"
+       id="text239">
+            DPA1*01:03, DPB1*02:01
+        </text>
     <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="-453.99115"
-       y="965.38776"
+       font-size="28"
+       x="-1030.0104"
+       y="-154.64046"
        fill="#000000"
-       stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DPA1*02:02,__DPB1*11:01"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text234"><tspan
-         sodipodi:role="line"
-         id="tspan1303"
-         x="-453.99115"
-         y="965.38776"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPA1*02:02</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1305"
-         x="-453.99115"
-         y="1005.3878"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold'">DPB1*11:01</tspan></text>
+       class="id_DPA1*01:03,__DPB1*03:01"
+       id="text241">
+            DPA1*01:03, DPB1*03:01
+        </text>
+    <text
+       font-size="28"
+       x="-545.5715"
+       y="-219.2321"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*01:03,__DPB1*04:01"
+       id="text243">
+            DPA1*01:03, DPB1*04:01
+        </text>
+    <text
+       font-size="28"
+       x="-148.80043"
+       y="-1037.6002"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*02:01,__DPB1*04:01"
+       id="text245">
+            DPA1*02:01, DPB1*04:01
+        </text>
+    <text
+       font-size="28"
+       x="-554.9529"
+       y="-885.7233"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*02:02,__DPB1*04:01"
+       id="text247">
+            DPA1*02:02, DPB1*04:01
+        </text>
+    <text
+       font-size="28"
+       x="-873.3502"
+       y="-595.07684"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*03:01,__DPB1*04:01"
+       id="text249">
+            DPA1*03:01, DPB1*04:01
+        </text>
+    <text
+       font-size="28"
+       x="-284.00604"
+       y="-532.7093"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*04:01,__DPB1*04:01"
+       id="text251">
+            DPA1*04:01, DPB1*04:01
+        </text>
+    <text
+       font-size="28"
+       x="-505.37302"
+       y="911.71423"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*01:03,__DPB1*04:02"
+       id="text253">
+            DPA1*01:03, DPB1*04:02
+        </text>
+    <text
+       font-size="28"
+       x="343.01898"
+       y="974.093"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*03:01,__DPB1*04:02"
+       id="text255">
+            DPA1*03:01, DPB1*04:02
+        </text>
+    <text
+       font-size="28"
+       x="683.9139"
+       y="-752.26917"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*02:01,__DPB1*05:01"
+       id="text257">
+            DPA1*02:01, DPB1*05:01
+        </text>
+    <text
+       font-size="28"
+       x="637.8985"
+       y="24.044794"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*02:02,__DPB1*05:01"
+       id="text259">
+            DPA1*02:02, DPB1*05:01
+        </text>
+    <text
+       font-size="28"
+       x="100.35166"
+       y="587.2263"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*03:01,__DPB1*05:01"
+       id="text261">
+            DPA1*03:01, DPB1*05:01
+        </text>
+    <text
+       font-size="28"
+       x="-1044.7384"
+       y="262.18784"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*01:03,__DPB1*06:01"
+       id="text263">
+            DPA1*01:03, DPB1*06:01
+        </text>
+    <text
+       font-size="28"
+       x="-629.80963"
+       y="198.25368"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*02:01,__DPB1*09:01"
+       id="text265">
+            DPA1*02:01, DPB1*09:01
+        </text>
+    <text
+       font-size="28"
+       x="348.992"
+       y="-974.19995"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*02:01,__DPB1*11:01"
+       id="text267">
+            DPA1*02:01, DPB1*11:01
+        </text>
+    <text
+       font-size="28"
+       x="927.78534"
+       y="-418.55865"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*02:01,__DPB1*13:01"
+       id="text269">
+            DPA1*02:01, DPB1*13:01
+        </text>
+    <text
+       font-size="28"
+       x="136.21756"
+       y="-647.11957"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*04:01,__DPB1*13:01"
+       id="text271">
+            DPA1*04:01, DPB1*13:01
+        </text>
+    <text
+       font-size="28"
+       x="-374.66803"
+       y="524.3366"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*02:01,__DPB1*14:01"
+       id="text273">
+            DPA1*02:01, DPB1*14:01
+        </text>
+    <text
+       font-size="28"
+       x="311.30212"
+       y="149.91287"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*02:01,__DPB1*15:01"
+       id="text275">
+            DPA1*02:01, DPB1*15:01
+        </text>
+    <text
+       font-size="28"
+       x="-830.0192"
+       y="646.54736"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*02:01,__DPB1*17:01"
+       id="text277">
+            DPA1*02:01, DPB1*17:01
+        </text>
+    <text
+       font-size="28"
+       x="698.84143"
+       y="795.47235"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*01:03,__DPB1*18:01"
+       id="text279">
+            DPA1*01:03, DPB1*18:01
+        </text>
+    <text
+       font-size="28"
+       x="464.35303"
+       y="-355.1784"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*02:01,__DPB1*19:01"
+       id="text281">
+            DPA1*02:01, DPB1*19:01
+        </text>
+    <text
+       font-size="28"
+       x="1086.6974"
+       y="-38.239834"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DPA1*02:02,__DPB1*28:01"
+       id="text283">
+            DPA1*02:02, DPB1*28:01
+        </text>
   </g>
 </svg>

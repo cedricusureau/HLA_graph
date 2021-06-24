@@ -8,18 +8,18 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    contentScriptType="text/ecmascript"
-   width="2450"
+   width="2344.0"
    zoomAndPan="magnify"
    contentStyleType="text/css"
-   viewBox="-963 -1252 2450 2550"
-   height="2550"
+   viewBox="-497 -1305 2644 2967"
+   height="2667.0"
    preserveAspectRatio="xMidYMid meet"
    version="1.1"
-   id="svg240"
+   id="svg324"
    sodipodi:docname="DQ.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
   <metadata
-     id="metadata246">
+     id="metadata330">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -31,14 +31,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs244">
-    <rect
-       x="-1103.886"
-       y="-1203.2158"
-       width="3223.2031"
-       height="2752.8999"
-       id="rect876" />
-  </defs>
+     id="defs328" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -48,1215 +41,1733 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1299"
-     inkscape:window-height="713"
-     id="namedview242"
+     inkscape:window-width="785"
+     inkscape:window-height="480"
+     id="namedview326"
      showgrid="false"
-     inkscape:zoom="0.1767767"
-     inkscape:cx="1326.835"
-     inkscape:cy="1554.3299"
-     inkscape:window-x="67"
+     inkscape:zoom="0.088488939"
+     inkscape:cx="1172"
+     inkscape:cy="1333.5"
+     inkscape:window-x="72"
      inkscape:window-y="27"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg240" />
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg324" />
   <g
-     id="edges"
-     transform="translate(98.799638,57.57058)">
+     id="edges">
     <path
        fill="none"
-       stroke-width="2"
-       d="M 95.281509,758.45496 -279.32477,893.18109"
-       class="id_DQA1*02:01,__DQB1*02:01 id_DQA1*02:01,__DQB1*02:02"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 299.589844,-482.150665 L 185.128998,-834.458130"
+       class="id_DQA1*02:01,__DQB1*02:01 id_DQA1*05:01,__DQB1*02:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path2" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 827.237,-408.9343 940.40875,-60.722729"
-       class="id_DQA1*05:05,__DQB1*03:01 id_DQA1*05:03,__DQB1*03:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 299.589844,-482.150665 L -294.165771,-641.827271"
+       class="id_DQA1*02:01,__DQB1*02:01 id_DQA1*03:02,__DQB1*02:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path4" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m 134.34825,-1022.0468 702.89418,165.64165"
-       class="id_DQA1*01:02,__DQB1*06:02 id_DQA1*01:01,__DQB1*06:02"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 299.589844,-482.150665 L -122.161819,-297.854797"
+       class="id_DQA1*02:01,__DQB1*02:01 id_DQA1*02:01,__DQB1*02:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path6" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 296.70709,47.750637 189.2556,404.64053"
-       class="id_DQA1*03:02,__DQB1*03:02 id_DQA1*03:02,__DQB1*03:03"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -223.146378,-998.572693 L 185.128998,-834.458130"
+       class="id_DQA1*05:01,__DQB1*02:01 id_DQA1*05:01,__DQB1*02:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path8" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 940.40875,-60.722729 470.45914,-280.95346"
-       class="id_DQA1*05:03,__DQB1*03:01 id_DQA1*06:01,__DQB1*03:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -223.146378,-998.572693 L -294.165771,-641.827271"
+       class="id_DQA1*05:01,__DQB1*02:01 id_DQA1*03:02,__DQB1*02:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path10" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 827.237,-408.9343 470.45914,-280.95346"
-       class="id_DQA1*05:05,__DQB1*03:01 id_DQA1*06:01,__DQB1*03:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -122.161819,-297.854797 L 185.128998,-834.458130"
+       class="id_DQA1*02:01,__DQB1*02:02 id_DQA1*05:01,__DQB1*02:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path12" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -89.567703,146.67831 12.658146,-210.39893"
-       class="id_DQA1*03:01,__DQB1*03:02 id_DQA1*03:01,__DQB1*03:03"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -122.161819,-297.854797 L -294.165771,-641.827271"
+       class="id_DQA1*02:01,__DQB1*02:02 id_DQA1*03:02,__DQB1*02:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path14" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 887.69684,454.38828 643.67651,178.44702"
-       class="id_DQA1*02:01,__DQB1*04:01 id_DQA1*02:01,__DQB1*04:02"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -294.165771,-641.827271 L 185.128998,-834.458130"
+       class="id_DQA1*03:02,__DQB1*02:02 id_DQA1*05:01,__DQB1*02:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path16" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -213.55304,490.38232 -480.77707,-176.41789"
-       class="id_DQA1*02:01,__DQB1*03:03 id_DQA1*02:01,__DQB1*03:02"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -62.885376,326.720490 L 62.802063,747.303528"
+       class="id_DQA1*03:01,__DQB1*03:01 id_DQA1*03:02,__DQB1*03:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path18" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m 134.34825,-1022.0468 232.40163,385.51372"
-       class="id_DQA1*01:02,__DQB1*06:02 id_DQA1*01:02,__DQB1*06:04"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -62.885376,326.720490 L 623.936218,439.035126"
+       class="id_DQA1*03:01,__DQB1*03:01 id_DQA1*03:02,__DQB1*03:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path20" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m -480.77707,-176.41789 391.209367,323.0962"
-       class="id_DQA1*02:01,__DQB1*03:02 id_DQA1*03:01,__DQB1*03:02"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -62.885376,326.720490 L 688.449707,118.220955"
+       class="id_DQA1*03:01,__DQB1*03:01 id_DQA1*03:01,__DQB1*03:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path22" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -324.66769,-918.23645 24.19824,-581.45123"
-       class="id_DQA1*01:03,__DQB1*06:01 id_DQA1*01:02,__DQB1*06:09"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -62.885376,326.720490 L 144.008530,-89.221771"
+       class="id_DQA1*03:01,__DQB1*03:01 id_DQA1*03:02,__DQB1*03:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path24" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 296.70709,47.750637 12.658146,-210.39893"
-       class="id_DQA1*03:02,__DQB1*03:02 id_DQA1*03:01,__DQB1*03:03"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 144.008530,-89.221771 L 62.802063,747.303528"
+       class="id_DQA1*03:02,__DQB1*03:01 id_DQA1*03:02,__DQB1*03:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path26" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 366.74988,-636.53308 837.24243,-856.40515"
-       class="id_DQA1*01:02,__DQB1*06:04 id_DQA1*01:01,__DQB1*06:02"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 144.008530,-89.221771 L 623.936218,439.035126"
+       class="id_DQA1*03:02,__DQB1*03:01 id_DQA1*03:02,__DQB1*03:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path28" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -213.55304,490.38232 12.658146,-210.39893"
-       class="id_DQA1*02:01,__DQB1*03:03 id_DQA1*03:01,__DQB1*03:03"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 144.008530,-89.221771 L 688.449707,118.220955"
+       class="id_DQA1*03:02,__DQB1*03:01 id_DQA1*03:01,__DQB1*03:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path30" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -480.77707,-176.41789 12.658146,-210.39893"
-       class="id_DQA1*02:01,__DQB1*03:02 id_DQA1*03:01,__DQB1*03:03"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 268.119263,1328.956299 L -211.658752,904.656372"
+       class="id_DQA1*05:01,__DQB1*03:01 id_DQA1*06:01,__DQB1*03:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path32" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 189.2556,404.64053 12.658146,-210.39893"
-       class="id_DQA1*03:02,__DQB1*03:03 id_DQA1*03:01,__DQB1*03:03"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 268.119263,1328.956299 L 455.785034,1034.361816"
+       class="id_DQA1*05:01,__DQB1*03:01 id_DQA1*04:01,__DQB1*03:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path34" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -570.32696,204.64059 12.658146,-210.39893"
-       class="id_DQA1*03:01,__DQB1*03:01 id_DQA1*03:01,__DQB1*03:03"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 268.119263,1328.956299 L -197.228821,1189.312134"
+       class="id_DQA1*05:01,__DQB1*03:01 id_DQA1*06:01,__DQB1*03:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path36" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m -608.83777,-676.95636 633.03601,95.50513"
-       class="id_DQA1*01:03,__DQB1*06:03 id_DQA1*01:02,__DQB1*06:09"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -197.228821,1189.312134 L -211.658752,904.656372"
+       class="id_DQA1*06:01,__DQB1*03:01 id_DQA1*06:01,__DQB1*03:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path38" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -89.567703,146.67831 296.70709,47.750637"
-       class="id_DQA1*03:01,__DQB1*03:02 id_DQA1*03:02,__DQB1*03:02"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -197.228821,1189.312134 L 455.785034,1034.361816"
+       class="id_DQA1*06:01,__DQB1*03:01 id_DQA1*04:01,__DQB1*03:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path40" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -89.567703,146.67831 189.2556,404.64053"
-       class="id_DQA1*03:01,__DQB1*03:02 id_DQA1*03:02,__DQB1*03:03"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 719.309753,629.846802 L 62.802063,747.303528"
+       class="id_DQA1*02:01,__DQB1*03:02 id_DQA1*03:02,__DQB1*03:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path42" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m -570.32696,204.64059 -12.42157,430.71122"
-       class="id_DQA1*03:01,__DQB1*03:01 id_DQA1*02:01,__DQB1*03:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 719.309753,629.846802 L 623.936218,439.035126"
+       class="id_DQA1*02:01,__DQB1*03:02 id_DQA1*03:02,__DQB1*03:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path44" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -324.66769,-918.23645 134.34825,-1022.0468"
-       class="id_DQA1*01:03,__DQB1*06:01 id_DQA1*01:02,__DQB1*06:02"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 719.309753,629.846802 L 688.449707,118.220955"
+       class="id_DQA1*02:01,__DQB1*03:02 id_DQA1*03:01,__DQB1*03:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path46" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m -324.66769,-918.23645 691.41757,281.70337"
-       class="id_DQA1*01:03,__DQB1*06:01 id_DQA1*01:02,__DQB1*06:04"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 688.449707,118.220955 L 62.802063,747.303528"
+       class="id_DQA1*03:01,__DQB1*03:02 id_DQA1*03:02,__DQB1*03:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path48" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 366.74988,-636.53308 24.19824,-581.45123"
-       class="id_DQA1*01:02,__DQB1*06:04 id_DQA1*01:02,__DQB1*06:09"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 688.449707,118.220955 L 623.936218,439.035126"
+       class="id_DQA1*03:01,__DQB1*03:02 id_DQA1*03:02,__DQB1*03:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path50" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -213.55304,490.38232 189.2556,404.64053"
-       class="id_DQA1*02:01,__DQB1*03:03 id_DQA1*03:02,__DQB1*03:03"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 623.936218,439.035126 L 62.802063,747.303528"
+       class="id_DQA1*03:02,__DQB1*03:02 id_DQA1*03:02,__DQB1*03:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path52" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -89.567703,146.67831 -570.32696,204.64059"
-       class="id_DQA1*03:01,__DQB1*03:02 id_DQA1*03:01,__DQB1*03:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 62.802063,747.303528 L -211.658752,904.656372"
+       class="id_DQA1*03:02,__DQB1*03:03 id_DQA1*06:01,__DQB1*03:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path54" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -89.567703,146.67831 -213.55304,490.38232"
-       class="id_DQA1*03:01,__DQB1*03:02 id_DQA1*02:01,__DQB1*03:03"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 62.802063,747.303528 L 455.785034,1034.361816"
+       class="id_DQA1*03:02,__DQB1*03:03 id_DQA1*04:01,__DQB1*03:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path56" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m -324.66769,-918.23645 -284.17008,241.28009"
-       class="id_DQA1*01:03,__DQB1*06:01 id_DQA1*01:03,__DQB1*06:03"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 455.785034,1034.361816 L -211.658752,904.656372"
+       class="id_DQA1*04:01,__DQB1*03:03 id_DQA1*06:01,__DQB1*03:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path58" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M -582.74853,635.35181 -213.55304,490.38232"
-       class="id_DQA1*02:01,__DQB1*03:01 id_DQA1*02:01,__DQB1*03:03"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 1622.410522,538.483276 L 1210.247192,319.174438"
+       class="id_DQA1*02:01,__DQB1*04:01 id_DQA1*02:01,__DQB1*06:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path60" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m 525.8244,-1174.1632 -391.47615,152.1164"
-       class="id_DQA1*01:02,__DQB1*05:02 id_DQA1*01:02,__DQB1*06:02"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 1622.410522,538.483276 L 1642.838623,759.761353"
+       class="id_DQA1*02:01,__DQB1*04:01 id_DQA1*03:01,__DQB1*04:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path62" />
     <path
        fill="none"
-       stroke-width="2"
-       d="m 536.26794,546.57953 -53.3851,361.44006"
-       class="id_DQA1*03:01,__DQB1*02:01 id_DQA1*04:01,__DQB1*02:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 1151.269043,1177.769287 L 1160.477051,917.666260"
+       class="id_DQA1*04:01,__DQB1*04:01 id_DQA1*06:01,__DQB1*04:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path64" />
     <path
        fill="none"
-       stroke-width="2"
-       d="M 366.74988,-636.53308 525.8244,-1174.1632"
-       class="id_DQA1*01:02,__DQB1*06:04 id_DQA1*01:02,__DQB1*05:02"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 1151.269043,1177.769287 L 1924.769653,1065.331299"
+       class="id_DQA1*04:01,__DQB1*04:01 id_DQA1*04:01,__DQB1*04:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path66" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1151.269043,1177.769287 L 1642.838623,759.761353"
+       class="id_DQA1*04:01,__DQB1*04:01 id_DQA1*03:01,__DQB1*04:02"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path68" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1151.269043,1177.769287 L 1519.695557,1399.851074"
+       class="id_DQA1*04:01,__DQB1*04:01 id_DQA1*05:01,__DQB1*04:01"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path70" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1519.695557,1399.851074 L 1160.477051,917.666260"
+       class="id_DQA1*05:01,__DQB1*04:01 id_DQA1*06:01,__DQB1*04:02"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path72" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1519.695557,1399.851074 L 1924.769653,1065.331299"
+       class="id_DQA1*05:01,__DQB1*04:01 id_DQA1*04:01,__DQB1*04:02"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path74" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1642.838623,759.761353 L 1160.477051,917.666260"
+       class="id_DQA1*03:01,__DQB1*04:02 id_DQA1*06:01,__DQB1*04:02"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path76" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1642.838623,759.761353 L 1924.769653,1065.331299"
+       class="id_DQA1*03:01,__DQB1*04:02 id_DQA1*04:01,__DQB1*04:02"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path78" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1924.769653,1065.331299 L 1160.477051,917.666260"
+       class="id_DQA1*04:01,__DQB1*04:02 id_DQA1*06:01,__DQB1*04:02"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path80" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1353.878418,-1142.593628 L 1858.977783,-331.092041"
+       class="id_DQA1*01:01,__DQB1*05:01 id_DQA1*01:02,__DQB1*06:04"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path82" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1353.878418,-1142.593628 L 1249.098389,-406.379547"
+       class="id_DQA1*01:01,__DQB1*05:01 id_DQA1*01:03,__DQB1*06:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path84" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1353.878418,-1142.593628 L 664.726929,-921.851196"
+       class="id_DQA1*01:01,__DQB1*05:01 id_DQA1*01:04,__DQB1*05:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path86" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1353.878418,-1142.593628 L 1198.914307,-757.954956"
+       class="id_DQA1*01:01,__DQB1*05:01 id_DQA1*01:02,__DQB1*05:02"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path88" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1353.878418,-1142.593628 L 1710.103027,-651.704956"
+       class="id_DQA1*01:01,__DQB1*05:01 id_DQA1*01:02,__DQB1*05:01"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path90" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1710.103027,-651.704956 L 1858.977783,-331.092041"
+       class="id_DQA1*01:02,__DQB1*05:01 id_DQA1*01:02,__DQB1*06:04"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path92" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1710.103027,-651.704956 L 1249.098389,-406.379547"
+       class="id_DQA1*01:02,__DQB1*05:01 id_DQA1*01:03,__DQB1*06:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path94" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1710.103027,-651.704956 L 1446.516479,-169.409363"
+       class="id_DQA1*01:02,__DQB1*05:01 id_DQA1*01:02,__DQB1*06:02"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path96" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1710.103027,-651.704956 L 664.726929,-921.851196"
+       class="id_DQA1*01:02,__DQB1*05:01 id_DQA1*01:04,__DQB1*05:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path98" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1710.103027,-651.704956 L 1198.914307,-757.954956"
+       class="id_DQA1*01:02,__DQB1*05:01 id_DQA1*01:02,__DQB1*05:02"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path100" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1198.914307,-757.954956 L 1858.977783,-331.092041"
+       class="id_DQA1*01:02,__DQB1*05:02 id_DQA1*01:02,__DQB1*06:04"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path102" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1198.914307,-757.954956 L 1249.098389,-406.379547"
+       class="id_DQA1*01:02,__DQB1*05:02 id_DQA1*01:03,__DQB1*06:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path104" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1198.914307,-757.954956 L 1446.516479,-169.409363"
+       class="id_DQA1*01:02,__DQB1*05:02 id_DQA1*01:02,__DQB1*06:02"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path106" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1198.914307,-757.954956 L 798.469971,-564.307312"
+       class="id_DQA1*01:02,__DQB1*05:02 id_DQA1*01:04,__DQB1*06:01"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path108" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1198.914307,-757.954956 L 664.726929,-921.851196"
+       class="id_DQA1*01:02,__DQB1*05:02 id_DQA1*01:04,__DQB1*05:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path110" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 664.726929,-921.851196 L 1249.098389,-406.379547"
+       class="id_DQA1*01:04,__DQB1*05:03 id_DQA1*01:03,__DQB1*06:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path112" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 664.726929,-921.851196 L 798.469971,-564.307312"
+       class="id_DQA1*01:04,__DQB1*05:03 id_DQA1*01:04,__DQB1*06:01"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path114" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1048.342651,-12.303388 L 1858.977783,-331.092041"
+       class="id_DQA1*01:03,__DQB1*06:01 id_DQA1*01:02,__DQB1*06:04"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path116" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1048.342651,-12.303388 L 1249.098389,-406.379547"
+       class="id_DQA1*01:03,__DQB1*06:01 id_DQA1*01:03,__DQB1*06:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path118" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1048.342651,-12.303388 L 1446.516479,-169.409363"
+       class="id_DQA1*01:03,__DQB1*06:01 id_DQA1*01:02,__DQB1*06:02"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path120" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1048.342651,-12.303388 L 798.469971,-564.307312"
+       class="id_DQA1*01:03,__DQB1*06:01 id_DQA1*01:04,__DQB1*06:01"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path122" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 798.469971,-564.307312 L 1249.098389,-406.379547"
+       class="id_DQA1*01:04,__DQB1*06:01 id_DQA1*01:03,__DQB1*06:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path124" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 798.469971,-564.307312 L 1446.516479,-169.409363"
+       class="id_DQA1*01:04,__DQB1*06:01 id_DQA1*01:02,__DQB1*06:02"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path126" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1446.516479,-169.409363 L 1858.977783,-331.092041"
+       class="id_DQA1*01:02,__DQB1*06:02 id_DQA1*01:02,__DQB1*06:04"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path128" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1446.516479,-169.409363 L 1249.098389,-406.379547"
+       class="id_DQA1*01:02,__DQB1*06:02 id_DQA1*01:03,__DQB1*06:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path130" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 1249.098389,-406.379547 L 1858.977783,-331.092041"
+       class="id_DQA1*01:03,__DQB1*06:03 id_DQA1*01:02,__DQB1*06:04"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path132" />
   </g>
   <g
-     id="nodes"
-     transform="translate(98.799638,57.57058)">
+     id="nodes">
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="95.281509"
+       r="60.0"
+       cx="299.58984"
        class="id_DQA1*02:01,__DQB1*02:01"
-       cy="758.45496"
+       cy="-482.15067"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle69" />
+       stroke-width="5.0"
+       id="circle135" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="536.26794"
-       class="id_DQA1*03:01,__DQB1*02:01"
-       cy="546.57953"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle71" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="482.88284"
-       class="id_DQA1*04:01,__DQB1*02:01"
-       cy="908.01959"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle73" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="1174.3492"
+       r="60.0"
+       cx="-223.14638"
        class="id_DQA1*05:01,__DQB1*02:01"
-       cy="-456.88058"
+       cy="-998.5727"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle75" />
+       stroke-width="5.0"
+       id="circle137" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-279.32477"
+       r="60.0"
+       cx="-122.16182"
        class="id_DQA1*02:01,__DQB1*02:02"
-       cy="893.18109"
+       cy="-297.8548"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle77" />
+       stroke-width="5.0"
+       id="circle139" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="887.69684"
-       class="id_DQA1*02:01,__DQB1*04:01"
-       cy="454.38828"
+       r="60.0"
+       cx="-294.16577"
+       class="id_DQA1*03:02,__DQB1*02:02"
+       cy="-641.8273"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle79" />
+       stroke-width="5.0"
+       id="circle141" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-836.66638"
-       class="id_DQA1*03:03,__DQB1*04:01"
-       cy="-331.49762"
+       r="60.0"
+       cx="185.129"
+       class="id_DQA1*05:01,__DQB1*02:02"
+       cy="-834.4581"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle81" />
+       stroke-width="5.0"
+       id="circle143" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="643.67651"
-       class="id_DQA1*02:01,__DQB1*04:02"
-       cy="178.44702"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle83" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-729.90295"
-       class="id_DQA1*04:01,__DQB1*04:02"
-       cy="934.62848"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle85" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-885.2868"
-       class="id_DQA1*01:01,__DQB1*05:01"
-       cy="56.322495"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle87" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="525.8244"
-       class="id_DQA1*01:02,__DQB1*05:02"
-       cy="-1174.1632"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle89" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-324.66769"
-       class="id_DQA1*01:03,__DQB1*06:01"
-       cy="-918.23645"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle91" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="134.34825"
-       class="id_DQA1*01:02,__DQB1*06:02"
-       cy="-1022.0468"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle93" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="837.24243"
-       class="id_DQA1*01:01,__DQB1*06:02"
-       cy="-856.40515"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle95" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-608.83777"
-       class="id_DQA1*01:03,__DQB1*06:03"
-       cy="-676.95636"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle97" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="366.74988"
-       class="id_DQA1*01:02,__DQB1*06:04"
-       cy="-636.53308"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle99" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="24.19824"
-       class="id_DQA1*01:02,__DQB1*06:09"
-       cy="-581.45123"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle101" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-570.32697"
+       r="60.0"
+       cx="-62.885376"
        class="id_DQA1*03:01,__DQB1*03:01"
-       cy="204.64059"
+       cy="326.7205"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle103" />
+       stroke-width="5.0"
+       id="circle145" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-582.74854"
-       class="id_DQA1*02:01,__DQB1*03:01"
-       cy="635.35181"
+       r="60.0"
+       cx="144.00853"
+       class="id_DQA1*03:02,__DQB1*03:01"
+       cy="-89.22177"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle105" />
+       stroke-width="5.0"
+       id="circle147" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="940.40875"
-       class="id_DQA1*05:03,__DQB1*03:01"
-       cy="-60.722729"
+       r="60.0"
+       cx="268.11926"
+       class="id_DQA1*05:01,__DQB1*03:01"
+       cy="1328.9563"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle107" />
+       stroke-width="5.0"
+       id="circle149" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="827.237"
-       class="id_DQA1*05:05,__DQB1*03:01"
-       cy="-408.9343"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle109" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="470.45914"
+       r="60.0"
+       cx="-197.22882"
        class="id_DQA1*06:01,__DQB1*03:01"
-       cy="-280.95346"
+       cy="1189.3121"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle111" />
+       stroke-width="5.0"
+       id="circle151" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-480.77707"
+       r="60.0"
+       cx="719.30975"
        class="id_DQA1*02:01,__DQB1*03:02"
-       cy="-176.41789"
+       cy="629.8468"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle113" />
+       stroke-width="5.0"
+       id="circle153" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-89.567703"
+       r="60.0"
+       cx="688.4497"
        class="id_DQA1*03:01,__DQB1*03:02"
-       cy="146.67831"
+       cy="118.220955"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle115" />
+       stroke-width="5.0"
+       id="circle155" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="296.70709"
+       r="60.0"
+       cx="623.9362"
        class="id_DQA1*03:02,__DQB1*03:02"
-       cy="47.750637"
+       cy="439.03513"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle117" />
+       stroke-width="5.0"
+       id="circle157" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-213.55304"
-       class="id_DQA1*02:01,__DQB1*03:03"
-       cy="490.38232"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle119" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="12.658146"
-       class="id_DQA1*03:01,__DQB1*03:03"
-       cy="-210.39893"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle121" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="189.2556"
+       r="60.0"
+       cx="62.802063"
        class="id_DQA1*03:02,__DQB1*03:03"
-       cy="404.64053"
+       cy="747.3035"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle123" />
+       stroke-width="5.0"
+       id="circle159" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="455.78503"
+       class="id_DQA1*04:01,__DQB1*03:03"
+       cy="1034.3618"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle161" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="-211.65875"
+       class="id_DQA1*06:01,__DQB1*03:03"
+       cy="904.6564"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle163" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="1622.4105"
+       class="id_DQA1*02:01,__DQB1*04:01"
+       cy="538.4833"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle165" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="1151.269"
+       class="id_DQA1*04:01,__DQB1*04:01"
+       cy="1177.7693"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle167" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="1519.6956"
+       class="id_DQA1*05:01,__DQB1*04:01"
+       cy="1399.8511"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle169" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="1642.8386"
+       class="id_DQA1*03:01,__DQB1*04:02"
+       cy="759.76135"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle171" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="1924.7697"
+       class="id_DQA1*04:01,__DQB1*04:02"
+       cy="1065.3313"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle173" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="1160.477"
+       class="id_DQA1*06:01,__DQB1*04:02"
+       cy="917.66626"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle175" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="1353.8784"
+       class="id_DQA1*01:01,__DQB1*05:01"
+       cy="-1142.5936"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle177" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="1710.103"
+       class="id_DQA1*01:02,__DQB1*05:01"
+       cy="-651.70496"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle179" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="1198.9143"
+       class="id_DQA1*01:02,__DQB1*05:02"
+       cy="-757.95496"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle181" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="664.7269"
+       class="id_DQA1*01:04,__DQB1*05:03"
+       cy="-921.8512"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle183" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="1048.3427"
+       class="id_DQA1*01:03,__DQB1*06:01"
+       cy="-12.303388"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle185" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="798.47"
+       class="id_DQA1*01:04,__DQB1*06:01"
+       cy="-564.3073"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle187" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="1210.2472"
+       class="id_DQA1*02:01,__DQB1*06:01"
+       cy="319.17444"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle189" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="1446.5165"
+       class="id_DQA1*01:02,__DQB1*06:02"
+       cy="-169.40936"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle191" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="1249.0984"
+       class="id_DQA1*01:03,__DQB1*06:03"
+       cy="-406.37955"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle193" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="1858.9778"
+       class="id_DQA1*01:02,__DQB1*06:04"
+       cy="-331.09204"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle195" />
   </g>
   <g
-     id="node-labels-outline"
-     transform="translate(100.34432,35.105614)">
+     id="node-labels-outline">
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="95.281509"
-       y="765.42371"
+       font-size="28"
+       x="299.58984"
+       y="-476.053"
        fill="#000000"
        stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DQA1*02:01,__DQB1*02:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text126"><tspan
-         sodipodi:role="line"
-         id="tspan304"
-         x="95.281509"
-         y="765.42371">DQA1*02:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan306"
-         x="95.281509"
-         y="805.42371">DQB1*02:01</tspan></text>
+       stroke-width="0.875px"
+       id="text198">
+            DQA1*02:01, DQB1*02:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="536.26794"
-       y="553.54828"
+       font-size="28"
+       x="-223.14638"
+       y="-992.47504"
        fill="#000000"
        stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DQA1*03:01,__DQB1*02:01"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text128"><tspan
-         sodipodi:role="line"
-         id="tspan320"
-         x="536.26794"
-         y="553.54828">DQA1*03:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan322"
-         x="536.26794"
-         y="593.54828">DQB1*02:01</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="482.88284"
-       y="914.98834"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DQA1*04:01,__DQB1*02:01"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text130"><tspan
-         sodipodi:role="line"
-         id="tspan308"
-         x="482.88284"
-         y="914.98834">DQA1*04:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan310"
-         x="482.88284"
-         y="954.98834">DQB1*02:01</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="1174.3492"
-       y="-449.91183"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DQA1*05:01,__DQB1*02:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text132"><tspan
-         sodipodi:role="line"
-         id="tspan348"
-         x="1174.3492"
-         y="-449.91183">DQA1*05:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan350"
-         x="1174.3492"
-         y="-409.91183">DQB1*02:01</tspan></text>
+       stroke-width="0.875px"
+       id="text200">
+            DQA1*05:01, DQB1*02:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="-279.32477"
-       y="900.14984"
+       font-size="28"
+       x="-122.16182"
+       y="-291.75714"
        fill="#000000"
        stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DQA1*02:01,__DQB1*02:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text134"><tspan
-         sodipodi:role="line"
-         id="tspan300"
-         x="-279.32477"
-         y="900.14984">DQA1*02:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan302"
-         x="-279.32477"
-         y="940.14984">DQB1*02:02</tspan></text>
+       stroke-width="0.875px"
+       id="text202">
+            DQA1*02:01, DQB1*02:02
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="887.69684"
-       y="461.35703"
+       font-size="28"
+       x="-294.16577"
+       y="-635.7296"
        fill="#000000"
        stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DQA1*02:01,__DQB1*04:01"
+       class="id_DQA1*03:02,__DQB1*02:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text136"><tspan
-         sodipodi:role="line"
-         id="tspan328"
-         x="887.69684"
-         y="461.35703">DQA1*02:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan330"
-         x="887.69684"
-         y="501.35703">DQB1*04:01</tspan></text>
+       stroke-width="0.875px"
+       id="text204">
+            DQA1*03:02, DQB1*02:02
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="-836.66638"
-       y="-324.52887"
+       font-size="28"
+       x="185.129"
+       y="-828.3605"
        fill="#000000"
        stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DQA1*03:03,__DQB1*04:01"
+       class="id_DQA1*05:01,__DQB1*02:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text138"><tspan
-         sodipodi:role="line"
-         id="tspan248"
-         x="-836.66638"
-         y="-324.52887">DQA1*03:03</tspan><tspan
-         sodipodi:role="line"
-         id="tspan250"
-         x="-836.66638"
-         y="-284.52887">DQB1*04:01</tspan></text>
+       stroke-width="0.875px"
+       id="text206">
+            DQA1*05:01, DQB1*02:02
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="643.67651"
-       y="185.41577"
+       font-size="28"
+       x="-62.885376"
+       y="332.81815"
        fill="#000000"
        stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DQA1*02:01,__DQB1*04:02"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text140"><tspan
-         sodipodi:role="line"
-         id="tspan324"
-         x="643.67651"
-         y="185.41577">DQA1*02:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan326"
-         x="643.67651"
-         y="225.41577">DQB1*04:02</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="-729.90295"
-       y="941.59723"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DQA1*04:01,__DQB1*04:02"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text142"><tspan
-         sodipodi:role="line"
-         id="tspan296"
-         x="-729.90295"
-         y="941.59723">DQA1*04:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan298"
-         x="-729.90295"
-         y="981.59723">DQB1*04:02</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="-885.2868"
-       y="63.291245"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DQA1*01:01,__DQB1*05:01"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text144"><tspan
-         sodipodi:role="line"
-         id="tspan280"
-         x="-885.2868"
-         y="63.291245">DQA1*01:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan282"
-         x="-885.2868"
-         y="103.29124">DQB1*05:01</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="525.8244"
-       y="-1167.1945"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DQA1*01:02,__DQB1*05:02"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text146"><tspan
-         sodipodi:role="line"
-         id="tspan360"
-         x="525.8244"
-         y="-1167.1945">DQA1*01:02</tspan><tspan
-         sodipodi:role="line"
-         id="tspan362"
-         x="525.8244"
-         y="-1127.1945">DQB1*05:02</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="-324.66769"
-       y="-911.2677"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DQA1*01:03,__DQB1*06:01"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text148"><tspan
-         sodipodi:role="line"
-         id="tspan260"
-         x="-324.66769"
-         y="-911.2677">DQA1*01:03</tspan><tspan
-         sodipodi:role="line"
-         id="tspan262"
-         x="-324.66769"
-         y="-871.2677">DQB1*06:01</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="134.34825"
-       y="-1015.078"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DQA1*01:02,__DQB1*06:02"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text150"><tspan
-         sodipodi:role="line"
-         id="tspan264"
-         x="134.34825"
-         y="-1015.078">DQA1*01:02</tspan><tspan
-         sodipodi:role="line"
-         id="tspan266"
-         x="134.34825"
-         y="-975.078">DQB1*06:02</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="837.24243"
-       y="-849.4364"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DQA1*01:01,__DQB1*06:02"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text152"><tspan
-         sodipodi:role="line"
-         id="tspan356"
-         x="837.24243"
-         y="-849.4364">DQA1*01:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan358"
-         x="837.24243"
-         y="-809.4364">DQB1*06:02</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="-608.83777"
-       y="-669.98761"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DQA1*01:03,__DQB1*06:03"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text154"><tspan
-         sodipodi:role="line"
-         id="tspan256"
-         x="-608.83777"
-         y="-669.98761">DQA1*01:03</tspan><tspan
-         sodipodi:role="line"
-         id="tspan258"
-         x="-608.83777"
-         y="-629.98761">DQB1*06:03</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="366.74988"
-       y="-629.56433"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DQA1*01:02,__DQB1*06:04"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text156"><tspan
-         sodipodi:role="line"
-         id="tspan352"
-         x="366.74988"
-         y="-629.56433">DQA1*01:02</tspan><tspan
-         sodipodi:role="line"
-         id="tspan354"
-         x="366.74988"
-         y="-589.56433">DQB1*06:04</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="24.19824"
-       y="-574.48248"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DQA1*01:02,__DQB1*06:09"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text158"><tspan
-         sodipodi:role="line"
-         id="tspan268"
-         x="24.19824"
-         y="-574.48248">DQA1*01:02</tspan><tspan
-         sodipodi:role="line"
-         id="tspan270"
-         x="24.19824"
-         y="-534.48248">DQB1*06:09</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="-570.32697"
-       y="211.60934"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DQA1*03:01,__DQB1*03:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text160"><tspan
-         sodipodi:role="line"
-         id="tspan276"
-         x="-570.32697"
-         y="211.60934">DQA1*03:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan278"
-         x="-570.32697"
-         y="251.60934">DQB1*03:01</tspan></text>
+       stroke-width="0.875px"
+       id="text208">
+            DQA1*03:01, DQB1*03:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="-582.74854"
-       y="642.32056"
+       font-size="28"
+       x="144.00853"
+       y="-83.124115"
        fill="#000000"
        stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DQA1*02:01,__DQB1*03:01"
+       class="id_DQA1*03:02,__DQB1*03:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text162"><tspan
-         sodipodi:role="line"
-         id="tspan292"
-         x="-582.74854"
-         y="642.32056">DQA1*02:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan294"
-         x="-582.74854"
-         y="682.32056">DQB1*03:01</tspan></text>
+       stroke-width="0.875px"
+       id="text210">
+            DQA1*03:02, DQB1*03:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="940.40875"
-       y="-53.753979"
+       font-size="28"
+       x="268.11926"
+       y="1335.054"
        fill="#000000"
        stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DQA1*05:03,__DQB1*03:01"
+       class="id_DQA1*05:01,__DQB1*03:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text164"><tspan
-         sodipodi:role="line"
-         id="tspan332"
-         x="940.40875"
-         y="-53.753979">DQA1*05:03</tspan><tspan
-         sodipodi:role="line"
-         id="tspan334"
-         x="940.40875"
-         y="-13.753979">DQB1*03:01</tspan></text>
+       stroke-width="0.875px"
+       id="text212">
+            DQA1*05:01, DQB1*03:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="827.237"
-       y="-401.96555"
+       font-size="28"
+       x="-197.22882"
+       y="1195.4098"
        fill="#000000"
        stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DQA1*05:05,__DQB1*03:01"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text166"><tspan
-         sodipodi:role="line"
-         id="tspan344"
-         x="827.237"
-         y="-401.96555">DQA1*05:05</tspan><tspan
-         sodipodi:role="line"
-         id="tspan346"
-         x="827.237"
-         y="-361.96555">DQB1*03:01</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="470.45914"
-       y="-273.98471"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DQA1*06:01,__DQB1*03:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text168"><tspan
-         sodipodi:role="line"
-         id="tspan336"
-         x="470.45914"
-         y="-273.98471">DQA1*06:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan338"
-         x="470.45914"
-         y="-233.98471">DQB1*03:01</tspan></text>
+       stroke-width="0.875px"
+       id="text214">
+            DQA1*06:01, DQB1*03:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="-480.77707"
-       y="-169.44914"
+       font-size="28"
+       x="719.30975"
+       y="635.94446"
        fill="#000000"
        stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DQA1*02:01,__DQB1*03:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text170"><tspan
-         sodipodi:role="line"
-         id="tspan252"
-         x="-480.77707"
-         y="-169.44914">DQA1*02:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan254"
-         x="-480.77707"
-         y="-129.44914">DQB1*03:02</tspan></text>
+       stroke-width="0.875px"
+       id="text216">
+            DQA1*02:01, DQB1*03:02
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="-89.567703"
-       y="153.64706"
+       font-size="28"
+       x="688.4497"
+       y="124.31861"
        fill="#000000"
        stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DQA1*03:01,__DQB1*03:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text172"><tspan
-         sodipodi:role="line"
-         id="tspan284"
-         x="-89.567703"
-         y="153.64706">DQA1*03:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan286"
-         x="-89.567703"
-         y="193.64706">DQB1*03:02</tspan></text>
+       stroke-width="0.875px"
+       id="text218">
+            DQA1*03:01, DQB1*03:02
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="296.70709"
-       y="54.719387"
+       font-size="28"
+       x="623.9362"
+       y="445.13278"
        fill="#000000"
        stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DQA1*03:02,__DQB1*03:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text174"><tspan
-         sodipodi:role="line"
-         id="tspan340"
-         x="296.70709"
-         y="54.719387">DQA1*03:02</tspan><tspan
-         sodipodi:role="line"
-         id="tspan342"
-         x="296.70709"
-         y="94.719391">DQB1*03:02</tspan></text>
+       stroke-width="0.875px"
+       id="text220">
+            DQA1*03:02, DQB1*03:02
+        </text>
     <text
        stroke-linecap="round"
-       font-size="32px"
-       x="-213.55304"
-       y="497.35107"
+       font-size="28"
+       x="62.802063"
+       y="753.4012"
        fill="#000000"
        stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DQA1*02:01,__DQB1*03:03"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text176"><tspan
-         sodipodi:role="line"
-         id="tspan288"
-         x="-213.55304"
-         y="497.35107">DQA1*02:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan290"
-         x="-213.55304"
-         y="537.35107">DQB1*03:03</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="12.658146"
-       y="-203.43018"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DQA1*03:01,__DQB1*03:03"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text178"><tspan
-         sodipodi:role="line"
-         id="tspan272"
-         x="12.658146"
-         y="-203.43018">DQA1*03:01</tspan><tspan
-         sodipodi:role="line"
-         id="tspan274"
-         x="12.658146"
-         y="-163.43018">DQB1*03:03</tspan></text>
-    <text
-       stroke-linecap="round"
-       font-size="32px"
-       x="189.2556"
-       y="411.60928"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Dialog;-inkscape-font-specification:'Dialog Bold';dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DQA1*03:02,__DQB1*03:03"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="1px"
-       id="text180"><tspan
-         sodipodi:role="line"
-         id="tspan316"
-         x="189.2556"
-         y="411.60928">DQA1*03:02</tspan><tspan
-         sodipodi:role="line"
-         id="tspan318"
-         x="189.2556"
-         y="451.60928">DQB1*03:03</tspan></text>
+       stroke-width="0.875px"
+       id="text222">
+            DQA1*03:02, DQB1*03:03
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="455.78503"
+       y="1040.4595"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*04:01,__DQB1*03:03"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text224">
+            DQA1*04:01, DQB1*03:03
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="-211.65875"
+       y="910.754"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*06:01,__DQB1*03:03"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text226">
+            DQA1*06:01, DQB1*03:03
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="1622.4105"
+       y="544.58093"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*02:01,__DQB1*04:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text228">
+            DQA1*02:01, DQB1*04:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="1151.269"
+       y="1183.867"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*04:01,__DQB1*04:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text230">
+            DQA1*04:01, DQB1*04:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="1519.6956"
+       y="1405.9487"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*05:01,__DQB1*04:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text232">
+            DQA1*05:01, DQB1*04:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="1642.8386"
+       y="765.859"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*03:01,__DQB1*04:02"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text234">
+            DQA1*03:01, DQB1*04:02
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="1924.7697"
+       y="1071.429"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*04:01,__DQB1*04:02"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text236">
+            DQA1*04:01, DQB1*04:02
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="1160.477"
+       y="923.7639"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*06:01,__DQB1*04:02"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text238">
+            DQA1*06:01, DQB1*04:02
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="1353.8784"
+       y="-1136.496"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*01:01,__DQB1*05:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text240">
+            DQA1*01:01, DQB1*05:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="1710.103"
+       y="-645.6073"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*01:02,__DQB1*05:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text242">
+            DQA1*01:02, DQB1*05:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="1198.9143"
+       y="-751.8573"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*01:02,__DQB1*05:02"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text244">
+            DQA1*01:02, DQB1*05:02
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="664.7269"
+       y="-915.75354"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*01:04,__DQB1*05:03"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text246">
+            DQA1*01:04, DQB1*05:03
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="1048.3427"
+       y="-6.2057314"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*01:03,__DQB1*06:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text248">
+            DQA1*01:03, DQB1*06:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="798.47"
+       y="-558.20966"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*01:04,__DQB1*06:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text250">
+            DQA1*01:04, DQB1*06:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="1210.2472"
+       y="325.2721"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*02:01,__DQB1*06:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text252">
+            DQA1*02:01, DQB1*06:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="1446.5165"
+       y="-163.3117"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*01:02,__DQB1*06:02"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text254">
+            DQA1*01:02, DQB1*06:02
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="1249.0984"
+       y="-400.2819"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*01:03,__DQB1*06:03"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text256">
+            DQA1*01:03, DQB1*06:03
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="1858.9778"
+       y="-324.9944"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*01:02,__DQB1*06:04"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text258">
+            DQA1*01:02, DQB1*06:04
+        </text>
+  </g>
+  <g
+     id="node-labels">
+    <text
+       font-size="28"
+       x="299.58984"
+       y="-476.053"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*02:01,__DQB1*02:01"
+       id="text261">
+            DQA1*02:01, DQB1*02:01
+        </text>
+    <text
+       font-size="28"
+       x="-223.14638"
+       y="-992.47504"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*05:01,__DQB1*02:01"
+       id="text263">
+            DQA1*05:01, DQB1*02:01
+        </text>
+    <text
+       font-size="28"
+       x="-122.16182"
+       y="-291.75714"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*02:01,__DQB1*02:02"
+       id="text265">
+            DQA1*02:01, DQB1*02:02
+        </text>
+    <text
+       font-size="28"
+       x="-294.16577"
+       y="-635.7296"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*03:02,__DQB1*02:02"
+       id="text267">
+            DQA1*03:02, DQB1*02:02
+        </text>
+    <text
+       font-size="28"
+       x="185.129"
+       y="-828.3605"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*05:01,__DQB1*02:02"
+       id="text269">
+            DQA1*05:01, DQB1*02:02
+        </text>
+    <text
+       font-size="28"
+       x="-62.885376"
+       y="332.81815"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*03:01,__DQB1*03:01"
+       id="text271">
+            DQA1*03:01, DQB1*03:01
+        </text>
+    <text
+       font-size="28"
+       x="144.00853"
+       y="-83.124115"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*03:02,__DQB1*03:01"
+       id="text273">
+            DQA1*03:02, DQB1*03:01
+        </text>
+    <text
+       font-size="28"
+       x="268.11926"
+       y="1335.054"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*05:01,__DQB1*03:01"
+       id="text275">
+            DQA1*05:01, DQB1*03:01
+        </text>
+    <text
+       font-size="28"
+       x="-197.22882"
+       y="1195.4098"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*06:01,__DQB1*03:01"
+       id="text277">
+            DQA1*06:01, DQB1*03:01
+        </text>
+    <text
+       font-size="28"
+       x="719.30975"
+       y="635.94446"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*02:01,__DQB1*03:02"
+       id="text279">
+            DQA1*02:01, DQB1*03:02
+        </text>
+    <text
+       font-size="28"
+       x="688.4497"
+       y="124.31861"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*03:01,__DQB1*03:02"
+       id="text281">
+            DQA1*03:01, DQB1*03:02
+        </text>
+    <text
+       font-size="28"
+       x="623.9362"
+       y="445.13278"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*03:02,__DQB1*03:02"
+       id="text283">
+            DQA1*03:02, DQB1*03:02
+        </text>
+    <text
+       font-size="28"
+       x="62.802063"
+       y="753.4012"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*03:02,__DQB1*03:03"
+       id="text285">
+            DQA1*03:02, DQB1*03:03
+        </text>
+    <text
+       font-size="28"
+       x="455.78503"
+       y="1040.4595"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*04:01,__DQB1*03:03"
+       id="text287">
+            DQA1*04:01, DQB1*03:03
+        </text>
+    <text
+       font-size="28"
+       x="-211.65875"
+       y="910.754"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*06:01,__DQB1*03:03"
+       id="text289">
+            DQA1*06:01, DQB1*03:03
+        </text>
+    <text
+       font-size="28"
+       x="1622.4105"
+       y="544.58093"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*02:01,__DQB1*04:01"
+       id="text291">
+            DQA1*02:01, DQB1*04:01
+        </text>
+    <text
+       font-size="28"
+       x="1151.269"
+       y="1183.867"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*04:01,__DQB1*04:01"
+       id="text293">
+            DQA1*04:01, DQB1*04:01
+        </text>
+    <text
+       font-size="28"
+       x="1519.6956"
+       y="1405.9487"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*05:01,__DQB1*04:01"
+       id="text295">
+            DQA1*05:01, DQB1*04:01
+        </text>
+    <text
+       font-size="28"
+       x="1642.8386"
+       y="765.859"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*03:01,__DQB1*04:02"
+       id="text297">
+            DQA1*03:01, DQB1*04:02
+        </text>
+    <text
+       font-size="28"
+       x="1924.7697"
+       y="1071.429"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*04:01,__DQB1*04:02"
+       id="text299">
+            DQA1*04:01, DQB1*04:02
+        </text>
+    <text
+       font-size="28"
+       x="1160.477"
+       y="923.7639"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*06:01,__DQB1*04:02"
+       id="text301">
+            DQA1*06:01, DQB1*04:02
+        </text>
+    <text
+       font-size="28"
+       x="1353.8784"
+       y="-1136.496"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*01:01,__DQB1*05:01"
+       id="text303">
+            DQA1*01:01, DQB1*05:01
+        </text>
+    <text
+       font-size="28"
+       x="1710.103"
+       y="-645.6073"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*01:02,__DQB1*05:01"
+       id="text305">
+            DQA1*01:02, DQB1*05:01
+        </text>
+    <text
+       font-size="28"
+       x="1198.9143"
+       y="-751.8573"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*01:02,__DQB1*05:02"
+       id="text307">
+            DQA1*01:02, DQB1*05:02
+        </text>
+    <text
+       font-size="28"
+       x="664.7269"
+       y="-915.75354"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*01:04,__DQB1*05:03"
+       id="text309">
+            DQA1*01:04, DQB1*05:03
+        </text>
+    <text
+       font-size="28"
+       x="1048.3427"
+       y="-6.2057314"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*01:03,__DQB1*06:01"
+       id="text311">
+            DQA1*01:03, DQB1*06:01
+        </text>
+    <text
+       font-size="28"
+       x="798.47"
+       y="-558.20966"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*01:04,__DQB1*06:01"
+       id="text313">
+            DQA1*01:04, DQB1*06:01
+        </text>
+    <text
+       font-size="28"
+       x="1210.2472"
+       y="325.2721"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*02:01,__DQB1*06:01"
+       id="text315">
+            DQA1*02:01, DQB1*06:01
+        </text>
+    <text
+       font-size="28"
+       x="1446.5165"
+       y="-163.3117"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*01:02,__DQB1*06:02"
+       id="text317">
+            DQA1*01:02, DQB1*06:02
+        </text>
+    <text
+       font-size="28"
+       x="1249.0984"
+       y="-400.2819"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*01:03,__DQB1*06:03"
+       id="text319">
+            DQA1*01:03, DQB1*06:03
+        </text>
+    <text
+       font-size="28"
+       x="1858.9778"
+       y="-324.9944"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DQA1*01:02,__DQB1*06:04"
+       id="text321">
+            DQA1*01:02, DQB1*06:04
+        </text>
   </g>
 </svg>

@@ -140,6 +140,7 @@ def write_strong_eplet_on_link(svg, path_position, strong_eplet_on_link, text_si
 
 def write_stronger_eplet_on_bead(svg, bead_position, stronger_eplet_on_bead, stronger_eplet_on_link, text_size,
                                  text_position):
+
     already_write = {}
 
     for bead in stronger_eplet_on_bead.keys():
@@ -240,7 +241,7 @@ def purge_eplet_on_bead(eplet_on_bead, eplet_on_link):
 
 
 def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written_strong, allele_type):
-    pos_x, pos_y = -900, -1200
+    pos_x, pos_y = -410, -1230
     count_A = 1
     count_B = 1
     already_write_suspension_A = False

@@ -192,7 +192,8 @@ def get_forbidden_bead_light(df_eplet_file, strong_eplet_on_link, strong_eplet_o
                 else:
                     forbidden_bead[eplet].append([i, False])
         except:
-            print(eplet)
+
+            (eplet)
 
     allele_forbid[allele_type + "_strong"].append(forbidden_bead)
 
@@ -214,19 +215,28 @@ def parse_json_to_html(json_file):
                 for element in liste:
                     for eplet, allele in element.items():
                         if "stronger" in name:
-                            global_dict[eplet+"stronger"] = allele
+                            global_dict[eplet+"stronger"] = []
                         else :
-                            global_dict[eplet + "strong"] = allele
+                            global_dict[eplet + "strong"] = []
 
+        for dico in eplets:
+            for name, liste in dico.items():
+                for element in liste:
+                    for eplet, allele in element.items():
+                        for element in allele:
+                            if "stronger" in name:
+                                global_dict[eplet+"stronger"].append(element)
+                            else :
+                                global_dict[eplet + "strong"].append(element)
+
+        global_dict = put_strong_in_stronger(global_dict)
         global_dict = sorted_dict_by_true_eplet(global_dict)
+
         df = pd.DataFrame.from_dict(global_dict, orient="index")
         df.replace(to_replace=[None], value="", inplace=True)
+
         df = df.transpose()
 
-        # output_file("result/html_table/{}.html".format(json_file.split("/")[2].split(".")[0]))
-        # Columns = [TableColumn(field=Ci, title=Ci, width=350) for Ci in df.columns]  # bokeh columns
-        # data_table = DataTable(columns=Columns, source=ColumnDataSource(df), width=900, height=450, fit_columns=True)  # bokeh table
-        # save(data_table)
 
         return df
 
@@ -322,7 +332,6 @@ def write_ligne_light(panda_series):
 
     whole_str = ""
     for i in list(panda_series):
-        print(i)
         if type(i) == list:
             if i[1]:
                 whole_str += '<td class="table-active">{}</td>'.format(i[0])
@@ -386,3 +395,22 @@ def reformate_df(df):
     df = df[bool_l]
     df.to_csv("test2.csv")
     return df
+
+def put_strong_in_stronger(global_dict):
+    to_pop = []
+    for i in global_dict.keys():
+            if "stronger" in i:
+                tmp = i.replace("stronger","")
+                for i2 in global_dict.keys():
+                    if i2 == tmp+"strong":
+                        to_pop.append(i2)
+                        tmp_list = global_dict[i]
+
+                        for strong in global_dict[i2]:
+                            tmp_list.append(strong)
+
+                        global_dict[i] = tmp_list
+
+    for i in to_pop:
+        global_dict.pop(i, None)
+    return global_dict

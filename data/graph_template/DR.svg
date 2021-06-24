@@ -8,18 +8,18 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    contentScriptType="text/ecmascript"
-   width="2350"
+   width="1796.0"
    zoomAndPan="magnify"
    contentStyleType="text/css"
-   viewBox="-1093 -969 2350 2050"
-   height="2050"
+   viewBox="-995 -808 1896 1758"
+   height="1668.0"
    preserveAspectRatio="xMidYMid meet"
    version="1.1"
-   id="svg284"
+   id="svg354"
    sodipodi:docname="DR.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
   <metadata
-     id="metadata290">
+     id="metadata360">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -31,7 +31,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs288" />
+     id="defs358" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -41,1503 +41,1951 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1299"
-     inkscape:window-height="713"
-     id="namedview286"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview356"
      showgrid="false"
-     inkscape:zoom="0.20812399"
-     inkscape:cx="1156.9109"
-     inkscape:cy="1076.8987"
-     inkscape:window-x="67"
+     inkscape:zoom="0.14148681"
+     inkscape:cx="898"
+     inkscape:cy="834"
+     inkscape:window-x="72"
      inkscape:window-y="27"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg284" />
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg354" />
   <g
-     id="edges"
-     transform="translate(55.194817,18.070159)">
+     id="edges">
     <path
        fill="none"
-       stroke-width="1"
-       d="M -465.21869,784.94775 -267.92532,534.97632"
-       class="id_DRB1*16:01 id_DRB1*16:02"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 513.818604,-537.064087 L 208.646255,-491.802094"
+       class="id_DRB1*01:01 id_DRB1*01:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path2" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M 380.86298,596.9596 52.59156,533.80743"
-       class="id_DRB1*15:02 id_DRB1*15:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 513.818604,-537.064087 L 306.056519,-745.824707"
+       class="id_DRB1*01:01 id_DRB1*01:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path4" />
     <path
        fill="none"
-       stroke-width="1"
-       d="m -965.64197,-651.24359 438.39307,8.85254"
-       class="id_DRB1*04:04 id_DRB1*04:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 306.056519,-745.824707 L 208.646255,-491.802094"
+       class="id_DRB1*01:02 id_DRB1*01:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path6" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M 54.368362,808.3454 52.59156,533.80743"
-       class="id_DRB1*15:03 id_DRB1*15:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 208.646255,-491.802094 L -12.075784,-508.853455"
+       class="id_DRB1*01:03 id_DRB5*01:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path8" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M 694.14777,522.36835 505.39813,298.14838"
-       class="id_DRB1*01:01 id_DRB1*01:02"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -62.811871,202.571304 L 49.614845,390.397156"
+       class="id_DRB1*03:01 id_DRB3*02:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path10" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M 380.86298,596.9596 54.368362,808.3454"
-       class="id_DRB1*15:02 id_DRB1*15:03"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -62.811871,202.571304 L -381.359467,99.035400"
+       class="id_DRB1*03:01 id_DRB1*14:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path12" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M -994.78546,-340.12546 -527.2489,-642.39105"
-       class="id_DRB1*04:03 id_DRB1*04:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -62.811871,202.571304 L -86.026794,-251.710892"
+       class="id_DRB1*03:01 id_DRB1*03:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path14" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M -196.68472,-190.79159 -526.63245,17.146324"
-       class="id_DRB1*11:04 id_DRB1*11:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -62.811871,202.571304 L -450.821259,352.530212"
+       class="id_DRB1*03:01 id_DRB1*03:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path16" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M 366.75159,-27.108555 242.99853,238.37732"
-       class="id_DRB1*14:54 id_DRB1*14:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -450.821259,352.530212 L 49.614845,390.397156"
+       class="id_DRB1*03:02 id_DRB3*02:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path18" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M 680.82379,-39.188782 983.83374,-93.103943"
-       class="id_DRB1*03:02 id_DRB1*03:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -450.821259,352.530212 L -381.359467,99.035400"
+       class="id_DRB1*03:02 id_DRB1*14:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path20" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M 239.64586,-283.40597 550.76019,-315.7926"
-       class="id_DRB1*09:02 id_DRB1*09:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -450.821259,352.530212 L -356.940125,-193.491470"
+       class="id_DRB1*03:02 id_DRB1*13:05"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path22" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M -487.35013,-327.96417 -527.2489,-642.39105"
-       class="id_DRB1*04:05 id_DRB1*04:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -450.821259,352.530212 L -86.026794,-251.710892"
+       class="id_DRB1*03:02 id_DRB1*03:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path24" />
     <path
        fill="none"
-       stroke-width="1"
-       d="m -994.78546,-340.12546 29.14349,-311.11813"
-       class="id_DRB1*04:03 id_DRB1*04:04"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -86.026794,-251.710892 L -381.359467,99.035400"
+       class="id_DRB1*03:03 id_DRB1*14:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path26" />
     <path
        fill="none"
-       stroke-width="1"
-       d="m -994.78546,-340.12546 507.43533,12.16129"
-       class="id_DRB1*04:03 id_DRB1*04:05"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 230.023727,525.079285 L 29.300806,700.216431"
+       class="id_DRB1*04:01 id_DRB1*04:05"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path28" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M -40.930954,293.77847 25.970173,-12.145006"
-       class="id_DRB1*13:03 id_DRB1*08:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 230.023727,525.079285 L 305.252411,797.511292"
+       class="id_DRB1*04:01 id_DRB1*04:04"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path30" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M -752.58331,-81.980957 -527.2489,-642.39105"
-       class="id_DRB1*04:02 id_DRB1*04:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 230.023727,525.079285 L 529.277405,613.704529"
+       class="id_DRB1*04:01 id_DRB1*04:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path32" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M -487.35013,-327.96417 -752.58331,-81.980957"
-       class="id_DRB1*04:05 id_DRB1*04:02"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 230.023727,525.079285 L 456.858521,348.802338"
+       class="id_DRB1*04:01 id_DRB1*04:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path34" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M -40.930954,293.77847 -526.63245,17.146324"
-       class="id_DRB1*13:03 id_DRB1*11:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 456.858521,348.802338 L 29.300806,700.216431"
+       class="id_DRB1*04:02 id_DRB1*04:05"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path36" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M -370.22476,305.32523 -526.63245,17.146324"
-       class="id_DRB1*13:01 id_DRB1*11:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 456.858521,348.802338 L 305.252411,797.511292"
+       class="id_DRB1*04:02 id_DRB1*04:04"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path38" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M 54.46032,-875.58758 160.4075,-594.40417"
-       class="id_DRB1*12:01 id_DRB1*12:02"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 456.858521,348.802338 L 529.277405,613.704529"
+       class="id_DRB1*04:02 id_DRB1*04:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path40" />
     <path
        fill="none"
-       stroke-width="1"
-       d="m -994.78546,-340.12546 242.20215,258.144503"
-       class="id_DRB1*04:03 id_DRB1*04:02"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 529.277405,613.704529 L 29.300806,700.216431"
+       class="id_DRB1*04:03 id_DRB1*04:05"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path42" />
     <path
        fill="none"
-       stroke-width="1"
-       d="m -965.64197,-651.24359 478.29184,323.27942"
-       class="id_DRB1*04:04 id_DRB1*04:05"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 529.277405,613.704529 L 305.252411,797.511292"
+       class="id_DRB1*04:03 id_DRB1*04:04"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path44" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M 25.970173,-12.145006 -526.63245,17.146324"
-       class="id_DRB1*08:01 id_DRB1*11:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M 305.252411,797.511292 L 29.300806,700.216431"
+       class="id_DRB1*04:04 id_DRB1*04:05"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path46" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M -370.22476,305.32523 -40.930954,293.77847"
-       class="id_DRB1*13:01 id_DRB1*13:03"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -855.338257,-240.173264 L -557.463928,-608.891724"
+       class="id_DRB1*08:01 id_DRB1*13:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path48" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M 771.56464,219.88039 694.14777,522.36835"
-       class="id_DRB1*01:03 id_DRB1*01:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -855.338257,-240.173264 L -562.143738,-360.371521"
+       class="id_DRB1*08:01 id_DRB1*11:04"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path50" />
     <path
        fill="none"
-       stroke-width="1"
-       d="m -965.64197,-651.24359 213.05866,569.262633"
-       class="id_DRB1*04:04 id_DRB1*04:02"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -855.338257,-240.173264 L -603.111938,-72.943489"
+       class="id_DRB1*08:01 id_DRB1*11:01"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path52" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M 242.99853,238.37732 25.970173,-12.145006"
-       class="id_DRB1*14:01 id_DRB1*08:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -855.338257,-240.173264 L -901.982361,44.311321"
+       class="id_DRB1*08:01 id_DRB1*08:02"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path54" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M 505.39813,298.14838 771.56464,219.88039"
-       class="id_DRB1*01:02 id_DRB1*01:03"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -901.982361,44.311321 L -381.359467,99.035400"
+       class="id_DRB1*08:02 id_DRB1*14:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path56" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M -196.68472,-190.79159 -370.22476,305.32523"
-       class="id_DRB1*11:04 id_DRB1*13:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -901.982361,44.311321 L -557.463928,-608.891724"
+       class="id_DRB1*08:02 id_DRB1*13:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path58" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M -267.92532,534.97632 54.368362,808.3454"
-       class="id_DRB1*16:02 id_DRB1*15:03"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -901.982361,44.311321 L -562.143738,-360.371521"
+       class="id_DRB1*08:02 id_DRB1*11:04"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path60" />
     <path
        fill="none"
-       stroke-width="1"
-       d="M -196.68472,-190.79159 25.970173,-12.145006"
-       class="id_DRB1*11:04 id_DRB1*08:01"
-       stroke-opacity="0.34902"
+       stroke-width="1.0"
+       d="M -901.982361,44.311321 L -661.644531,206.415863"
+       class="id_DRB1*08:02 id_DRB1*11:03"
+       stroke-opacity="0.34901962"
        stroke="#000000"
        id="path62" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -901.982361,44.311321 L -603.111938,-72.943489"
+       class="id_DRB1*08:02 id_DRB1*11:01"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path64" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -603.111938,-72.943489 L -381.359467,99.035400"
+       class="id_DRB1*11:01 id_DRB1*14:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path66" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -603.111938,-72.943489 L -356.940125,-193.491470"
+       class="id_DRB1*11:01 id_DRB1*13:05"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path68" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -603.111938,-72.943489 L -557.463928,-608.891724"
+       class="id_DRB1*11:01 id_DRB1*13:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path70" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -603.111938,-72.943489 L -562.143738,-360.371521"
+       class="id_DRB1*11:01 id_DRB1*11:04"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path72" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -603.111938,-72.943489 L -661.644531,206.415863"
+       class="id_DRB1*11:01 id_DRB1*11:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path74" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -661.644531,206.415863 L -381.359467,99.035400"
+       class="id_DRB1*11:03 id_DRB1*14:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path76" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -661.644531,206.415863 L -356.940125,-193.491470"
+       class="id_DRB1*11:03 id_DRB1*13:05"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path78" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -661.644531,206.415863 L -557.463928,-608.891724"
+       class="id_DRB1*11:03 id_DRB1*13:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path80" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -661.644531,206.415863 L -562.143738,-360.371521"
+       class="id_DRB1*11:03 id_DRB1*11:04"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path82" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -562.143738,-360.371521 L -381.359467,99.035400"
+       class="id_DRB1*11:04 id_DRB1*14:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path84" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -562.143738,-360.371521 L -356.940125,-193.491470"
+       class="id_DRB1*11:04 id_DRB1*13:05"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path86" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -562.143738,-360.371521 L -557.463928,-608.891724"
+       class="id_DRB1*11:04 id_DRB1*13:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path88" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -355.591614,679.083740 L -246.077484,503.200378"
+       class="id_DRB1*12:01 id_DRB1*12:02"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path90" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -269.485168,-432.618622 L -381.359467,99.035400"
+       class="id_DRB1*13:01 id_DRB1*14:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path92" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -269.485168,-432.618622 L -356.940125,-193.491470"
+       class="id_DRB1*13:01 id_DRB1*13:05"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path94" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -269.485168,-432.618622 L -557.463928,-608.891724"
+       class="id_DRB1*13:01 id_DRB1*13:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path96" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -557.463928,-608.891724 L -381.359467,99.035400"
+       class="id_DRB1*13:03 id_DRB1*14:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path98" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -557.463928,-608.891724 L -356.940125,-193.491470"
+       class="id_DRB1*13:03 id_DRB1*13:05"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path100" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -356.940125,-193.491470 L -381.359467,99.035400"
+       class="id_DRB1*13:05 id_DRB1*14:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path102" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 650.715942,290.561127 L 477.963043,90.548279"
+       class="id_DRB1*14:01 id_DRB1*14:04"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path104" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 766.512024,32.745380 L 535.525330,-145.411362"
+       class="id_DRB1*15:01 id_DRB1*16:01"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path106" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 766.512024,32.745380 L 769.804382,-324.662933"
+       class="id_DRB1*15:01 id_DRB1*15:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path108" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 766.512024,32.745380 L 435.125549,-359.682159"
+       class="id_DRB1*15:01 id_DRB1*15:02"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path110" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 435.125549,-359.682159 L 535.525330,-145.411362"
+       class="id_DRB1*15:02 id_DRB1*16:01"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path112" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 435.125549,-359.682159 L 769.804382,-324.662933"
+       class="id_DRB1*15:02 id_DRB1*15:03"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path114" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 769.804382,-324.662933 L 535.525330,-145.411362"
+       class="id_DRB1*15:03 id_DRB1*16:01"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path116" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M 535.525330,-145.411362 L 287.328583,-78.991760"
+       class="id_DRB1*16:01 id_DRB1*16:02"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path118" />
+    <path
+       fill="none"
+       stroke-width="1.0"
+       d="M -12.075784,-508.853455 L -202.410202,-625.776855"
+       class="id_DRB5*01:01 id_DRB5*02:02"
+       stroke-opacity="0.34901962"
+       stroke="#000000"
+       id="path120" />
   </g>
   <g
-     id="nodes"
-     transform="translate(55.194817,18.070159)">
+     id="nodes">
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="694.14777"
+       r="60.0"
+       cx="513.8186"
        class="id_DRB1*01:01"
-       cy="522.36835"
+       cy="-537.0641"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle65" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="505.39813"
-       class="id_DRB1*01:02"
-       cy="298.14838"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle67" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="771.56464"
-       class="id_DRB1*01:03"
-       cy="219.88039"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle69" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="983.83374"
-       class="id_DRB1*03:01"
-       cy="-93.103943"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle71" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="680.82379"
-       class="id_DRB1*03:02"
-       cy="-39.188782"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle73" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-527.2489"
-       class="id_DRB1*04:01"
-       cy="-642.39105"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle75" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-752.58331"
-       class="id_DRB1*04:02"
-       cy="-81.980957"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle77" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-965.64197"
-       class="id_DRB1*04:04"
-       cy="-651.24359"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle79" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-487.35013"
-       class="id_DRB1*04:05"
-       cy="-327.96417"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle81" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="395.38458"
-       class="id_DRB1*07:01"
-       cy="876.30249"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle83" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-994.78546"
-       class="id_DRB1*04:03"
-       cy="-340.12546"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle85" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="25.970173"
-       class="id_DRB1*08:01"
-       cy="-12.145006"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle87" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="550.76019"
-       class="id_DRB1*09:01"
-       cy="-315.7926"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle89" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="239.64586"
-       class="id_DRB1*09:02"
-       cy="-283.40598"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle91" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-1015.1789"
-       class="id_DRB1*10:01"
-       cy="44.8424"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle93" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-526.63245"
-       class="id_DRB1*11:01"
-       cy="17.146324"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle95" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-196.68472"
-       class="id_DRB1*11:04"
-       cy="-190.7916"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle97" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="54.46032"
-       class="id_DRB1*12:01"
-       cy="-875.58759"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle99" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="160.4075"
-       class="id_DRB1*12:02"
-       cy="-594.40417"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle101" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-370.22476"
-       class="id_DRB1*13:01"
-       cy="305.32523"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle103" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-40.930954"
-       class="id_DRB1*13:03"
-       cy="293.77847"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle105" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="242.99854"
-       class="id_DRB1*14:01"
-       cy="238.37732"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle107" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-344.83368"
-       class="id_DRB1*14:02"
-       cy="-891.56262"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle109" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="366.75159"
-       class="id_DRB1*14:54"
-       cy="-27.108555"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle111" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="52.59156"
-       class="id_DRB1*15:01"
-       cy="533.80743"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle113" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="380.86298"
-       class="id_DRB1*15:02"
-       cy="596.95959"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle115" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="54.368362"
-       class="id_DRB1*15:03"
-       cy="808.3454"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle117" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-465.21869"
-       class="id_DRB1*16:01"
-       cy="784.94775"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle119" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="-267.92532"
-       class="id_DRB1*16:02"
-       cy="534.97632"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
-       id="circle121" />
-    <circle
-       fill-opacity="0.2"
-       fill="#000000"
-       r="75"
-       cx="523.46857"
-       class="id_DRB3*01:01"
-       cy="-633.05084"
-       stroke="#737373"
-       stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle123" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-177.55431"
-       class="id_DRB3*02:02"
-       cy="-562.16925"
+       r="60.0"
+       cx="306.05652"
+       class="id_DRB1*01:02"
+       cy="-745.8247"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle125" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="845.47644"
-       class="id_DRB3*03:01"
-       cy="-378.90289"
+       r="60.0"
+       cx="208.64626"
+       class="id_DRB1*01:03"
+       cy="-491.8021"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle127" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="705.55933"
-       class="id_DRB4*01:01"
-       cy="796.99384"
+       r="60.0"
+       cx="-62.81187"
+       class="id_DRB1*03:01"
+       cy="202.5713"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle129" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-875.97455"
-       class="id_DRB4*01:03"
-       cy="320.32373"
+       r="60.0"
+       cx="-450.82126"
+       class="id_DRB1*03:02"
+       cy="352.5302"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle131" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="-699.35724"
-       class="id_DRB5*01:01"
-       cy="561.03247"
+       r="60.0"
+       cx="-86.026794"
+       class="id_DRB1*03:03"
+       cy="-251.71089"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle133" />
     <circle
        fill-opacity="0.2"
        fill="#000000"
-       r="75"
-       cx="368.70526"
-       class="id_DRB5*02:02"
-       cy="-891.04596"
+       r="60.0"
+       cx="230.02373"
+       class="id_DRB1*04:01"
+       cy="525.0793"
        stroke="#737373"
        stroke-opacity="0.2"
-       stroke-width="5"
+       stroke-width="5.0"
        id="circle135" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="456.85852"
+       class="id_DRB1*04:02"
+       cy="348.80234"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle137" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="529.2774"
+       class="id_DRB1*04:03"
+       cy="613.7045"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle139" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="305.2524"
+       class="id_DRB1*04:04"
+       cy="797.5113"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle141" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="29.300806"
+       class="id_DRB1*04:05"
+       cy="700.21643"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle143" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="-591.4346"
+       class="id_DRB1*07:01"
+       cy="519.0977"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle145" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="-855.33826"
+       class="id_DRB1*08:01"
+       cy="-240.17326"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle147" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="-901.98236"
+       class="id_DRB1*08:02"
+       cy="44.31132"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle149" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="167.71884"
+       class="id_DRB1*09:01"
+       cy="184.21175"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle151" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="147.80902"
+       class="id_DRB1*10:01"
+       cy="-277.35828"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle153" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="-603.11194"
+       class="id_DRB1*11:01"
+       cy="-72.94349"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle155" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="-661.64453"
+       class="id_DRB1*11:03"
+       cy="206.41586"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle157" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="-562.14374"
+       class="id_DRB1*11:04"
+       cy="-360.37152"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle159" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="-355.5916"
+       class="id_DRB1*12:01"
+       cy="679.08374"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle161" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="-246.07748"
+       class="id_DRB1*12:02"
+       cy="503.20038"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle163" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="-269.48517"
+       class="id_DRB1*13:01"
+       cy="-432.61862"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle165" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="-557.4639"
+       class="id_DRB1*13:03"
+       cy="-608.8917"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle167" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="-356.94012"
+       class="id_DRB1*13:05"
+       cy="-193.49147"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle169" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="650.71594"
+       class="id_DRB1*14:01"
+       cy="290.56113"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle171" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="-381.35947"
+       class="id_DRB1*14:03"
+       cy="99.0354"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle173" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="477.96304"
+       class="id_DRB1*14:04"
+       cy="90.54828"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle175" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="766.512"
+       class="id_DRB1*15:01"
+       cy="32.74538"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle177" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="435.12555"
+       class="id_DRB1*15:02"
+       cy="-359.68216"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle179" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="769.8044"
+       class="id_DRB1*15:03"
+       cy="-324.66293"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle181" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="535.5253"
+       class="id_DRB1*16:01"
+       cy="-145.41136"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle183" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="287.32858"
+       class="id_DRB1*16:02"
+       cy="-78.99176"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle185" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="-180.02592"
+       class="id_DRB3*01:01"
+       cy="-7.5123315"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle187" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="49.614845"
+       class="id_DRB3*02:02"
+       cy="390.39716"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle189" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="59.90541"
+       class="id_DRB3*03:01"
+       cy="-742.7189"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle191" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="51.53936"
+       class="id_DRB4*01:01"
+       cy="-39.25962"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle193" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="-12.075784"
+       class="id_DRB5*01:01"
+       cy="-508.85345"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle195" />
+    <circle
+       fill-opacity="0.2"
+       fill="#000000"
+       r="60.0"
+       cx="-202.4102"
+       class="id_DRB5*02:02"
+       cy="-625.77686"
+       stroke="#737373"
+       stroke-opacity="0.2"
+       stroke-width="5.0"
+       id="circle197" />
   </g>
   <g
-     id="node-labels-outline"
-     transform="translate(55.194817,18.070159)">
+     id="node-labels-outline">
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="694.14777"
-       y="528.04218"
+       font-size="28"
+       x="513.8186"
+       y="-531.7685"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*01:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text138">DRB1*01:01</text>
+       stroke-width="0.875px"
+       id="text200">
+            DRB1*01:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="505.39813"
-       y="303.8222"
+       font-size="28"
+       x="306.05652"
+       y="-740.5291"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*01:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text140">DRB1*01:02</text>
+       stroke-width="0.875px"
+       id="text202">
+            DRB1*01:02
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="771.56464"
-       y="225.55421"
+       font-size="28"
+       x="208.64626"
+       y="-486.50653"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*01:03"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text142">DRB1*01:03</text>
+       stroke-width="0.875px"
+       id="text204">
+            DRB1*01:03
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="983.83374"
-       y="-87.430115"
+       font-size="28"
+       x="-62.81187"
+       y="207.86688"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*03:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text144">DRB1*03:01</text>
+       stroke-width="0.875px"
+       id="text206">
+            DRB1*03:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="680.82379"
-       y="-33.514954"
+       font-size="28"
+       x="-450.82126"
+       y="357.82578"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*03:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text146">DRB1*03:02</text>
+       stroke-width="0.875px"
+       id="text208">
+            DRB1*03:02
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="-527.2489"
-       y="-636.71722"
+       font-size="28"
+       x="-86.026794"
+       y="-246.41531"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DRB1*03:03"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text210">
+            DRB1*03:03
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="230.02373"
+       y="530.3749"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*04:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text148">DRB1*04:01</text>
+       stroke-width="0.875px"
+       id="text212">
+            DRB1*04:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="-752.58331"
-       y="-76.307129"
+       font-size="28"
+       x="456.85852"
+       y="354.0979"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*04:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text150">DRB1*04:02</text>
+       stroke-width="0.875px"
+       id="text214">
+            DRB1*04:02
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="-965.64197"
-       y="-645.56976"
+       font-size="28"
+       x="529.2774"
+       y="619.0001"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DRB1*04:04"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text152">DRB1*04:04</text>
-    <text
-       stroke-linecap="round"
-       font-size="30px"
-       x="-487.35013"
-       y="-322.29034"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DRB1*04:05"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text154">DRB1*04:05</text>
-    <text
-       stroke-linecap="round"
-       font-size="30px"
-       x="395.38458"
-       y="881.97632"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DRB1*07:01"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text156">DRB1*07:01</text>
-    <text
-       stroke-linecap="round"
-       font-size="30px"
-       x="-994.78546"
-       y="-334.45163"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*04:03"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text158">DRB1*04:03</text>
+       stroke-width="0.875px"
+       id="text216">
+            DRB1*04:03
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="25.970173"
-       y="-6.4711785"
+       font-size="28"
+       x="305.2524"
+       y="802.8069"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DRB1*04:04"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text218">
+            DRB1*04:04
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="29.300806"
+       y="705.512"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DRB1*04:05"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text220">
+            DRB1*04:05
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="-591.4346"
+       y="524.3933"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DRB1*07:01"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text222">
+            DRB1*07:01
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="-855.33826"
+       y="-234.87769"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*08:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text160">DRB1*08:01</text>
+       stroke-width="0.875px"
+       id="text224">
+            DRB1*08:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="550.76019"
-       y="-310.11877"
+       font-size="28"
+       x="-901.98236"
+       y="49.606895"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DRB1*08:02"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text226">
+            DRB1*08:02
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="167.71884"
+       y="189.50732"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*09:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text162">DRB1*09:01</text>
+       stroke-width="0.875px"
+       id="text228">
+            DRB1*09:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="239.64586"
-       y="-277.73215"
+       font-size="28"
+       x="147.80902"
+       y="-272.0627"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DRB1*09:02"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text164">DRB1*09:02</text>
-    <text
-       stroke-linecap="round"
-       font-size="30px"
-       x="-1015.1789"
-       y="50.516228"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*10:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text166">DRB1*10:01</text>
+       stroke-width="0.875px"
+       id="text230">
+            DRB1*10:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="-526.63245"
-       y="22.820152"
+       font-size="28"
+       x="-603.11194"
+       y="-67.64792"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*11:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text168">DRB1*11:01</text>
+       stroke-width="0.875px"
+       id="text232">
+            DRB1*11:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="-196.68472"
-       y="-185.11777"
+       font-size="28"
+       x="-661.64453"
+       y="211.71144"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DRB1*11:03"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text234">
+            DRB1*11:03
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="-562.14374"
+       y="-355.07596"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*11:04"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text170">DRB1*11:04</text>
+       stroke-width="0.875px"
+       id="text236">
+            DRB1*11:04
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="54.46032"
-       y="-869.91376"
+       font-size="28"
+       x="-355.5916"
+       y="684.37933"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*12:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text172">DRB1*12:01</text>
+       stroke-width="0.875px"
+       id="text238">
+            DRB1*12:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="160.4075"
-       y="-588.73035"
+       font-size="28"
+       x="-246.07748"
+       y="508.49594"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*12:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text174">DRB1*12:02</text>
+       stroke-width="0.875px"
+       id="text240">
+            DRB1*12:02
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="-370.22476"
-       y="310.99905"
+       font-size="28"
+       x="-269.48517"
+       y="-427.32306"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*13:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text176">DRB1*13:01</text>
+       stroke-width="0.875px"
+       id="text242">
+            DRB1*13:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="-40.930954"
-       y="299.4523"
+       font-size="28"
+       x="-557.4639"
+       y="-603.5961"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*13:03"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text178">DRB1*13:03</text>
+       stroke-width="0.875px"
+       id="text244">
+            DRB1*13:03
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="242.99854"
-       y="244.05115"
+       font-size="28"
+       x="-356.94012"
+       y="-188.19589"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DRB1*13:05"
+       stroke="#f5fffe"
+       stroke-opacity="0.8"
+       stroke-width="0.875px"
+       id="text246">
+            DRB1*13:05
+        </text>
+    <text
+       stroke-linecap="round"
+       font-size="28"
+       x="650.71594"
+       y="295.8567"
+       fill="#000000"
+       stroke-linejoin="round"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*14:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text180">DRB1*14:01</text>
+       stroke-width="0.875px"
+       id="text248">
+            DRB1*14:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="-344.83368"
-       y="-885.88879"
+       font-size="28"
+       x="-381.35947"
+       y="104.33097"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DRB1*14:02"
+       class="id_DRB1*14:03"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text182">DRB1*14:02</text>
+       stroke-width="0.875px"
+       id="text250">
+            DRB1*14:03
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="366.75159"
-       y="-21.434727"
+       font-size="28"
+       x="477.96304"
+       y="95.84385"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DRB1*14:54"
+       class="id_DRB1*14:04"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text184">DRB1*14:54</text>
+       stroke-width="0.875px"
+       id="text252">
+            DRB1*14:04
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="52.59156"
-       y="539.48126"
+       font-size="28"
+       x="766.512"
+       y="38.040955"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*15:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text186">DRB1*15:01</text>
+       stroke-width="0.875px"
+       id="text254">
+            DRB1*15:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="380.86298"
-       y="602.63342"
+       font-size="28"
+       x="435.12555"
+       y="-354.3866"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*15:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text188">DRB1*15:02</text>
+       stroke-width="0.875px"
+       id="text256">
+            DRB1*15:02
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="54.368362"
-       y="814.01923"
+       font-size="28"
+       x="769.8044"
+       y="-319.36737"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*15:03"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text190">DRB1*15:03</text>
+       stroke-width="0.875px"
+       id="text258">
+            DRB1*15:03
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="-465.21869"
-       y="790.62158"
+       font-size="28"
+       x="535.5253"
+       y="-140.11578"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*16:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text192">DRB1*16:01</text>
+       stroke-width="0.875px"
+       id="text260">
+            DRB1*16:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="-267.92532"
-       y="540.65015"
+       font-size="28"
+       x="287.32858"
+       y="-73.69619"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*16:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text194">DRB1*16:02</text>
+       stroke-width="0.875px"
+       id="text262">
+            DRB1*16:02
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="523.46857"
-       y="-627.37701"
+       font-size="28"
+       x="-180.02592"
+       y="-2.2167587"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB3*01:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text196">DRB3*01:01</text>
+       stroke-width="0.875px"
+       id="text264">
+            DRB3*01:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="-177.55431"
-       y="-556.49542"
+       font-size="28"
+       x="49.614845"
+       y="395.69272"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB3*02:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text198">DRB3*02:02</text>
+       stroke-width="0.875px"
+       id="text266">
+            DRB3*02:02
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="845.47644"
-       y="-373.22906"
+       font-size="28"
+       x="59.90541"
+       y="-737.4233"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB3*03:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text200">DRB3*03:01</text>
+       stroke-width="0.875px"
+       id="text268">
+            DRB3*03:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="705.55933"
-       y="802.66766"
+       font-size="28"
+       x="51.53936"
+       y="-33.964046"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB4*01:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text202">DRB4*01:01</text>
+       stroke-width="0.875px"
+       id="text270">
+            DRB4*01:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="-875.97455"
-       y="325.99756"
+       font-size="28"
+       x="-12.075784"
+       y="-503.5579"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DRB4*01:03"
-       stroke="#f5fffe"
-       stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text204">DRB4*01:03</text>
-    <text
-       stroke-linecap="round"
-       font-size="30px"
-       x="-699.35724"
-       y="566.7063"
-       fill="#000000"
-       stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB5*01:01"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text206">DRB5*01:01</text>
+       stroke-width="0.875px"
+       id="text272">
+            DRB5*01:01
+        </text>
     <text
        stroke-linecap="round"
-       font-size="30px"
-       x="368.70526"
-       y="-885.37213"
+       font-size="28"
+       x="-202.4102"
+       y="-620.48126"
        fill="#000000"
        stroke-linejoin="round"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB5*02:02"
        stroke="#f5fffe"
        stroke-opacity="0.8"
-       stroke-width="0.9375px"
-       id="text208">DRB5*02:02</text>
+       stroke-width="0.875px"
+       id="text274">
+            DRB5*02:02
+        </text>
   </g>
   <g
-     id="node-labels"
-     transform="translate(55.194817,18.070159)">
+     id="node-labels">
     <text
-       font-size="30px"
-       x="694.14777"
-       y="528.04218"
+       font-size="28"
+       x="513.8186"
+       y="-531.7685"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*01:01"
-       id="text211">DRB1*01:01</text>
+       id="text277">
+            DRB1*01:01
+        </text>
     <text
-       font-size="30px"
-       x="505.39813"
-       y="303.8222"
+       font-size="28"
+       x="306.05652"
+       y="-740.5291"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*01:02"
-       id="text213">DRB1*01:02</text>
+       id="text279">
+            DRB1*01:02
+        </text>
     <text
-       font-size="30px"
-       x="771.56464"
-       y="225.55421"
+       font-size="28"
+       x="208.64626"
+       y="-486.50653"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*01:03"
-       id="text215">DRB1*01:03</text>
+       id="text281">
+            DRB1*01:03
+        </text>
     <text
-       font-size="30px"
-       x="983.83374"
-       y="-87.430115"
+       font-size="28"
+       x="-62.81187"
+       y="207.86688"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*03:01"
-       id="text217">DRB1*03:01</text>
+       id="text283">
+            DRB1*03:01
+        </text>
     <text
-       font-size="30px"
-       x="680.82379"
-       y="-33.514954"
+       font-size="28"
+       x="-450.82126"
+       y="357.82578"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*03:02"
-       id="text219">DRB1*03:02</text>
+       id="text285">
+            DRB1*03:02
+        </text>
     <text
-       font-size="30px"
-       x="-527.2489"
-       y="-636.71722"
+       font-size="28"
+       x="-86.026794"
+       y="-246.41531"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DRB1*03:03"
+       id="text287">
+            DRB1*03:03
+        </text>
+    <text
+       font-size="28"
+       x="230.02373"
+       y="530.3749"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*04:01"
-       id="text221">DRB1*04:01</text>
+       id="text289">
+            DRB1*04:01
+        </text>
     <text
-       font-size="30px"
-       x="-752.58331"
-       y="-76.307129"
+       font-size="28"
+       x="456.85852"
+       y="354.0979"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*04:02"
-       id="text223">DRB1*04:02</text>
+       id="text291">
+            DRB1*04:02
+        </text>
     <text
-       font-size="30px"
-       x="-965.64197"
-       y="-645.56976"
+       font-size="28"
+       x="529.2774"
+       y="619.0001"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DRB1*04:04"
-       id="text225">DRB1*04:04</text>
-    <text
-       font-size="30px"
-       x="-487.35013"
-       y="-322.29034"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DRB1*04:05"
-       id="text227">DRB1*04:05</text>
-    <text
-       font-size="30px"
-       x="395.38458"
-       y="881.97632"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DRB1*07:01"
-       id="text229">DRB1*07:01</text>
-    <text
-       font-size="30px"
-       x="-994.78546"
-       y="-334.45163"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*04:03"
-       id="text231">DRB1*04:03</text>
+       id="text293">
+            DRB1*04:03
+        </text>
     <text
-       font-size="30px"
-       x="25.970173"
-       y="-6.4711785"
+       font-size="28"
+       x="305.2524"
+       y="802.8069"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DRB1*04:04"
+       id="text295">
+            DRB1*04:04
+        </text>
+    <text
+       font-size="28"
+       x="29.300806"
+       y="705.512"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DRB1*04:05"
+       id="text297">
+            DRB1*04:05
+        </text>
+    <text
+       font-size="28"
+       x="-591.4346"
+       y="524.3933"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DRB1*07:01"
+       id="text299">
+            DRB1*07:01
+        </text>
+    <text
+       font-size="28"
+       x="-855.33826"
+       y="-234.87769"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*08:01"
-       id="text233">DRB1*08:01</text>
+       id="text301">
+            DRB1*08:01
+        </text>
     <text
-       font-size="30px"
-       x="550.76019"
-       y="-310.11877"
+       font-size="28"
+       x="-901.98236"
+       y="49.606895"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DRB1*08:02"
+       id="text303">
+            DRB1*08:02
+        </text>
+    <text
+       font-size="28"
+       x="167.71884"
+       y="189.50732"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*09:01"
-       id="text235">DRB1*09:01</text>
+       id="text305">
+            DRB1*09:01
+        </text>
     <text
-       font-size="30px"
-       x="239.64586"
-       y="-277.73215"
+       font-size="28"
+       x="147.80902"
+       y="-272.0627"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DRB1*09:02"
-       id="text237">DRB1*09:02</text>
-    <text
-       font-size="30px"
-       x="-1015.1789"
-       y="50.516228"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*10:01"
-       id="text239">DRB1*10:01</text>
+       id="text307">
+            DRB1*10:01
+        </text>
     <text
-       font-size="30px"
-       x="-526.63245"
-       y="22.820152"
+       font-size="28"
+       x="-603.11194"
+       y="-67.64792"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*11:01"
-       id="text241">DRB1*11:01</text>
+       id="text309">
+            DRB1*11:01
+        </text>
     <text
-       font-size="30px"
-       x="-196.68472"
-       y="-185.11777"
+       font-size="28"
+       x="-661.64453"
+       y="211.71144"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DRB1*11:03"
+       id="text311">
+            DRB1*11:03
+        </text>
+    <text
+       font-size="28"
+       x="-562.14374"
+       y="-355.07596"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*11:04"
-       id="text243">DRB1*11:04</text>
+       id="text313">
+            DRB1*11:04
+        </text>
     <text
-       font-size="30px"
-       x="54.46032"
-       y="-869.91376"
+       font-size="28"
+       x="-355.5916"
+       y="684.37933"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*12:01"
-       id="text245">DRB1*12:01</text>
+       id="text315">
+            DRB1*12:01
+        </text>
     <text
-       font-size="30px"
-       x="160.4075"
-       y="-588.73035"
+       font-size="28"
+       x="-246.07748"
+       y="508.49594"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*12:02"
-       id="text247">DRB1*12:02</text>
+       id="text317">
+            DRB1*12:02
+        </text>
     <text
-       font-size="30px"
-       x="-370.22476"
-       y="310.99905"
+       font-size="28"
+       x="-269.48517"
+       y="-427.32306"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*13:01"
-       id="text249">DRB1*13:01</text>
+       id="text319">
+            DRB1*13:01
+        </text>
     <text
-       font-size="30px"
-       x="-40.930954"
-       y="299.4523"
+       font-size="28"
+       x="-557.4639"
+       y="-603.5961"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*13:03"
-       id="text251">DRB1*13:03</text>
+       id="text321">
+            DRB1*13:03
+        </text>
     <text
-       font-size="30px"
-       x="242.99854"
-       y="244.05115"
+       font-size="28"
+       x="-356.94012"
+       y="-188.19589"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
+       font-family="Dialog"
+       class="id_DRB1*13:05"
+       id="text323">
+            DRB1*13:05
+        </text>
+    <text
+       font-size="28"
+       x="650.71594"
+       y="295.8567"
+       fill="#000000"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*14:01"
-       id="text253">DRB1*14:01</text>
+       id="text325">
+            DRB1*14:01
+        </text>
     <text
-       font-size="30px"
-       x="-344.83368"
-       y="-885.88879"
+       font-size="28"
+       x="-381.35947"
+       y="104.33097"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DRB1*14:02"
-       id="text255">DRB1*14:02</text>
+       class="id_DRB1*14:03"
+       id="text327">
+            DRB1*14:03
+        </text>
     <text
-       font-size="30px"
-       x="366.75159"
-       y="-21.434727"
+       font-size="28"
+       x="477.96304"
+       y="95.84385"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
-       class="id_DRB1*14:54"
-       id="text257">DRB1*14:54</text>
+       class="id_DRB1*14:04"
+       id="text329">
+            DRB1*14:04
+        </text>
     <text
-       font-size="30px"
-       x="52.59156"
-       y="539.48126"
+       font-size="28"
+       x="766.512"
+       y="38.040955"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*15:01"
-       id="text259">DRB1*15:01</text>
+       id="text331">
+            DRB1*15:01
+        </text>
     <text
-       font-size="30px"
-       x="380.86298"
-       y="602.63342"
+       font-size="28"
+       x="435.12555"
+       y="-354.3866"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*15:02"
-       id="text261">DRB1*15:02</text>
+       id="text333">
+            DRB1*15:02
+        </text>
     <text
-       font-size="30px"
-       x="54.368362"
-       y="814.01923"
+       font-size="28"
+       x="769.8044"
+       y="-319.36737"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*15:03"
-       id="text263">DRB1*15:03</text>
+       id="text335">
+            DRB1*15:03
+        </text>
     <text
-       font-size="30px"
-       x="-465.21869"
-       y="790.62158"
+       font-size="28"
+       x="535.5253"
+       y="-140.11578"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*16:01"
-       id="text265">DRB1*16:01</text>
+       id="text337">
+            DRB1*16:01
+        </text>
     <text
-       font-size="30px"
-       x="-267.92532"
-       y="540.65015"
+       font-size="28"
+       x="287.32858"
+       y="-73.69619"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB1*16:02"
-       id="text267">DRB1*16:02</text>
+       id="text339">
+            DRB1*16:02
+        </text>
     <text
-       font-size="30px"
-       x="523.46857"
-       y="-627.37701"
+       font-size="28"
+       x="-180.02592"
+       y="-2.2167587"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB3*01:01"
-       id="text269">DRB3*01:01</text>
+       id="text341">
+            DRB3*01:01
+        </text>
     <text
-       font-size="30px"
-       x="-177.55431"
-       y="-556.49542"
+       font-size="28"
+       x="49.614845"
+       y="395.69272"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB3*02:02"
-       id="text271">DRB3*02:02</text>
+       id="text343">
+            DRB3*02:02
+        </text>
     <text
-       font-size="30px"
-       x="845.47644"
-       y="-373.22906"
+       font-size="28"
+       x="59.90541"
+       y="-737.4233"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB3*03:01"
-       id="text273">DRB3*03:01</text>
+       id="text345">
+            DRB3*03:01
+        </text>
     <text
-       font-size="30px"
-       x="705.55933"
-       y="802.66766"
+       font-size="28"
+       x="51.53936"
+       y="-33.964046"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB4*01:01"
-       id="text275">DRB4*01:01</text>
+       id="text347">
+            DRB4*01:01
+        </text>
     <text
-       font-size="30px"
-       x="-875.97455"
-       y="325.99756"
+       font-size="28"
+       x="-12.075784"
+       y="-503.5579"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
-       font-family="Dialog"
-       class="id_DRB4*01:03"
-       id="text277">DRB4*01:03</text>
-    <text
-       font-size="30px"
-       x="-699.35724"
-       y="566.7063"
-       fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB5*01:01"
-       id="text279">DRB5*01:01</text>
+       id="text349">
+            DRB5*01:01
+        </text>
     <text
-       font-size="30px"
-       x="368.70526"
-       y="-885.37213"
+       font-size="28"
+       x="-202.4102"
+       y="-620.48126"
        fill="#000000"
-       style="dominant-baseline:central;text-anchor:middle"
+       style="text-anchor: middle; dominant-baseline: central;"
        font-family="Dialog"
        class="id_DRB5*02:02"
-       id="text281">DRB5*02:02</text>
+       id="text351">
+            DRB5*02:02
+        </text>
   </g>
 </svg>
