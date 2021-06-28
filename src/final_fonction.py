@@ -42,7 +42,6 @@ def write_whole_svg(
     # Liste of positive nodes, ambiguous nodes. Each node is list with node_id, line of opacity and line of color
     node_to_color, node_to_color_light, to_delete = write_svg.node_color_to_change_v2(svg_list, data, cutoff)
     ratio = write_svg.opacity_intensity(data)
-
     # Update svg_liste by coloring positive nodes
     svg_list = write_svg.replace_nodes_color_2(svg_list, node_to_color, ratio)
     svg_list = write_svg.replace_nodes_color_2_light(svg_list, node_to_color_light)
@@ -53,6 +52,8 @@ def write_whole_svg(
     # Create dictionnary with couple of bead/eplets which are present on positive bead but not on negative beads
     always_present_eplet, not_always_present_eplet, always_present_eplet_dict, not_always_present_eplet_dict = eplet_extraction.get_bead_and_eplet_to_write(
         positive_bead, negative_bead, df_eplet_file)
+
+    print(always_present_eplet)
 
     positive_not_linked = eplet_extraction.get_positive_but_not_linked(link_between_pos,positive_bead)
 

@@ -70,7 +70,7 @@ def main(args):
                     i,
                     args.cutoff,
                     args.dqdp + i + "_eplets.csv",
-                    38,
+                    32,
                     [120,30]
                     )
                 all_raw_data.append(["A",make_raw.make_raw_data(a_ep)])
@@ -180,7 +180,7 @@ def main_server(args):
                 i,
                 args.cutoff,
                 args.dqdp + i + "_eplets.csv",
-                38,
+                32,
                 [120,30]
                 )
             all_raw_data.append(["A",make_raw.make_raw_data(a_ep)])

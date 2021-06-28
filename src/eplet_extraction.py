@@ -8,6 +8,8 @@ def get_eplets_list_from_beads(bead_name, df_eplet_file):
     return [i for i in list(df_eplet_file.loc[bead_name]) if type(i) == str]
 
 def get_beads_statut(data, cutoff, allele_type):
+
+
     positive_beads = []
     ambiguous_bead = []
     negative_bead = []
@@ -21,14 +23,18 @@ def get_beads_statut(data, cutoff, allele_type):
                 negative_bead.append(bead)
             else :
                 negative_bead.append(bead)
+    print(negative_bead)
     return positive_beads, ambiguous_bead, negative_bead
 
 def get_bead_and_eplet_to_write(positive_bead, negative_bead, df_eplet_file):
-    eplet_carried_by_negative_bead = []
+    eplet_carried_by_negative_bead = set()
+
 
     for bead in negative_bead:
+
         for eplet in get_eplets_list_from_beads(bead,df_eplet_file):
-            eplet_carried_by_negative_bead.append(eplet)
+            eplet_carried_by_negative_bead.add(eplet)
+
 
     eplet_not_carried_by_negative_bead = []
     for bead in positive_bead:
@@ -91,6 +97,7 @@ def where_to_write_eplets(link_between_pos, always_present_eplet, not_always_pre
 
     stronger_eplet_on_bead = {}
     strong_eplet_on_bead = {}
+
 
     for bead in positive_bead:
         stronger_eplet_on_bead[bead] = set()
