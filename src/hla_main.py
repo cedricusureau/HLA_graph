@@ -126,7 +126,7 @@ def main(args):
                     i,
                     args.cutoff,
                     args.dqdp + i + "_eplets.csv",
-                    36,
+                    32,
                     [110,35]
                 )
                 all_raw_data.append(["DR", make_raw.make_raw_data(dr_ep)])
@@ -141,7 +141,7 @@ def main(args):
                     i,
                     args.cutoff,
                     args.dqdp + i + "_eplets.csv",
-                    44,
+                    34,
                     [120, 55]
                 )
                 all_raw_data.append(["DQ", make_raw.make_raw_data(dq_ep)])
@@ -156,7 +156,7 @@ def main(args):
                     i,
                     args.cutoff,
                     args.dqdp + i + "_eplets.csv",
-                    38,
+                    34,
                     [120, 45]
                 )
                 all_raw_data.append(["DP", make_raw.make_raw_data(dp_ep)])
@@ -227,7 +227,7 @@ def main_server(args):
                 i,
                 args.cutoff,
                 args.dqdp + i + "_eplets.csv",
-                36,
+                32,
                 [110,35]
             )
             all_raw_data.append(["DR", make_raw.make_raw_data(dr_ep)])
@@ -242,7 +242,7 @@ def main_server(args):
                 i,
                 args.cutoff,
                 args.dqdp + i + "_eplets.csv",
-                44,
+                34,
                 [120, 55]
             )
             all_raw_data.append(["DQ", make_raw.make_raw_data(dq_ep)])
@@ -257,7 +257,7 @@ def main_server(args):
                 i,
                 args.cutoff,
                 args.dqdp + i + "_eplets.csv",
-                38,
+                34,
                 [120, 45]
             )
             all_raw_data.append(["DP", make_raw.make_raw_data(dp_ep)])

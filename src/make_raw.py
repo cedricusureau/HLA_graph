@@ -388,7 +388,6 @@ def check_true_in_row(pandas_series):
 
 def reformate_df(df):
 
-    df.to_csv("test.csv")
     bool_l = []
 
     for i in df.index:
@@ -396,7 +395,6 @@ def reformate_df(df):
         bool_l.append(check_true_in_row(pandas_series))
 
     df = df[bool_l]
-    df.to_csv("test2.csv")
 
     return df
 
