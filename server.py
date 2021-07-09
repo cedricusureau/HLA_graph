@@ -31,28 +31,38 @@ def index():
 def upload_files():
     uploaded_file = request.files['file']
     tresh = request.form['tresh']
+
+    past_data = request.form["past"]
     filename = uploaded_file.filename
 
     if filename != '':
         file_ext = os.path.splitext(filename)[1]
         if file_ext not in app.config['UPLOAD_EXTENSIONS']:
             abort(400)
-        filename = uploaded_file.filename.split('.')[0] + "_" + str(random.randint(0, 1000)) + "." + \
+        filename = uploaded_file.filename.split('.')[0] + "_" + str(random.randint(0, 10000)) + "." + \
                uploaded_file.filename.split('.')[1]
 
         while os.path.isfile("uploads/" + filename):
-            filename = uploaded_file.filename.split('.')[0] + "_" + str(random.randint(0, 1000)) + "." + \
+            filename = uploaded_file.filename.split('.')[0] + "_" + str(random.randint(0, 10000)) + "." + \
                        uploaded_file.filename.split('.')[1]
 
 
         upload_filename = os.path.join(app.config['UPLOAD_PATH'], filename)
         uploaded_file.save(upload_filename)
+
         output_list, allele_type = process_file(upload_filename, filename, tresh)
         filename_wo_ext = filename.split(".")[0]
         file_csv = filename_wo_ext +".csv"
         file_html = filename_wo_ext +".html"
         return render_template("index.html", data=output_list, allele_type=allele_type.split(" "), file=file_csv, file_html=file_html)
 
+    elif past_data != "":
+         filename = input_file_func.parse_copy_pasta(past_data)
+         output_list, allele_type = process_file("uploads/"+filename, filename, tresh)
+         filename_wo_ext = filename.split(".")[0]
+         file_csv = filename_wo_ext + ".csv"
+         file_html = filename_wo_ext + ".html"
+         return render_template("index.html", data=output_list, allele_type=allele_type.split(" "), file=file_csv, file_html=file_html)
     else:
         return render_template("index.html", data=[])
 
@@ -85,17 +95,17 @@ def make_file_A():
         file_ext = os.path.splitext(filename)[1]
         if file_ext not in app.config['UPLOAD_EXTENSIONS']:
             abort(400)
-        filename = filename.split('.')[0] + "_" + str(random.randint(0, 1000)) + "." + \
+        filename = filename.split('.')[0] + "_" + str(random.randint(0, 10000)) + "." + \
                    filename.split('.')[1]
 
         while os.path.isfile("uploads/" + filename):
-            filename = filename.split('.')[0] + "_" + str(random.randint(0, 1000)) + "." + \
+            filename = filename.split('.')[0] + "_" + str(random.randint(0, 10000)) + "." + \
                        filename.split('.')[1]
 
     df = pd.DataFrame({"allele":data.keys(), "mfi":data.values()})
     df.to_excel("uploads/{}".format(filename), index=False)
 
-    output_list, allele_type = process_file("uploads/{}".format(filename), filename, 1000)
+    output_list, allele_type = process_file("uploads/{}".format(filename), filename, 10000)
     filename_wo_ext = filename.split(".")[0]
     file_csv = filename_wo_ext + ".csv"
     file_html = filename_wo_ext + ".html"
@@ -123,17 +133,17 @@ def make_file_B():
         file_ext = os.path.splitext(filename)[1]
         if file_ext not in app.config['UPLOAD_EXTENSIONS']:
             abort(400)
-        filename = filename.split('.')[0] + "_" + str(random.randint(0, 1000)) + "." + \
+        filename = filename.split('.')[0] + "_" + str(random.randint(0, 10000)) + "." + \
                    filename.split('.')[1]
 
         while os.path.isfile("uploads/" + filename):
-            filename = filename.split('.')[0] + "_" + str(random.randint(0, 1000)) + "." + \
+            filename = filename.split('.')[0] + "_" + str(random.randint(0, 10000)) + "." + \
                        filename.split('.')[1]
 
     df = pd.DataFrame({"allele":data.keys(), "mfi":data.values()})
     df.to_excel("uploads/{}".format(filename), index=False)
 
-    output_list, allele_type = process_file("uploads/{}".format(filename), filename, 1000)
+    output_list, allele_type = process_file("uploads/{}".format(filename), filename, 10000)
     filename_wo_ext = filename.split(".")[0]
     file_csv = filename_wo_ext + ".csv"
     file_html = filename_wo_ext + ".html"
@@ -160,17 +170,17 @@ def make_file_C():
         file_ext = os.path.splitext(filename)[1]
         if file_ext not in app.config['UPLOAD_EXTENSIONS']:
             abort(400)
-        filename = filename.split('.')[0] + "_" + str(random.randint(0, 1000)) + "." + \
+        filename = filename.split('.')[0] + "_" + str(random.randint(0, 10000)) + "." + \
                    filename.split('.')[1]
 
         while os.path.isfile("uploads/" + filename):
-            filename = filename.split('.')[0] + "_" + str(random.randint(0, 1000)) + "." + \
+            filename = filename.split('.')[0] + "_" + str(random.randint(0, 10000)) + "." + \
                        filename.split('.')[1]
 
     df = pd.DataFrame({"allele":data.keys(), "mfi":data.values()})
     df.to_excel("uploads/{}".format(filename), index=False)
 
-    output_list, allele_type = process_file("uploads/{}".format(filename), filename, 1000)
+    output_list, allele_type = process_file("uploads/{}".format(filename), filename, 10000)
     filename_wo_ext = filename.split(".")[0]
     file_csv = filename_wo_ext + ".csv"
     file_html = filename_wo_ext + ".html"
@@ -197,17 +207,17 @@ def make_file_DR():
         file_ext = os.path.splitext(filename)[1]
         if file_ext not in app.config['UPLOAD_EXTENSIONS']:
             abort(400)
-        filename = filename.split('.')[0] + "_" + str(random.randint(0, 1000)) + "." + \
+        filename = filename.split('.')[0] + "_" + str(random.randint(0, 10000)) + "." + \
                    filename.split('.')[1]
 
         while os.path.isfile("uploads/" + filename):
-            filename = filename.split('.')[0] + "_" + str(random.randint(0, 1000)) + "." + \
+            filename = filename.split('.')[0] + "_" + str(random.randint(0, 10000)) + "." + \
                        filename.split('.')[1]
 
     df = pd.DataFrame({"allele":data.keys(), "mfi":data.values()})
     df.to_excel("uploads/{}".format(filename), index=False)
 
-    output_list, allele_type = process_file("uploads/{}".format(filename), filename, 1000)
+    output_list, allele_type = process_file("uploads/{}".format(filename), filename, 10000)
     filename_wo_ext = filename.split(".")[0]
     file_csv = filename_wo_ext + ".csv"
     file_html = filename_wo_ext + ".html"
@@ -235,17 +245,17 @@ def make_file_DQ():
         file_ext = os.path.splitext(filename)[1]
         if file_ext not in app.config['UPLOAD_EXTENSIONS']:
             abort(400)
-        filename = filename.split('.')[0] + "_" + str(random.randint(0, 1000)) + "." + \
+        filename = filename.split('.')[0] + "_" + str(random.randint(0, 10000)) + "." + \
                    filename.split('.')[1]
 
         while os.path.isfile("uploads/" + filename):
-            filename = filename.split('.')[0] + "_" + str(random.randint(0, 1000)) + "." + \
+            filename = filename.split('.')[0] + "_" + str(random.randint(0, 10000)) + "." + \
                        filename.split('.')[1]
 
     df = pd.DataFrame({"allele":data.keys(), "mfi":data.values()})
     df.to_excel("uploads/{}".format(filename), index=False)
 
-    output_list, allele_type = process_file("uploads/{}".format(filename), filename, 1000)
+    output_list, allele_type = process_file("uploads/{}".format(filename), filename, 10000)
     filename_wo_ext = filename.split(".")[0]
     file_csv = filename_wo_ext + ".csv"
     file_html = filename_wo_ext + ".html"
@@ -272,17 +282,17 @@ def make_file_DP():
         file_ext = os.path.splitext(filename)[1]
         if file_ext not in app.config['UPLOAD_EXTENSIONS']:
             abort(400)
-        filename = filename.split('.')[0] + "_" + str(random.randint(0, 1000)) + "." + \
+        filename = filename.split('.')[0] + "_" + str(random.randint(0, 10000)) + "." + \
                    filename.split('.')[1]
 
         while os.path.isfile("uploads/" + filename):
-            filename = filename.split('.')[0] + "_" + str(random.randint(0, 1000)) + "." + \
+            filename = filename.split('.')[0] + "_" + str(random.randint(0, 10000)) + "." + \
                        filename.split('.')[1]
 
     df = pd.DataFrame({"allele":data.keys(), "mfi":data.values()})
     df.to_excel("uploads/{}".format(filename), index=False)
 
-    output_list, allele_type = process_file("uploads/{}".format(filename), filename, 1000)
+    output_list, allele_type = process_file("uploads/{}".format(filename), filename, 10000)
     filename_wo_ext = filename.split(".")[0]
     file_csv = filename_wo_ext + ".csv"
     file_html = filename_wo_ext + ".html"

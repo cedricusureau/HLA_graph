@@ -19,12 +19,35 @@
             <h1 style="text-align: center">HLA Graph</h1>
             <hr/>
             <form method="POST" enctype="multipart/form-data">
-                <h4 style="color: #1E90FF"><a href="https://github.com/cedricusureau/HLA_graph#quick-start-">Upload your file, select threshold and analyze : </a></h4>
-                <div class="custom-file form-group" data-toggle="tooltip" data-placement="bottom" title="Upload table (.xls)">
+                <h4 style="color: #1E90FF"><a href="https://github.com/cedricusureau/HLA_graph#quick-start-">Upload data, select threshold and analyze : </a></h4>
+            <div class="row">
+                <p>
+                    <div class="btn-group col-4">
+  <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Choose Excel File</button>
+    <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Past raw data</button>
+            </div>
+                                <div class="col-6" style="text-align: center">
+                </div>
+                  <div class="btn-group col-2">
+                    <button type="button" value="Reset" class="btn btn-outline-info" onclick="window.location.href='https://github.com/cedricusureau/HLA_graph/tree/master/tutorial#input-files-format'" style="float: right">Input file tutorial</button>
+                </div>
+                    </a>
+</p></div></br>
+
+       <div class="collapse" id="collapseOne">
+                <div class="custom-file form-group" data-toggle="tooltip" data-placement="bottom" title="Upload table (.xls). Read input file tutorial or download example files">
                     <label class="custom-file-label" for="customFile">Choose file</label>
                     <input type="file" class="custom-file-input border" name="file" id="customFile">
                 </div>
                 <br/><br/>
+</div>
+
+<div class="collapse" id="collapseExample">
+                  <div class="form-group">
+                        <textarea class="form-control" id="past" rows="3" name="past" data-toggle="tooltip" data-placement="bottom" title="Copy/Paste Raw data table directly from HLA Fusion"></textarea>
+                      </div>
+</div>
+
                 <div class="form-group">
                     <label for="tresh">Threshold:
                         <input type="number" id="tresh" name="tresh" placeholder="1000" value="1000" min="200" max="12000" step="100" data-toggle="tooltip" data-placement="bottom" title="MFI values below are negative">
@@ -77,11 +100,11 @@
                 <div class="col-8" style="text-align: center">
                 </div>
                 <div class="col-2">
-                    <button class="btn btn-outline-info" onclick="window.location.href='https://github.com/cedricusureau/HLA_graph#table-of-content'" style="float: right">Help</button>
+                    <button class="btn btn-outline-info" href='https://github.com/cedricusureau/HLA_graph/tree/master/tutorial#input-files-format'" style="float: right">Help</button>
                 </div>
             </div>
         <br/>
-    {% else %}<br/>
+    {% else %}
             <h4 style="color: #1E90FF">Or select positive beads manually :</h4>
             <div class="row">
         <div class="btn-group col-9">
@@ -93,48 +116,32 @@
             <button type="button" class="btn btn-outline-primary" onclick="window.location.href='DP'">HLA-DP</button>
 
         </div>
-
-
                 <div class="col-1" style="text-align: center"></div>
                 <div class="btn-group col-2">
                   <button class="btn btn-outline-info" onclick="window.location.href='https://github.com/cedricusureau/HLA_graph#table-of-content'" style="float: right">Help</button>
             </div>
-<br/>
 </div>
-        <div class="alert alert-light" role="alert">
-
+<div></br></div>
+ <div class="alert alert-primary" role="alert">Update (2021, July) : <a href="https://github.com/cedricusureau/HLA_graph/tree/master/data/eplets" class="alert-link">Eplet lists</a>
+                have been updated from <a href="https://www.epregistry.com.br/" class="alert-link">HLA Epitope Registry </a>Database</div>
+<div></br>
 </div>
-        <div>
-            </br>
-        <div>
-
-
+    <h5 style="color: #1E90FF">Try example files :</h5>
+        <div class="row">
+                <div class="btn-group col-6">
+                    <button type="button" class="btn btn-outline-info"><a href="{{ url_for('static', filename='test_data/SA1.xls') }}" download>Download Example SA1</a></button>
+                    <button type="button" class="btn btn-outline-info"><a href="{{ url_for('static', filename='test_data/SA2.xls') }}" download>Download Example SA2</a></button>
+                </div>
+                <div class="col-8" style="text-align: center">
+                </div>
+</div></br>
 <div class="alert alert-primary" role="alert">
-  <h4 class="alert-heading">Please cite : </h4>
+  <h5 class="alert-heading">Please cite : </h5>
   <p><a href="https://pubmed.ncbi.nlm.nih.gov/33667985/" class="alert-link">Usureau C, Lefèvre E, Top I, et al. Antibodies against HLA cross-reactivity groups: From single antigen bead assay to immunoinformatics interpretation of epitopes. Mol Immunol. 2021;133:154-162. doi:10.1016/j.molimm.2021.02.020</a></p>
   <hr>
   <p class="mb-0">Contact: cedric.usureau@gmail.com</p>
 </div>
-
-             <div class="alert alert-light" role="alert">
-
-</div>
-
-    <h4 style="color: #1E90FF">Try example files :</h4>
-        <div class="row">
-                <div class="btn-group col-4">
-                    <button type="button" class="btn btn-outline-info"><a href="{{ url_for('static', filename='test_data/SA1.xls') }}" download>Download Example SA1</a></button>
-                    <button type="button" class="btn btn-outline-info"><a href="{{ url_for('static', filename='test_data/SA2.xls') }}" download>Download Example SA2</a></button>
-                </div>
-                <div class="col-6" style="text-align: center">
-                </div>
-                <div class="btn-group col-2">
-                    <button class="btn btn-outline-info" onclick="window.location.href='https://github.com/cedricusureau/HLA_graph/tree/master/tutorial#input-files-format'" style="float: right">Input file tutorial</button>
-
-                </div></div></br>
-
-            <div class="alert alert-primary" role="alert">Update (2021, July) : <a href="https://github.com/cedricusureau/HLA_graph/tree/master/data/eplets" class="alert-link">Eplet lists</a>
-                have been updated from <a href="https://www.epregistry.com.br/" class="alert-link">HLA Epitope Registry </a>Database</div></div>
+           </div>
                         <br/>
             {% endif %}
 

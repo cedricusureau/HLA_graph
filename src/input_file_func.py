@@ -1,4 +1,6 @@
 import pandas as pd
+import os
+import random
 
 def check_parsing(upload_file):
     df = pd.read_excel(upload_file)
@@ -35,3 +37,26 @@ def find_output(upload_file, allele_type):
         return find_output_ABC(upload_file)
     else :
         return find_output_RQP(upload_file)
+
+def parse_copy_pasta(pasta):
+    pasta = pasta.split("\n")
+    pasta = [i.split("\t") for i in pasta]
+
+    file_dict = {}
+
+    for ligne in pasta:
+        mfi = ligne[6]
+        allele = ligne[-1].replace(", -","").replace("-, ","").replace(", ","")
+        if "*" in allele:
+            file_dict[allele.replace("\r","")] = int(mfi.split(",")[0])
+
+    df = pd.DataFrame.from_dict(file_dict, orient="index")
+
+
+    filename = "pasta"+ "_" + str(random.randint(0, 10000)) + ".xls"
+    while os.path.isfile("uploads/" + filename):
+        filename = "pasta" + "_" + str(random.randint(0, 10000)) + ".xls"
+
+    df.to_excel("uploads/"+filename)
+
+    return filename
