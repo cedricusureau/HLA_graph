@@ -371,12 +371,15 @@ def get_bead_text_position(svg_liste):
     return text_position
 
 def clean_mfi_data(allele_type,data):
+
     data_cleaned = {}
     unknown_allele = []
 
     if allele_type in "DR DQ DP":
         kit_SA2 = [i.replace('\n','') for i in open("data/kit/SA2_kit")]
         for i,j in data.items():
+
+            i = i.replace("\n","").replace("/","")
             if i in kit_SA2:
                 data_cleaned[i] = j
             else :
@@ -384,6 +387,7 @@ def clean_mfi_data(allele_type,data):
     else:
         kit_SA1 = [i.replace('\n','') for i in open("data/kit/SA1_kit")]
         for i,j in data.items():
+            i = i.replace("\n", "").replace("/", "")
             if i in kit_SA1:
                 data_cleaned[i] = j
             else :

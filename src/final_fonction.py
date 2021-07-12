@@ -53,8 +53,6 @@ def write_whole_svg(
     always_present_eplet, not_always_present_eplet, always_present_eplet_dict, not_always_present_eplet_dict = eplet_extraction.get_bead_and_eplet_to_write(
         positive_bead, negative_bead, df_eplet_file)
 
-    print(always_present_eplet)
-
     positive_not_linked = eplet_extraction.get_positive_but_not_linked(link_between_pos,positive_bead)
 
     # Create dictionnary with eplets to write on link, and eplets to write on beads.

@@ -83,6 +83,8 @@ def write_strong_eplet_on_link(svg, path_position, strong_eplet_on_link, text_si
     for couple in stronger_eplet_on_link.keys():
         already_write[couple] = 1 + len(stronger_eplet_on_link[couple])
 
+    strong_eplet_on_link, warning = reformate_strong_eplet_on_link(strong_eplet_on_link, warning, svg)
+
     for couple, eplets in strong_eplet_on_link.items():
         for eplet in eplets:
             if already_write[couple] > 2:
@@ -378,7 +380,7 @@ def to_close_to_write(global_written, text, x, y, bead_text_position):
         if text == text2:
             for i in value:
                 distance = calculate_distance([x, y], [i[1], i[2]])
-                if distance < 120:
+                if distance < 95:
                     to_close = True
 
     for i in bead_text_position:
@@ -465,6 +467,19 @@ def get_most_frequent_eplet_on_link(eplet_on_link, eplet_on_bead):
             else:
                     new_strong_eplet_on_bead[bead] = [eplets[0]]
 
-
     return new_strong_eplet_on_bead
 
+def reformate_strong_eplet_on_link(strong_eplet_on_link, warning, svg):
+    new_dict = {}
+
+    for link, eplets in strong_eplet_on_link.items():
+
+        if len(eplets) > 3:
+            new_dict[link] = eplets[:2]
+            warning = True
+            view_box = get_view_box(svg)
+            svg = write_warning_message(view_box, svg)
+        else:
+            new_dict[link] = eplets
+
+    return new_dict, warning

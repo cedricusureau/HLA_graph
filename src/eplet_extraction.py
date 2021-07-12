@@ -8,8 +8,6 @@ def get_eplets_list_from_beads(bead_name, df_eplet_file):
     return [i for i in list(df_eplet_file.loc[bead_name]) if type(i) == str]
 
 def get_beads_statut(data, cutoff, allele_type):
-
-
     positive_beads = []
     ambiguous_bead = []
     negative_bead = []
@@ -23,18 +21,14 @@ def get_beads_statut(data, cutoff, allele_type):
                 negative_bead.append(bead)
             else :
                 negative_bead.append(bead)
-    print(negative_bead)
     return positive_beads, ambiguous_bead, negative_bead
 
 def get_bead_and_eplet_to_write(positive_bead, negative_bead, df_eplet_file):
-    eplet_carried_by_negative_bead = set()
-
+    eplet_carried_by_negative_bead = []
 
     for bead in negative_bead:
-
         for eplet in get_eplets_list_from_beads(bead,df_eplet_file):
-            eplet_carried_by_negative_bead.add(eplet)
-
+            eplet_carried_by_negative_bead.append(eplet)
 
     eplet_not_carried_by_negative_bead = []
     for bead in positive_bead:
@@ -88,6 +82,7 @@ def get_positive_but_not_linked(link_between_pos, positive_bead):
     return positive_not_linked
 
 def where_to_write_eplets(link_between_pos, always_present_eplet, not_always_present_eplet, always_present_eplet_dict, not_always_present_eplet_dict, positive_bead, positive_not_linked):
+
     stronger_eplet_on_link = {}
     strong_eplet_on_link = {}
 
@@ -97,7 +92,6 @@ def where_to_write_eplets(link_between_pos, always_present_eplet, not_always_pre
 
     stronger_eplet_on_bead = {}
     strong_eplet_on_bead = {}
-
 
     for bead in positive_bead:
         stronger_eplet_on_bead[bead] = set()
@@ -128,6 +122,7 @@ def where_to_write_eplets(link_between_pos, always_present_eplet, not_always_pre
             stronger_eplet_on_bead[not_linked].add(eplet)
 
         for eplet in not_always_present_eplet:
+
             if eplet in not_always_present_eplet_dict[not_linked]:
                 strong_eplet_on_bead[not_linked].add(eplet)
 
@@ -181,9 +176,9 @@ def reorder_dict_by_eplet_frequency(eplet_dict):
                 frequency_count[eplet] = 1
             else :
                 frequency_count[eplet] += 1
-
+            if eplet == "82LR":
+                frequency_count[eplet] += 25
     frequency_count = {k: v for k, v in sorted(frequency_count.items(), key=lambda item: item[1], reverse=True)}
-
     new_eplet_dict = {}
 
     for beads, eplets in eplet_dict.items():

@@ -247,7 +247,6 @@ def parse_json_to_html(json_file):
 
         df = df.transpose()
 
-
         return df
 
 def make_html_file(df, output):
@@ -456,4 +455,16 @@ def ordering_light_df(df):
         new_df[i] = new_col
 
     df = pd.DataFrame.from_dict(new_df, orient='index').transpose()
+
+    new_order = []
+    for i in df.columns:
+        if "stronger" in i:
+            new_order.append(i)
+
+    for i in df.columns:
+        if "stronger" not in i:
+            if "strong" in i:
+                new_order.append(i)
+
+    df = df[new_order]
     return df

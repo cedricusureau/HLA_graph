@@ -3,6 +3,7 @@ import pandas as pd
 def check_parsing(upload_file):
 
     df = pd.read_excel(upload_file)
+
     if len(df.columns) == 2:
         if ("A*" in str(df.columns[0])) or ("B*" in str(df.columns[0])) or ("C*" in str(df.columns[0])) or ("DR*" in str(df.columns[0])):
             first_row = list(df.columns)

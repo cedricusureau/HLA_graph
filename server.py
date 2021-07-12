@@ -263,7 +263,7 @@ def make_file_DQ():
 
 @app.route('/DP/')
 def HLA_DP():
-    print(extract_allele_liste("DP"))
+
     return render_template("HLA_DP.html", data=[])
 
 @app.route('/DP/', methods=['POST'])
