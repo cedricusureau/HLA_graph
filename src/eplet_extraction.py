@@ -82,6 +82,7 @@ def get_positive_but_not_linked(link_between_pos, positive_bead):
     return positive_not_linked
 
 def where_to_write_eplets(link_between_pos, always_present_eplet, not_always_present_eplet, always_present_eplet_dict, not_always_present_eplet_dict, positive_bead, positive_not_linked):
+
     stronger_eplet_on_link = {}
     strong_eplet_on_link = {}
 
@@ -121,6 +122,7 @@ def where_to_write_eplets(link_between_pos, always_present_eplet, not_always_pre
             stronger_eplet_on_bead[not_linked].add(eplet)
 
         for eplet in not_always_present_eplet:
+
             if eplet in not_always_present_eplet_dict[not_linked]:
                 strong_eplet_on_bead[not_linked].add(eplet)
 

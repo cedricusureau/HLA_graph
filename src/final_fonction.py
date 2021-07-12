@@ -71,6 +71,7 @@ def write_whole_svg(
     strong_eplet_on_bead = eplet_extraction.reorder_dict_by_eplet_frequency(strong_eplet_on_bead)
     stronger_eplet_on_bead = eplet_extraction.reorder_dict_by_eplet_frequency(stronger_eplet_on_bead)
 
+
     # Write stronger eplet on path
     svg_list, global_written_stronger_link = write_eplet.write_stronger_eplet_on_link(svg_list, path_position, stronger_eplet_on_link, text_size, bead_text_position)
 
