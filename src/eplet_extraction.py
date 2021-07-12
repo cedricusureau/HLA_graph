@@ -176,7 +176,8 @@ def reorder_dict_by_eplet_frequency(eplet_dict):
                 frequency_count[eplet] = 1
             else :
                 frequency_count[eplet] += 1
-
+            if eplet == "82LR":
+                frequency_count[eplet] += 25
     frequency_count = {k: v for k, v in sorted(frequency_count.items(), key=lambda item: item[1], reverse=True)}
     new_eplet_dict = {}
 
@@ -187,4 +188,5 @@ def reorder_dict_by_eplet_frequency(eplet_dict):
                 new_eplets_list.append(i)
 
         new_eplet_dict[beads] = new_eplets_list
+
     return new_eplet_dict
