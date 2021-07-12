@@ -3,6 +3,7 @@ import math
 
 
 def write_stronger_eplet_on_link(svg, path_position, stronger_eplet_on_link, text_size, bead_text_position):
+
     global_written = {}
     already_write = {}
     warning = False
@@ -140,7 +141,6 @@ def write_strong_eplet_on_link(svg, path_position, strong_eplet_on_link, text_si
 
 def write_stronger_eplet_on_bead(svg, bead_position, stronger_eplet_on_bead, stronger_eplet_on_link, text_size,
                                  text_position):
-
     already_write = {}
 
     for bead in stronger_eplet_on_bead.keys():
@@ -169,16 +169,7 @@ def write_strong_eplet_on_bead(svg, bead_position, strong_eplet_on_bead, stronge
     already_write = {}
     warning = False
 
-    if len(strong_eplet_on_link.keys()) > len(strong_eplet_on_bead.keys()):
-        if not warning:
-            view_box = get_view_box(svg)
-            svg = write_warning_message(view_box, svg)
-            warning = True
-            return svg
-        else:
-            return svg
-
-
+    strong_eplet_on_bead = get_most_frequent_eplet_on_link(strong_eplet_on_link, strong_eplet_on_bead)
 
     strong_eplet_on_bead = purge_eplet_on_bead(strong_eplet_on_bead, strong_eplet_on_link)
     for bead in stronger_eplet_on_bead.keys():
@@ -196,7 +187,7 @@ def write_strong_eplet_on_bead(svg, bead_position, strong_eplet_on_bead, stronge
                     bead_position[bead][0] + text_position[0],
                     bead_position[bead][1] + text_position[1]
                     + (text_size * already_write[bead]),
-                    font_size=text_size,
+                    font_size=text_size-4,
                     font_family="Dialog",
                     color="#A9A9A9 ",
                     text="",
@@ -207,7 +198,7 @@ def write_strong_eplet_on_bead(svg, bead_position, strong_eplet_on_bead, stronge
                     bead_position[bead][0] + float(text_position[0]),
                     bead_position[bead][1] + float(text_position[1])
                     + (text_size * already_write[bead]),
-                    font_size=text_size,
+                    font_size=text_size-4,
                     font_family="Dialog",
                     color="#A9A9A9 ",
                     text=eplet,
@@ -241,7 +232,7 @@ def purge_eplet_on_bead(eplet_on_bead, eplet_on_link):
 
 
 def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written_strong, allele_type):
-    pos_x, pos_y = -410, -1230
+    pos_x, pos_y = -900, -1200
     count_A = 1
     count_B = 1
     already_write_suspension_A = False
@@ -446,3 +437,34 @@ def restrain_red_eplet(eplet_dico):
             new_dict[pair] = eplets
 
     return new_dict, warning
+
+def get_most_frequent_eplet_on_link(eplet_on_link, eplet_on_bead):
+    count_dict = {}
+    new_strong_eplet_on_bead = {}
+
+    for eplets in eplet_on_link.values():
+        for eplet in eplets:
+            count_dict[eplet] = 0
+
+    for eplets in eplet_on_link.values():
+        for eplet in eplets:
+            count_dict[eplet] += 1
+
+    count_dict = dict(sorted(count_dict.items(), key=lambda item: item[1], reverse=True))
+
+
+    for i,j in count_dict.items():
+        mf = i
+        break
+
+    for bead,eplets in eplet_on_bead.items():
+        if len(eplets) > 0:
+            if mf in eplets:
+                    new_strong_eplet_on_bead[bead] = [mf]
+
+            else:
+                    new_strong_eplet_on_bead[bead] = [eplets[0]]
+
+    print(new_strong_eplet_on_bead)
+    return new_strong_eplet_on_bead
+
