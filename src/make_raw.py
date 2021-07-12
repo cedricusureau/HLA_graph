@@ -1,4 +1,6 @@
 import json
+from typing import Dict, Any
+
 import pandas as pd
 import time
 
@@ -131,7 +133,10 @@ def get_forbidden_bead(df_eplet_file, stronger_eplet_on_link, stronger_eplet_on_
     if 'DQ' in allele_type or "DP" in allele_type:
         positive_bead = reformate_DQDP_pos_bead(positive_bead)
 
-    df_all_eplet = pd.read_csv("data/eplet_to_allele/eplet_to_allele.csv")
+    if "A" in allele_type or "B" in allele_type or "C" in allele_type:
+        df_all_eplet = pd.read_csv("data/eplet_to_allele/eplet_to_allele_C1.csv")
+    else:
+        df_all_eplet = pd.read_csv("data/eplet_to_allele/eplet_to_allele_C2.csv")
 
     all_stronger_ep = [i for i in stronger_eplet_on_link.values()] + [i for i in stronger_eplet_on_bead.values()]
     ep_set = set()
@@ -164,7 +169,10 @@ def get_forbidden_bead(df_eplet_file, stronger_eplet_on_link, stronger_eplet_on_
             json.dump(old_data, outfile, indent=4)
 
 def get_forbidden_bead_light(df_eplet_file, strong_eplet_on_link, strong_eplet_on_bead, positive_bead, allele_type, mfi):
-    df_all_eplet = pd.read_csv("data/eplet_to_allele/eplet_to_allele.csv")
+    if "A" in allele_type or "B" in allele_type or "C" in allele_type:
+        df_all_eplet = pd.read_csv("data/eplet_to_allele/eplet_to_allele_C1.csv")
+    else:
+        df_all_eplet = pd.read_csv("data/eplet_to_allele/eplet_to_allele_C2.csv")
 
     if 'DQ' in allele_type or "DP" in allele_type:
         positive_bead = reformate_DQDP_pos_bead(positive_bead)
@@ -243,6 +251,8 @@ def parse_json_to_html(json_file):
         return df
 
 def make_html_file(df, output):
+
+    df = ordering_light_df(df)
     template_liste = [i for i in open("data/html_table_template/html_table.html","r")]
     for i, ligne in enumerate(template_liste):
         if "<tr>" in ligne :
@@ -271,6 +281,8 @@ def make_html_file(df, output):
 def make_html_file_light(df, output):
 
     df = reformate_df(df)
+
+    df = ordering_light_df(df)
 
     template_liste = [i for i in open("data/html_table_template/html_table.html","r")]
     for i, ligne in enumerate(template_liste):
@@ -395,7 +407,6 @@ def reformate_df(df):
         bool_l.append(check_true_in_row(pandas_series))
 
     df = df[bool_l]
-
     return df
 
 def put_strong_in_stronger(global_dict):
@@ -415,4 +426,34 @@ def put_strong_in_stronger(global_dict):
 
     for i in to_pop:
         global_dict.pop(i, None)
+
     return global_dict
+
+def ordering_light_df(df):
+
+    count_true_in_columns: Dict[Any, int] = {}
+
+    for i in df.columns:
+        true_nb = len([j for j in [k for k in df[i] if len(k) == 2] if j[1] == True])
+        count_true_in_columns[i] = true_nb
+
+    count_true_in_columns = {k: v for k, v in sorted(count_true_in_columns.items(), key=lambda item: item[1], reverse=True)}
+
+    df = df[list(count_true_in_columns.keys())]
+
+    new_df = {}
+    for i in df.columns:
+        a = [j for j in [k for k in df[i] if len(k) == 2] if j[1] == True]
+        b = sorted([j[0] for j in a])
+        e = [element for element, _ in sorted(zip(a, b))]
+
+        c = [j for j in [k for k in df[i] if len(k) == 2] if j[1] == False]
+        f = sorted([j[0] for j in c])
+        g = [element for element, _ in sorted(zip(c, f))]
+
+        new_col = e + g
+
+        new_df[i] = new_col
+
+    df = pd.DataFrame.from_dict(new_df, orient='index').transpose()
+    return df

@@ -465,6 +465,6 @@ def get_most_frequent_eplet_on_link(eplet_on_link, eplet_on_bead):
             else:
                     new_strong_eplet_on_bead[bead] = [eplets[0]]
 
-    print(new_strong_eplet_on_bead)
+
     return new_strong_eplet_on_bead
 
