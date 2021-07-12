@@ -82,7 +82,6 @@ def parse_excel_file(excel_path):
     if len(df.columns) == 2:
         for i in df.index:
             allele_name = df[df.columns[0]][i]
-            print(allele_name)
             if "DP" in allele_name:
                 allele_name = allele_name[:10] + ", " + allele_name[10:]
 
