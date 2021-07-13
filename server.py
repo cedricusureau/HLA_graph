@@ -9,7 +9,6 @@ app = Flask(__name__, static_folder="result")
 app.config['UPLOAD_PATH'] = 'uploads'
 app.config['UPLOAD_EXTENSIONS'] = [".xls", ".xlsx"]
 
-
 def process_file(upload_filename, filename, tresh):
     allele_type = input_file_func.check_parsing(upload_filename)
     args = hla_main.parse_args()
