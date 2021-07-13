@@ -454,6 +454,7 @@ def get_most_frequent_eplet_on_link(eplet_on_link, eplet_on_bead):
 
     count_dict = dict(sorted(count_dict.items(), key=lambda item: item[1], reverse=True))
 
+    mf = ''
 
     for i,j in count_dict.items():
         mf = i
