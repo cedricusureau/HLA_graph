@@ -82,6 +82,9 @@ def parse_excel_file(excel_path):
     if len(df.columns) == 2:
         for i in df.index:
             allele_name = df[df.columns[0]][i]
+            if ("DQA1*05:05" in allele_name) and ("DQB1*03:19" in allele_name):
+                df[df.columns[0]].loc[i] = "DQA1*05:05DQB1*03:01"
+
             if "DP" in allele_name:
                 allele_name = allele_name[:10] + ", " + allele_name[10:]
 
@@ -96,6 +99,10 @@ def parse_excel_file(excel_path):
         for i in range(len(df[df.columns[0]])):
             col1 = df[df.columns[0]][i]
             col2 = df[df.columns[1]][i]
+            if (col1 == "DQA1*05:05") & (col2 == "DQB1*03:19"):
+                col1="DQA1*05:05"
+                col2="DQB1*03:01"
+
             if type(col2) == str:
                 allele_name = col1+col2
             else :
