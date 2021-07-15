@@ -82,9 +82,6 @@ def parse_excel_file(excel_path):
     if len(df.columns) == 2:
         for i in df.index:
             allele_name = df[df.columns[0]][i]
-            if ("DQA1*05:05" in allele_name) and ("DQB1*03:19" in allele_name):
-                df[df.columns[0]].loc[i] = "DQA1*05:05DQB1*03:01"
-
             if "DP" in allele_name:
                 allele_name = allele_name[:10] + ", " + allele_name[10:]
 
@@ -99,10 +96,6 @@ def parse_excel_file(excel_path):
         for i in range(len(df[df.columns[0]])):
             col1 = df[df.columns[0]][i]
             col2 = df[df.columns[1]][i]
-            if (col1 == "DQA1*05:05") & (col2 == "DQB1*03:19"):
-                col1="DQA1*05:05"
-                col2="DQB1*03:01"
-
             if type(col2) == str:
                 allele_name = col1+col2
             else :
@@ -122,7 +115,6 @@ def node_color_to_change_v2(svg_liste, MFI, cutoff):
     to_color = []
     to_color_light = []
     to_delete = []
-
     for indice, ligne in enumerate(svg_liste):
         if "<circle" in ligne:
             tmp_fill_ligne = 0
@@ -139,6 +131,7 @@ def node_color_to_change_v2(svg_liste, MFI, cutoff):
                             .replace("       ", "")
                             .replace("\n", "")
                             .replace(",__", "")
+                            .replace(",_","")
                     )
 
                     if tmp_id in MFI.keys():
@@ -201,10 +194,12 @@ def delete_nodes(svg, to_delete):
 def find_link_between_pos(MFI_value, edge_file, cutoff):
     link_list = pd.read_csv(edge_file)
     pos_MFI_value = {}
+
     for i, j in MFI_value.items():
         if j > cutoff:
             pos_MFI_value[i] = j
     link_between_pos = []
+
 
     for pos in pos_MFI_value.keys():
         for source, target in zip(link_list["Source"], link_list["Target"]):
@@ -219,7 +214,7 @@ def replace_edges_color(svg, edges_ligne, link_between_pos):
     new_svg = svg
     for ident, i in edges_ligne.items():
 
-        if ident.replace("id_", "").replace(",__", "") in link_between_pos:
+        if ident.replace("id_", "").replace(",__", "").replace(",_","") in link_between_pos:
             new_svg[i + 2] = svg[i + 2].replace("#000000", "#FF0000")
             new_svg[i - 2] = svg[i - 2].replace(str(new_svg[i-2]),'       stroke-width="6"\n')
             new_svg[i + 1] = svg[i + 1].replace(str(new_svg[i+1]),'       stroke-opacity="0.2"\n')
@@ -373,16 +368,18 @@ def get_bead_text_position(svg_liste):
                 if len(tmp_value) == 2:
                     text_position.append(tmp_value)
                     break
-
     return text_position
 
 def clean_mfi_data(allele_type,data):
+
     data_cleaned = {}
     unknown_allele = []
 
     if allele_type in "DR DQ DP":
         kit_SA2 = [i.replace('\n','') for i in open("data/kit/SA2_kit")]
         for i,j in data.items():
+
+            i = i.replace("\n","").replace("/","")
             if i in kit_SA2:
                 data_cleaned[i] = j
             else :
@@ -390,6 +387,7 @@ def clean_mfi_data(allele_type,data):
     else:
         kit_SA1 = [i.replace('\n','') for i in open("data/kit/SA1_kit")]
         for i,j in data.items():
+            i = i.replace("\n", "").replace("/", "")
             if i in kit_SA1:
                 data_cleaned[i] = j
             else :
