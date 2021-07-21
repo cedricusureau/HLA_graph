@@ -45,10 +45,20 @@ def parse_copy_pasta(pasta):
     file_dict = {}
 
     for ligne in pasta:
-        mfi = ligne[6]
-        allele = ligne[-1].replace(", -","").replace("-, ","").replace(", ","")
-        if "*" in allele:
-            file_dict[allele.replace("\r","")] = int(mfi.split(",")[0])
+
+        if ligne[0] == "":
+
+            mfi = ligne[6]
+            allele = ligne[-1].replace(", -","").replace("-, ","").replace(", ","")
+
+            if "*" in allele:
+                file_dict[allele.replace("\r","")] = int(mfi.split(",")[0])
+        else:
+            mfi = ligne[5]
+            allele = ligne[-1].replace(", -", "").replace("-, ", "").replace(", ", "")
+
+            if "*" in allele:
+                file_dict[allele.replace("\r", "")] = int(mfi.split(",")[0])
 
     df = pd.DataFrame.from_dict(file_dict, orient="index")
 
