@@ -234,7 +234,7 @@ def purge_eplet_on_bead(eplet_on_bead, eplet_on_link):
 
 
 def write_A_or_B_eplets(svg, A_eplet, B_eplet, all_written_stronger, all_written_strong, allele_type):
-    pos_x, pos_y = -900, -1200
+    pos_x, pos_y = -350, -1200
     count_A = 1
     count_B = 1
     already_write_suspension_A = False
